@@ -1,0 +1,378 @@
+﻿variavel
+id
+periodo
+Situação de Preenchimento
+Responsável pela Finalização
+Nome do Estabelecimento
+Situação do Estabelecimento
+Outras Denominações
+Endereço
+Bairro
+CEP
+Âmbito
+UF
+Município
+Código IBGE
+Telefone Principal
+1.6 Data de inauguração do estabelecimento
+1.1 Estabelecimento originalmente destinado a pessoa privadas de liberdade do sexo
+1.2 Tipo de estabelecimento - originalmente destinado
+1.3 Capacidade do estabelecimento | Presos provisórios | Masculino
+1.3 Capacidade do estabelecimento | Presos provisórios | Feminino
+1.3 Capacidade do estabelecimento | Presos provisórios | Total
+1.3 Capacidade do estabelecimento | Regime fechado | Masculino
+1.3 Capacidade do estabelecimento | Regime fechado | Feminino
+1.3 Capacidade do estabelecimento | Regime fechado | Total
+1.3 Capacidade do estabelecimento | Regime semiaberto | Masculino
+1.3 Capacidade do estabelecimento | Regime semiaberto | Feminino
+1.3 Capacidade do estabelecimento | Regime semiaberto | Total
+1.3 Capacidade do estabelecimento | Regime aberto | Masculino
+1.3 Capacidade do estabelecimento | Regime aberto | Feminino
+1.3 Capacidade do estabelecimento | Regime aberto | Total
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Masculino
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Feminino
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Total
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Masculino
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Feminino
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Total
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)?
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Masculino
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Feminino
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Total
+1.3 Capacidade do estabelecimento | Masculino | Total
+1.3 Capacidade do estabelecimento | Feminino | Total
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Celas não aptas
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Masculino
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Feminino
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Total de vagas desativadas
+1.6 Data de inauguração do estabelecimento.1
+1.7 O estabelecimento foi concebido como estabelecimento penal ou foi construído para outra utilização e foi adaptado?
+2.1 Há cela adequada/ dormitório para gestantes? (apenas para estabelecimentos com vagas para mulheres)
+2.2 Possui berçário e/ou centro de referência materno-infantil? (apenas para estabelecimentos com vagas para mulheres)
+2.2 Possui berçário e/ou centro de referência materno-infantil? (apenas para estabelecimentos com vagas para mulheres) | Sim. Capacidade de bebês: | Quantidade
+2.3 Possui creche? (apenas para estabelecimentos com vagas para mulheres)
+2.3 Possui creche? (apenas para estabelecimentos com vagas para mulheres) | Sim. Capacidade de crianças: | Quantidade
+2.4 Módulo de saúde | Consultório médico
+2.4 Módulo de saúde | Consultório médico | Quantidade
+2.4 Módulo de saúde | Consultório médico | O espaço também é destinado a outras finalidades?
+2.4 Módulo de saúde | Consultório odontológico
+2.4 Módulo de saúde | Consultório odontológico | Quantidade
+2.4 Módulo de saúde | Consultório odontológico | O espaço também é destinado a outras finalidades?
+2.4 Módulo de saúde | Não possui módulo de saúde
+2.5 Módulo de educação | Sala de aula
+2.5 Módulo de educação | Sala de aula | Quantidade de salas
+2.5 Módulo de educação | Sala de aula | Capacidade para quantas pessoas
+2.5 Módulo de educação | Sala de informática
+2.5 Módulo de educação | Sala de informática | Quantidade de salas
+2.5 Módulo de educação | Sala de informática | Capacidade para quantas pessoas
+2.5 Módulo de educação | Biblioteca
+2.5 Módulo de educação | Biblioteca | Quantidade de salas
+2.5 Módulo de educação | Biblioteca | Capacidade para quantas pessoas
+2.6 Módulo de oficinas | Não possui
+2.7 Há local específico para visitação?
+2.8 Há local específico para visita íntima?
+2.12 Possui sala de videoconferência?
+"2.13 Há cela(s)-seguro""?"""
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Cargos administrativos | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Enfermeiros | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Psicólogos | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Dentistas | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Assistentes sociais | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos - clínicos gerais | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos – psiquiatras | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos - outras especialidades | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Pedagogos | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Professores | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Policial Civil em atividade exclusiva no estabelecimento prisional | Total
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Policial Militar em atividade exclusiva no estabelecimento prisional | Total
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há médico pediatra"
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há médico ginecologista"
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há nutricionista"
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há cuidadores/as"
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, outro(s). Especificar:"
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Não, os atendimentos são realizados externamente"
+3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Não
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio da Defensoria Pública"
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por advogados conveniados/ dativos"
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por ONG ou outra entidade sem fins lucrativos"
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, outro. Qual?"
+provisorios_masculino
+provisorios_feminino
+4.1 População prisional | Presos provisórios (sem condenação) | Total
+sentenciado_fechado_masculino
+sentenciado_fechado_feminino
+4.1 População prisional | Presos sentenciados - regime fechado | Total
+sentenciado_semiaberto_masculino
+sentenciado_semiaberto_feminino
+4.1 População prisional | Presos sentenciados - regime semiaberto | Total
+sentenciado_aberto_masculino
+sentenciado_aberto_feminino
+4.1 População prisional | Presos sentenciados - regime aberto | Total
+internacao_masculino
+internacao_feminino
+4.1 População prisional | Medida de segurança - internação | Total
+tratamento_masculino
+tratamento_feminino
+4.1 População prisional | Medida de segurança - tratamento ambulatorial | Total
+4.1 População prisional | Total
+4.1 População prisional | Quantas pessoas privadas de liberdade estão em Regime Disciplinar Diferenciado?
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência?
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência? | Sim. Quantos | Masculino
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência? | Sim. Quantos | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Total
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Masculino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Feminino
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | O estabelecimento tem condições de obter estas informações em seus registros?
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Masculino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Feminino
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Masculino | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Feminino | Total
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | O estabelecimento tem condições de obter estas informações em seus registros?
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Masculino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Feminino
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Masculino | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Feminino | Total
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Total
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Povo indígena"
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Idioma"
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Quantidade"
+5.3 Quantidade de pessoas privadas de liberdade por procedência | O estabelecimento tem condições de obter estas informações em seus registros?
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios do Interior | Masculino
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios do Interior | Feminino
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios em Regiões Metropolitanas | Masculino
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios em Regiões Metropolitanas | Feminino
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Zona Rural | Masculino
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Zona Rural | Feminino
+5.4 Estado civil | O estabelecimento tem condições de obter estas informações em seus registros?
+5.4 Estado civil | Solteiro/a | Masculino
+5.4 Estado civil | Solteiro/a | Feminino
+5.4 Estado civil | Solteiro/a | Total
+5.4 Estado civil | União estável/amasiado | Masculino
+5.4 Estado civil | União estável/amasiado | Feminino
+5.4 Estado civil | União estável/amasiado | Total
+5.4 Estado civil | Casado/a | Masculino
+5.4 Estado civil | Casado/a | Feminino
+5.4 Estado civil | Casado/a | Total
+5.4 Estado civil | Separado/a judicialmente | Masculino
+5.4 Estado civil | Separado/a judicialmente | Feminino
+5.4 Estado civil | Separado/a judicialmente | Total
+5.4 Estado civil | Divorciado/a | Masculino
+5.4 Estado civil | Divorciado/a | Feminino
+5.4 Estado civil | Divorciado/a | Total
+5.4 Estado civil | Viúvo/a | Masculino
+5.4 Estado civil | Viúvo/a | Feminino
+5.4 Estado civil | Viúvo/a | Total
+5.4 Estado civil | Não informado | Masculino
+5.4 Estado civil | Não informado | Feminino
+5.4 Estado civil | Não informado | Total
+5.4 Estado civil | Masculino
+5.4 Estado civil | Feminino
+5.4 Estado civil | Total
+5.5 Pessoas com deficiência | O estabelecimento tem condições de obter estas informações em seus registros?
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Masculino
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Feminino
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Total
+5.5 Pessoas com deficiência | Masculino
+5.5 Pessoas com deficiência | Feminino
+5.5 Pessoas com deficiência | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | O estabelecimento tem condições de obter estas informações em seus registros?
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Total
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Masculino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Feminino
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Total
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | O estabelecimento possui a documentação física das pessoas privadas de liberdade?
+"5.7 Número de pessoas privadas de liberdade com documentos pessoais | Caso o estabelecimento possua documentação física de pessoas privadas de liberdade, é possível identificar as informações abaixo por tipo de documento?"
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certidão de Nascimento | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certidão de Nascimento | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | R.G. | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | R.G. | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | C.P.F. | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | C.P.F. | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Título de eleitor | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Título de eleitor | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certificado de reservista | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certificado de reservista | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | CTPS (Carteira de Trabalho) | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | CTPS (Carteira de Trabalho) | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Cartão SUS | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Cartão SUS | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | RNE (presos estrangeiros) | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | RNE (presos estrangeiros) | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Passaporte (presos estrangeiros) | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Passaporte (presos estrangeiros) | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas com algum dos documentos acima | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas com algum dos documentos acima | Feminino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas sem documentos | Masculino
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas sem documentos | Feminino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | O estabelecimento tem condições de obter estas informações em seus registros?
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro nato | Masculino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro nato | Feminino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro naturalizado | Masculino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro naturalizado | Feminino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Estrangeiros - total | Masculino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Estrangeiros - total | Feminino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Sem informação sobre a nacionalidade | Masculino
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Sem informação sobre a nacionalidade | Feminino
+5.9 Faixa etária dos filhos que estão no estabelecimento (aplicável apenas para estabelecimentos com mulheres) | Quantidade de gestantes/parturientes
+5.9 Faixa etária dos filhos que estão no estabelecimento (aplicável apenas para estabelecimentos com mulheres) | Quantidade de lactantes
+5.10 Número de filhos/as | O estabelecimento tem condições de obter estas informações em seus registros?
+5.10 Número de filhos/as | Sem filhos | Masculino
+5.10 Número de filhos/as | Sem filhos | Feminino
+mulheres_presas_com_filhos_as
+homens_presos_com_filhos_as
+5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Masculino
+5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Feminino
+pena_masculino_0_4anos
+pena_masculino_1_8anos
+pena_masculino_8_15anos
+pena_masculino_15_20anos
+pena_masculino_20_30anos
+pena_masculino_30_50anos
+pena_masculino_50_maisanos
+pena_masculino_sem_info
+pena_feminino_0_4anos
+pena_feminino_1_8anos
+pena_feminino_8_15anos
+pena_feminino_15_20anos
+pena_feminino_20_30anos
+pena_feminino_30_50anos
+pena_feminino_50_maisanos
+pena_feminino_sem_info
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | O estabelecimento tem condições de obter estas informações em seus registros?
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Como é registrada essa informação?
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Número de pessoas sem informação | Masculino
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Número de pessoas sem informação | Feminino
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | O estabelecimento tem condições de obter estas informações em seus registros?
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Masculino
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Feminino
+pena_remanescente_masculino_0_4anos
+pena_remanescente_feminino_0_4anos
+pena_remanescente_masculino_4_8anos
+pena_remanescente_feminino_4_8anos
+pena_remanescente_masculino_8_15anos
+pena_remanescente_feminino_8_15anos
+pena_remanescente_masculino_15_20anos
+pena_remanescente_feminino_15_20anos
+pena_remanescente_masculino_20_30anos
+pena_remanescente_feminino_20_30anos
+pena_remanescente_masculino_30_50anos
+pena_remanescente_feminino_30_50anos
+pena_remanescente_masculino_50maisanos
+pena_remanescente_feminino_50maisanos
+5.14 Quantidade de incidências por tipo penal | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?
+5.14 Quantidade de incidências por tipo penal | Como é registrada essa informação?
+tipo_penal_contra_pessoa_masculino
+tipo_penal_contra_pessoa_feminino
+tipo_penal_contra_pessoa_total
+tipo_penal_contra_patrimonio_masculino
+tipo_penal_contra_patrimonio_feminino
+tipo_penal_contra_patrimonio_total
+tipo_penal_dignidade_sexual_masculino
+tipo_penal_dignidade_sexual_feminino
+tipo_penal_dignidade_sexual_total
+tipo_penal_drogas_masculino
+tipo_penal_drogas_feminino
+tipo_penal_drogas_total
+tipo_penal_desarmamento_masculino
+tipo_penal_desarmamento_feminino
+tipo_penal_desarmamento_total
+tipo_penal_outros_masculino
+tipo_penal_outros_feminino
+tipo_penal_outros_total
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Masculino
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Feminino
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Total
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Masculino
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Feminino
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Total
+5.14 Quantidade de incidências por tipo penal | Masculino
+5.14 Quantidade de incidências por tipo penal | Feminino
