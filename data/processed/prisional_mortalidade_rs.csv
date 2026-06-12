@@ -1,0 +1,418 @@
+id,periodo,obitos_naturais_masculino,obitos_naturais_feminino,obitos_naturais_total,obitos_criminais_masculino,obitos_criminais_feminino,obitos_criminais_total,obitos_suicidios_masculino,obitos_suicidios_feminino,obitos_suicidios_total,obitos_acidentais_masculino,obitos_acidentais_feminino,obitos_acidentais_total,obitos_desconhecida_masculino,obitos_desconhecida_feminino,obitos_desconhecida_total,obitos_total_geral
+Cadeia Pública de Porto Alegre-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Centro de Custodia Hospitalar Vila Nova-RS-2025,2025,26,1,27,0,0,0,0,0,0,0,0,0,3,0,3,30
+Centro de Custódia Hospitalar Charqueadas-RS-2025,2025,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Centro de Custódia Hospitalar Feminino de Guaíba-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Colônia Penal Agrícola-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Complexo Prisional de Canoas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Feminino de Porto Alegre-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Ijuí-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Irmão Miguel Dario-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Bagé-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Canoas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Charqueadas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Gravatai Santos e Medeiros-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Montenegro-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Novo Hamburgo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Passo Fundo-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Instituto Penal de Santo Ângelo-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Instituto Penal de São Leopoldo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Uruguaiana-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Psiquiatrico Forense-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Núcleo de Gestão Estratégica do Sistema Prisional-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Patronato Lima Drummond-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciaria Alta Segurança charqueadas-RS-2025,2025,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Penitenciária Estadual Feminina  de Guaiba-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Arroio dos Ratos-RS-2025,2025,0,0,0,1,0,1,2,0,2,0,0,0,1,0,1,4
+Penitenciária Estadual de Bento Gonçalves-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas I-RS-2025,2025,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Penitenciária Estadual de Caxias do Sul-RS-2025,2025,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Penitenciária Estadual de Charqueadas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Charqueadas II-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Charqueadas III-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Penitenciária Estadual de Jacuí-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Penitenciária Estadual de Porto Alegre-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Rio Grande-RS-2025,2025,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Penitenciária Estadual de Santa Maria-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,2,0,2,3
+Penitenciária Estadual de Santana do Livramento-RS-2025,2025,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1
+Penitenciária Estadual de Sapucaia do Sul-RS-2025,2025,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Penitenciária Estadual de Venâncio Aires-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada  Estadual de Ijuí-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Modulada Estadual de  Charqueadas-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Modulada Estadual de Montenegro-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Penitenciária Modulada Estadual de Osório-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Modulada Estadual de Uruguaiana-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Cachoeira Do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Candelária-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Encruzilhada Do Sul-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de  Lavras do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Sobradinho-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presidio Estadual de  São Borja-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Alegrete-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Arroio Do Meio-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Dom Pedrito-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de Encantado-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Iraí-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Itaqui-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Quaraí-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Rosário do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de São Gabriel-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Regional de Bagé-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,3
+Presídio  Estadual de São Luiz Gonzaga-RS-2025,2025,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual Feminino Madre Pelletier-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+Presídio Estadual Feminino de Lajeado-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Rio Pardo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Torres-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Santa Vitoria do Palmar-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Agudo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cacequi-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Camaquã-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canela-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canguçu-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Carazinho-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Caçapava do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cerro Largo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cruz Alta-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Erechim-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Espumoso-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Frederico Westphalen-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Getúlio Vargas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Guaporé-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presídio Estadual de Jaguari-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguarão-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Julio de Castilhos-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lagoa Vermelha-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lajeado-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Nova Prata-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Palmeira das Missões-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santa Rosa-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santiago-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santo Cristo-RS-2025,2025,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Sarandi-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Soledade-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Assis-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Paula-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Sepé-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Presídio Estadual de São Vicente do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Taquara-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Três Passos-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Vacaria-RS-2025,2025,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Presídio Regional de Caxias do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presídio Regional de Passo Fundo-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presídio Regional de Pelotas-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Presídio Regional de Santa Cruz do Sul-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Maria-RS-2025,2025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santo Ângelo-RS-2025,2025,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Cadeia Pública de Porto Alegre-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Centro de Custodia Hospitalar Vila Nova-RS-2024,2024,16,1,17,0,0,0,1,0,1,1,0,1,6,0,6,25
+Centro de Custódia Hospitalar Charqueadas-RS-2024,2024,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Colônia Penal Agrícola-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Complexo Prisional de Canoas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Instituto Penal Feminino de Porto Alegre-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Ijuí-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Irmão Miguel Dario-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Bagé-RS-2024,2024,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Instituto Penal de Canoas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Charqueadas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Gravatai Santos e Medeiros-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Montenegro-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Novo Hamburgo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Passo Fundo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santa Maria-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santo Ângelo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de São Leopoldo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Uruguaiana-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Psiquiatrico Forense-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Núcleo de Gestão Estratégica do Sistema Prisional-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Patronato Lima Drummond-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciaria Alta Segurança charqueadas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual Feminina  de Guaiba-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Arroio dos Ratos-RS-2024,2024,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Penitenciária Estadual de Bento Gonçalves-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas I-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Estadual de Caxias do Sul-RS-2024,2024,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Estadual de Charqueadas-RS-2024,2024,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Penitenciária Estadual de Charqueadas II-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Charqueadas III-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Estadual de Jacuí-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Estadual de Porto Alegre-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Rio Grande-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Santa Maria-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Estadual de Santana do Livramento-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Sapucaia do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Venâncio Aires-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada  Estadual de Ijuí-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada Estadual de  Charqueadas-RS-2024,2024,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,2
+Penitenciária Modulada Estadual de Montenegro-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Modulada Estadual de Osório-RS-2024,2024,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Modulada Estadual de Uruguaiana-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Cachoeira Do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Candelária-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Encruzilhada Do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Lavras do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Sobradinho-RS-2024,2024,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,2
+Presidio Estadual de  São Borja-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Alegrete-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Arroio Do Meio-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Dom Pedrito-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Encantado-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Iraí-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Itaqui-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Quaraí-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Rosário do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de São Gabriel-RS-2024,2024,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1
+Presidio Regional de Bagé-RS-2024,2024,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Presídio  Estadual de São Luiz Gonzaga-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino Madre Pelletier-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Lajeado-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Rio Pardo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Torres-RS-2024,2024,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Presídio Estadual Santa Vitoria do Palmar-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Agudo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cacequi-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Camaquã-RS-2024,2024,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,2
+Presídio Estadual de Canela-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canguçu-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Carazinho-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Caçapava do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cerro Largo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cruz Alta-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Erechim-RS-2024,2024,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Presídio Estadual de Espumoso-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Frederico Westphalen-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Getúlio Vargas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Guaporé-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguari-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguarão-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Julio de Castilhos-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lagoa Vermelha-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lajeado-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Nova Prata-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Palmeira das Missões-RS-2024,2024,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presídio Estadual de Santa Rosa-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presídio Estadual de Santiago-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santo Cristo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Sarandi-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Soledade-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Presídio Estadual de São Francisco de Assis-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Paula-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Sepé-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Vicente do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Taquara-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Três Passos-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Vacaria-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Caxias do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Passo Fundo-RS-2024,2024,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2
+Presídio Regional de Pelotas-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Cruz do Sul-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Maria-RS-2024,2024,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,2
+Presídio Regional de Santo Ângelo-RS-2024,2024,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cadeia Pública de Porto Alegre-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Centro de Custodia Hospitalar Vila Nova-RS-2023,2023,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,12
+Centro de Custódia Hospitalar Charqueadas-RS-2023,2023,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,3
+Colônia Penal Agrícola-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Complexo Prisional de Canoas-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Instituto Penal Feminino de Porto Alegre-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Ijuí-RS-2023,2023,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,2
+Instituto Penal Irmão Miguel Dario-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Bagé-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Instituto Penal de Canoas-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Charqueadas-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Gravatai Santos e Medeiros-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Montenegro-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Novo Hamburgo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Passo Fundo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santa Maria-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santo Ângelo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de São Jerônimo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de São Leopoldo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Uruguaiana-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Instituto Psiquiatrico Forense-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Núcleo de Gestão Estratégica do Sistema Prisional-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Patronato Lima Drummond-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciaria Alta Segurança charqueadas-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Penitenciária Estadual Feminina  de Guaiba-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Arroio dos Ratos-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Estadual de Bento Gonçalves-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas I-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Caxias do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Charqueadas-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Charqueadas II-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Jacuí-RS-2023,2023,2,0,2,0,0,0,0,0,0,0,0,0,2,0,2,4
+Penitenciária Estadual de Porto Alegre-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Rio Grande-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Santa Maria-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Penitenciária Estadual de Santana do Livramento-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Sapucaia do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Venâncio Aires-RS-2023,2023,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1
+Penitenciária Modulada  Estadual de Ijuí-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada Estadual de  Charqueadas-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Penitenciária Modulada Estadual de Montenegro-RS-2023,2023,2,0,2,0,0,0,0,0,0,0,0,0,1,0,1,3
+Penitenciária Modulada Estadual de Osório-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Penitenciária Modulada Estadual de Uruguaiana-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Cachoeira Do Sul-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de  Candelária-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Encruzilhada Do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Lavras do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Sobradinho-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  São Borja-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presidio Estadual de Alegrete-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Arroio Do Meio-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de Dom Pedrito-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Encantado-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Iraí-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Itaqui-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de Quaraí-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Rosário do Sul-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Estadual de São Gabriel-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presidio Regional de Bagé-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio  Estadual de São Luiz Gonzaga-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presídio Estadual Feminino Madre Pelletier-RS-2023,2023,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Presídio Estadual Feminino de Lajeado-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Rio Pardo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Torres-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Santa Vitoria do Palmar-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Agudo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cacequi-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Camaquã-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canela-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presídio Estadual de Canguçu-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Carazinho-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Caçapava do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cerro Largo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cruz Alta-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Erechim-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Espumoso-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Frederico Westphalen-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presídio Estadual de Getúlio Vargas-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Guaporé-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguari-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguarão-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Julio de Castilhos-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lagoa Vermelha-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Lajeado-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Nova Prata-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Palmeira das Missões-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santa Rosa-RS-2023,2023,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,2
+Presídio Estadual de Santiago-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santo Cristo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Sarandi-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Soledade-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Assis-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Paula-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Sepé-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Vicente do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Taquara-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Três Passos-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Vacaria-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Caxias do Sul-RS-2023,2023,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,2
+Presídio Regional de Passo Fundo-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Pelotas-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Cruz do Sul-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Maria-RS-2023,2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santo Ângelo-RS-2023,2023,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Cadeia Pública de Porto Alegre-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Centro de Custodia Hospitalar Vila Nova-RS-2022,2022,23,0,23,0,0,0,0,0,0,1,0,1,3,0,3,27
+Centro de Custódia Hospitalar Charqueadas-RS-2022,2022,9,0,9,0,0,0,0,0,0,0,0,0,0,0,0,9
+Colônia Penal Agrícola-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Feminino de Porto Alegre-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Ijuí-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal Irmão Miguel Dario-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Bagé-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Canoas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Charqueadas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Gravatai Santos e Medeiros-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Montenegro-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Novo Hamburgo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Passo Fundo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santa Maria-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Santo Ângelo-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Instituto Penal de São Leopoldo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Penal de Uruguaiana-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Instituto Psiquiatrico Forense-RS-2022,2022,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1
+Núcleo de Gestão Estratégica do Sistema Prisional-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Patronato Lima Drummond-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciaria Alta Segurança charqueadas-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciaria Estadual de Canoas II-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Estadual Feminina  de Guaiba-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+Penitenciária Estadual de Arroio dos Ratos-RS-2022,2022,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,2
+Penitenciária Estadual de Bento Gonçalves-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas I-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas III-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Canoas IV-RS-2022,2022,2,0,2,0,0,0,0,0,0,0,0,0,1,0,1,3
+Penitenciária Estadual de Caxias do Sul-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Penitenciária Estadual de Charqueadas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Jacuí-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,3
+Penitenciária Estadual de Porto Alegre-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Rio Grande-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,2
+Penitenciária Estadual de Santa Maria-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Santana do Livramento-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Estadual de Sapucaia do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,2
+Penitenciária Estadual de Venâncio Aires-RS-2022,2022,0,0,0,0,0,0,2,0,2,0,0,0,0,0,0,2
+Penitenciária Modulada  Estadual de Ijuí-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada Estadual de  Charqueadas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada Estadual de Montenegro-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Penitenciária Modulada Estadual de Osório-RS-2022,2022,2,0,2,0,0,0,1,0,1,1,0,1,0,0,0,4
+Penitenciária Modulada Estadual de Uruguaiana-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Cachoeira Do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Candelária-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Encruzilhada Do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1
+Presidio Estadual de  Lavras do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  Sobradinho-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de  São Borja-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Alegrete-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Arroio Do Meio-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Dom Pedrito-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Encantado-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Iraí-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presidio Estadual de Itaqui-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Quaraí-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de Rosário do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presidio Estadual de São Gabriel-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presidio Regional de Bagé-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio  Estadual de São Luiz Gonzaga-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino Madre Pelletier-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Lajeado-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Rio Pardo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Feminino de Torres-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual Santa Vitoria do Palmar-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Agudo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cacequi-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Camaquã-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canela-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Canguçu-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Carazinho-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presídio Estadual de Caçapava do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cerro Largo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Cruz Alta-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Erechim-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Estadual de Espumoso-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Frederico Westphalen-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Getúlio Vargas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Guaporé-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguari-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Jaguarão-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Julio de Castilhos-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lagoa Vermelha-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Lajeado-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Nova Prata-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Palmeira das Missões-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santa Rosa-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Presídio Estadual de Santiago-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Santo Cristo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Sarandi-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Soledade-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Assis-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Francisco de Paula-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Jerônimo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Sepé-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de São Vicente do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Taquara-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Três Passos-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Estadual de Vacaria-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Caxias do Sul-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Passo Fundo-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Pelotas-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santa Cruz do Sul-RS-2022,2022,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Presídio Regional de Santa Maria-RS-2022,2022,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Presídio Regional de Santo Ângelo-RS-2022,2022,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1

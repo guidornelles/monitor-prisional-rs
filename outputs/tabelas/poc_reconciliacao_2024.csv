@@ -1,0 +1,4057 @@
+﻿municipio,indicador,oficial,reconstruido,delta_abs
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",estupro_vitimas,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,estupro_vitimas,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,estupro_vitimas,0.0,0.0,0.0
+ACEGUA,estupro_vitimas,0.0,1.0,1.0
+AGUA SANTA,estupro_vitimas,0.0,1.0,1.0
+AGUDO,estupro_vitimas,4.0,6.0,2.0
+AJURICABA,estupro_vitimas,0.0,0.0,0.0
+ALECRIM,estupro_vitimas,0.0,3.0,3.0
+ALEGRETE,estupro_vitimas,6.0,14.0,8.0
+ALEGRIA,estupro_vitimas,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,estupro_vitimas,0.0,1.0,1.0
+ALPESTRE,estupro_vitimas,0.0,5.0,5.0
+ALTO ALEGRE,estupro_vitimas,0.0,2.0,2.0
+ALTO FELIZ,estupro_vitimas,1.0,2.0,1.0
+ALVORADA,estupro_vitimas,64.0,132.0,68.0
+AMARAL FERRADOR,estupro_vitimas,3.0,3.0,0.0
+AMETISTA DO SUL,estupro_vitimas,1.0,1.0,0.0
+ANDRE DA ROCHA,estupro_vitimas,0.0,0.0,0.0
+ANTA GORDA,estupro_vitimas,3.0,3.0,0.0
+ANTONIO PRADO,estupro_vitimas,6.0,8.0,2.0
+ARAMBARE,estupro_vitimas,2.0,4.0,2.0
+ARARICA,estupro_vitimas,2.0,2.0,0.0
+ARATIBA,estupro_vitimas,1.0,3.0,2.0
+ARROIO DO MEIO,estupro_vitimas,1.0,4.0,3.0
+ARROIO DO PADRE,estupro_vitimas,0.0,0.0,0.0
+ARROIO DO SAL,estupro_vitimas,6.0,6.0,0.0
+ARROIO DO TIGRE,estupro_vitimas,0.0,5.0,5.0
+ARROIO DOS RATOS,estupro_vitimas,2.0,6.0,4.0
+ARROIO GRANDE,estupro_vitimas,6.0,11.0,5.0
+ARVOREZINHA,estupro_vitimas,3.0,5.0,2.0
+AUGUSTO PESTANA,estupro_vitimas,1.0,1.0,0.0
+AUREA,estupro_vitimas,0.0,0.0,0.0
+BAGE,estupro_vitimas,20.0,53.0,33.0
+BALNEARIO PINHAL,estupro_vitimas,4.0,17.0,13.0
+BARAO,estupro_vitimas,0.0,1.0,1.0
+BARAO DE COTEGIPE,estupro_vitimas,0.0,6.0,6.0
+BARAO DO COTEGIPE,estupro_vitimas,3.0,0.0,-3.0
+BARAO DO TRIUNFO,estupro_vitimas,1.0,3.0,2.0
+BARRA DO GUARITA,estupro_vitimas,3.0,4.0,1.0
+BARRA DO QUARAI,estupro_vitimas,1.0,2.0,1.0
+BARRA DO RIBEIRO,estupro_vitimas,2.0,8.0,6.0
+BARRA DO RIO AZUL,estupro_vitimas,0.0,0.0,0.0
+BARRA FUNDA,estupro_vitimas,0.0,0.0,0.0
+BARRACAO,estupro_vitimas,3.0,6.0,3.0
+BARROS CASSAL,estupro_vitimas,4.0,6.0,2.0
+BENJAMIN CONSTANT DO SUL,estupro_vitimas,0.0,0.0,0.0
+BENTO GONCALVES,estupro_vitimas,26.0,66.0,40.0
+BOA VISTA DAS MISSOES,estupro_vitimas,0.0,0.0,0.0
+BOA VISTA DO BURICA,estupro_vitimas,2.0,2.0,0.0
+BOA VISTA DO CADEADO,estupro_vitimas,0.0,1.0,1.0
+BOA VISTA DO INCRA,estupro_vitimas,3.0,4.0,1.0
+BOA VISTA DO SUL,estupro_vitimas,0.0,0.0,0.0
+BOM JESUS,estupro_vitimas,2.0,4.0,2.0
+BOM PRINCIPIO,estupro_vitimas,9.0,14.0,5.0
+BOM PROGRESSO,estupro_vitimas,1.0,1.0,0.0
+BOM RETIRO DO SUL,estupro_vitimas,2.0,2.0,0.0
+BOQUEIRAO DO LEAO,estupro_vitimas,3.0,3.0,0.0
+BOSSOROCA,estupro_vitimas,5.0,8.0,3.0
+BOZANO,estupro_vitimas,2.0,2.0,0.0
+BRAGA,estupro_vitimas,1.0,2.0,1.0
+BROCHIER,estupro_vitimas,0.0,0.0,0.0
+BUTIA,estupro_vitimas,4.0,11.0,7.0
+CACAPAVA DO SUL,estupro_vitimas,7.0,13.0,6.0
+CACEQUI,estupro_vitimas,1.0,3.0,2.0
+CACHOEIRA DO SUL,estupro_vitimas,16.0,30.0,14.0
+CACHOEIRINHA,estupro_vitimas,45.0,73.0,28.0
+CACIQUE DOBLE,estupro_vitimas,1.0,3.0,2.0
+CAIBATE,estupro_vitimas,3.0,5.0,2.0
+CAICARA,estupro_vitimas,5.0,5.0,0.0
+CAMAQUA,estupro_vitimas,9.0,25.0,16.0
+CAMARGO,estupro_vitimas,1.0,3.0,2.0
+CAMBARA DO SUL,estupro_vitimas,0.0,0.0,0.0
+CAMPESTRE DA SERRA,estupro_vitimas,1.0,2.0,1.0
+CAMPINA DAS MISSOES,estupro_vitimas,1.0,3.0,2.0
+CAMPINAS DO SUL,estupro_vitimas,2.0,2.0,0.0
+CAMPO BOM,estupro_vitimas,13.0,31.0,18.0
+CAMPO NOVO,estupro_vitimas,0.0,4.0,4.0
+CAMPOS BORGES,estupro_vitimas,0.0,0.0,0.0
+CANDELARIA,estupro_vitimas,5.0,10.0,5.0
+CANDIDO GODOI,estupro_vitimas,0.0,1.0,1.0
+CANDIOTA,estupro_vitimas,4.0,10.0,6.0
+CANELA,estupro_vitimas,14.0,25.0,11.0
+CANGUCU,estupro_vitimas,6.0,9.0,3.0
+CANOAS,estupro_vitimas,99.0,194.0,95.0
+CANUDOS DO VALE,estupro_vitimas,1.0,1.0,0.0
+CAPAO BONITO DO SUL,estupro_vitimas,1.0,3.0,2.0
+CAPAO DA CANOA,estupro_vitimas,20.0,48.0,28.0
+CAPAO DO CIPO,estupro_vitimas,0.0,1.0,1.0
+CAPAO DO LEAO,estupro_vitimas,6.0,30.0,24.0
+CAPELA DE SANTANA,estupro_vitimas,3.0,8.0,5.0
+CAPITAO,estupro_vitimas,1.0,1.0,0.0
+CAPIVARI DO SUL,estupro_vitimas,2.0,5.0,3.0
+CARAA,estupro_vitimas,2.0,2.0,0.0
+CARAZINHO,estupro_vitimas,8.0,22.0,14.0
+CARLOS BARBOSA,estupro_vitimas,4.0,7.0,3.0
+CARLOS GOMES,estupro_vitimas,0.0,0.0,0.0
+CASCA,estupro_vitimas,1.0,2.0,1.0
+CASEIROS,estupro_vitimas,0.0,1.0,1.0
+CATUIPE,estupro_vitimas,1.0,1.0,0.0
+CAXIAS DO SUL,estupro_vitimas,47.0,134.0,87.0
+CENTENARIO,estupro_vitimas,0.0,1.0,1.0
+CERRITO,estupro_vitimas,0.0,1.0,1.0
+CERRO BRANCO,estupro_vitimas,2.0,2.0,0.0
+CERRO GRANDE,estupro_vitimas,1.0,3.0,2.0
+CERRO GRANDE DO SUL,estupro_vitimas,11.0,13.0,2.0
+CERRO LARGO,estupro_vitimas,2.0,5.0,3.0
+CHAPADA,estupro_vitimas,2.0,3.0,1.0
+CHARQUEADAS,estupro_vitimas,2.0,10.0,8.0
+CHARRUA,estupro_vitimas,1.0,2.0,1.0
+CHIAPETTA,estupro_vitimas,3.0,6.0,3.0
+CHUI,estupro_vitimas,1.0,2.0,1.0
+CHUVISCA,estupro_vitimas,1.0,1.0,0.0
+CIDREIRA,estupro_vitimas,20.0,29.0,9.0
+CIRIACO,estupro_vitimas,0.0,2.0,2.0
+COLINAS,estupro_vitimas,1.0,3.0,2.0
+COLORADO,estupro_vitimas,0.0,1.0,1.0
+CONDOR,estupro_vitimas,2.0,3.0,1.0
+CONSTANTINA,estupro_vitimas,3.0,8.0,5.0
+COQUEIRO BAIXO,estupro_vitimas,0.0,0.0,0.0
+COQUEIROS DO SUL,estupro_vitimas,1.0,1.0,0.0
+CORONEL BARROS,estupro_vitimas,0.0,1.0,1.0
+CORONEL BICACO,estupro_vitimas,1.0,1.0,0.0
+CORONEL PILAR,estupro_vitimas,0.0,0.0,0.0
+COTIPORA,estupro_vitimas,0.0,0.0,0.0
+COXILHA,estupro_vitimas,1.0,2.0,1.0
+CRISSIUMAL,estupro_vitimas,1.0,2.0,1.0
+CRISTAL,estupro_vitimas,0.0,5.0,5.0
+CRISTAL DO SUL,estupro_vitimas,0.0,1.0,1.0
+CRUZ ALTA,estupro_vitimas,20.0,48.0,28.0
+CRUZALTENSE,estupro_vitimas,0.0,0.0,0.0
+CRUZEIRO DO SUL,estupro_vitimas,2.0,3.0,1.0
+DAVID CANABARRO,estupro_vitimas,0.0,0.0,0.0
+DERRUBADAS,estupro_vitimas,2.0,3.0,1.0
+DEZESSEIS DE NOVEMBRO,estupro_vitimas,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,estupro_vitimas,1.0,3.0,2.0
+DOIS IRMAOS,estupro_vitimas,6.0,12.0,6.0
+DOIS IRMAOS DAS MISSOES,estupro_vitimas,0.0,0.0,0.0
+DOIS LAJEADOS,estupro_vitimas,0.0,0.0,0.0
+DOM FELICIANO,estupro_vitimas,1.0,7.0,6.0
+DOM PEDRITO,estupro_vitimas,6.0,14.0,8.0
+DOM PEDRO DE ALCANTARA,estupro_vitimas,0.0,1.0,1.0
+DONA FRANCISCA,estupro_vitimas,2.0,3.0,1.0
+DOUTOR RICARDO,estupro_vitimas,0.0,0.0,0.0
+DR MAURICIO CARDOSO,estupro_vitimas,1.0,1.0,0.0
+ELDORADO DO SUL,estupro_vitimas,15.0,36.0,21.0
+ENCANTADO,estupro_vitimas,3.0,5.0,2.0
+ENCRUZILHADA DO SUL,estupro_vitimas,7.0,15.0,8.0
+ENGENHO VELHO,estupro_vitimas,1.0,1.0,0.0
+ENTRE IJUIS,estupro_vitimas,3.0,4.0,1.0
+ENTRE RIOS DO SUL,estupro_vitimas,0.0,1.0,1.0
+EREBANGO,estupro_vitimas,1.0,3.0,2.0
+ERECHIM,estupro_vitimas,26.0,49.0,23.0
+ERNESTINA,estupro_vitimas,1.0,2.0,1.0
+ERVAL GRANDE,estupro_vitimas,0.0,3.0,3.0
+ERVAL SECO,estupro_vitimas,4.0,4.0,0.0
+ESMERALDA,estupro_vitimas,5.0,7.0,2.0
+ESPERANCA DO SUL,estupro_vitimas,0.0,1.0,1.0
+ESPUMOSO,estupro_vitimas,2.0,3.0,1.0
+ESTACAO,estupro_vitimas,1.0,2.0,1.0
+ESTANCIA VELHA,estupro_vitimas,6.0,11.0,5.0
+ESTEIO,estupro_vitimas,17.0,59.0,42.0
+ESTRELA,estupro_vitimas,4.0,9.0,5.0
+ESTRELA VELHA,estupro_vitimas,2.0,3.0,1.0
+EUGENIO DE CASTRO,estupro_vitimas,0.0,2.0,2.0
+FAGUNDES VARELA,estupro_vitimas,0.0,0.0,0.0
+FARROUPILHA,estupro_vitimas,12.0,22.0,10.0
+FAXINAL DO SOTURNO,estupro_vitimas,1.0,6.0,5.0
+FAXINALZINHO,estupro_vitimas,0.0,0.0,0.0
+FAZENDA VILA NOVA,estupro_vitimas,1.0,2.0,1.0
+FELIZ,estupro_vitimas,2.0,4.0,2.0
+FLORES DA CUNHA,estupro_vitimas,11.0,15.0,4.0
+FLORIANO PEIXOTO,estupro_vitimas,0.0,0.0,0.0
+FONTOURA XAVIER,estupro_vitimas,1.0,5.0,4.0
+FORMIGUEIRO,estupro_vitimas,7.0,13.0,6.0
+FORQUETINHA,estupro_vitimas,0.0,0.0,0.0
+FORTALEZA DOS VALOS,estupro_vitimas,0.0,2.0,2.0
+FREDERICO WESTPHALEN,estupro_vitimas,8.0,11.0,3.0
+GARIBALDI,estupro_vitimas,2.0,6.0,4.0
+GARRUCHOS,estupro_vitimas,0.0,0.0,0.0
+GAURAMA,estupro_vitimas,3.0,4.0,1.0
+GENERAL CAMARA,estupro_vitimas,1.0,2.0,1.0
+GENTIL,estupro_vitimas,0.0,0.0,0.0
+GERAL,estupro_vitimas,2522.0,0.0,-2522.0
+GETULIO VARGAS,estupro_vitimas,3.0,8.0,5.0
+GIRUA,estupro_vitimas,2.0,5.0,3.0
+GLORINHA,estupro_vitimas,1.0,7.0,6.0
+GRAMADO,estupro_vitimas,5.0,16.0,11.0
+GRAMADO DOS LOUREIROS,estupro_vitimas,0.0,0.0,0.0
+GRAMADO XAVIER,estupro_vitimas,0.0,2.0,2.0
+GRAVATAI,estupro_vitimas,89.0,194.0,105.0
+GUABIJU,estupro_vitimas,0.0,0.0,0.0
+GUAIBA,estupro_vitimas,26.0,84.0,58.0
+GUAPORE,estupro_vitimas,2.0,5.0,3.0
+GUARANI DAS MISSOES,estupro_vitimas,4.0,4.0,0.0
+HARMONIA,estupro_vitimas,0.0,3.0,3.0
+HERVAL,estupro_vitimas,3.0,5.0,2.0
+HERVEIRAS,estupro_vitimas,0.0,2.0,2.0
+HORIZONTINA,estupro_vitimas,2.0,4.0,2.0
+HULHA NEGRA,estupro_vitimas,1.0,4.0,3.0
+HUMAITA,estupro_vitimas,2.0,2.0,0.0
+IBARAMA,estupro_vitimas,6.0,8.0,2.0
+IBIACA,estupro_vitimas,0.0,0.0,0.0
+IBIRAIARAS,estupro_vitimas,1.0,3.0,2.0
+IBIRAPUITA,estupro_vitimas,2.0,2.0,0.0
+IBIRUBA,estupro_vitimas,8.0,16.0,8.0
+IGREJINHA,estupro_vitimas,5.0,17.0,12.0
+IJUI,estupro_vitimas,16.0,31.0,15.0
+ILOPOLIS,estupro_vitimas,2.0,5.0,3.0
+IMBE,estupro_vitimas,4.0,17.0,13.0
+IMIGRANTE,estupro_vitimas,1.0,1.0,0.0
+INDEPENDENCIA,estupro_vitimas,10.0,10.0,0.0
+INHACORA,estupro_vitimas,1.0,1.0,0.0
+IPE,estupro_vitimas,4.0,6.0,2.0
+IPIRANGA DO SUL,estupro_vitimas,0.0,0.0,0.0
+IRAI,estupro_vitimas,5.0,8.0,3.0
+ITAARA,estupro_vitimas,0.0,2.0,2.0
+ITACURUBI,estupro_vitimas,1.0,1.0,0.0
+ITAPUCA,estupro_vitimas,0.0,0.0,0.0
+ITAQUI,estupro_vitimas,14.0,37.0,23.0
+ITATI,estupro_vitimas,0.0,0.0,0.0
+ITATIBA DO SUL,estupro_vitimas,1.0,2.0,1.0
+IVORA,estupro_vitimas,1.0,2.0,1.0
+IVOTI,estupro_vitimas,3.0,6.0,3.0
+JABOTICABA,estupro_vitimas,0.0,1.0,1.0
+JACUIZINHO,estupro_vitimas,0.0,2.0,2.0
+JACUTINGA,estupro_vitimas,0.0,2.0,2.0
+JAGUARAO,estupro_vitimas,9.0,19.0,10.0
+JAGUARI,estupro_vitimas,1.0,3.0,2.0
+JAQUIRANA,estupro_vitimas,1.0,1.0,0.0
+JARI,estupro_vitimas,0.0,1.0,1.0
+JOIA,estupro_vitimas,2.0,4.0,2.0
+JULIO DE CASTILHOS,estupro_vitimas,7.0,19.0,12.0
+LAGOA BONITA DO SUL,estupro_vitimas,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,estupro_vitimas,0.0,1.0,1.0
+LAGOA VERMELHA,estupro_vitimas,3.0,5.0,2.0
+LAGOAO,estupro_vitimas,2.0,4.0,2.0
+LAJEADO,estupro_vitimas,22.0,34.0,12.0
+LAJEADO DO BUGRE,estupro_vitimas,0.0,0.0,0.0
+LAVRAS DO SUL,estupro_vitimas,0.0,0.0,0.0
+LIBERATO SALZANO,estupro_vitimas,4.0,7.0,3.0
+LINDOLFO COLLOR,estupro_vitimas,1.0,1.0,0.0
+LINHA NOVA,estupro_vitimas,1.0,1.0,0.0
+MACAMBARA,estupro_vitimas,1.0,4.0,3.0
+MACHADINHO,estupro_vitimas,0.0,1.0,1.0
+MAMPITUBA,estupro_vitimas,0.0,0.0,0.0
+MANOEL VIANA,estupro_vitimas,2.0,4.0,2.0
+MAQUINE,estupro_vitimas,1.0,3.0,2.0
+MARATA,estupro_vitimas,0.0,0.0,0.0
+MARAU,estupro_vitimas,7.0,14.0,7.0
+MARCELINO RAMOS,estupro_vitimas,1.0,2.0,1.0
+MARIANA PIMENTEL,estupro_vitimas,0.0,2.0,2.0
+MARIANO MORO,estupro_vitimas,0.0,0.0,0.0
+MARQUES DE SOUZA,estupro_vitimas,1.0,1.0,0.0
+MATA,estupro_vitimas,0.0,0.0,0.0
+MATO CASTELHANO,estupro_vitimas,0.0,0.0,0.0
+MATO LEITAO,estupro_vitimas,0.0,1.0,1.0
+MATO QUEIMADO,estupro_vitimas,1.0,1.0,0.0
+MAXIMILIANO DE ALMEIDA,estupro_vitimas,0.0,1.0,1.0
+MINAS DO LEAO,estupro_vitimas,5.0,9.0,4.0
+MIRAGUAI,estupro_vitimas,0.0,2.0,2.0
+MONTAURI,estupro_vitimas,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,estupro_vitimas,1.0,2.0,1.0
+MONTE BELO DO SUL,estupro_vitimas,0.0,0.0,0.0
+MONTENEGRO,estupro_vitimas,17.0,33.0,16.0
+MORMACO,estupro_vitimas,0.0,1.0,1.0
+MORRINHOS DO SUL,estupro_vitimas,0.0,1.0,1.0
+MORRO REDONDO,estupro_vitimas,0.0,0.0,0.0
+MORRO REUTER,estupro_vitimas,2.0,2.0,0.0
+MOSTARDAS,estupro_vitimas,1.0,2.0,1.0
+MUCUM,estupro_vitimas,2.0,2.0,0.0
+MUITOS CAPOES,estupro_vitimas,0.0,2.0,2.0
+MULITERNO,estupro_vitimas,1.0,1.0,0.0
+NAN,estupro_vitimas,0.0,0.0,0.0
+NAN,estupro_vitimas,0.0,0.0,0.0
+NAO ME TOQUE,estupro_vitimas,3.0,0.0,-3.0
+NAO-ME-TOQUE,estupro_vitimas,0.0,16.0,16.0
+NICOLAU VERGUEIRO,estupro_vitimas,0.0,1.0,1.0
+NONOAI,estupro_vitimas,3.0,6.0,3.0
+NOVA ALVORADA,estupro_vitimas,0.0,0.0,0.0
+NOVA ARACA,estupro_vitimas,1.0,3.0,2.0
+NOVA BASSANO,estupro_vitimas,1.0,4.0,3.0
+NOVA BOA VISTA,estupro_vitimas,0.0,0.0,0.0
+NOVA BRESCIA,estupro_vitimas,0.0,1.0,1.0
+NOVA CANDELARIA,estupro_vitimas,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,estupro_vitimas,0.0,3.0,3.0
+NOVA HARTZ,estupro_vitimas,6.0,11.0,5.0
+NOVA PADUA,estupro_vitimas,1.0,1.0,0.0
+NOVA PALMA,estupro_vitimas,1.0,7.0,6.0
+NOVA PETROPOLIS,estupro_vitimas,7.0,15.0,8.0
+NOVA PRATA,estupro_vitimas,6.0,10.0,4.0
+NOVA RAMADA,estupro_vitimas,0.0,0.0,0.0
+NOVA ROMA DO SUL,estupro_vitimas,0.0,0.0,0.0
+NOVA SANTA RITA,estupro_vitimas,13.0,26.0,13.0
+NOVO BARREIRO,estupro_vitimas,2.0,2.0,0.0
+NOVO CABRAIS,estupro_vitimas,0.0,3.0,3.0
+NOVO HAMBURGO,estupro_vitimas,56.0,113.0,57.0
+NOVO MACHADO,estupro_vitimas,0.0,0.0,0.0
+NOVO TIRADENTES,estupro_vitimas,1.0,2.0,1.0
+NOVO XINGU,estupro_vitimas,0.0,0.0,0.0
+OSORIO,estupro_vitimas,7.0,14.0,7.0
+PAIM FILHO,estupro_vitimas,0.0,1.0,1.0
+PALMARES DO SUL,estupro_vitimas,6.0,9.0,3.0
+PALMEIRA DAS MISSOES,estupro_vitimas,8.0,20.0,12.0
+PALMITINHO,estupro_vitimas,1.0,4.0,3.0
+PANAMBI,estupro_vitimas,3.0,12.0,9.0
+PANTANO GRANDE,estupro_vitimas,2.0,5.0,3.0
+PARAI,estupro_vitimas,1.0,1.0,0.0
+PARAISO DO SUL,estupro_vitimas,1.0,2.0,1.0
+PARECI NOVO,estupro_vitimas,0.0,2.0,2.0
+PAROBE,estupro_vitimas,25.0,44.0,19.0
+PASSA SETE,estupro_vitimas,2.0,6.0,4.0
+PASSO DO SOBRADO,estupro_vitimas,1.0,2.0,1.0
+PASSO FUNDO,estupro_vitimas,57.0,121.0,64.0
+PAULO BENTO,estupro_vitimas,1.0,2.0,1.0
+PAVERAMA,estupro_vitimas,0.0,4.0,4.0
+PEDRAS ALTAS,estupro_vitimas,0.0,0.0,0.0
+PEDRO OSORIO,estupro_vitimas,0.0,1.0,1.0
+PEJUCARA,estupro_vitimas,2.0,2.0,0.0
+PELOTAS,estupro_vitimas,57.0,169.0,112.0
+PICADA CAFE,estupro_vitimas,1.0,2.0,1.0
+PINHAL,estupro_vitimas,2.0,2.0,0.0
+PINHAL DA SERRA,estupro_vitimas,1.0,1.0,0.0
+PINHAL GRANDE,estupro_vitimas,0.0,1.0,1.0
+PINHEIRINHO DO VALE,estupro_vitimas,1.0,1.0,0.0
+PINHEIRO MACHADO,estupro_vitimas,0.0,1.0,1.0
+PINTO BANDEIRA,estupro_vitimas,0.0,0.0,0.0
+PINTO BANDEIRA (BENTO GONC),estupro_vitimas,0.0,0.0,0.0
+PIRAPO,estupro_vitimas,0.0,0.0,0.0
+PIRATINI,estupro_vitimas,5.0,10.0,5.0
+PLANALTO,estupro_vitimas,3.0,7.0,4.0
+POCO DAS ANTAS,estupro_vitimas,0.0,0.0,0.0
+PONTAO,estupro_vitimas,0.0,2.0,2.0
+PONTE PRETA,estupro_vitimas,0.0,0.0,0.0
+PORTAO,estupro_vitimas,16.0,29.0,13.0
+PORTO ALEGRE,estupro_vitimas,331.0,709.0,378.0
+PORTO LUCENA,estupro_vitimas,1.0,2.0,1.0
+PORTO MAUA,estupro_vitimas,0.0,0.0,0.0
+PORTO VERA CRUZ,estupro_vitimas,0.0,0.0,0.0
+PORTO XAVIER,estupro_vitimas,4.0,5.0,1.0
+POUSO NOVO,estupro_vitimas,0.0,0.0,0.0
+PRESIDENTE LUCENA,estupro_vitimas,0.0,0.0,0.0
+PROGRESSO,estupro_vitimas,0.0,0.0,0.0
+PROTASIO ALVES,estupro_vitimas,1.0,1.0,0.0
+PUTINGA,estupro_vitimas,0.0,1.0,1.0
+QUARAI,estupro_vitimas,8.0,9.0,1.0
+QUATRO IRMAOS,estupro_vitimas,1.0,4.0,3.0
+QUEVEDOS,estupro_vitimas,1.0,1.0,0.0
+QUINZE DE NOVEMBRO,estupro_vitimas,0.0,0.0,0.0
+REDENTORA,estupro_vitimas,4.0,8.0,4.0
+RELVADO,estupro_vitimas,1.0,1.0,0.0
+RESTINGA SECA,estupro_vitimas,2.0,5.0,3.0
+RIO DOS INDIOS,estupro_vitimas,0.0,0.0,0.0
+RIO GRANDE,estupro_vitimas,47.0,80.0,33.0
+RIO PARDO,estupro_vitimas,5.0,13.0,8.0
+RIOZINHO,estupro_vitimas,1.0,3.0,2.0
+ROCA SALES,estupro_vitimas,6.0,9.0,3.0
+RODEIO BONITO,estupro_vitimas,1.0,1.0,0.0
+ROLADOR,estupro_vitimas,0.0,1.0,1.0
+ROLANTE,estupro_vitimas,6.0,31.0,25.0
+RONDA ALTA,estupro_vitimas,2.0,3.0,1.0
+RONDINHA,estupro_vitimas,0.0,0.0,0.0
+ROQUE GONZALES,estupro_vitimas,1.0,1.0,0.0
+ROSARIO DO SUL,estupro_vitimas,8.0,22.0,14.0
+SAGRADA FAMILIA,estupro_vitimas,1.0,1.0,0.0
+SALDANHA MARINHO,estupro_vitimas,0.0,0.0,0.0
+SALTO DO JACUI,estupro_vitimas,3.0,9.0,6.0
+SALVADOR DAS MISSOES,estupro_vitimas,0.0,0.0,0.0
+SALVADOR DO SUL,estupro_vitimas,2.0,3.0,1.0
+SANANDUVA,estupro_vitimas,1.0,2.0,1.0
+SANTA BARBARA DO SUL,estupro_vitimas,2.0,5.0,3.0
+SANTA CECILIA DO SUL,estupro_vitimas,1.0,5.0,4.0
+SANTA CLARA DO SUL,estupro_vitimas,0.0,0.0,0.0
+SANTA CRUZ DO SUL,estupro_vitimas,31.0,51.0,20.0
+SANTA MARGARIDA DO SUL,estupro_vitimas,0.0,0.0,0.0
+SANTA MARIA,estupro_vitimas,67.0,204.0,137.0
+SANTA MARIA DO HERVAL,estupro_vitimas,0.0,2.0,2.0
+SANTA ROSA,estupro_vitimas,13.0,22.0,9.0
+SANTA TEREZA,estupro_vitimas,0.0,0.0,0.0
+SANTA VITORIA DO PALMAR,estupro_vitimas,10.0,18.0,8.0
+SANTANA DA BOA VISTA,estupro_vitimas,2.0,5.0,3.0
+SANTANA DO LIVRAMENTO,estupro_vitimas,14.0,43.0,29.0
+SANTIAGO,estupro_vitimas,14.0,21.0,7.0
+SANTO ANGELO,estupro_vitimas,14.0,43.0,29.0
+SANTO ANTONIO DA PATRULHA,estupro_vitimas,11.0,18.0,7.0
+SANTO ANTONIO DAS MISSOES,estupro_vitimas,4.0,7.0,3.0
+SANTO ANTONIO DO PALMA,estupro_vitimas,0.0,0.0,0.0
+SANTO ANTONIO DO PLANALTO,estupro_vitimas,0.0,0.0,0.0
+SANTO AUGUSTO,estupro_vitimas,6.0,8.0,2.0
+SANTO CRISTO,estupro_vitimas,3.0,3.0,0.0
+SANTO EXPEDITO DO SUL,estupro_vitimas,0.0,0.0,0.0
+SAO BORJA,estupro_vitimas,9.0,20.0,11.0
+SAO DOMINGOS DO SUL,estupro_vitimas,0.0,2.0,2.0
+SAO FRANCISCO DE ASSIS,estupro_vitimas,6.0,9.0,3.0
+SAO FRANCISCO DE PAULA,estupro_vitimas,10.0,19.0,9.0
+SAO GABRIEL,estupro_vitimas,23.0,38.0,15.0
+SAO JERONIMO,estupro_vitimas,2.0,7.0,5.0
+SAO JOAO DA URTIGA,estupro_vitimas,0.0,2.0,2.0
+SAO JOAO DO POLESINE,estupro_vitimas,1.0,2.0,1.0
+SAO JORGE,estupro_vitimas,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,estupro_vitimas,0.0,1.0,1.0
+SAO JOSE DO HERVAL,estupro_vitimas,1.0,3.0,2.0
+SAO JOSE DO HORTENCIO,estupro_vitimas,0.0,4.0,4.0
+SAO JOSE DO INHACORA,estupro_vitimas,0.0,1.0,1.0
+SAO JOSE DO NORTE,estupro_vitimas,5.0,8.0,3.0
+SAO JOSE DO OURO,estupro_vitimas,0.0,2.0,2.0
+SAO JOSE DO SUL,estupro_vitimas,1.0,2.0,1.0
+SAO JOSE DOS AUSENTES,estupro_vitimas,0.0,3.0,3.0
+SAO LEOPOLDO,estupro_vitimas,39.0,93.0,54.0
+SAO LOURENCO DO SUL,estupro_vitimas,5.0,11.0,6.0
+SAO LUIZ GONZAGA,estupro_vitimas,9.0,29.0,20.0
+SAO MARCOS,estupro_vitimas,3.0,5.0,2.0
+SAO MARTINHO,estupro_vitimas,0.0,1.0,1.0
+SAO MARTINHO DA SERRA,estupro_vitimas,0.0,1.0,1.0
+SAO MIGUEL DAS MISSOES,estupro_vitimas,2.0,5.0,3.0
+SAO NICOLAU,estupro_vitimas,1.0,1.0,0.0
+SAO PAULO DAS MISSOES,estupro_vitimas,0.0,1.0,1.0
+SAO PEDRO DA SERRA,estupro_vitimas,2.0,3.0,1.0
+SAO PEDRO DAS MISSOES,estupro_vitimas,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,estupro_vitimas,0.0,0.0,0.0
+SAO PEDRO DO SUL,estupro_vitimas,5.0,18.0,13.0
+SAO SEBASTIAO DO CAI,estupro_vitimas,5.0,17.0,12.0
+SAO SEPE,estupro_vitimas,5.0,15.0,10.0
+SAO VALENTIM,estupro_vitimas,0.0,0.0,0.0
+SAO VALENTIM DO SUL,estupro_vitimas,0.0,0.0,0.0
+SAO VALERIO DO SUL,estupro_vitimas,0.0,0.0,0.0
+SAO VENDELINO,estupro_vitimas,1.0,1.0,0.0
+SAO VICENTE DO SUL,estupro_vitimas,2.0,5.0,3.0
+SAPIRANGA,estupro_vitimas,16.0,27.0,11.0
+SAPUCAIA DO SUL,estupro_vitimas,53.0,84.0,31.0
+SARANDI,estupro_vitimas,4.0,14.0,10.0
+SEBERI,estupro_vitimas,0.0,1.0,1.0
+SEDE NOVA,estupro_vitimas,1.0,2.0,1.0
+SEGREDO,estupro_vitimas,2.0,4.0,2.0
+SELBACH,estupro_vitimas,1.0,2.0,1.0
+SENADOR SALGADO FILHO,estupro_vitimas,0.0,0.0,0.0
+SENTINELA DO SUL,estupro_vitimas,0.0,1.0,1.0
+SERAFINA CORREA,estupro_vitimas,1.0,10.0,9.0
+SERIO,estupro_vitimas,0.0,0.0,0.0
+SERTAO,estupro_vitimas,0.0,0.0,0.0
+SERTAO SANTANA,estupro_vitimas,3.0,4.0,1.0
+SETE DE SETEMBRO,estupro_vitimas,0.0,1.0,1.0
+SEVERIANO DE ALMEIDA,estupro_vitimas,0.0,1.0,1.0
+SILVEIRA MARTINS,estupro_vitimas,0.0,1.0,1.0
+SINIMBU,estupro_vitimas,1.0,1.0,0.0
+SOBRADINHO,estupro_vitimas,2.0,9.0,7.0
+SOLEDADE,estupro_vitimas,3.0,13.0,10.0
+TABAI,estupro_vitimas,0.0,0.0,0.0
+TAPEJARA,estupro_vitimas,7.0,14.0,7.0
+TAPERA,estupro_vitimas,5.0,9.0,4.0
+TAPES,estupro_vitimas,4.0,6.0,2.0
+TAQUARA,estupro_vitimas,16.0,24.0,8.0
+TAQUARI,estupro_vitimas,8.0,16.0,8.0
+TAQUARUCU DO SUL,estupro_vitimas,1.0,2.0,1.0
+TAVARES,estupro_vitimas,0.0,2.0,2.0
+TENENTE PORTELA,estupro_vitimas,1.0,9.0,8.0
+TERRA DE AREIA,estupro_vitimas,5.0,5.0,0.0
+TEUTONIA,estupro_vitimas,0.0,8.0,8.0
+TIO HUGO,estupro_vitimas,0.0,0.0,0.0
+TIRADENTES DO SUL,estupro_vitimas,1.0,2.0,1.0
+TOROPI,estupro_vitimas,0.0,1.0,1.0
+TORRES,estupro_vitimas,11.0,29.0,18.0
+TRAMANDAI,estupro_vitimas,8.0,25.0,17.0
+TRAVESSEIRO,estupro_vitimas,0.0,0.0,0.0
+TRES ARROIOS,estupro_vitimas,0.0,0.0,0.0
+TRES CACHOEIRAS,estupro_vitimas,2.0,4.0,2.0
+TRES COROAS,estupro_vitimas,8.0,11.0,3.0
+TRES DE MAIO,estupro_vitimas,2.0,9.0,7.0
+TRES FORQUILHAS,estupro_vitimas,0.0,0.0,0.0
+TRES PALMEIRAS,estupro_vitimas,1.0,2.0,1.0
+TRES PASSOS,estupro_vitimas,4.0,7.0,3.0
+TRINDADE DO SUL,estupro_vitimas,2.0,6.0,4.0
+TRIUNFO,estupro_vitimas,13.0,17.0,4.0
+TUCUNDUVA,estupro_vitimas,1.0,3.0,2.0
+TUNAS,estupro_vitimas,0.0,0.0,0.0
+TUPANCI DO SUL,estupro_vitimas,0.0,0.0,0.0
+TUPANCIRETA,estupro_vitimas,3.0,7.0,4.0
+TUPANDI,estupro_vitimas,1.0,1.0,0.0
+TUPARENDI,estupro_vitimas,1.0,3.0,2.0
+TURUCU,estupro_vitimas,0.0,3.0,3.0
+UBIRETAMA,estupro_vitimas,0.0,0.0,0.0
+UNIAO DA SERRA,estupro_vitimas,0.0,0.0,0.0
+UNISTALDA,estupro_vitimas,0.0,0.0,0.0
+URUGUAIANA,estupro_vitimas,18.0,76.0,58.0
+VACARIA,estupro_vitimas,10.0,29.0,19.0
+VALE DO SOL,estupro_vitimas,4.0,7.0,3.0
+VALE REAL,estupro_vitimas,2.0,2.0,0.0
+VALE VERDE,estupro_vitimas,0.0,0.0,0.0
+VANINI,estupro_vitimas,0.0,1.0,1.0
+VENANCIO AIRES,estupro_vitimas,18.0,28.0,10.0
+VERA CRUZ,estupro_vitimas,11.0,17.0,6.0
+VERANOPOLIS,estupro_vitimas,4.0,9.0,5.0
+VESPASIANO CORREA,estupro_vitimas,0.0,0.0,0.0
+VIADUTOS,estupro_vitimas,0.0,0.0,0.0
+VIAMAO,estupro_vitimas,73.0,177.0,104.0
+VICENTE DUTRA,estupro_vitimas,1.0,2.0,1.0
+VICTOR GRAEFF,estupro_vitimas,1.0,2.0,1.0
+VILA FLORES,estupro_vitimas,1.0,2.0,1.0
+VILA LANGARO,estupro_vitimas,0.0,0.0,0.0
+VILA MARIA,estupro_vitimas,1.0,3.0,2.0
+VILA NOVA DO SUL,estupro_vitimas,1.0,2.0,1.0
+VISTA ALEGRE,estupro_vitimas,2.0,2.0,0.0
+VISTA ALEGRE DO PRATA,estupro_vitimas,0.0,0.0,0.0
+VISTA GAUCHA,estupro_vitimas,0.0,0.0,0.0
+VITORIA DAS MISSOES,estupro_vitimas,0.0,1.0,1.0
+WESTFALIA,estupro_vitimas,1.0,1.0,0.0
+XANGRI-LA,estupro_vitimas,0.0,7.0,7.0
+XANGRILA,estupro_vitimas,3.0,0.0,-3.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",furto_veiculo_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,furto_veiculo_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,furto_veiculo_oco,0.0,0.0,0.0
+ACEGUA,furto_veiculo_oco,0.0,0.0,0.0
+AGUA SANTA,furto_veiculo_oco,1.0,1.0,0.0
+AGUDO,furto_veiculo_oco,3.0,3.0,0.0
+AJURICABA,furto_veiculo_oco,1.0,1.0,0.0
+ALECRIM,furto_veiculo_oco,4.0,4.0,0.0
+ALEGRETE,furto_veiculo_oco,8.0,8.0,0.0
+ALEGRIA,furto_veiculo_oco,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+ALPESTRE,furto_veiculo_oco,2.0,2.0,0.0
+ALTO ALEGRE,furto_veiculo_oco,0.0,0.0,0.0
+ALTO FELIZ,furto_veiculo_oco,0.0,0.0,0.0
+ALVORADA,furto_veiculo_oco,116.0,116.0,0.0
+AMARAL FERRADOR,furto_veiculo_oco,1.0,1.0,0.0
+AMETISTA DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+ANDRE DA ROCHA,furto_veiculo_oco,0.0,0.0,0.0
+ANTA GORDA,furto_veiculo_oco,4.0,4.0,0.0
+ANTONIO PRADO,furto_veiculo_oco,3.0,3.0,0.0
+ARAMBARE,furto_veiculo_oco,1.0,1.0,0.0
+ARARICA,furto_veiculo_oco,4.0,4.0,0.0
+ARATIBA,furto_veiculo_oco,1.0,1.0,0.0
+ARROIO DO MEIO,furto_veiculo_oco,8.0,8.0,0.0
+ARROIO DO PADRE,furto_veiculo_oco,2.0,2.0,0.0
+ARROIO DO SAL,furto_veiculo_oco,9.0,9.0,0.0
+ARROIO DO TIGRE,furto_veiculo_oco,7.0,7.0,0.0
+ARROIO DOS RATOS,furto_veiculo_oco,5.0,5.0,0.0
+ARROIO GRANDE,furto_veiculo_oco,7.0,7.0,0.0
+ARVOREZINHA,furto_veiculo_oco,2.0,2.0,0.0
+AUGUSTO PESTANA,furto_veiculo_oco,1.0,1.0,0.0
+AUREA,furto_veiculo_oco,0.0,0.0,0.0
+BAGE,furto_veiculo_oco,52.0,52.0,0.0
+BALNEARIO PINHAL,furto_veiculo_oco,8.0,8.0,0.0
+BARAO,furto_veiculo_oco,1.0,1.0,0.0
+BARAO DE COTEGIPE,furto_veiculo_oco,2.0,2.0,0.0
+BARAO DO COTEGIPE,furto_veiculo_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,furto_veiculo_oco,0.0,0.0,0.0
+BARRA DO GUARITA,furto_veiculo_oco,1.0,1.0,0.0
+BARRA DO QUARAI,furto_veiculo_oco,0.0,0.0,0.0
+BARRA DO RIBEIRO,furto_veiculo_oco,2.0,2.0,0.0
+BARRA DO RIO AZUL,furto_veiculo_oco,0.0,0.0,0.0
+BARRA FUNDA,furto_veiculo_oco,0.0,0.0,0.0
+BARRACAO,furto_veiculo_oco,2.0,2.0,0.0
+BARROS CASSAL,furto_veiculo_oco,5.0,5.0,0.0
+BENJAMIN CONSTANT DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+BENTO GONCALVES,furto_veiculo_oco,74.0,74.0,0.0
+BOA VISTA DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO BURICA,furto_veiculo_oco,3.0,3.0,0.0
+BOA VISTA DO CADEADO,furto_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO INCRA,furto_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+BOM JESUS,furto_veiculo_oco,3.0,3.0,0.0
+BOM PRINCIPIO,furto_veiculo_oco,4.0,4.0,0.0
+BOM PROGRESSO,furto_veiculo_oco,0.0,0.0,0.0
+BOM RETIRO DO SUL,furto_veiculo_oco,5.0,5.0,0.0
+BOQUEIRAO DO LEAO,furto_veiculo_oco,0.0,0.0,0.0
+BOSSOROCA,furto_veiculo_oco,1.0,1.0,0.0
+BOZANO,furto_veiculo_oco,0.0,0.0,0.0
+BRAGA,furto_veiculo_oco,1.0,1.0,0.0
+BROCHIER,furto_veiculo_oco,1.0,1.0,0.0
+BUTIA,furto_veiculo_oco,1.0,1.0,0.0
+CACAPAVA DO SUL,furto_veiculo_oco,15.0,15.0,0.0
+CACEQUI,furto_veiculo_oco,1.0,1.0,0.0
+CACHOEIRA DO SUL,furto_veiculo_oco,25.0,25.0,0.0
+CACHOEIRINHA,furto_veiculo_oco,133.0,133.0,0.0
+CACIQUE DOBLE,furto_veiculo_oco,4.0,4.0,0.0
+CAIBATE,furto_veiculo_oco,1.0,1.0,0.0
+CAICARA,furto_veiculo_oco,1.0,1.0,0.0
+CAMAQUA,furto_veiculo_oco,22.0,22.0,0.0
+CAMARGO,furto_veiculo_oco,0.0,0.0,0.0
+CAMBARA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+CAMPESTRE DA SERRA,furto_veiculo_oco,1.0,1.0,0.0
+CAMPINA DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+CAMPINAS DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+CAMPO BOM,furto_veiculo_oco,68.0,68.0,0.0
+CAMPO NOVO,furto_veiculo_oco,2.0,2.0,0.0
+CAMPOS BORGES,furto_veiculo_oco,0.0,0.0,0.0
+CANDELARIA,furto_veiculo_oco,11.0,11.0,0.0
+CANDIDO GODOI,furto_veiculo_oco,4.0,4.0,0.0
+CANDIOTA,furto_veiculo_oco,0.0,0.0,0.0
+CANELA,furto_veiculo_oco,29.0,29.0,0.0
+CANGUCU,furto_veiculo_oco,13.0,13.0,0.0
+CANOAS,furto_veiculo_oco,311.0,311.0,0.0
+CANUDOS DO VALE,furto_veiculo_oco,0.0,0.0,0.0
+CAPAO BONITO DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+CAPAO DA CANOA,furto_veiculo_oco,62.0,62.0,0.0
+CAPAO DO CIPO,furto_veiculo_oco,0.0,0.0,0.0
+CAPAO DO LEAO,furto_veiculo_oco,7.0,7.0,0.0
+CAPELA DE SANTANA,furto_veiculo_oco,4.0,4.0,0.0
+CAPITAO,furto_veiculo_oco,1.0,1.0,0.0
+CAPIVARI DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+CARAA,furto_veiculo_oco,2.0,2.0,0.0
+CARAZINHO,furto_veiculo_oco,53.0,53.0,0.0
+CARLOS BARBOSA,furto_veiculo_oco,7.0,7.0,0.0
+CARLOS GOMES,furto_veiculo_oco,0.0,0.0,0.0
+CASCA,furto_veiculo_oco,16.0,16.0,0.0
+CASEIROS,furto_veiculo_oco,2.0,2.0,0.0
+CATUIPE,furto_veiculo_oco,3.0,3.0,0.0
+CAXIAS DO SUL,furto_veiculo_oco,576.0,574.0,-2.0
+CENTENARIO,furto_veiculo_oco,0.0,0.0,0.0
+CERRITO,furto_veiculo_oco,0.0,0.0,0.0
+CERRO BRANCO,furto_veiculo_oco,0.0,0.0,0.0
+CERRO GRANDE,furto_veiculo_oco,2.0,2.0,0.0
+CERRO GRANDE DO SUL,furto_veiculo_oco,4.0,4.0,0.0
+CERRO LARGO,furto_veiculo_oco,2.0,2.0,0.0
+CHAPADA,furto_veiculo_oco,0.0,0.0,0.0
+CHARQUEADAS,furto_veiculo_oco,5.0,5.0,0.0
+CHARRUA,furto_veiculo_oco,0.0,0.0,0.0
+CHIAPETTA,furto_veiculo_oco,3.0,3.0,0.0
+CHUI,furto_veiculo_oco,3.0,3.0,0.0
+CHUVISCA,furto_veiculo_oco,4.0,4.0,0.0
+CIDREIRA,furto_veiculo_oco,17.0,17.0,0.0
+CIRIACO,furto_veiculo_oco,5.0,5.0,0.0
+COLINAS,furto_veiculo_oco,0.0,0.0,0.0
+COLORADO,furto_veiculo_oco,1.0,1.0,0.0
+CONDOR,furto_veiculo_oco,0.0,0.0,0.0
+CONSTANTINA,furto_veiculo_oco,2.0,2.0,0.0
+COQUEIRO BAIXO,furto_veiculo_oco,1.0,1.0,0.0
+COQUEIROS DO SUL,furto_veiculo_oco,3.0,3.0,0.0
+CORONEL BARROS,furto_veiculo_oco,1.0,1.0,0.0
+CORONEL BICACO,furto_veiculo_oco,2.0,2.0,0.0
+CORONEL PILAR,furto_veiculo_oco,0.0,0.0,0.0
+COTIPORA,furto_veiculo_oco,0.0,0.0,0.0
+COXILHA,furto_veiculo_oco,1.0,1.0,0.0
+CRISSIUMAL,furto_veiculo_oco,0.0,0.0,0.0
+CRISTAL,furto_veiculo_oco,5.0,5.0,0.0
+CRISTAL DO SUL,furto_veiculo_oco,4.0,4.0,0.0
+CRUZ ALTA,furto_veiculo_oco,17.0,17.0,0.0
+CRUZALTENSE,furto_veiculo_oco,0.0,0.0,0.0
+CRUZEIRO DO SUL,furto_veiculo_oco,5.0,5.0,0.0
+DAVID CANABARRO,furto_veiculo_oco,0.0,0.0,0.0
+DERRUBADAS,furto_veiculo_oco,1.0,1.0,0.0
+DEZESSEIS DE NOVEMBRO,furto_veiculo_oco,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,furto_veiculo_oco,0.0,0.0,0.0
+DOIS IRMAOS,furto_veiculo_oco,4.0,4.0,0.0
+DOIS IRMAOS DAS MISSOES,furto_veiculo_oco,2.0,2.0,0.0
+DOIS LAJEADOS,furto_veiculo_oco,0.0,0.0,0.0
+DOM FELICIANO,furto_veiculo_oco,4.0,4.0,0.0
+DOM PEDRITO,furto_veiculo_oco,9.0,9.0,0.0
+DOM PEDRO DE ALCANTARA,furto_veiculo_oco,0.0,0.0,0.0
+DONA FRANCISCA,furto_veiculo_oco,1.0,1.0,0.0
+DOUTOR RICARDO,furto_veiculo_oco,1.0,1.0,0.0
+DR MAURICIO CARDOSO,furto_veiculo_oco,0.0,0.0,0.0
+ELDORADO DO SUL,furto_veiculo_oco,21.0,21.0,0.0
+ENCANTADO,furto_veiculo_oco,8.0,8.0,0.0
+ENCRUZILHADA DO SUL,furto_veiculo_oco,6.0,6.0,0.0
+ENGENHO VELHO,furto_veiculo_oco,1.0,1.0,0.0
+ENTRE IJUIS,furto_veiculo_oco,1.0,1.0,0.0
+ENTRE RIOS DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+EREBANGO,furto_veiculo_oco,1.0,1.0,0.0
+ERECHIM,furto_veiculo_oco,46.0,46.0,0.0
+ERNESTINA,furto_veiculo_oco,1.0,1.0,0.0
+ERVAL GRANDE,furto_veiculo_oco,1.0,1.0,0.0
+ERVAL SECO,furto_veiculo_oco,1.0,1.0,0.0
+ESMERALDA,furto_veiculo_oco,3.0,3.0,0.0
+ESPERANCA DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+ESPUMOSO,furto_veiculo_oco,8.0,8.0,0.0
+ESTACAO,furto_veiculo_oco,2.0,2.0,0.0
+ESTANCIA VELHA,furto_veiculo_oco,32.0,33.0,1.0
+ESTEIO,furto_veiculo_oco,47.0,47.0,0.0
+ESTRELA,furto_veiculo_oco,23.0,23.0,0.0
+ESTRELA VELHA,furto_veiculo_oco,2.0,2.0,0.0
+EUGENIO DE CASTRO,furto_veiculo_oco,1.0,1.0,0.0
+FAGUNDES VARELA,furto_veiculo_oco,1.0,1.0,0.0
+FARROUPILHA,furto_veiculo_oco,51.0,51.0,0.0
+FAXINAL DO SOTURNO,furto_veiculo_oco,3.0,3.0,0.0
+FAXINALZINHO,furto_veiculo_oco,0.0,0.0,0.0
+FAZENDA VILA NOVA,furto_veiculo_oco,1.0,1.0,0.0
+FELIZ,furto_veiculo_oco,5.0,5.0,0.0
+FLORES DA CUNHA,furto_veiculo_oco,18.0,18.0,0.0
+FLORIANO PEIXOTO,furto_veiculo_oco,0.0,0.0,0.0
+FONTOURA XAVIER,furto_veiculo_oco,1.0,1.0,0.0
+FORMIGUEIRO,furto_veiculo_oco,0.0,0.0,0.0
+FORQUETINHA,furto_veiculo_oco,1.0,1.0,0.0
+FORTALEZA DOS VALOS,furto_veiculo_oco,0.0,0.0,0.0
+FREDERICO WESTPHALEN,furto_veiculo_oco,10.0,10.0,0.0
+GARIBALDI,furto_veiculo_oco,13.0,13.0,0.0
+GARRUCHOS,furto_veiculo_oco,0.0,0.0,0.0
+GAURAMA,furto_veiculo_oco,0.0,0.0,0.0
+GENERAL CAMARA,furto_veiculo_oco,4.0,4.0,0.0
+GENTIL,furto_veiculo_oco,0.0,0.0,0.0
+GERAL,furto_veiculo_oco,0.0,0.0,0.0
+GETULIO VARGAS,furto_veiculo_oco,1.0,1.0,0.0
+GIRUA,furto_veiculo_oco,1.0,1.0,0.0
+GLORINHA,furto_veiculo_oco,0.0,0.0,0.0
+GRAMADO,furto_veiculo_oco,12.0,12.0,0.0
+GRAMADO DOS LOUREIROS,furto_veiculo_oco,4.0,4.0,0.0
+GRAMADO XAVIER,furto_veiculo_oco,1.0,1.0,0.0
+GRAVATAI,furto_veiculo_oco,210.0,211.0,1.0
+GUABIJU,furto_veiculo_oco,0.0,0.0,0.0
+GUAIBA,furto_veiculo_oco,29.0,29.0,0.0
+GUAPORE,furto_veiculo_oco,4.0,4.0,0.0
+GUARANI DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+HARMONIA,furto_veiculo_oco,0.0,0.0,0.0
+HERVAL,furto_veiculo_oco,1.0,1.0,0.0
+HERVEIRAS,furto_veiculo_oco,0.0,0.0,0.0
+HORIZONTINA,furto_veiculo_oco,3.0,3.0,0.0
+HULHA NEGRA,furto_veiculo_oco,0.0,0.0,0.0
+HUMAITA,furto_veiculo_oco,2.0,2.0,0.0
+IBARAMA,furto_veiculo_oco,4.0,4.0,0.0
+IBIACA,furto_veiculo_oco,0.0,0.0,0.0
+IBIRAIARAS,furto_veiculo_oco,0.0,0.0,0.0
+IBIRAPUITA,furto_veiculo_oco,1.0,1.0,0.0
+IBIRUBA,furto_veiculo_oco,7.0,7.0,0.0
+IGREJINHA,furto_veiculo_oco,16.0,16.0,0.0
+IJUI,furto_veiculo_oco,62.0,62.0,0.0
+ILOPOLIS,furto_veiculo_oco,2.0,2.0,0.0
+IMBE,furto_veiculo_oco,26.0,26.0,0.0
+IMIGRANTE,furto_veiculo_oco,0.0,0.0,0.0
+INDEPENDENCIA,furto_veiculo_oco,0.0,0.0,0.0
+INHACORA,furto_veiculo_oco,0.0,0.0,0.0
+IPE,furto_veiculo_oco,1.0,1.0,0.0
+IPIRANGA DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+IRAI,furto_veiculo_oco,1.0,1.0,0.0
+ITAARA,furto_veiculo_oco,1.0,1.0,0.0
+ITACURUBI,furto_veiculo_oco,0.0,0.0,0.0
+ITAPUCA,furto_veiculo_oco,1.0,1.0,0.0
+ITAQUI,furto_veiculo_oco,4.0,4.0,0.0
+ITATI,furto_veiculo_oco,0.0,0.0,0.0
+ITATIBA DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+IVORA,furto_veiculo_oco,0.0,0.0,0.0
+IVOTI,furto_veiculo_oco,6.0,6.0,0.0
+JABOTICABA,furto_veiculo_oco,1.0,1.0,0.0
+JACUIZINHO,furto_veiculo_oco,2.0,2.0,0.0
+JACUTINGA,furto_veiculo_oco,0.0,0.0,0.0
+JAGUARAO,furto_veiculo_oco,16.0,16.0,0.0
+JAGUARI,furto_veiculo_oco,1.0,1.0,0.0
+JAQUIRANA,furto_veiculo_oco,0.0,0.0,0.0
+JARI,furto_veiculo_oco,1.0,1.0,0.0
+JOIA,furto_veiculo_oco,0.0,0.0,0.0
+JULIO DE CASTILHOS,furto_veiculo_oco,3.0,3.0,0.0
+LAGOA BONITA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+LAGOA DOS TRES CANTOS,furto_veiculo_oco,0.0,0.0,0.0
+LAGOA VERMELHA,furto_veiculo_oco,12.0,12.0,0.0
+LAGOAO,furto_veiculo_oco,0.0,0.0,0.0
+LAJEADO,furto_veiculo_oco,65.0,65.0,0.0
+LAJEADO DO BUGRE,furto_veiculo_oco,2.0,2.0,0.0
+LAVRAS DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+LIBERATO SALZANO,furto_veiculo_oco,0.0,0.0,0.0
+LINDOLFO COLLOR,furto_veiculo_oco,1.0,1.0,0.0
+LINHA NOVA,furto_veiculo_oco,0.0,0.0,0.0
+MACAMBARA,furto_veiculo_oco,0.0,0.0,0.0
+MACHADINHO,furto_veiculo_oco,3.0,3.0,0.0
+MAMPITUBA,furto_veiculo_oco,0.0,0.0,0.0
+MANOEL VIANA,furto_veiculo_oco,2.0,2.0,0.0
+MAQUINE,furto_veiculo_oco,2.0,2.0,0.0
+MARATA,furto_veiculo_oco,0.0,0.0,0.0
+MARAU,furto_veiculo_oco,26.0,26.0,0.0
+MARCELINO RAMOS,furto_veiculo_oco,2.0,2.0,0.0
+MARIANA PIMENTEL,furto_veiculo_oco,2.0,2.0,0.0
+MARIANO MORO,furto_veiculo_oco,1.0,1.0,0.0
+MARQUES DE SOUZA,furto_veiculo_oco,0.0,0.0,0.0
+MATA,furto_veiculo_oco,1.0,1.0,0.0
+MATO CASTELHANO,furto_veiculo_oco,1.0,1.0,0.0
+MATO LEITAO,furto_veiculo_oco,1.0,1.0,0.0
+MATO QUEIMADO,furto_veiculo_oco,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,furto_veiculo_oco,5.0,5.0,0.0
+MINAS DO LEAO,furto_veiculo_oco,2.0,2.0,0.0
+MIRAGUAI,furto_veiculo_oco,3.0,3.0,0.0
+MONTAURI,furto_veiculo_oco,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,furto_veiculo_oco,0.0,0.0,0.0
+MONTE BELO DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+MONTENEGRO,furto_veiculo_oco,21.0,21.0,0.0
+MORMACO,furto_veiculo_oco,0.0,0.0,0.0
+MORRINHOS DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+MORRO REDONDO,furto_veiculo_oco,0.0,0.0,0.0
+MORRO REUTER,furto_veiculo_oco,1.0,1.0,0.0
+MOSTARDAS,furto_veiculo_oco,2.0,2.0,0.0
+MUCUM,furto_veiculo_oco,1.0,1.0,0.0
+MUITOS CAPOES,furto_veiculo_oco,1.0,1.0,0.0
+MULITERNO,furto_veiculo_oco,0.0,0.0,0.0
+NAN,furto_veiculo_oco,0.0,0.0,0.0
+NAN,furto_veiculo_oco,0.0,0.0,0.0
+NAO ME TOQUE,furto_veiculo_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,furto_veiculo_oco,2.0,2.0,0.0
+NICOLAU VERGUEIRO,furto_veiculo_oco,0.0,0.0,0.0
+NONOAI,furto_veiculo_oco,5.0,5.0,0.0
+NOVA ALVORADA,furto_veiculo_oco,3.0,3.0,0.0
+NOVA ARACA,furto_veiculo_oco,3.0,3.0,0.0
+NOVA BASSANO,furto_veiculo_oco,0.0,0.0,0.0
+NOVA BOA VISTA,furto_veiculo_oco,0.0,0.0,0.0
+NOVA BRESCIA,furto_veiculo_oco,0.0,0.0,0.0
+NOVA CANDELARIA,furto_veiculo_oco,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+NOVA HARTZ,furto_veiculo_oco,6.0,6.0,0.0
+NOVA PADUA,furto_veiculo_oco,2.0,2.0,0.0
+NOVA PALMA,furto_veiculo_oco,0.0,0.0,0.0
+NOVA PETROPOLIS,furto_veiculo_oco,4.0,4.0,0.0
+NOVA PRATA,furto_veiculo_oco,11.0,11.0,0.0
+NOVA RAMADA,furto_veiculo_oco,1.0,1.0,0.0
+NOVA ROMA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+NOVA SANTA RITA,furto_veiculo_oco,18.0,18.0,0.0
+NOVO BARREIRO,furto_veiculo_oco,1.0,1.0,0.0
+NOVO CABRAIS,furto_veiculo_oco,2.0,2.0,0.0
+NOVO HAMBURGO,furto_veiculo_oco,238.0,238.0,0.0
+NOVO MACHADO,furto_veiculo_oco,2.0,2.0,0.0
+NOVO TIRADENTES,furto_veiculo_oco,0.0,0.0,0.0
+NOVO XINGU,furto_veiculo_oco,0.0,0.0,0.0
+OSORIO,furto_veiculo_oco,33.0,33.0,0.0
+PAIM FILHO,furto_veiculo_oco,0.0,0.0,0.0
+PALMARES DO SUL,furto_veiculo_oco,4.0,4.0,0.0
+PALMEIRA DAS MISSOES,furto_veiculo_oco,45.0,45.0,0.0
+PALMITINHO,furto_veiculo_oco,5.0,5.0,0.0
+PANAMBI,furto_veiculo_oco,18.0,18.0,0.0
+PANTANO GRANDE,furto_veiculo_oco,3.0,3.0,0.0
+PARAI,furto_veiculo_oco,3.0,3.0,0.0
+PARAISO DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+PARECI NOVO,furto_veiculo_oco,2.0,2.0,0.0
+PAROBE,furto_veiculo_oco,25.0,25.0,0.0
+PASSA SETE,furto_veiculo_oco,2.0,2.0,0.0
+PASSO DO SOBRADO,furto_veiculo_oco,0.0,0.0,0.0
+PASSO FUNDO,furto_veiculo_oco,272.0,272.0,0.0
+PAULO BENTO,furto_veiculo_oco,0.0,0.0,0.0
+PAVERAMA,furto_veiculo_oco,0.0,0.0,0.0
+PEDRAS ALTAS,furto_veiculo_oco,0.0,0.0,0.0
+PEDRO OSORIO,furto_veiculo_oco,0.0,0.0,0.0
+PEJUCARA,furto_veiculo_oco,0.0,0.0,0.0
+PELOTAS,furto_veiculo_oco,103.0,103.0,0.0
+PICADA CAFE,furto_veiculo_oco,1.0,1.0,0.0
+PINHAL,furto_veiculo_oco,3.0,3.0,0.0
+PINHAL DA SERRA,furto_veiculo_oco,1.0,1.0,0.0
+PINHAL GRANDE,furto_veiculo_oco,0.0,0.0,0.0
+PINHEIRINHO DO VALE,furto_veiculo_oco,2.0,2.0,0.0
+PINHEIRO MACHADO,furto_veiculo_oco,3.0,3.0,0.0
+PINTO BANDEIRA,furto_veiculo_oco,1.0,0.0,-1.0
+PINTO BANDEIRA (BENTO GONC),furto_veiculo_oco,0.0,1.0,1.0
+PIRAPO,furto_veiculo_oco,0.0,0.0,0.0
+PIRATINI,furto_veiculo_oco,7.0,7.0,0.0
+PLANALTO,furto_veiculo_oco,5.0,5.0,0.0
+POCO DAS ANTAS,furto_veiculo_oco,0.0,0.0,0.0
+PONTAO,furto_veiculo_oco,1.0,1.0,0.0
+PONTE PRETA,furto_veiculo_oco,1.0,1.0,0.0
+PORTAO,furto_veiculo_oco,30.0,30.0,0.0
+PORTO ALEGRE,furto_veiculo_oco,1274.0,1274.0,0.0
+PORTO LUCENA,furto_veiculo_oco,1.0,1.0,0.0
+PORTO MAUA,furto_veiculo_oco,1.0,1.0,0.0
+PORTO VERA CRUZ,furto_veiculo_oco,0.0,0.0,0.0
+PORTO XAVIER,furto_veiculo_oco,1.0,1.0,0.0
+POUSO NOVO,furto_veiculo_oco,0.0,0.0,0.0
+PRESIDENTE LUCENA,furto_veiculo_oco,0.0,0.0,0.0
+PROGRESSO,furto_veiculo_oco,2.0,2.0,0.0
+PROTASIO ALVES,furto_veiculo_oco,0.0,0.0,0.0
+PUTINGA,furto_veiculo_oco,0.0,0.0,0.0
+QUARAI,furto_veiculo_oco,4.0,4.0,0.0
+QUATRO IRMAOS,furto_veiculo_oco,0.0,0.0,0.0
+QUEVEDOS,furto_veiculo_oco,2.0,2.0,0.0
+QUINZE DE NOVEMBRO,furto_veiculo_oco,2.0,2.0,0.0
+REDENTORA,furto_veiculo_oco,5.0,5.0,0.0
+RELVADO,furto_veiculo_oco,0.0,0.0,0.0
+RESTINGA SECA,furto_veiculo_oco,6.0,6.0,0.0
+RIO DOS INDIOS,furto_veiculo_oco,0.0,0.0,0.0
+RIO GRANDE,furto_veiculo_oco,60.0,60.0,0.0
+RIO PARDO,furto_veiculo_oco,7.0,7.0,0.0
+RIOZINHO,furto_veiculo_oco,2.0,2.0,0.0
+ROCA SALES,furto_veiculo_oco,5.0,5.0,0.0
+RODEIO BONITO,furto_veiculo_oco,1.0,1.0,0.0
+ROLADOR,furto_veiculo_oco,0.0,0.0,0.0
+ROLANTE,furto_veiculo_oco,2.0,2.0,0.0
+RONDA ALTA,furto_veiculo_oco,3.0,3.0,0.0
+RONDINHA,furto_veiculo_oco,0.0,0.0,0.0
+ROQUE GONZALES,furto_veiculo_oco,1.0,1.0,0.0
+ROSARIO DO SUL,furto_veiculo_oco,15.0,15.0,0.0
+SAGRADA FAMILIA,furto_veiculo_oco,2.0,2.0,0.0
+SALDANHA MARINHO,furto_veiculo_oco,0.0,0.0,0.0
+SALTO DO JACUI,furto_veiculo_oco,3.0,3.0,0.0
+SALVADOR DAS MISSOES,furto_veiculo_oco,1.0,1.0,0.0
+SALVADOR DO SUL,furto_veiculo_oco,3.0,3.0,0.0
+SANANDUVA,furto_veiculo_oco,1.0,1.0,0.0
+SANTA BARBARA DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+SANTA CECILIA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+SANTA CLARA DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+SANTA CRUZ DO SUL,furto_veiculo_oco,79.0,79.0,0.0
+SANTA MARGARIDA DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+SANTA MARIA,furto_veiculo_oco,139.0,139.0,0.0
+SANTA MARIA DO HERVAL,furto_veiculo_oco,2.0,2.0,0.0
+SANTA ROSA,furto_veiculo_oco,19.0,19.0,0.0
+SANTA TEREZA,furto_veiculo_oco,1.0,0.0,-1.0
+SANTA VITORIA DO PALMAR,furto_veiculo_oco,9.0,9.0,0.0
+SANTANA DA BOA VISTA,furto_veiculo_oco,0.0,0.0,0.0
+SANTANA DO LIVRAMENTO,furto_veiculo_oco,51.0,51.0,0.0
+SANTIAGO,furto_veiculo_oco,7.0,7.0,0.0
+SANTO ANGELO,furto_veiculo_oco,52.0,52.0,0.0
+SANTO ANTONIO DA PATRULHA,furto_veiculo_oco,44.0,44.0,0.0
+SANTO ANTONIO DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PALMA,furto_veiculo_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PLANALTO,furto_veiculo_oco,0.0,0.0,0.0
+SANTO AUGUSTO,furto_veiculo_oco,6.0,6.0,0.0
+SANTO CRISTO,furto_veiculo_oco,1.0,1.0,0.0
+SANTO EXPEDITO DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+SAO BORJA,furto_veiculo_oco,6.0,6.0,0.0
+SAO DOMINGOS DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+SAO FRANCISCO DE ASSIS,furto_veiculo_oco,2.0,2.0,0.0
+SAO FRANCISCO DE PAULA,furto_veiculo_oco,5.0,5.0,0.0
+SAO GABRIEL,furto_veiculo_oco,17.0,17.0,0.0
+SAO JERONIMO,furto_veiculo_oco,10.0,10.0,0.0
+SAO JOAO DA URTIGA,furto_veiculo_oco,6.0,6.0,0.0
+SAO JOAO DO POLESINE,furto_veiculo_oco,0.0,0.0,0.0
+SAO JORGE,furto_veiculo_oco,1.0,1.0,0.0
+SAO JOSE DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO HERVAL,furto_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO HORTENCIO,furto_veiculo_oco,1.0,1.0,0.0
+SAO JOSE DO INHACORA,furto_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO NORTE,furto_veiculo_oco,4.0,4.0,0.0
+SAO JOSE DO OURO,furto_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DOS AUSENTES,furto_veiculo_oco,2.0,2.0,0.0
+SAO LEOPOLDO,furto_veiculo_oco,283.0,283.0,0.0
+SAO LOURENCO DO SUL,furto_veiculo_oco,10.0,10.0,0.0
+SAO LUIZ GONZAGA,furto_veiculo_oco,17.0,17.0,0.0
+SAO MARCOS,furto_veiculo_oco,10.0,10.0,0.0
+SAO MARTINHO,furto_veiculo_oco,0.0,0.0,0.0
+SAO MARTINHO DA SERRA,furto_veiculo_oco,1.0,1.0,0.0
+SAO MIGUEL DAS MISSOES,furto_veiculo_oco,1.0,1.0,0.0
+SAO NICOLAU,furto_veiculo_oco,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,furto_veiculo_oco,1.0,1.0,0.0
+SAO PEDRO DA SERRA,furto_veiculo_oco,1.0,1.0,0.0
+SAO PEDRO DAS MISSOES,furto_veiculo_oco,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,furto_veiculo_oco,0.0,0.0,0.0
+SAO PEDRO DO SUL,furto_veiculo_oco,8.0,8.0,0.0
+SAO SEBASTIAO DO CAI,furto_veiculo_oco,14.0,14.0,0.0
+SAO SEPE,furto_veiculo_oco,7.0,7.0,0.0
+SAO VALENTIM,furto_veiculo_oco,0.0,0.0,0.0
+SAO VALENTIM DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+SAO VALERIO DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+SAO VENDELINO,furto_veiculo_oco,0.0,0.0,0.0
+SAO VICENTE DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+SAPIRANGA,furto_veiculo_oco,58.0,58.0,0.0
+SAPUCAIA DO SUL,furto_veiculo_oco,132.0,132.0,0.0
+SARANDI,furto_veiculo_oco,7.0,7.0,0.0
+SEBERI,furto_veiculo_oco,12.0,12.0,0.0
+SEDE NOVA,furto_veiculo_oco,0.0,0.0,0.0
+SEGREDO,furto_veiculo_oco,1.0,1.0,0.0
+SELBACH,furto_veiculo_oco,3.0,3.0,0.0
+SENADOR SALGADO FILHO,furto_veiculo_oco,0.0,0.0,0.0
+SENTINELA DO SUL,furto_veiculo_oco,2.0,2.0,0.0
+SERAFINA CORREA,furto_veiculo_oco,2.0,2.0,0.0
+SERIO,furto_veiculo_oco,0.0,0.0,0.0
+SERTAO,furto_veiculo_oco,1.0,1.0,0.0
+SERTAO SANTANA,furto_veiculo_oco,0.0,0.0,0.0
+SETE DE SETEMBRO,furto_veiculo_oco,1.0,1.0,0.0
+SEVERIANO DE ALMEIDA,furto_veiculo_oco,0.0,0.0,0.0
+SILVEIRA MARTINS,furto_veiculo_oco,1.0,1.0,0.0
+SINIMBU,furto_veiculo_oco,4.0,4.0,0.0
+SOBRADINHO,furto_veiculo_oco,4.0,4.0,0.0
+SOLEDADE,furto_veiculo_oco,26.0,26.0,0.0
+TABAI,furto_veiculo_oco,3.0,3.0,0.0
+TAPEJARA,furto_veiculo_oco,15.0,15.0,0.0
+TAPERA,furto_veiculo_oco,4.0,4.0,0.0
+TAPES,furto_veiculo_oco,7.0,7.0,0.0
+TAQUARA,furto_veiculo_oco,27.0,27.0,0.0
+TAQUARI,furto_veiculo_oco,7.0,7.0,0.0
+TAQUARUCU DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+TAVARES,furto_veiculo_oco,0.0,0.0,0.0
+TENENTE PORTELA,furto_veiculo_oco,5.0,5.0,0.0
+TERRA DE AREIA,furto_veiculo_oco,10.0,10.0,0.0
+TEUTONIA,furto_veiculo_oco,12.0,12.0,0.0
+TIO HUGO,furto_veiculo_oco,1.0,1.0,0.0
+TIRADENTES DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+TOROPI,furto_veiculo_oco,0.0,0.0,0.0
+TORRES,furto_veiculo_oco,38.0,38.0,0.0
+TRAMANDAI,furto_veiculo_oco,68.0,68.0,0.0
+TRAVESSEIRO,furto_veiculo_oco,0.0,0.0,0.0
+TRES ARROIOS,furto_veiculo_oco,1.0,1.0,0.0
+TRES CACHOEIRAS,furto_veiculo_oco,6.0,6.0,0.0
+TRES COROAS,furto_veiculo_oco,4.0,4.0,0.0
+TRES DE MAIO,furto_veiculo_oco,7.0,7.0,0.0
+TRES FORQUILHAS,furto_veiculo_oco,0.0,0.0,0.0
+TRES PALMEIRAS,furto_veiculo_oco,1.0,1.0,0.0
+TRES PASSOS,furto_veiculo_oco,9.0,9.0,0.0
+TRINDADE DO SUL,furto_veiculo_oco,1.0,1.0,0.0
+TRIUNFO,furto_veiculo_oco,3.0,3.0,0.0
+TUCUNDUVA,furto_veiculo_oco,1.0,1.0,0.0
+TUNAS,furto_veiculo_oco,2.0,2.0,0.0
+TUPANCI DO SUL,furto_veiculo_oco,0.0,0.0,0.0
+TUPANCIRETA,furto_veiculo_oco,5.0,5.0,0.0
+TUPANDI,furto_veiculo_oco,0.0,0.0,0.0
+TUPARENDI,furto_veiculo_oco,2.0,2.0,0.0
+TURUCU,furto_veiculo_oco,0.0,0.0,0.0
+UBIRETAMA,furto_veiculo_oco,1.0,1.0,0.0
+UNIAO DA SERRA,furto_veiculo_oco,0.0,0.0,0.0
+UNISTALDA,furto_veiculo_oco,1.0,1.0,0.0
+URUGUAIANA,furto_veiculo_oco,33.0,33.0,0.0
+VACARIA,furto_veiculo_oco,38.0,38.0,0.0
+VALE DO SOL,furto_veiculo_oco,5.0,5.0,0.0
+VALE REAL,furto_veiculo_oco,3.0,3.0,0.0
+VALE VERDE,furto_veiculo_oco,1.0,1.0,0.0
+VANINI,furto_veiculo_oco,0.0,0.0,0.0
+VENANCIO AIRES,furto_veiculo_oco,36.0,36.0,0.0
+VERA CRUZ,furto_veiculo_oco,21.0,21.0,0.0
+VERANOPOLIS,furto_veiculo_oco,1.0,1.0,0.0
+VESPASIANO CORREA,furto_veiculo_oco,0.0,0.0,0.0
+VIADUTOS,furto_veiculo_oco,2.0,2.0,0.0
+VIAMAO,furto_veiculo_oco,131.0,131.0,0.0
+VICENTE DUTRA,furto_veiculo_oco,1.0,1.0,0.0
+VICTOR GRAEFF,furto_veiculo_oco,1.0,1.0,0.0
+VILA FLORES,furto_veiculo_oco,0.0,0.0,0.0
+VILA LANGARO,furto_veiculo_oco,0.0,0.0,0.0
+VILA MARIA,furto_veiculo_oco,5.0,5.0,0.0
+VILA NOVA DO SUL,furto_veiculo_oco,6.0,6.0,0.0
+VISTA ALEGRE,furto_veiculo_oco,2.0,2.0,0.0
+VISTA ALEGRE DO PRATA,furto_veiculo_oco,2.0,2.0,0.0
+VISTA GAUCHA,furto_veiculo_oco,0.0,0.0,0.0
+VITORIA DAS MISSOES,furto_veiculo_oco,1.0,1.0,0.0
+WESTFALIA,furto_veiculo_oco,2.0,2.0,0.0
+XANGRI-LA,furto_veiculo_oco,10.0,10.0,0.0
+XANGRILA,furto_veiculo_oco,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",furtos_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,furtos_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,furtos_oco,0.0,0.0,0.0
+ACEGUA,furtos_oco,27.0,27.0,0.0
+AGUA SANTA,furtos_oco,17.0,17.0,0.0
+AGUDO,furtos_oco,75.0,75.0,0.0
+AJURICABA,furtos_oco,21.0,21.0,0.0
+ALECRIM,furtos_oco,29.0,29.0,0.0
+ALEGRETE,furtos_oco,593.0,594.0,1.0
+ALEGRIA,furtos_oco,23.0,23.0,0.0
+ALMIRANTE TAMANDARE DO SUL,furtos_oco,12.0,12.0,0.0
+ALPESTRE,furtos_oco,39.0,39.0,0.0
+ALTO ALEGRE,furtos_oco,2.0,2.0,0.0
+ALTO FELIZ,furtos_oco,6.0,6.0,0.0
+ALVORADA,furtos_oco,1335.0,1335.0,0.0
+AMARAL FERRADOR,furtos_oco,13.0,13.0,0.0
+AMETISTA DO SUL,furtos_oco,61.0,61.0,0.0
+ANDRE DA ROCHA,furtos_oco,8.0,8.0,0.0
+ANTA GORDA,furtos_oco,24.0,24.0,0.0
+ANTONIO PRADO,furtos_oco,69.0,69.0,0.0
+ARAMBARE,furtos_oco,51.0,51.0,0.0
+ARARICA,furtos_oco,53.0,53.0,0.0
+ARATIBA,furtos_oco,39.0,39.0,0.0
+ARROIO DO MEIO,furtos_oco,156.0,156.0,0.0
+ARROIO DO PADRE,furtos_oco,5.0,5.0,0.0
+ARROIO DO SAL,furtos_oco,230.0,230.0,0.0
+ARROIO DO TIGRE,furtos_oco,48.0,48.0,0.0
+ARROIO DOS RATOS,furtos_oco,141.0,141.0,0.0
+ARROIO GRANDE,furtos_oco,120.0,120.0,0.0
+ARVOREZINHA,furtos_oco,47.0,47.0,0.0
+AUGUSTO PESTANA,furtos_oco,21.0,21.0,0.0
+AUREA,furtos_oco,9.0,9.0,0.0
+BAGE,furtos_oco,1193.0,1193.0,0.0
+BALNEARIO PINHAL,furtos_oco,183.0,183.0,0.0
+BARAO,furtos_oco,13.0,13.0,0.0
+BARAO DE COTEGIPE,furtos_oco,40.0,40.0,0.0
+BARAO DO COTEGIPE,furtos_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,furtos_oco,23.0,23.0,0.0
+BARRA DO GUARITA,furtos_oco,9.0,9.0,0.0
+BARRA DO QUARAI,furtos_oco,32.0,32.0,0.0
+BARRA DO RIBEIRO,furtos_oco,93.0,93.0,0.0
+BARRA DO RIO AZUL,furtos_oco,11.0,11.0,0.0
+BARRA FUNDA,furtos_oco,3.0,3.0,0.0
+BARRACAO,furtos_oco,31.0,31.0,0.0
+BARROS CASSAL,furtos_oco,101.0,101.0,0.0
+BENJAMIN CONSTANT DO SUL,furtos_oco,2.0,2.0,0.0
+BENTO GONCALVES,furtos_oco,953.0,953.0,0.0
+BOA VISTA DAS MISSOES,furtos_oco,10.0,10.0,0.0
+BOA VISTA DO BURICA,furtos_oco,17.0,17.0,0.0
+BOA VISTA DO CADEADO,furtos_oco,22.0,22.0,0.0
+BOA VISTA DO INCRA,furtos_oco,15.0,15.0,0.0
+BOA VISTA DO SUL,furtos_oco,5.0,5.0,0.0
+BOM JESUS,furtos_oco,74.0,74.0,0.0
+BOM PRINCIPIO,furtos_oco,63.0,63.0,0.0
+BOM PROGRESSO,furtos_oco,8.0,8.0,0.0
+BOM RETIRO DO SUL,furtos_oco,51.0,51.0,0.0
+BOQUEIRAO DO LEAO,furtos_oco,28.0,28.0,0.0
+BOSSOROCA,furtos_oco,38.0,38.0,0.0
+BOZANO,furtos_oco,9.0,9.0,0.0
+BRAGA,furtos_oco,16.0,16.0,0.0
+BROCHIER,furtos_oco,15.0,15.0,0.0
+BUTIA,furtos_oco,128.0,128.0,0.0
+CACAPAVA DO SUL,furtos_oco,225.0,225.0,0.0
+CACEQUI,furtos_oco,114.0,114.0,0.0
+CACHOEIRA DO SUL,furtos_oco,569.0,569.0,0.0
+CACHOEIRINHA,furtos_oco,1196.0,1196.0,0.0
+CACIQUE DOBLE,furtos_oco,19.0,19.0,0.0
+CAIBATE,furtos_oco,9.0,9.0,0.0
+CAICARA,furtos_oco,20.0,20.0,0.0
+CAMAQUA,furtos_oco,654.0,654.0,0.0
+CAMARGO,furtos_oco,14.0,14.0,0.0
+CAMBARA DO SUL,furtos_oco,30.0,30.0,0.0
+CAMPESTRE DA SERRA,furtos_oco,22.0,22.0,0.0
+CAMPINA DAS MISSOES,furtos_oco,10.0,10.0,0.0
+CAMPINAS DO SUL,furtos_oco,29.0,29.0,0.0
+CAMPO BOM,furtos_oco,516.0,516.0,0.0
+CAMPO NOVO,furtos_oco,76.0,76.0,0.0
+CAMPOS BORGES,furtos_oco,12.0,12.0,0.0
+CANDELARIA,furtos_oco,240.0,240.0,0.0
+CANDIDO GODOI,furtos_oco,15.0,15.0,0.0
+CANDIOTA,furtos_oco,106.0,106.0,0.0
+CANELA,furtos_oco,612.0,612.0,0.0
+CANGUCU,furtos_oco,249.0,249.0,0.0
+CANOAS,furtos_oco,4403.0,4403.0,0.0
+CANUDOS DO VALE,furtos_oco,4.0,4.0,0.0
+CAPAO BONITO DO SUL,furtos_oco,30.0,30.0,0.0
+CAPAO DA CANOA,furtos_oco,1066.0,1066.0,0.0
+CAPAO DO CIPO,furtos_oco,16.0,16.0,0.0
+CAPAO DO LEAO,furtos_oco,138.0,138.0,0.0
+CAPELA DE SANTANA,furtos_oco,63.0,63.0,0.0
+CAPITAO,furtos_oco,9.0,9.0,0.0
+CAPIVARI DO SUL,furtos_oco,33.0,33.0,0.0
+CARAA,furtos_oco,32.0,32.0,0.0
+CARAZINHO,furtos_oco,576.0,576.0,0.0
+CARLOS BARBOSA,furtos_oco,100.0,100.0,0.0
+CARLOS GOMES,furtos_oco,9.0,9.0,0.0
+CASCA,furtos_oco,52.0,52.0,0.0
+CASEIROS,furtos_oco,9.0,9.0,0.0
+CATUIPE,furtos_oco,35.0,35.0,0.0
+CAXIAS DO SUL,furtos_oco,4031.0,4031.0,0.0
+CENTENARIO,furtos_oco,7.0,7.0,0.0
+CERRITO,furtos_oco,35.0,35.0,0.0
+CERRO BRANCO,furtos_oco,8.0,8.0,0.0
+CERRO GRANDE,furtos_oco,7.0,7.0,0.0
+CERRO GRANDE DO SUL,furtos_oco,26.0,26.0,0.0
+CERRO LARGO,furtos_oco,47.0,47.0,0.0
+CHAPADA,furtos_oco,11.0,11.0,0.0
+CHARQUEADAS,furtos_oco,115.0,115.0,0.0
+CHARRUA,furtos_oco,6.0,6.0,0.0
+CHIAPETTA,furtos_oco,18.0,18.0,0.0
+CHUI,furtos_oco,88.0,88.0,0.0
+CHUVISCA,furtos_oco,44.0,44.0,0.0
+CIDREIRA,furtos_oco,352.0,352.0,0.0
+CIRIACO,furtos_oco,24.0,24.0,0.0
+COLINAS,furtos_oco,18.0,18.0,0.0
+COLORADO,furtos_oco,18.0,18.0,0.0
+CONDOR,furtos_oco,32.0,32.0,0.0
+CONSTANTINA,furtos_oco,33.0,33.0,0.0
+COQUEIRO BAIXO,furtos_oco,4.0,4.0,0.0
+COQUEIROS DO SUL,furtos_oco,12.0,12.0,0.0
+CORONEL BARROS,furtos_oco,10.0,10.0,0.0
+CORONEL BICACO,furtos_oco,52.0,52.0,0.0
+CORONEL PILAR,furtos_oco,14.0,14.0,0.0
+COTIPORA,furtos_oco,21.0,21.0,0.0
+COXILHA,furtos_oco,24.0,24.0,0.0
+CRISSIUMAL,furtos_oco,62.0,62.0,0.0
+CRISTAL,furtos_oco,38.0,38.0,0.0
+CRISTAL DO SUL,furtos_oco,16.0,16.0,0.0
+CRUZ ALTA,furtos_oco,930.0,930.0,0.0
+CRUZALTENSE,furtos_oco,7.0,7.0,0.0
+CRUZEIRO DO SUL,furtos_oco,74.0,74.0,0.0
+DAVID CANABARRO,furtos_oco,13.0,13.0,0.0
+DERRUBADAS,furtos_oco,11.0,11.0,0.0
+DEZESSEIS DE NOVEMBRO,furtos_oco,7.0,7.0,0.0
+DILERMANDO DE AGUIAR,furtos_oco,22.0,22.0,0.0
+DOIS IRMAOS,furtos_oco,112.0,112.0,0.0
+DOIS IRMAOS DAS MISSOES,furtos_oco,6.0,6.0,0.0
+DOIS LAJEADOS,furtos_oco,13.0,13.0,0.0
+DOM FELICIANO,furtos_oco,93.0,93.0,0.0
+DOM PEDRITO,furtos_oco,472.0,472.0,0.0
+DOM PEDRO DE ALCANTARA,furtos_oco,6.0,6.0,0.0
+DONA FRANCISCA,furtos_oco,14.0,14.0,0.0
+DOUTOR RICARDO,furtos_oco,13.0,13.0,0.0
+DR MAURICIO CARDOSO,furtos_oco,15.0,15.0,0.0
+ELDORADO DO SUL,furtos_oco,385.0,385.0,0.0
+ENCANTADO,furtos_oco,311.0,311.0,0.0
+ENCRUZILHADA DO SUL,furtos_oco,178.0,178.0,0.0
+ENGENHO VELHO,furtos_oco,5.0,5.0,0.0
+ENTRE IJUIS,furtos_oco,55.0,55.0,0.0
+ENTRE RIOS DO SUL,furtos_oco,11.0,11.0,0.0
+EREBANGO,furtos_oco,22.0,22.0,0.0
+ERECHIM,furtos_oco,820.0,820.0,0.0
+ERNESTINA,furtos_oco,25.0,25.0,0.0
+ERVAL GRANDE,furtos_oco,20.0,20.0,0.0
+ERVAL SECO,furtos_oco,26.0,26.0,0.0
+ESMERALDA,furtos_oco,44.0,44.0,0.0
+ESPERANCA DO SUL,furtos_oco,11.0,11.0,0.0
+ESPUMOSO,furtos_oco,83.0,83.0,0.0
+ESTACAO,furtos_oco,14.0,14.0,0.0
+ESTANCIA VELHA,furtos_oco,321.0,321.0,0.0
+ESTEIO,furtos_oco,952.0,952.0,0.0
+ESTRELA,furtos_oco,249.0,249.0,0.0
+ESTRELA VELHA,furtos_oco,8.0,8.0,0.0
+EUGENIO DE CASTRO,furtos_oco,11.0,11.0,0.0
+FAGUNDES VARELA,furtos_oco,5.0,5.0,0.0
+FARROUPILHA,furtos_oco,511.0,511.0,0.0
+FAXINAL DO SOTURNO,furtos_oco,37.0,37.0,0.0
+FAXINALZINHO,furtos_oco,9.0,9.0,0.0
+FAZENDA VILA NOVA,furtos_oco,37.0,36.0,-1.0
+FELIZ,furtos_oco,69.0,69.0,0.0
+FLORES DA CUNHA,furtos_oco,139.0,139.0,0.0
+FLORIANO PEIXOTO,furtos_oco,5.0,5.0,0.0
+FONTOURA XAVIER,furtos_oco,64.0,64.0,0.0
+FORMIGUEIRO,furtos_oco,69.0,69.0,0.0
+FORQUETINHA,furtos_oco,14.0,14.0,0.0
+FORTALEZA DOS VALOS,furtos_oco,23.0,23.0,0.0
+FREDERICO WESTPHALEN,furtos_oco,208.0,208.0,0.0
+GARIBALDI,furtos_oco,164.0,164.0,0.0
+GARRUCHOS,furtos_oco,30.0,30.0,0.0
+GAURAMA,furtos_oco,31.0,31.0,0.0
+GENERAL CAMARA,furtos_oco,79.0,79.0,0.0
+GENTIL,furtos_oco,8.0,8.0,0.0
+GERAL,furtos_oco,0.0,0.0,0.0
+GETULIO VARGAS,furtos_oco,75.0,75.0,0.0
+GIRUA,furtos_oco,97.0,97.0,0.0
+GLORINHA,furtos_oco,79.0,79.0,0.0
+GRAMADO,furtos_oco,416.0,416.0,0.0
+GRAMADO DOS LOUREIROS,furtos_oco,7.0,7.0,0.0
+GRAMADO XAVIER,furtos_oco,22.0,22.0,0.0
+GRAVATAI,furtos_oco,1801.0,1801.0,0.0
+GUABIJU,furtos_oco,7.0,7.0,0.0
+GUAIBA,furtos_oco,585.0,585.0,0.0
+GUAPORE,furtos_oco,108.0,108.0,0.0
+GUARANI DAS MISSOES,furtos_oco,42.0,42.0,0.0
+HARMONIA,furtos_oco,9.0,9.0,0.0
+HERVAL,furtos_oco,59.0,59.0,0.0
+HERVEIRAS,furtos_oco,9.0,9.0,0.0
+HORIZONTINA,furtos_oco,173.0,173.0,0.0
+HULHA NEGRA,furtos_oco,38.0,38.0,0.0
+HUMAITA,furtos_oco,18.0,18.0,0.0
+IBARAMA,furtos_oco,19.0,19.0,0.0
+IBIACA,furtos_oco,31.0,31.0,0.0
+IBIRAIARAS,furtos_oco,19.0,19.0,0.0
+IBIRAPUITA,furtos_oco,15.0,15.0,0.0
+IBIRUBA,furtos_oco,106.0,106.0,0.0
+IGREJINHA,furtos_oco,236.0,235.0,-1.0
+IJUI,furtos_oco,941.0,941.0,0.0
+ILOPOLIS,furtos_oco,23.0,23.0,0.0
+IMBE,furtos_oco,522.0,522.0,0.0
+IMIGRANTE,furtos_oco,10.0,10.0,0.0
+INDEPENDENCIA,furtos_oco,31.0,31.0,0.0
+INHACORA,furtos_oco,9.0,9.0,0.0
+IPE,furtos_oco,58.0,58.0,0.0
+IPIRANGA DO SUL,furtos_oco,2.0,2.0,0.0
+IRAI,furtos_oco,99.0,99.0,0.0
+ITAARA,furtos_oco,50.0,50.0,0.0
+ITACURUBI,furtos_oco,23.0,23.0,0.0
+ITAPUCA,furtos_oco,7.0,7.0,0.0
+ITAQUI,furtos_oco,333.0,333.0,0.0
+ITATI,furtos_oco,6.0,6.0,0.0
+ITATIBA DO SUL,furtos_oco,17.0,17.0,0.0
+IVORA,furtos_oco,9.0,9.0,0.0
+IVOTI,furtos_oco,82.0,82.0,0.0
+JABOTICABA,furtos_oco,12.0,12.0,0.0
+JACUIZINHO,furtos_oco,13.0,13.0,0.0
+JACUTINGA,furtos_oco,8.0,8.0,0.0
+JAGUARAO,furtos_oco,278.0,278.0,0.0
+JAGUARI,furtos_oco,61.0,61.0,0.0
+JAQUIRANA,furtos_oco,29.0,29.0,0.0
+JARI,furtos_oco,29.0,29.0,0.0
+JOIA,furtos_oco,48.0,48.0,0.0
+JULIO DE CASTILHOS,furtos_oco,227.0,227.0,0.0
+LAGOA BONITA DO SUL,furtos_oco,9.0,9.0,0.0
+LAGOA DOS TRES CANTOS,furtos_oco,4.0,4.0,0.0
+LAGOA VERMELHA,furtos_oco,265.0,265.0,0.0
+LAGOAO,furtos_oco,21.0,21.0,0.0
+LAJEADO,furtos_oco,805.0,805.0,0.0
+LAJEADO DO BUGRE,furtos_oco,2.0,2.0,0.0
+LAVRAS DO SUL,furtos_oco,33.0,33.0,0.0
+LIBERATO SALZANO,furtos_oco,11.0,11.0,0.0
+LINDOLFO COLLOR,furtos_oco,12.0,12.0,0.0
+LINHA NOVA,furtos_oco,11.0,11.0,0.0
+MACAMBARA,furtos_oco,23.0,23.0,0.0
+MACHADINHO,furtos_oco,96.0,96.0,0.0
+MAMPITUBA,furtos_oco,8.0,8.0,0.0
+MANOEL VIANA,furtos_oco,38.0,38.0,0.0
+MAQUINE,furtos_oco,67.0,67.0,0.0
+MARATA,furtos_oco,5.0,5.0,0.0
+MARAU,furtos_oco,309.0,309.0,0.0
+MARCELINO RAMOS,furtos_oco,24.0,24.0,0.0
+MARIANA PIMENTEL,furtos_oco,27.0,27.0,0.0
+MARIANO MORO,furtos_oco,8.0,8.0,0.0
+MARQUES DE SOUZA,furtos_oco,24.0,24.0,0.0
+MATA,furtos_oco,35.0,35.0,0.0
+MATO CASTELHANO,furtos_oco,31.0,31.0,0.0
+MATO LEITAO,furtos_oco,17.0,17.0,0.0
+MATO QUEIMADO,furtos_oco,7.0,7.0,0.0
+MAXIMILIANO DE ALMEIDA,furtos_oco,49.0,49.0,0.0
+MINAS DO LEAO,furtos_oco,52.0,52.0,0.0
+MIRAGUAI,furtos_oco,51.0,51.0,0.0
+MONTAURI,furtos_oco,2.0,2.0,0.0
+MONTE ALEGRE DOS CAMPOS,furtos_oco,16.0,16.0,0.0
+MONTE BELO DO SUL,furtos_oco,12.0,12.0,0.0
+MONTENEGRO,furtos_oco,615.0,615.0,0.0
+MORMACO,furtos_oco,7.0,7.0,0.0
+MORRINHOS DO SUL,furtos_oco,9.0,9.0,0.0
+MORRO REDONDO,furtos_oco,43.0,43.0,0.0
+MORRO REUTER,furtos_oco,18.0,18.0,0.0
+MOSTARDAS,furtos_oco,133.0,133.0,0.0
+MUCUM,furtos_oco,20.0,20.0,0.0
+MUITOS CAPOES,furtos_oco,17.0,17.0,0.0
+MULITERNO,furtos_oco,7.0,7.0,0.0
+NAN,furtos_oco,0.0,0.0,0.0
+NAN,furtos_oco,0.0,0.0,0.0
+NAO ME TOQUE,furtos_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,furtos_oco,103.0,103.0,0.0
+NICOLAU VERGUEIRO,furtos_oco,16.0,16.0,0.0
+NONOAI,furtos_oco,59.0,59.0,0.0
+NOVA ALVORADA,furtos_oco,16.0,16.0,0.0
+NOVA ARACA,furtos_oco,17.0,17.0,0.0
+NOVA BASSANO,furtos_oco,40.0,40.0,0.0
+NOVA BOA VISTA,furtos_oco,8.0,8.0,0.0
+NOVA BRESCIA,furtos_oco,5.0,5.0,0.0
+NOVA CANDELARIA,furtos_oco,3.0,3.0,0.0
+NOVA ESPERANCA DO SUL,furtos_oco,16.0,16.0,0.0
+NOVA HARTZ,furtos_oco,83.0,83.0,0.0
+NOVA PADUA,furtos_oco,9.0,9.0,0.0
+NOVA PALMA,furtos_oco,38.0,38.0,0.0
+NOVA PETROPOLIS,furtos_oco,124.0,124.0,0.0
+NOVA PRATA,furtos_oco,115.0,115.0,0.0
+NOVA RAMADA,furtos_oco,10.0,10.0,0.0
+NOVA ROMA DO SUL,furtos_oco,21.0,21.0,0.0
+NOVA SANTA RITA,furtos_oco,219.0,219.0,0.0
+NOVO BARREIRO,furtos_oco,4.0,4.0,0.0
+NOVO CABRAIS,furtos_oco,17.0,17.0,0.0
+NOVO HAMBURGO,furtos_oco,2584.0,2584.0,0.0
+NOVO MACHADO,furtos_oco,4.0,4.0,0.0
+NOVO TIRADENTES,furtos_oco,4.0,4.0,0.0
+NOVO XINGU,furtos_oco,0.0,0.0,0.0
+OSORIO,furtos_oco,455.0,455.0,0.0
+PAIM FILHO,furtos_oco,24.0,24.0,0.0
+PALMARES DO SUL,furtos_oco,161.0,161.0,0.0
+PALMEIRA DAS MISSOES,furtos_oco,257.0,257.0,0.0
+PALMITINHO,furtos_oco,39.0,39.0,0.0
+PANAMBI,furtos_oco,224.0,224.0,0.0
+PANTANO GRANDE,furtos_oco,63.0,63.0,0.0
+PARAI,furtos_oco,39.0,39.0,0.0
+PARAISO DO SUL,furtos_oco,29.0,29.0,0.0
+PARECI NOVO,furtos_oco,16.0,16.0,0.0
+PAROBE,furtos_oco,302.0,302.0,0.0
+PASSA SETE,furtos_oco,23.0,23.0,0.0
+PASSO DO SOBRADO,furtos_oco,39.0,39.0,0.0
+PASSO FUNDO,furtos_oco,2059.0,2059.0,0.0
+PAULO BENTO,furtos_oco,13.0,13.0,0.0
+PAVERAMA,furtos_oco,25.0,25.0,0.0
+PEDRAS ALTAS,furtos_oco,32.0,32.0,0.0
+PEDRO OSORIO,furtos_oco,66.0,66.0,0.0
+PEJUCARA,furtos_oco,26.0,26.0,0.0
+PELOTAS,furtos_oco,3131.0,3131.0,0.0
+PICADA CAFE,furtos_oco,18.0,18.0,0.0
+PINHAL,furtos_oco,9.0,9.0,0.0
+PINHAL DA SERRA,furtos_oco,19.0,19.0,0.0
+PINHAL GRANDE,furtos_oco,6.0,6.0,0.0
+PINHEIRINHO DO VALE,furtos_oco,11.0,11.0,0.0
+PINHEIRO MACHADO,furtos_oco,109.0,109.0,0.0
+PINTO BANDEIRA,furtos_oco,0.0,0.0,0.0
+PINTO BANDEIRA (BENTO GONC),furtos_oco,0.0,8.0,8.0
+PIRAPO,furtos_oco,13.0,13.0,0.0
+PIRATINI,furtos_oco,174.0,174.0,0.0
+PLANALTO,furtos_oco,95.0,95.0,0.0
+POCO DAS ANTAS,furtos_oco,7.0,7.0,0.0
+PONTAO,furtos_oco,23.0,23.0,0.0
+PONTE PRETA,furtos_oco,9.0,9.0,0.0
+PORTAO,furtos_oco,294.0,294.0,0.0
+PORTO ALEGRE,furtos_oco,23371.0,23371.0,0.0
+PORTO LUCENA,furtos_oco,22.0,22.0,0.0
+PORTO MAUA,furtos_oco,21.0,21.0,0.0
+PORTO VERA CRUZ,furtos_oco,5.0,5.0,0.0
+PORTO XAVIER,furtos_oco,30.0,30.0,0.0
+POUSO NOVO,furtos_oco,9.0,9.0,0.0
+PRESIDENTE LUCENA,furtos_oco,12.0,12.0,0.0
+PROGRESSO,furtos_oco,27.0,27.0,0.0
+PROTASIO ALVES,furtos_oco,5.0,5.0,0.0
+PUTINGA,furtos_oco,5.0,5.0,0.0
+QUARAI,furtos_oco,278.0,278.0,0.0
+QUATRO IRMAOS,furtos_oco,7.0,7.0,0.0
+QUEVEDOS,furtos_oco,15.0,15.0,0.0
+QUINZE DE NOVEMBRO,furtos_oco,10.0,10.0,0.0
+REDENTORA,furtos_oco,34.0,34.0,0.0
+RELVADO,furtos_oco,8.0,8.0,0.0
+RESTINGA SECA,furtos_oco,100.0,100.0,0.0
+RIO DOS INDIOS,furtos_oco,13.0,13.0,0.0
+RIO GRANDE,furtos_oco,1895.0,1895.0,0.0
+RIO PARDO,furtos_oco,331.0,331.0,0.0
+RIOZINHO,furtos_oco,11.0,11.0,0.0
+ROCA SALES,furtos_oco,77.0,77.0,0.0
+RODEIO BONITO,furtos_oco,18.0,18.0,0.0
+ROLADOR,furtos_oco,7.0,7.0,0.0
+ROLANTE,furtos_oco,72.0,72.0,0.0
+RONDA ALTA,furtos_oco,36.0,36.0,0.0
+RONDINHA,furtos_oco,7.0,7.0,0.0
+ROQUE GONZALES,furtos_oco,19.0,19.0,0.0
+ROSARIO DO SUL,furtos_oco,272.0,272.0,0.0
+SAGRADA FAMILIA,furtos_oco,14.0,14.0,0.0
+SALDANHA MARINHO,furtos_oco,10.0,10.0,0.0
+SALTO DO JACUI,furtos_oco,135.0,135.0,0.0
+SALVADOR DAS MISSOES,furtos_oco,2.0,2.0,0.0
+SALVADOR DO SUL,furtos_oco,26.0,26.0,0.0
+SANANDUVA,furtos_oco,81.0,81.0,0.0
+SANTA BARBARA DO SUL,furtos_oco,29.0,29.0,0.0
+SANTA CECILIA DO SUL,furtos_oco,18.0,18.0,0.0
+SANTA CLARA DO SUL,furtos_oco,16.0,16.0,0.0
+SANTA CRUZ DO SUL,furtos_oco,1380.0,1380.0,0.0
+SANTA MARGARIDA DO SUL,furtos_oco,20.0,20.0,0.0
+SANTA MARIA,furtos_oco,3512.0,3512.0,0.0
+SANTA MARIA DO HERVAL,furtos_oco,26.0,26.0,0.0
+SANTA ROSA,furtos_oco,649.0,649.0,0.0
+SANTA TEREZA,furtos_oco,8.0,8.0,0.0
+SANTA VITORIA DO PALMAR,furtos_oco,394.0,394.0,0.0
+SANTANA DA BOA VISTA,furtos_oco,67.0,67.0,0.0
+SANTANA DO LIVRAMENTO,furtos_oco,996.0,996.0,0.0
+SANTIAGO,furtos_oco,348.0,348.0,0.0
+SANTO ANGELO,furtos_oco,1050.0,1050.0,0.0
+SANTO ANTONIO DA PATRULHA,furtos_oco,352.0,352.0,0.0
+SANTO ANTONIO DAS MISSOES,furtos_oco,74.0,74.0,0.0
+SANTO ANTONIO DO PALMA,furtos_oco,12.0,12.0,0.0
+SANTO ANTONIO DO PLANALTO,furtos_oco,6.0,6.0,0.0
+SANTO AUGUSTO,furtos_oco,106.0,106.0,0.0
+SANTO CRISTO,furtos_oco,44.0,44.0,0.0
+SANTO EXPEDITO DO SUL,furtos_oco,9.0,9.0,0.0
+SAO BORJA,furtos_oco,441.0,441.0,0.0
+SAO DOMINGOS DO SUL,furtos_oco,12.0,12.0,0.0
+SAO FRANCISCO DE ASSIS,furtos_oco,70.0,70.0,0.0
+SAO FRANCISCO DE PAULA,furtos_oco,211.0,211.0,0.0
+SAO GABRIEL,furtos_oco,776.0,776.0,0.0
+SAO JERONIMO,furtos_oco,189.0,189.0,0.0
+SAO JOAO DA URTIGA,furtos_oco,4.0,4.0,0.0
+SAO JOAO DO POLESINE,furtos_oco,23.0,23.0,0.0
+SAO JORGE,furtos_oco,7.0,7.0,0.0
+SAO JOSE DAS MISSOES,furtos_oco,7.0,7.0,0.0
+SAO JOSE DO HERVAL,furtos_oco,7.0,7.0,0.0
+SAO JOSE DO HORTENCIO,furtos_oco,10.0,10.0,0.0
+SAO JOSE DO INHACORA,furtos_oco,9.0,9.0,0.0
+SAO JOSE DO NORTE,furtos_oco,152.0,152.0,0.0
+SAO JOSE DO OURO,furtos_oco,20.0,20.0,0.0
+SAO JOSE DO SUL,furtos_oco,4.0,4.0,0.0
+SAO JOSE DOS AUSENTES,furtos_oco,24.0,24.0,0.0
+SAO LEOPOLDO,furtos_oco,2350.0,2350.0,0.0
+SAO LOURENCO DO SUL,furtos_oco,201.0,201.0,0.0
+SAO LUIZ GONZAGA,furtos_oco,341.0,341.0,0.0
+SAO MARCOS,furtos_oco,89.0,89.0,0.0
+SAO MARTINHO,furtos_oco,28.0,28.0,0.0
+SAO MARTINHO DA SERRA,furtos_oco,64.0,64.0,0.0
+SAO MIGUEL DAS MISSOES,furtos_oco,30.0,30.0,0.0
+SAO NICOLAU,furtos_oco,29.0,29.0,0.0
+SAO PAULO DAS MISSOES,furtos_oco,11.0,11.0,0.0
+SAO PEDRO DA SERRA,furtos_oco,8.0,8.0,0.0
+SAO PEDRO DAS MISSOES,furtos_oco,5.0,5.0,0.0
+SAO PEDRO DO BUTIA,furtos_oco,5.0,5.0,0.0
+SAO PEDRO DO SUL,furtos_oco,213.0,213.0,0.0
+SAO SEBASTIAO DO CAI,furtos_oco,216.0,216.0,0.0
+SAO SEPE,furtos_oco,212.0,212.0,0.0
+SAO VALENTIM,furtos_oco,31.0,31.0,0.0
+SAO VALENTIM DO SUL,furtos_oco,14.0,14.0,0.0
+SAO VALERIO DO SUL,furtos_oco,9.0,9.0,0.0
+SAO VENDELINO,furtos_oco,3.0,3.0,0.0
+SAO VICENTE DO SUL,furtos_oco,62.0,62.0,0.0
+SAPIRANGA,furtos_oco,620.0,620.0,0.0
+SAPUCAIA DO SUL,furtos_oco,1225.0,1225.0,0.0
+SARANDI,furtos_oco,160.0,160.0,0.0
+SEBERI,furtos_oco,123.0,123.0,0.0
+SEDE NOVA,furtos_oco,8.0,8.0,0.0
+SEGREDO,furtos_oco,24.0,24.0,0.0
+SELBACH,furtos_oco,26.0,26.0,0.0
+SENADOR SALGADO FILHO,furtos_oco,7.0,7.0,0.0
+SENTINELA DO SUL,furtos_oco,38.0,38.0,0.0
+SERAFINA CORREA,furtos_oco,80.0,80.0,0.0
+SERIO,furtos_oco,7.0,7.0,0.0
+SERTAO,furtos_oco,19.0,19.0,0.0
+SERTAO SANTANA,furtos_oco,21.0,21.0,0.0
+SETE DE SETEMBRO,furtos_oco,7.0,7.0,0.0
+SEVERIANO DE ALMEIDA,furtos_oco,24.0,24.0,0.0
+SILVEIRA MARTINS,furtos_oco,25.0,25.0,0.0
+SINIMBU,furtos_oco,32.0,32.0,0.0
+SOBRADINHO,furtos_oco,147.0,147.0,0.0
+SOLEDADE,furtos_oco,409.0,409.0,0.0
+TABAI,furtos_oco,18.0,18.0,0.0
+TAPEJARA,furtos_oco,175.0,175.0,0.0
+TAPERA,furtos_oco,86.0,86.0,0.0
+TAPES,furtos_oco,106.0,106.0,0.0
+TAQUARA,furtos_oco,438.0,438.0,0.0
+TAQUARI,furtos_oco,113.0,113.0,0.0
+TAQUARUCU DO SUL,furtos_oco,8.0,8.0,0.0
+TAVARES,furtos_oco,28.0,28.0,0.0
+TENENTE PORTELA,furtos_oco,211.0,211.0,0.0
+TERRA DE AREIA,furtos_oco,72.0,72.0,0.0
+TEUTONIA,furtos_oco,131.0,131.0,0.0
+TIO HUGO,furtos_oco,15.0,15.0,0.0
+TIRADENTES DO SUL,furtos_oco,20.0,20.0,0.0
+TOROPI,furtos_oco,14.0,14.0,0.0
+TORRES,furtos_oco,772.0,772.0,0.0
+TRAMANDAI,furtos_oco,1096.0,1096.0,0.0
+TRAVESSEIRO,furtos_oco,5.0,5.0,0.0
+TRES ARROIOS,furtos_oco,8.0,8.0,0.0
+TRES CACHOEIRAS,furtos_oco,78.0,78.0,0.0
+TRES COROAS,furtos_oco,185.0,185.0,0.0
+TRES DE MAIO,furtos_oco,104.0,104.0,0.0
+TRES FORQUILHAS,furtos_oco,6.0,6.0,0.0
+TRES PALMEIRAS,furtos_oco,10.0,10.0,0.0
+TRES PASSOS,furtos_oco,192.0,192.0,0.0
+TRINDADE DO SUL,furtos_oco,22.0,22.0,0.0
+TRIUNFO,furtos_oco,148.0,148.0,0.0
+TUCUNDUVA,furtos_oco,32.0,32.0,0.0
+TUNAS,furtos_oco,12.0,12.0,0.0
+TUPANCI DO SUL,furtos_oco,4.0,4.0,0.0
+TUPANCIRETA,furtos_oco,170.0,170.0,0.0
+TUPANDI,furtos_oco,6.0,6.0,0.0
+TUPARENDI,furtos_oco,25.0,25.0,0.0
+TURUCU,furtos_oco,5.0,5.0,0.0
+UBIRETAMA,furtos_oco,5.0,5.0,0.0
+UNIAO DA SERRA,furtos_oco,5.0,5.0,0.0
+UNISTALDA,furtos_oco,13.0,13.0,0.0
+URUGUAIANA,furtos_oco,940.0,940.0,0.0
+VACARIA,furtos_oco,857.0,857.0,0.0
+VALE DO SOL,furtos_oco,37.0,37.0,0.0
+VALE REAL,furtos_oco,18.0,18.0,0.0
+VALE VERDE,furtos_oco,29.0,29.0,0.0
+VANINI,furtos_oco,6.0,6.0,0.0
+VENANCIO AIRES,furtos_oco,813.0,813.0,0.0
+VERA CRUZ,furtos_oco,129.0,129.0,0.0
+VERANOPOLIS,furtos_oco,102.0,102.0,0.0
+VESPASIANO CORREA,furtos_oco,8.0,8.0,0.0
+VIADUTOS,furtos_oco,52.0,52.0,0.0
+VIAMAO,furtos_oco,1727.0,1727.0,0.0
+VICENTE DUTRA,furtos_oco,22.0,22.0,0.0
+VICTOR GRAEFF,furtos_oco,15.0,15.0,0.0
+VILA FLORES,furtos_oco,10.0,10.0,0.0
+VILA LANGARO,furtos_oco,9.0,9.0,0.0
+VILA MARIA,furtos_oco,21.0,21.0,0.0
+VILA NOVA DO SUL,furtos_oco,32.0,32.0,0.0
+VISTA ALEGRE,furtos_oco,8.0,8.0,0.0
+VISTA ALEGRE DO PRATA,furtos_oco,4.0,4.0,0.0
+VISTA GAUCHA,furtos_oco,10.0,10.0,0.0
+VITORIA DAS MISSOES,furtos_oco,19.0,19.0,0.0
+WESTFALIA,furtos_oco,5.0,5.0,0.0
+XANGRI-LA,furtos_oco,200.0,200.0,0.0
+XANGRILA,furtos_oco,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",homicidio_doloso_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,homicidio_doloso_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,homicidio_doloso_oco,0.0,0.0,0.0
+ACEGUA,homicidio_doloso_oco,0.0,0.0,0.0
+AGUA SANTA,homicidio_doloso_oco,1.0,1.0,0.0
+AGUDO,homicidio_doloso_oco,1.0,1.0,0.0
+AJURICABA,homicidio_doloso_oco,0.0,0.0,0.0
+ALECRIM,homicidio_doloso_oco,0.0,0.0,0.0
+ALEGRETE,homicidio_doloso_oco,12.0,12.0,0.0
+ALEGRIA,homicidio_doloso_oco,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+ALPESTRE,homicidio_doloso_oco,1.0,1.0,0.0
+ALTO ALEGRE,homicidio_doloso_oco,0.0,0.0,0.0
+ALTO FELIZ,homicidio_doloso_oco,0.0,0.0,0.0
+ALVORADA,homicidio_doloso_oco,31.0,31.0,0.0
+AMARAL FERRADOR,homicidio_doloso_oco,1.0,1.0,0.0
+AMETISTA DO SUL,homicidio_doloso_oco,2.0,2.0,0.0
+ANDRE DA ROCHA,homicidio_doloso_oco,0.0,0.0,0.0
+ANTA GORDA,homicidio_doloso_oco,1.0,1.0,0.0
+ANTONIO PRADO,homicidio_doloso_oco,7.0,7.0,0.0
+ARAMBARE,homicidio_doloso_oco,0.0,0.0,0.0
+ARARICA,homicidio_doloso_oco,1.0,1.0,0.0
+ARATIBA,homicidio_doloso_oco,0.0,0.0,0.0
+ARROIO DO MEIO,homicidio_doloso_oco,3.0,3.0,0.0
+ARROIO DO PADRE,homicidio_doloso_oco,0.0,0.0,0.0
+ARROIO DO SAL,homicidio_doloso_oco,3.0,2.0,-1.0
+ARROIO DO TIGRE,homicidio_doloso_oco,1.0,1.0,0.0
+ARROIO DOS RATOS,homicidio_doloso_oco,1.0,1.0,0.0
+ARROIO GRANDE,homicidio_doloso_oco,0.0,0.0,0.0
+ARVOREZINHA,homicidio_doloso_oco,0.0,0.0,0.0
+AUGUSTO PESTANA,homicidio_doloso_oco,0.0,0.0,0.0
+AUREA,homicidio_doloso_oco,0.0,0.0,0.0
+BAGE,homicidio_doloso_oco,14.0,14.0,0.0
+BALNEARIO PINHAL,homicidio_doloso_oco,11.0,11.0,0.0
+BARAO,homicidio_doloso_oco,0.0,0.0,0.0
+BARAO DE COTEGIPE,homicidio_doloso_oco,0.0,0.0,0.0
+BARAO DO COTEGIPE,homicidio_doloso_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,homicidio_doloso_oco,1.0,1.0,0.0
+BARRA DO GUARITA,homicidio_doloso_oco,1.0,1.0,0.0
+BARRA DO QUARAI,homicidio_doloso_oco,0.0,0.0,0.0
+BARRA DO RIBEIRO,homicidio_doloso_oco,2.0,2.0,0.0
+BARRA DO RIO AZUL,homicidio_doloso_oco,0.0,0.0,0.0
+BARRA FUNDA,homicidio_doloso_oco,0.0,0.0,0.0
+BARRACAO,homicidio_doloso_oco,2.0,2.0,0.0
+BARROS CASSAL,homicidio_doloso_oco,1.0,1.0,0.0
+BENJAMIN CONSTANT DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+BENTO GONCALVES,homicidio_doloso_oco,35.0,35.0,0.0
+BOA VISTA DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+BOA VISTA DO BURICA,homicidio_doloso_oco,2.0,2.0,0.0
+BOA VISTA DO CADEADO,homicidio_doloso_oco,2.0,2.0,0.0
+BOA VISTA DO INCRA,homicidio_doloso_oco,0.0,0.0,0.0
+BOA VISTA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+BOM JESUS,homicidio_doloso_oco,1.0,1.0,0.0
+BOM PRINCIPIO,homicidio_doloso_oco,1.0,1.0,0.0
+BOM PROGRESSO,homicidio_doloso_oco,0.0,0.0,0.0
+BOM RETIRO DO SUL,homicidio_doloso_oco,3.0,3.0,0.0
+BOQUEIRAO DO LEAO,homicidio_doloso_oco,2.0,2.0,0.0
+BOSSOROCA,homicidio_doloso_oco,0.0,0.0,0.0
+BOZANO,homicidio_doloso_oco,0.0,0.0,0.0
+BRAGA,homicidio_doloso_oco,0.0,0.0,0.0
+BROCHIER,homicidio_doloso_oco,0.0,0.0,0.0
+BUTIA,homicidio_doloso_oco,4.0,4.0,0.0
+CACAPAVA DO SUL,homicidio_doloso_oco,6.0,6.0,0.0
+CACEQUI,homicidio_doloso_oco,6.0,6.0,0.0
+CACHOEIRA DO SUL,homicidio_doloso_oco,4.0,4.0,0.0
+CACHOEIRINHA,homicidio_doloso_oco,12.0,12.0,0.0
+CACIQUE DOBLE,homicidio_doloso_oco,0.0,0.0,0.0
+CAIBATE,homicidio_doloso_oco,1.0,1.0,0.0
+CAICARA,homicidio_doloso_oco,1.0,1.0,0.0
+CAMAQUA,homicidio_doloso_oco,5.0,5.0,0.0
+CAMARGO,homicidio_doloso_oco,1.0,1.0,0.0
+CAMBARA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+CAMPESTRE DA SERRA,homicidio_doloso_oco,0.0,0.0,0.0
+CAMPINA DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+CAMPINAS DO SUL,homicidio_doloso_oco,3.0,3.0,0.0
+CAMPO BOM,homicidio_doloso_oco,3.0,3.0,0.0
+CAMPO NOVO,homicidio_doloso_oco,2.0,2.0,0.0
+CAMPOS BORGES,homicidio_doloso_oco,1.0,1.0,0.0
+CANDELARIA,homicidio_doloso_oco,8.0,8.0,0.0
+CANDIDO GODOI,homicidio_doloso_oco,0.0,0.0,0.0
+CANDIOTA,homicidio_doloso_oco,1.0,1.0,0.0
+CANELA,homicidio_doloso_oco,4.0,4.0,0.0
+CANGUCU,homicidio_doloso_oco,4.0,4.0,0.0
+CANOAS,homicidio_doloso_oco,58.0,58.0,0.0
+CANUDOS DO VALE,homicidio_doloso_oco,0.0,0.0,0.0
+CAPAO BONITO DO SUL,homicidio_doloso_oco,1.0,1.0,0.0
+CAPAO DA CANOA,homicidio_doloso_oco,20.0,20.0,0.0
+CAPAO DO CIPO,homicidio_doloso_oco,0.0,0.0,0.0
+CAPAO DO LEAO,homicidio_doloso_oco,0.0,0.0,0.0
+CAPELA DE SANTANA,homicidio_doloso_oco,3.0,3.0,0.0
+CAPITAO,homicidio_doloso_oco,0.0,0.0,0.0
+CAPIVARI DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+CARAA,homicidio_doloso_oco,0.0,0.0,0.0
+CARAZINHO,homicidio_doloso_oco,10.0,10.0,0.0
+CARLOS BARBOSA,homicidio_doloso_oco,1.0,1.0,0.0
+CARLOS GOMES,homicidio_doloso_oco,0.0,0.0,0.0
+CASCA,homicidio_doloso_oco,0.0,0.0,0.0
+CASEIROS,homicidio_doloso_oco,0.0,0.0,0.0
+CATUIPE,homicidio_doloso_oco,0.0,0.0,0.0
+CAXIAS DO SUL,homicidio_doloso_oco,57.0,57.0,0.0
+CENTENARIO,homicidio_doloso_oco,0.0,0.0,0.0
+CERRITO,homicidio_doloso_oco,0.0,0.0,0.0
+CERRO BRANCO,homicidio_doloso_oco,0.0,0.0,0.0
+CERRO GRANDE,homicidio_doloso_oco,1.0,1.0,0.0
+CERRO GRANDE DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+CERRO LARGO,homicidio_doloso_oco,5.0,5.0,0.0
+CHAPADA,homicidio_doloso_oco,0.0,0.0,0.0
+CHARQUEADAS,homicidio_doloso_oco,2.0,2.0,0.0
+CHARRUA,homicidio_doloso_oco,0.0,0.0,0.0
+CHIAPETTA,homicidio_doloso_oco,0.0,0.0,0.0
+CHUI,homicidio_doloso_oco,1.0,1.0,0.0
+CHUVISCA,homicidio_doloso_oco,0.0,0.0,0.0
+CIDREIRA,homicidio_doloso_oco,8.0,8.0,0.0
+CIRIACO,homicidio_doloso_oco,1.0,1.0,0.0
+COLINAS,homicidio_doloso_oco,0.0,0.0,0.0
+COLORADO,homicidio_doloso_oco,2.0,2.0,0.0
+CONDOR,homicidio_doloso_oco,1.0,1.0,0.0
+CONSTANTINA,homicidio_doloso_oco,3.0,3.0,0.0
+COQUEIRO BAIXO,homicidio_doloso_oco,1.0,1.0,0.0
+COQUEIROS DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+CORONEL BARROS,homicidio_doloso_oco,0.0,0.0,0.0
+CORONEL BICACO,homicidio_doloso_oco,0.0,0.0,0.0
+CORONEL PILAR,homicidio_doloso_oco,0.0,0.0,0.0
+COTIPORA,homicidio_doloso_oco,1.0,1.0,0.0
+COXILHA,homicidio_doloso_oco,1.0,1.0,0.0
+CRISSIUMAL,homicidio_doloso_oco,0.0,0.0,0.0
+CRISTAL,homicidio_doloso_oco,0.0,0.0,0.0
+CRISTAL DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+CRUZ ALTA,homicidio_doloso_oco,10.0,10.0,0.0
+CRUZALTENSE,homicidio_doloso_oco,0.0,0.0,0.0
+CRUZEIRO DO SUL,homicidio_doloso_oco,2.0,2.0,0.0
+DAVID CANABARRO,homicidio_doloso_oco,0.0,0.0,0.0
+DERRUBADAS,homicidio_doloso_oco,0.0,0.0,0.0
+DEZESSEIS DE NOVEMBRO,homicidio_doloso_oco,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,homicidio_doloso_oco,0.0,0.0,0.0
+DOIS IRMAOS,homicidio_doloso_oco,1.0,1.0,0.0
+DOIS IRMAOS DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+DOIS LAJEADOS,homicidio_doloso_oco,0.0,0.0,0.0
+DOM FELICIANO,homicidio_doloso_oco,4.0,4.0,0.0
+DOM PEDRITO,homicidio_doloso_oco,8.0,8.0,0.0
+DOM PEDRO DE ALCANTARA,homicidio_doloso_oco,0.0,0.0,0.0
+DONA FRANCISCA,homicidio_doloso_oco,1.0,1.0,0.0
+DOUTOR RICARDO,homicidio_doloso_oco,0.0,0.0,0.0
+DR MAURICIO CARDOSO,homicidio_doloso_oco,0.0,0.0,0.0
+ELDORADO DO SUL,homicidio_doloso_oco,3.0,3.0,0.0
+ENCANTADO,homicidio_doloso_oco,2.0,2.0,0.0
+ENCRUZILHADA DO SUL,homicidio_doloso_oco,4.0,4.0,0.0
+ENGENHO VELHO,homicidio_doloso_oco,0.0,0.0,0.0
+ENTRE IJUIS,homicidio_doloso_oco,0.0,0.0,0.0
+ENTRE RIOS DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+EREBANGO,homicidio_doloso_oco,0.0,0.0,0.0
+ERECHIM,homicidio_doloso_oco,17.0,17.0,0.0
+ERNESTINA,homicidio_doloso_oco,0.0,0.0,0.0
+ERVAL GRANDE,homicidio_doloso_oco,1.0,1.0,0.0
+ERVAL SECO,homicidio_doloso_oco,0.0,0.0,0.0
+ESMERALDA,homicidio_doloso_oco,0.0,0.0,0.0
+ESPERANCA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+ESPUMOSO,homicidio_doloso_oco,0.0,0.0,0.0
+ESTACAO,homicidio_doloso_oco,0.0,0.0,0.0
+ESTANCIA VELHA,homicidio_doloso_oco,5.0,5.0,0.0
+ESTEIO,homicidio_doloso_oco,12.0,12.0,0.0
+ESTRELA,homicidio_doloso_oco,2.0,2.0,0.0
+ESTRELA VELHA,homicidio_doloso_oco,0.0,0.0,0.0
+EUGENIO DE CASTRO,homicidio_doloso_oco,0.0,0.0,0.0
+FAGUNDES VARELA,homicidio_doloso_oco,0.0,0.0,0.0
+FARROUPILHA,homicidio_doloso_oco,4.0,4.0,0.0
+FAXINAL DO SOTURNO,homicidio_doloso_oco,0.0,0.0,0.0
+FAXINALZINHO,homicidio_doloso_oco,0.0,0.0,0.0
+FAZENDA VILA NOVA,homicidio_doloso_oco,1.0,1.0,0.0
+FELIZ,homicidio_doloso_oco,0.0,0.0,0.0
+FLORES DA CUNHA,homicidio_doloso_oco,1.0,1.0,0.0
+FLORIANO PEIXOTO,homicidio_doloso_oco,0.0,0.0,0.0
+FONTOURA XAVIER,homicidio_doloso_oco,0.0,0.0,0.0
+FORMIGUEIRO,homicidio_doloso_oco,3.0,3.0,0.0
+FORQUETINHA,homicidio_doloso_oco,1.0,1.0,0.0
+FORTALEZA DOS VALOS,homicidio_doloso_oco,0.0,0.0,0.0
+FREDERICO WESTPHALEN,homicidio_doloso_oco,6.0,6.0,0.0
+GARIBALDI,homicidio_doloso_oco,9.0,9.0,0.0
+GARRUCHOS,homicidio_doloso_oco,0.0,0.0,0.0
+GAURAMA,homicidio_doloso_oco,0.0,0.0,0.0
+GENERAL CAMARA,homicidio_doloso_oco,0.0,0.0,0.0
+GENTIL,homicidio_doloso_oco,0.0,0.0,0.0
+GERAL,homicidio_doloso_oco,0.0,0.0,0.0
+GETULIO VARGAS,homicidio_doloso_oco,0.0,0.0,0.0
+GIRUA,homicidio_doloso_oco,3.0,3.0,0.0
+GLORINHA,homicidio_doloso_oco,1.0,1.0,0.0
+GRAMADO,homicidio_doloso_oco,1.0,1.0,0.0
+GRAMADO DOS LOUREIROS,homicidio_doloso_oco,0.0,0.0,0.0
+GRAMADO XAVIER,homicidio_doloso_oco,1.0,1.0,0.0
+GRAVATAI,homicidio_doloso_oco,24.0,24.0,0.0
+GUABIJU,homicidio_doloso_oco,0.0,0.0,0.0
+GUAIBA,homicidio_doloso_oco,5.0,5.0,0.0
+GUAPORE,homicidio_doloso_oco,4.0,4.0,0.0
+GUARANI DAS MISSOES,homicidio_doloso_oco,1.0,1.0,0.0
+HARMONIA,homicidio_doloso_oco,0.0,0.0,0.0
+HERVAL,homicidio_doloso_oco,1.0,1.0,0.0
+HERVEIRAS,homicidio_doloso_oco,0.0,0.0,0.0
+HORIZONTINA,homicidio_doloso_oco,1.0,1.0,0.0
+HULHA NEGRA,homicidio_doloso_oco,2.0,2.0,0.0
+HUMAITA,homicidio_doloso_oco,0.0,0.0,0.0
+IBARAMA,homicidio_doloso_oco,0.0,0.0,0.0
+IBIACA,homicidio_doloso_oco,3.0,3.0,0.0
+IBIRAIARAS,homicidio_doloso_oco,0.0,0.0,0.0
+IBIRAPUITA,homicidio_doloso_oco,2.0,2.0,0.0
+IBIRUBA,homicidio_doloso_oco,0.0,0.0,0.0
+IGREJINHA,homicidio_doloso_oco,2.0,2.0,0.0
+IJUI,homicidio_doloso_oco,11.0,11.0,0.0
+ILOPOLIS,homicidio_doloso_oco,0.0,0.0,0.0
+IMBE,homicidio_doloso_oco,2.0,2.0,0.0
+IMIGRANTE,homicidio_doloso_oco,0.0,0.0,0.0
+INDEPENDENCIA,homicidio_doloso_oco,5.0,5.0,0.0
+INHACORA,homicidio_doloso_oco,0.0,0.0,0.0
+IPE,homicidio_doloso_oco,0.0,0.0,0.0
+IPIRANGA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+IRAI,homicidio_doloso_oco,1.0,1.0,0.0
+ITAARA,homicidio_doloso_oco,1.0,1.0,0.0
+ITACURUBI,homicidio_doloso_oco,0.0,0.0,0.0
+ITAPUCA,homicidio_doloso_oco,0.0,0.0,0.0
+ITAQUI,homicidio_doloso_oco,5.0,5.0,0.0
+ITATI,homicidio_doloso_oco,0.0,0.0,0.0
+ITATIBA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+IVORA,homicidio_doloso_oco,0.0,0.0,0.0
+IVOTI,homicidio_doloso_oco,1.0,1.0,0.0
+JABOTICABA,homicidio_doloso_oco,0.0,0.0,0.0
+JACUIZINHO,homicidio_doloso_oco,0.0,0.0,0.0
+JACUTINGA,homicidio_doloso_oco,0.0,0.0,0.0
+JAGUARAO,homicidio_doloso_oco,0.0,0.0,0.0
+JAGUARI,homicidio_doloso_oco,0.0,0.0,0.0
+JAQUIRANA,homicidio_doloso_oco,0.0,0.0,0.0
+JARI,homicidio_doloso_oco,2.0,2.0,0.0
+JOIA,homicidio_doloso_oco,1.0,1.0,0.0
+JULIO DE CASTILHOS,homicidio_doloso_oco,0.0,0.0,0.0
+LAGOA BONITA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,homicidio_doloso_oco,0.0,0.0,0.0
+LAGOA VERMELHA,homicidio_doloso_oco,9.0,9.0,0.0
+LAGOAO,homicidio_doloso_oco,0.0,0.0,0.0
+LAJEADO,homicidio_doloso_oco,16.0,16.0,0.0
+LAJEADO DO BUGRE,homicidio_doloso_oco,0.0,0.0,0.0
+LAVRAS DO SUL,homicidio_doloso_oco,1.0,1.0,0.0
+LIBERATO SALZANO,homicidio_doloso_oco,0.0,0.0,0.0
+LINDOLFO COLLOR,homicidio_doloso_oco,0.0,0.0,0.0
+LINHA NOVA,homicidio_doloso_oco,0.0,0.0,0.0
+MACAMBARA,homicidio_doloso_oco,0.0,0.0,0.0
+MACHADINHO,homicidio_doloso_oco,0.0,0.0,0.0
+MAMPITUBA,homicidio_doloso_oco,0.0,0.0,0.0
+MANOEL VIANA,homicidio_doloso_oco,0.0,0.0,0.0
+MAQUINE,homicidio_doloso_oco,2.0,2.0,0.0
+MARATA,homicidio_doloso_oco,0.0,0.0,0.0
+MARAU,homicidio_doloso_oco,5.0,5.0,0.0
+MARCELINO RAMOS,homicidio_doloso_oco,0.0,0.0,0.0
+MARIANA PIMENTEL,homicidio_doloso_oco,0.0,0.0,0.0
+MARIANO MORO,homicidio_doloso_oco,0.0,0.0,0.0
+MARQUES DE SOUZA,homicidio_doloso_oco,0.0,0.0,0.0
+MATA,homicidio_doloso_oco,0.0,0.0,0.0
+MATO CASTELHANO,homicidio_doloso_oco,0.0,0.0,0.0
+MATO LEITAO,homicidio_doloso_oco,0.0,0.0,0.0
+MATO QUEIMADO,homicidio_doloso_oco,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,homicidio_doloso_oco,1.0,1.0,0.0
+MINAS DO LEAO,homicidio_doloso_oco,1.0,1.0,0.0
+MIRAGUAI,homicidio_doloso_oco,2.0,2.0,0.0
+MONTAURI,homicidio_doloso_oco,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,homicidio_doloso_oco,0.0,0.0,0.0
+MONTE BELO DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+MONTENEGRO,homicidio_doloso_oco,9.0,9.0,0.0
+MORMACO,homicidio_doloso_oco,0.0,0.0,0.0
+MORRINHOS DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+MORRO REDONDO,homicidio_doloso_oco,0.0,0.0,0.0
+MORRO REUTER,homicidio_doloso_oco,0.0,0.0,0.0
+MOSTARDAS,homicidio_doloso_oco,1.0,1.0,0.0
+MUCUM,homicidio_doloso_oco,0.0,0.0,0.0
+MUITOS CAPOES,homicidio_doloso_oco,0.0,0.0,0.0
+MULITERNO,homicidio_doloso_oco,0.0,0.0,0.0
+NAN,homicidio_doloso_oco,0.0,0.0,0.0
+NAN,homicidio_doloso_oco,0.0,0.0,0.0
+NAO ME TOQUE,homicidio_doloso_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,homicidio_doloso_oco,4.0,4.0,0.0
+NICOLAU VERGUEIRO,homicidio_doloso_oco,0.0,0.0,0.0
+NONOAI,homicidio_doloso_oco,2.0,2.0,0.0
+NOVA ALVORADA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA ARACA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA BASSANO,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA BOA VISTA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA BRESCIA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA CANDELARIA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA HARTZ,homicidio_doloso_oco,1.0,1.0,0.0
+NOVA PADUA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA PALMA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA PETROPOLIS,homicidio_doloso_oco,1.0,1.0,0.0
+NOVA PRATA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA RAMADA,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA ROMA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+NOVA SANTA RITA,homicidio_doloso_oco,5.0,5.0,0.0
+NOVO BARREIRO,homicidio_doloso_oco,0.0,0.0,0.0
+NOVO CABRAIS,homicidio_doloso_oco,0.0,0.0,0.0
+NOVO HAMBURGO,homicidio_doloso_oco,15.0,15.0,0.0
+NOVO MACHADO,homicidio_doloso_oco,0.0,0.0,0.0
+NOVO TIRADENTES,homicidio_doloso_oco,2.0,2.0,0.0
+NOVO XINGU,homicidio_doloso_oco,1.0,1.0,0.0
+OSORIO,homicidio_doloso_oco,8.0,8.0,0.0
+PAIM FILHO,homicidio_doloso_oco,0.0,0.0,0.0
+PALMARES DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+PALMEIRA DAS MISSOES,homicidio_doloso_oco,8.0,8.0,0.0
+PALMITINHO,homicidio_doloso_oco,2.0,2.0,0.0
+PANAMBI,homicidio_doloso_oco,4.0,4.0,0.0
+PANTANO GRANDE,homicidio_doloso_oco,0.0,0.0,0.0
+PARAI,homicidio_doloso_oco,2.0,2.0,0.0
+PARAISO DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+PARECI NOVO,homicidio_doloso_oco,0.0,0.0,0.0
+PAROBE,homicidio_doloso_oco,3.0,3.0,0.0
+PASSA SETE,homicidio_doloso_oco,0.0,0.0,0.0
+PASSO DO SOBRADO,homicidio_doloso_oco,3.0,3.0,0.0
+PASSO FUNDO,homicidio_doloso_oco,45.0,45.0,0.0
+PAULO BENTO,homicidio_doloso_oco,3.0,3.0,0.0
+PAVERAMA,homicidio_doloso_oco,0.0,0.0,0.0
+PEDRAS ALTAS,homicidio_doloso_oco,0.0,0.0,0.0
+PEDRO OSORIO,homicidio_doloso_oco,0.0,0.0,0.0
+PEJUCARA,homicidio_doloso_oco,1.0,1.0,0.0
+PELOTAS,homicidio_doloso_oco,26.0,26.0,0.0
+PICADA CAFE,homicidio_doloso_oco,0.0,0.0,0.0
+PINHAL,homicidio_doloso_oco,0.0,0.0,0.0
+PINHAL DA SERRA,homicidio_doloso_oco,1.0,1.0,0.0
+PINHAL GRANDE,homicidio_doloso_oco,1.0,1.0,0.0
+PINHEIRINHO DO VALE,homicidio_doloso_oco,0.0,0.0,0.0
+PINHEIRO MACHADO,homicidio_doloso_oco,0.0,0.0,0.0
+PINTO BANDEIRA,homicidio_doloso_oco,1.0,0.0,-1.0
+PINTO BANDEIRA (BENTO GONC),homicidio_doloso_oco,0.0,1.0,1.0
+PIRAPO,homicidio_doloso_oco,0.0,0.0,0.0
+PIRATINI,homicidio_doloso_oco,2.0,2.0,0.0
+PLANALTO,homicidio_doloso_oco,1.0,1.0,0.0
+POCO DAS ANTAS,homicidio_doloso_oco,0.0,0.0,0.0
+PONTAO,homicidio_doloso_oco,0.0,0.0,0.0
+PONTE PRETA,homicidio_doloso_oco,0.0,0.0,0.0
+PORTAO,homicidio_doloso_oco,4.0,4.0,0.0
+PORTO ALEGRE,homicidio_doloso_oco,153.0,153.0,0.0
+PORTO LUCENA,homicidio_doloso_oco,0.0,0.0,0.0
+PORTO MAUA,homicidio_doloso_oco,0.0,0.0,0.0
+PORTO VERA CRUZ,homicidio_doloso_oco,0.0,0.0,0.0
+PORTO XAVIER,homicidio_doloso_oco,0.0,0.0,0.0
+POUSO NOVO,homicidio_doloso_oco,0.0,0.0,0.0
+PRESIDENTE LUCENA,homicidio_doloso_oco,0.0,0.0,0.0
+PROGRESSO,homicidio_doloso_oco,1.0,1.0,0.0
+PROTASIO ALVES,homicidio_doloso_oco,0.0,0.0,0.0
+PUTINGA,homicidio_doloso_oco,0.0,0.0,0.0
+QUARAI,homicidio_doloso_oco,5.0,5.0,0.0
+QUATRO IRMAOS,homicidio_doloso_oco,1.0,1.0,0.0
+QUEVEDOS,homicidio_doloso_oco,0.0,0.0,0.0
+QUINZE DE NOVEMBRO,homicidio_doloso_oco,0.0,0.0,0.0
+REDENTORA,homicidio_doloso_oco,2.0,2.0,0.0
+RELVADO,homicidio_doloso_oco,1.0,1.0,0.0
+RESTINGA SECA,homicidio_doloso_oco,1.0,1.0,0.0
+RIO DOS INDIOS,homicidio_doloso_oco,2.0,2.0,0.0
+RIO GRANDE,homicidio_doloso_oco,37.0,37.0,0.0
+RIO PARDO,homicidio_doloso_oco,3.0,3.0,0.0
+RIOZINHO,homicidio_doloso_oco,1.0,1.0,0.0
+ROCA SALES,homicidio_doloso_oco,1.0,1.0,0.0
+RODEIO BONITO,homicidio_doloso_oco,1.0,1.0,0.0
+ROLADOR,homicidio_doloso_oco,0.0,0.0,0.0
+ROLANTE,homicidio_doloso_oco,2.0,2.0,0.0
+RONDA ALTA,homicidio_doloso_oco,2.0,2.0,0.0
+RONDINHA,homicidio_doloso_oco,0.0,0.0,0.0
+ROQUE GONZALES,homicidio_doloso_oco,3.0,3.0,0.0
+ROSARIO DO SUL,homicidio_doloso_oco,2.0,2.0,0.0
+SAGRADA FAMILIA,homicidio_doloso_oco,0.0,0.0,0.0
+SALDANHA MARINHO,homicidio_doloso_oco,1.0,1.0,0.0
+SALTO DO JACUI,homicidio_doloso_oco,3.0,3.0,0.0
+SALVADOR DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+SALVADOR DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SANANDUVA,homicidio_doloso_oco,1.0,1.0,0.0
+SANTA BARBARA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA CECILIA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA CLARA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA CRUZ DO SUL,homicidio_doloso_oco,16.0,16.0,0.0
+SANTA MARGARIDA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA MARIA,homicidio_doloso_oco,62.0,62.0,0.0
+SANTA MARIA DO HERVAL,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA ROSA,homicidio_doloso_oco,13.0,13.0,0.0
+SANTA TEREZA,homicidio_doloso_oco,0.0,0.0,0.0
+SANTA VITORIA DO PALMAR,homicidio_doloso_oco,4.0,4.0,0.0
+SANTANA DA BOA VISTA,homicidio_doloso_oco,0.0,0.0,0.0
+SANTANA DO LIVRAMENTO,homicidio_doloso_oco,11.0,11.0,0.0
+SANTIAGO,homicidio_doloso_oco,2.0,2.0,0.0
+SANTO ANGELO,homicidio_doloso_oco,14.0,14.0,0.0
+SANTO ANTONIO DA PATRULHA,homicidio_doloso_oco,2.0,2.0,0.0
+SANTO ANTONIO DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PALMA,homicidio_doloso_oco,1.0,1.0,0.0
+SANTO ANTONIO DO PLANALTO,homicidio_doloso_oco,0.0,0.0,0.0
+SANTO AUGUSTO,homicidio_doloso_oco,1.0,1.0,0.0
+SANTO CRISTO,homicidio_doloso_oco,1.0,1.0,0.0
+SANTO EXPEDITO DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO BORJA,homicidio_doloso_oco,4.0,4.0,0.0
+SAO DOMINGOS DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO FRANCISCO DE ASSIS,homicidio_doloso_oco,2.0,2.0,0.0
+SAO FRANCISCO DE PAULA,homicidio_doloso_oco,2.0,2.0,0.0
+SAO GABRIEL,homicidio_doloso_oco,6.0,6.0,0.0
+SAO JERONIMO,homicidio_doloso_oco,1.0,1.0,0.0
+SAO JOAO DA URTIGA,homicidio_doloso_oco,0.0,0.0,0.0
+SAO JOAO DO POLESINE,homicidio_doloso_oco,1.0,1.0,0.0
+SAO JORGE,homicidio_doloso_oco,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,homicidio_doloso_oco,1.0,1.0,0.0
+SAO JOSE DO HERVAL,homicidio_doloso_oco,1.0,1.0,0.0
+SAO JOSE DO HORTENCIO,homicidio_doloso_oco,0.0,0.0,0.0
+SAO JOSE DO INHACORA,homicidio_doloso_oco,0.0,0.0,0.0
+SAO JOSE DO NORTE,homicidio_doloso_oco,3.0,3.0,0.0
+SAO JOSE DO OURO,homicidio_doloso_oco,1.0,1.0,0.0
+SAO JOSE DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO JOSE DOS AUSENTES,homicidio_doloso_oco,0.0,0.0,0.0
+SAO LEOPOLDO,homicidio_doloso_oco,17.0,17.0,0.0
+SAO LOURENCO DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO LUIZ GONZAGA,homicidio_doloso_oco,2.0,2.0,0.0
+SAO MARCOS,homicidio_doloso_oco,3.0,3.0,0.0
+SAO MARTINHO,homicidio_doloso_oco,0.0,0.0,0.0
+SAO MARTINHO DA SERRA,homicidio_doloso_oco,1.0,1.0,0.0
+SAO MIGUEL DAS MISSOES,homicidio_doloso_oco,1.0,1.0,0.0
+SAO NICOLAU,homicidio_doloso_oco,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+SAO PEDRO DA SERRA,homicidio_doloso_oco,0.0,0.0,0.0
+SAO PEDRO DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,homicidio_doloso_oco,0.0,0.0,0.0
+SAO PEDRO DO SUL,homicidio_doloso_oco,3.0,3.0,0.0
+SAO SEBASTIAO DO CAI,homicidio_doloso_oco,2.0,2.0,0.0
+SAO SEPE,homicidio_doloso_oco,0.0,0.0,0.0
+SAO VALENTIM,homicidio_doloso_oco,0.0,0.0,0.0
+SAO VALENTIM DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO VALERIO DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAO VENDELINO,homicidio_doloso_oco,0.0,0.0,0.0
+SAO VICENTE DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+SAPIRANGA,homicidio_doloso_oco,8.0,8.0,0.0
+SAPUCAIA DO SUL,homicidio_doloso_oco,19.0,19.0,0.0
+SARANDI,homicidio_doloso_oco,0.0,0.0,0.0
+SEBERI,homicidio_doloso_oco,3.0,3.0,0.0
+SEDE NOVA,homicidio_doloso_oco,0.0,0.0,0.0
+SEGREDO,homicidio_doloso_oco,0.0,0.0,0.0
+SELBACH,homicidio_doloso_oco,0.0,0.0,0.0
+SENADOR SALGADO FILHO,homicidio_doloso_oco,0.0,0.0,0.0
+SENTINELA DO SUL,homicidio_doloso_oco,1.0,1.0,0.0
+SERAFINA CORREA,homicidio_doloso_oco,4.0,4.0,0.0
+SERIO,homicidio_doloso_oco,0.0,0.0,0.0
+SERTAO,homicidio_doloso_oco,0.0,0.0,0.0
+SERTAO SANTANA,homicidio_doloso_oco,0.0,0.0,0.0
+SETE DE SETEMBRO,homicidio_doloso_oco,0.0,0.0,0.0
+SEVERIANO DE ALMEIDA,homicidio_doloso_oco,0.0,0.0,0.0
+SILVEIRA MARTINS,homicidio_doloso_oco,1.0,1.0,0.0
+SINIMBU,homicidio_doloso_oco,1.0,1.0,0.0
+SOBRADINHO,homicidio_doloso_oco,1.0,1.0,0.0
+SOLEDADE,homicidio_doloso_oco,8.0,8.0,0.0
+TABAI,homicidio_doloso_oco,0.0,0.0,0.0
+TAPEJARA,homicidio_doloso_oco,1.0,1.0,0.0
+TAPERA,homicidio_doloso_oco,1.0,1.0,0.0
+TAPES,homicidio_doloso_oco,2.0,2.0,0.0
+TAQUARA,homicidio_doloso_oco,3.0,3.0,0.0
+TAQUARI,homicidio_doloso_oco,7.0,7.0,0.0
+TAQUARUCU DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+TAVARES,homicidio_doloso_oco,0.0,0.0,0.0
+TENENTE PORTELA,homicidio_doloso_oco,2.0,2.0,0.0
+TERRA DE AREIA,homicidio_doloso_oco,0.0,0.0,0.0
+TEUTONIA,homicidio_doloso_oco,1.0,1.0,0.0
+TIO HUGO,homicidio_doloso_oco,1.0,1.0,0.0
+TIRADENTES DO SUL,homicidio_doloso_oco,1.0,1.0,0.0
+TOROPI,homicidio_doloso_oco,1.0,1.0,0.0
+TORRES,homicidio_doloso_oco,4.0,4.0,0.0
+TRAMANDAI,homicidio_doloso_oco,12.0,12.0,0.0
+TRAVESSEIRO,homicidio_doloso_oco,0.0,0.0,0.0
+TRES ARROIOS,homicidio_doloso_oco,0.0,0.0,0.0
+TRES CACHOEIRAS,homicidio_doloso_oco,0.0,0.0,0.0
+TRES COROAS,homicidio_doloso_oco,2.0,2.0,0.0
+TRES DE MAIO,homicidio_doloso_oco,3.0,3.0,0.0
+TRES FORQUILHAS,homicidio_doloso_oco,0.0,0.0,0.0
+TRES PALMEIRAS,homicidio_doloso_oco,0.0,0.0,0.0
+TRES PASSOS,homicidio_doloso_oco,2.0,2.0,0.0
+TRINDADE DO SUL,homicidio_doloso_oco,5.0,5.0,0.0
+TRIUNFO,homicidio_doloso_oco,3.0,3.0,0.0
+TUCUNDUVA,homicidio_doloso_oco,1.0,1.0,0.0
+TUNAS,homicidio_doloso_oco,0.0,0.0,0.0
+TUPANCI DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+TUPANCIRETA,homicidio_doloso_oco,1.0,1.0,0.0
+TUPANDI,homicidio_doloso_oco,0.0,0.0,0.0
+TUPARENDI,homicidio_doloso_oco,1.0,1.0,0.0
+TURUCU,homicidio_doloso_oco,0.0,0.0,0.0
+UBIRETAMA,homicidio_doloso_oco,0.0,0.0,0.0
+UNIAO DA SERRA,homicidio_doloso_oco,1.0,1.0,0.0
+UNISTALDA,homicidio_doloso_oco,0.0,0.0,0.0
+URUGUAIANA,homicidio_doloso_oco,8.0,8.0,0.0
+VACARIA,homicidio_doloso_oco,14.0,14.0,0.0
+VALE DO SOL,homicidio_doloso_oco,0.0,0.0,0.0
+VALE REAL,homicidio_doloso_oco,0.0,0.0,0.0
+VALE VERDE,homicidio_doloso_oco,0.0,0.0,0.0
+VANINI,homicidio_doloso_oco,0.0,0.0,0.0
+VENANCIO AIRES,homicidio_doloso_oco,8.0,8.0,0.0
+VERA CRUZ,homicidio_doloso_oco,2.0,2.0,0.0
+VERANOPOLIS,homicidio_doloso_oco,3.0,3.0,0.0
+VESPASIANO CORREA,homicidio_doloso_oco,0.0,0.0,0.0
+VIADUTOS,homicidio_doloso_oco,1.0,1.0,0.0
+VIAMAO,homicidio_doloso_oco,36.0,36.0,0.0
+VICENTE DUTRA,homicidio_doloso_oco,1.0,1.0,0.0
+VICTOR GRAEFF,homicidio_doloso_oco,0.0,0.0,0.0
+VILA FLORES,homicidio_doloso_oco,1.0,1.0,0.0
+VILA LANGARO,homicidio_doloso_oco,0.0,0.0,0.0
+VILA MARIA,homicidio_doloso_oco,0.0,0.0,0.0
+VILA NOVA DO SUL,homicidio_doloso_oco,0.0,0.0,0.0
+VISTA ALEGRE,homicidio_doloso_oco,1.0,1.0,0.0
+VISTA ALEGRE DO PRATA,homicidio_doloso_oco,0.0,0.0,0.0
+VISTA GAUCHA,homicidio_doloso_oco,2.0,2.0,0.0
+VITORIA DAS MISSOES,homicidio_doloso_oco,0.0,0.0,0.0
+WESTFALIA,homicidio_doloso_oco,0.0,0.0,0.0
+XANGRI-LA,homicidio_doloso_oco,2.0,2.0,0.0
+XANGRILA,homicidio_doloso_oco,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",homicidio_vitimas,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,homicidio_vitimas,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,homicidio_vitimas,0.0,0.0,0.0
+ACEGUA,homicidio_vitimas,0.0,0.0,0.0
+AGUA SANTA,homicidio_vitimas,1.0,2.0,1.0
+AGUDO,homicidio_vitimas,1.0,1.0,0.0
+AJURICABA,homicidio_vitimas,0.0,0.0,0.0
+ALECRIM,homicidio_vitimas,0.0,0.0,0.0
+ALEGRETE,homicidio_vitimas,14.0,17.0,3.0
+ALEGRIA,homicidio_vitimas,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,homicidio_vitimas,0.0,0.0,0.0
+ALPESTRE,homicidio_vitimas,1.0,1.0,0.0
+ALTO ALEGRE,homicidio_vitimas,0.0,0.0,0.0
+ALTO FELIZ,homicidio_vitimas,0.0,0.0,0.0
+ALVORADA,homicidio_vitimas,35.0,38.0,3.0
+AMARAL FERRADOR,homicidio_vitimas,1.0,1.0,0.0
+AMETISTA DO SUL,homicidio_vitimas,2.0,2.0,0.0
+ANDRE DA ROCHA,homicidio_vitimas,0.0,0.0,0.0
+ANTA GORDA,homicidio_vitimas,1.0,1.0,0.0
+ANTONIO PRADO,homicidio_vitimas,8.0,11.0,3.0
+ARAMBARE,homicidio_vitimas,0.0,0.0,0.0
+ARARICA,homicidio_vitimas,1.0,1.0,0.0
+ARATIBA,homicidio_vitimas,0.0,0.0,0.0
+ARROIO DO MEIO,homicidio_vitimas,3.0,5.0,2.0
+ARROIO DO PADRE,homicidio_vitimas,0.0,0.0,0.0
+ARROIO DO SAL,homicidio_vitimas,3.0,3.0,0.0
+ARROIO DO TIGRE,homicidio_vitimas,1.0,1.0,0.0
+ARROIO DOS RATOS,homicidio_vitimas,4.0,4.0,0.0
+ARROIO GRANDE,homicidio_vitimas,0.0,0.0,0.0
+ARVOREZINHA,homicidio_vitimas,0.0,0.0,0.0
+AUGUSTO PESTANA,homicidio_vitimas,0.0,0.0,0.0
+AUREA,homicidio_vitimas,0.0,0.0,0.0
+BAGE,homicidio_vitimas,15.0,15.0,0.0
+BALNEARIO PINHAL,homicidio_vitimas,14.0,15.0,1.0
+BARAO,homicidio_vitimas,0.0,0.0,0.0
+BARAO DE COTEGIPE,homicidio_vitimas,0.0,0.0,0.0
+BARAO DO COTEGIPE,homicidio_vitimas,0.0,0.0,0.0
+BARAO DO TRIUNFO,homicidio_vitimas,1.0,1.0,0.0
+BARRA DO GUARITA,homicidio_vitimas,1.0,1.0,0.0
+BARRA DO QUARAI,homicidio_vitimas,0.0,0.0,0.0
+BARRA DO RIBEIRO,homicidio_vitimas,2.0,2.0,0.0
+BARRA DO RIO AZUL,homicidio_vitimas,0.0,0.0,0.0
+BARRA FUNDA,homicidio_vitimas,0.0,0.0,0.0
+BARRACAO,homicidio_vitimas,2.0,2.0,0.0
+BARROS CASSAL,homicidio_vitimas,1.0,1.0,0.0
+BENJAMIN CONSTANT DO SUL,homicidio_vitimas,0.0,0.0,0.0
+BENTO GONCALVES,homicidio_vitimas,37.0,43.0,6.0
+BOA VISTA DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+BOA VISTA DO BURICA,homicidio_vitimas,2.0,2.0,0.0
+BOA VISTA DO CADEADO,homicidio_vitimas,2.0,2.0,0.0
+BOA VISTA DO INCRA,homicidio_vitimas,0.0,0.0,0.0
+BOA VISTA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+BOM JESUS,homicidio_vitimas,1.0,1.0,0.0
+BOM PRINCIPIO,homicidio_vitimas,1.0,1.0,0.0
+BOM PROGRESSO,homicidio_vitimas,0.0,0.0,0.0
+BOM RETIRO DO SUL,homicidio_vitimas,3.0,3.0,0.0
+BOQUEIRAO DO LEAO,homicidio_vitimas,2.0,2.0,0.0
+BOSSOROCA,homicidio_vitimas,0.0,0.0,0.0
+BOZANO,homicidio_vitimas,0.0,0.0,0.0
+BRAGA,homicidio_vitimas,0.0,0.0,0.0
+BROCHIER,homicidio_vitimas,0.0,0.0,0.0
+BUTIA,homicidio_vitimas,4.0,7.0,3.0
+CACAPAVA DO SUL,homicidio_vitimas,6.0,6.0,0.0
+CACEQUI,homicidio_vitimas,6.0,7.0,1.0
+CACHOEIRA DO SUL,homicidio_vitimas,5.0,5.0,0.0
+CACHOEIRINHA,homicidio_vitimas,12.0,12.0,0.0
+CACIQUE DOBLE,homicidio_vitimas,0.0,0.0,0.0
+CAIBATE,homicidio_vitimas,1.0,2.0,1.0
+CAICARA,homicidio_vitimas,1.0,1.0,0.0
+CAMAQUA,homicidio_vitimas,5.0,5.0,0.0
+CAMARGO,homicidio_vitimas,1.0,1.0,0.0
+CAMBARA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+CAMPESTRE DA SERRA,homicidio_vitimas,0.0,0.0,0.0
+CAMPINA DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+CAMPINAS DO SUL,homicidio_vitimas,3.0,3.0,0.0
+CAMPO BOM,homicidio_vitimas,4.0,4.0,0.0
+CAMPO NOVO,homicidio_vitimas,2.0,3.0,1.0
+CAMPOS BORGES,homicidio_vitimas,1.0,2.0,1.0
+CANDELARIA,homicidio_vitimas,8.0,9.0,1.0
+CANDIDO GODOI,homicidio_vitimas,0.0,0.0,0.0
+CANDIOTA,homicidio_vitimas,1.0,1.0,0.0
+CANELA,homicidio_vitimas,5.0,5.0,0.0
+CANGUCU,homicidio_vitimas,4.0,4.0,0.0
+CANOAS,homicidio_vitimas,63.0,79.0,16.0
+CANUDOS DO VALE,homicidio_vitimas,0.0,0.0,0.0
+CAPAO BONITO DO SUL,homicidio_vitimas,1.0,1.0,0.0
+CAPAO DA CANOA,homicidio_vitimas,21.0,26.0,5.0
+CAPAO DO CIPO,homicidio_vitimas,0.0,0.0,0.0
+CAPAO DO LEAO,homicidio_vitimas,0.0,0.0,0.0
+CAPELA DE SANTANA,homicidio_vitimas,4.0,4.0,0.0
+CAPITAO,homicidio_vitimas,0.0,0.0,0.0
+CAPIVARI DO SUL,homicidio_vitimas,0.0,0.0,0.0
+CARAA,homicidio_vitimas,0.0,0.0,0.0
+CARAZINHO,homicidio_vitimas,11.0,12.0,1.0
+CARLOS BARBOSA,homicidio_vitimas,1.0,1.0,0.0
+CARLOS GOMES,homicidio_vitimas,0.0,0.0,0.0
+CASCA,homicidio_vitimas,0.0,0.0,0.0
+CASEIROS,homicidio_vitimas,0.0,0.0,0.0
+CATUIPE,homicidio_vitimas,0.0,0.0,0.0
+CAXIAS DO SUL,homicidio_vitimas,58.0,67.0,9.0
+CENTENARIO,homicidio_vitimas,0.0,0.0,0.0
+CERRITO,homicidio_vitimas,0.0,0.0,0.0
+CERRO BRANCO,homicidio_vitimas,0.0,0.0,0.0
+CERRO GRANDE,homicidio_vitimas,1.0,1.0,0.0
+CERRO GRANDE DO SUL,homicidio_vitimas,0.0,0.0,0.0
+CERRO LARGO,homicidio_vitimas,5.0,6.0,1.0
+CHAPADA,homicidio_vitimas,0.0,0.0,0.0
+CHARQUEADAS,homicidio_vitimas,2.0,2.0,0.0
+CHARRUA,homicidio_vitimas,0.0,0.0,0.0
+CHIAPETTA,homicidio_vitimas,0.0,0.0,0.0
+CHUI,homicidio_vitimas,1.0,1.0,0.0
+CHUVISCA,homicidio_vitimas,0.0,0.0,0.0
+CIDREIRA,homicidio_vitimas,13.0,17.0,4.0
+CIRIACO,homicidio_vitimas,1.0,1.0,0.0
+COLINAS,homicidio_vitimas,0.0,0.0,0.0
+COLORADO,homicidio_vitimas,2.0,2.0,0.0
+CONDOR,homicidio_vitimas,1.0,1.0,0.0
+CONSTANTINA,homicidio_vitimas,3.0,3.0,0.0
+COQUEIRO BAIXO,homicidio_vitimas,1.0,1.0,0.0
+COQUEIROS DO SUL,homicidio_vitimas,0.0,0.0,0.0
+CORONEL BARROS,homicidio_vitimas,0.0,0.0,0.0
+CORONEL BICACO,homicidio_vitimas,0.0,0.0,0.0
+CORONEL PILAR,homicidio_vitimas,0.0,0.0,0.0
+COTIPORA,homicidio_vitimas,1.0,2.0,1.0
+COXILHA,homicidio_vitimas,1.0,1.0,0.0
+CRISSIUMAL,homicidio_vitimas,0.0,0.0,0.0
+CRISTAL,homicidio_vitimas,0.0,0.0,0.0
+CRISTAL DO SUL,homicidio_vitimas,0.0,0.0,0.0
+CRUZ ALTA,homicidio_vitimas,10.0,11.0,1.0
+CRUZALTENSE,homicidio_vitimas,0.0,0.0,0.0
+CRUZEIRO DO SUL,homicidio_vitimas,2.0,2.0,0.0
+DAVID CANABARRO,homicidio_vitimas,0.0,0.0,0.0
+DERRUBADAS,homicidio_vitimas,0.0,0.0,0.0
+DEZESSEIS DE NOVEMBRO,homicidio_vitimas,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,homicidio_vitimas,0.0,0.0,0.0
+DOIS IRMAOS,homicidio_vitimas,1.0,1.0,0.0
+DOIS IRMAOS DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+DOIS LAJEADOS,homicidio_vitimas,0.0,0.0,0.0
+DOM FELICIANO,homicidio_vitimas,4.0,4.0,0.0
+DOM PEDRITO,homicidio_vitimas,9.0,13.0,4.0
+DOM PEDRO DE ALCANTARA,homicidio_vitimas,0.0,0.0,0.0
+DONA FRANCISCA,homicidio_vitimas,1.0,1.0,0.0
+DOUTOR RICARDO,homicidio_vitimas,0.0,0.0,0.0
+DR MAURICIO CARDOSO,homicidio_vitimas,0.0,0.0,0.0
+ELDORADO DO SUL,homicidio_vitimas,3.0,3.0,0.0
+ENCANTADO,homicidio_vitimas,2.0,3.0,1.0
+ENCRUZILHADA DO SUL,homicidio_vitimas,4.0,4.0,0.0
+ENGENHO VELHO,homicidio_vitimas,0.0,0.0,0.0
+ENTRE IJUIS,homicidio_vitimas,0.0,0.0,0.0
+ENTRE RIOS DO SUL,homicidio_vitimas,0.0,0.0,0.0
+EREBANGO,homicidio_vitimas,0.0,0.0,0.0
+ERECHIM,homicidio_vitimas,18.0,20.0,2.0
+ERNESTINA,homicidio_vitimas,0.0,0.0,0.0
+ERVAL GRANDE,homicidio_vitimas,1.0,1.0,0.0
+ERVAL SECO,homicidio_vitimas,0.0,0.0,0.0
+ESMERALDA,homicidio_vitimas,0.0,0.0,0.0
+ESPERANCA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+ESPUMOSO,homicidio_vitimas,0.0,0.0,0.0
+ESTACAO,homicidio_vitimas,0.0,0.0,0.0
+ESTANCIA VELHA,homicidio_vitimas,7.0,7.0,0.0
+ESTEIO,homicidio_vitimas,12.0,14.0,2.0
+ESTRELA,homicidio_vitimas,2.0,2.0,0.0
+ESTRELA VELHA,homicidio_vitimas,0.0,0.0,0.0
+EUGENIO DE CASTRO,homicidio_vitimas,0.0,0.0,0.0
+FAGUNDES VARELA,homicidio_vitimas,0.0,0.0,0.0
+FARROUPILHA,homicidio_vitimas,4.0,5.0,1.0
+FAXINAL DO SOTURNO,homicidio_vitimas,0.0,0.0,0.0
+FAXINALZINHO,homicidio_vitimas,0.0,0.0,0.0
+FAZENDA VILA NOVA,homicidio_vitimas,1.0,1.0,0.0
+FELIZ,homicidio_vitimas,0.0,0.0,0.0
+FLORES DA CUNHA,homicidio_vitimas,1.0,1.0,0.0
+FLORIANO PEIXOTO,homicidio_vitimas,0.0,0.0,0.0
+FONTOURA XAVIER,homicidio_vitimas,0.0,0.0,0.0
+FORMIGUEIRO,homicidio_vitimas,3.0,3.0,0.0
+FORQUETINHA,homicidio_vitimas,1.0,1.0,0.0
+FORTALEZA DOS VALOS,homicidio_vitimas,0.0,0.0,0.0
+FREDERICO WESTPHALEN,homicidio_vitimas,6.0,6.0,0.0
+GARIBALDI,homicidio_vitimas,9.0,10.0,1.0
+GARRUCHOS,homicidio_vitimas,0.0,0.0,0.0
+GAURAMA,homicidio_vitimas,0.0,0.0,0.0
+GENERAL CAMARA,homicidio_vitimas,0.0,0.0,0.0
+GENTIL,homicidio_vitimas,0.0,0.0,0.0
+GERAL,homicidio_vitimas,0.0,0.0,0.0
+GETULIO VARGAS,homicidio_vitimas,0.0,0.0,0.0
+GIRUA,homicidio_vitimas,4.0,4.0,0.0
+GLORINHA,homicidio_vitimas,1.0,1.0,0.0
+GRAMADO,homicidio_vitimas,1.0,2.0,1.0
+GRAMADO DOS LOUREIROS,homicidio_vitimas,0.0,0.0,0.0
+GRAMADO XAVIER,homicidio_vitimas,1.0,1.0,0.0
+GRAVATAI,homicidio_vitimas,24.0,25.0,1.0
+GUABIJU,homicidio_vitimas,0.0,0.0,0.0
+GUAIBA,homicidio_vitimas,5.0,5.0,0.0
+GUAPORE,homicidio_vitimas,4.0,5.0,1.0
+GUARANI DAS MISSOES,homicidio_vitimas,1.0,1.0,0.0
+HARMONIA,homicidio_vitimas,0.0,0.0,0.0
+HERVAL,homicidio_vitimas,1.0,1.0,0.0
+HERVEIRAS,homicidio_vitimas,0.0,0.0,0.0
+HORIZONTINA,homicidio_vitimas,1.0,1.0,0.0
+HULHA NEGRA,homicidio_vitimas,2.0,2.0,0.0
+HUMAITA,homicidio_vitimas,0.0,0.0,0.0
+IBARAMA,homicidio_vitimas,0.0,0.0,0.0
+IBIACA,homicidio_vitimas,3.0,3.0,0.0
+IBIRAIARAS,homicidio_vitimas,0.0,0.0,0.0
+IBIRAPUITA,homicidio_vitimas,2.0,2.0,0.0
+IBIRUBA,homicidio_vitimas,0.0,0.0,0.0
+IGREJINHA,homicidio_vitimas,2.0,2.0,0.0
+IJUI,homicidio_vitimas,11.0,11.0,0.0
+ILOPOLIS,homicidio_vitimas,0.0,0.0,0.0
+IMBE,homicidio_vitimas,2.0,2.0,0.0
+IMIGRANTE,homicidio_vitimas,0.0,0.0,0.0
+INDEPENDENCIA,homicidio_vitimas,5.0,5.0,0.0
+INHACORA,homicidio_vitimas,0.0,0.0,0.0
+IPE,homicidio_vitimas,0.0,0.0,0.0
+IPIRANGA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+IRAI,homicidio_vitimas,1.0,1.0,0.0
+ITAARA,homicidio_vitimas,1.0,1.0,0.0
+ITACURUBI,homicidio_vitimas,0.0,0.0,0.0
+ITAPUCA,homicidio_vitimas,0.0,0.0,0.0
+ITAQUI,homicidio_vitimas,5.0,6.0,1.0
+ITATI,homicidio_vitimas,0.0,0.0,0.0
+ITATIBA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+IVORA,homicidio_vitimas,0.0,0.0,0.0
+IVOTI,homicidio_vitimas,1.0,1.0,0.0
+JABOTICABA,homicidio_vitimas,0.0,0.0,0.0
+JACUIZINHO,homicidio_vitimas,0.0,0.0,0.0
+JACUTINGA,homicidio_vitimas,0.0,0.0,0.0
+JAGUARAO,homicidio_vitimas,0.0,0.0,0.0
+JAGUARI,homicidio_vitimas,0.0,0.0,0.0
+JAQUIRANA,homicidio_vitimas,0.0,0.0,0.0
+JARI,homicidio_vitimas,2.0,2.0,0.0
+JOIA,homicidio_vitimas,2.0,2.0,0.0
+JULIO DE CASTILHOS,homicidio_vitimas,0.0,0.0,0.0
+LAGOA BONITA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,homicidio_vitimas,0.0,0.0,0.0
+LAGOA VERMELHA,homicidio_vitimas,9.0,9.0,0.0
+LAGOAO,homicidio_vitimas,0.0,0.0,0.0
+LAJEADO,homicidio_vitimas,16.0,23.0,7.0
+LAJEADO DO BUGRE,homicidio_vitimas,0.0,0.0,0.0
+LAVRAS DO SUL,homicidio_vitimas,1.0,1.0,0.0
+LIBERATO SALZANO,homicidio_vitimas,0.0,0.0,0.0
+LINDOLFO COLLOR,homicidio_vitimas,0.0,0.0,0.0
+LINHA NOVA,homicidio_vitimas,0.0,0.0,0.0
+MACAMBARA,homicidio_vitimas,0.0,0.0,0.0
+MACHADINHO,homicidio_vitimas,0.0,0.0,0.0
+MAMPITUBA,homicidio_vitimas,0.0,0.0,0.0
+MANOEL VIANA,homicidio_vitimas,0.0,0.0,0.0
+MAQUINE,homicidio_vitimas,2.0,2.0,0.0
+MARATA,homicidio_vitimas,0.0,0.0,0.0
+MARAU,homicidio_vitimas,5.0,6.0,1.0
+MARCELINO RAMOS,homicidio_vitimas,0.0,0.0,0.0
+MARIANA PIMENTEL,homicidio_vitimas,0.0,0.0,0.0
+MARIANO MORO,homicidio_vitimas,0.0,0.0,0.0
+MARQUES DE SOUZA,homicidio_vitimas,0.0,0.0,0.0
+MATA,homicidio_vitimas,0.0,0.0,0.0
+MATO CASTELHANO,homicidio_vitimas,0.0,0.0,0.0
+MATO LEITAO,homicidio_vitimas,0.0,0.0,0.0
+MATO QUEIMADO,homicidio_vitimas,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,homicidio_vitimas,1.0,1.0,0.0
+MINAS DO LEAO,homicidio_vitimas,1.0,1.0,0.0
+MIRAGUAI,homicidio_vitimas,2.0,4.0,2.0
+MONTAURI,homicidio_vitimas,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,homicidio_vitimas,0.0,0.0,0.0
+MONTE BELO DO SUL,homicidio_vitimas,0.0,0.0,0.0
+MONTENEGRO,homicidio_vitimas,10.0,12.0,2.0
+MORMACO,homicidio_vitimas,0.0,0.0,0.0
+MORRINHOS DO SUL,homicidio_vitimas,0.0,0.0,0.0
+MORRO REDONDO,homicidio_vitimas,0.0,0.0,0.0
+MORRO REUTER,homicidio_vitimas,0.0,0.0,0.0
+MOSTARDAS,homicidio_vitimas,1.0,1.0,0.0
+MUCUM,homicidio_vitimas,0.0,0.0,0.0
+MUITOS CAPOES,homicidio_vitimas,0.0,0.0,0.0
+MULITERNO,homicidio_vitimas,0.0,0.0,0.0
+NAN,homicidio_vitimas,0.0,0.0,0.0
+NAN,homicidio_vitimas,0.0,0.0,0.0
+NAO ME TOQUE,homicidio_vitimas,0.0,0.0,0.0
+NAO-ME-TOQUE,homicidio_vitimas,4.0,4.0,0.0
+NICOLAU VERGUEIRO,homicidio_vitimas,0.0,0.0,0.0
+NONOAI,homicidio_vitimas,2.0,2.0,0.0
+NOVA ALVORADA,homicidio_vitimas,0.0,0.0,0.0
+NOVA ARACA,homicidio_vitimas,0.0,0.0,0.0
+NOVA BASSANO,homicidio_vitimas,0.0,0.0,0.0
+NOVA BOA VISTA,homicidio_vitimas,0.0,0.0,0.0
+NOVA BRESCIA,homicidio_vitimas,0.0,0.0,0.0
+NOVA CANDELARIA,homicidio_vitimas,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+NOVA HARTZ,homicidio_vitimas,2.0,2.0,0.0
+NOVA PADUA,homicidio_vitimas,0.0,0.0,0.0
+NOVA PALMA,homicidio_vitimas,0.0,0.0,0.0
+NOVA PETROPOLIS,homicidio_vitimas,1.0,1.0,0.0
+NOVA PRATA,homicidio_vitimas,0.0,0.0,0.0
+NOVA RAMADA,homicidio_vitimas,0.0,0.0,0.0
+NOVA ROMA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+NOVA SANTA RITA,homicidio_vitimas,5.0,7.0,2.0
+NOVO BARREIRO,homicidio_vitimas,0.0,0.0,0.0
+NOVO CABRAIS,homicidio_vitimas,0.0,0.0,0.0
+NOVO HAMBURGO,homicidio_vitimas,18.0,26.0,8.0
+NOVO MACHADO,homicidio_vitimas,0.0,0.0,0.0
+NOVO TIRADENTES,homicidio_vitimas,2.0,2.0,0.0
+NOVO XINGU,homicidio_vitimas,1.0,1.0,0.0
+OSORIO,homicidio_vitimas,8.0,8.0,0.0
+PAIM FILHO,homicidio_vitimas,0.0,0.0,0.0
+PALMARES DO SUL,homicidio_vitimas,0.0,0.0,0.0
+PALMEIRA DAS MISSOES,homicidio_vitimas,8.0,8.0,0.0
+PALMITINHO,homicidio_vitimas,2.0,2.0,0.0
+PANAMBI,homicidio_vitimas,4.0,4.0,0.0
+PANTANO GRANDE,homicidio_vitimas,0.0,0.0,0.0
+PARAI,homicidio_vitimas,3.0,4.0,1.0
+PARAISO DO SUL,homicidio_vitimas,0.0,0.0,0.0
+PARECI NOVO,homicidio_vitimas,0.0,0.0,0.0
+PAROBE,homicidio_vitimas,3.0,6.0,3.0
+PASSA SETE,homicidio_vitimas,0.0,0.0,0.0
+PASSO DO SOBRADO,homicidio_vitimas,3.0,3.0,0.0
+PASSO FUNDO,homicidio_vitimas,45.0,48.0,3.0
+PAULO BENTO,homicidio_vitimas,3.0,3.0,0.0
+PAVERAMA,homicidio_vitimas,0.0,0.0,0.0
+PEDRAS ALTAS,homicidio_vitimas,0.0,0.0,0.0
+PEDRO OSORIO,homicidio_vitimas,0.0,0.0,0.0
+PEJUCARA,homicidio_vitimas,1.0,1.0,0.0
+PELOTAS,homicidio_vitimas,31.0,36.0,5.0
+PICADA CAFE,homicidio_vitimas,0.0,0.0,0.0
+PINHAL,homicidio_vitimas,0.0,0.0,0.0
+PINHAL DA SERRA,homicidio_vitimas,1.0,1.0,0.0
+PINHAL GRANDE,homicidio_vitimas,1.0,1.0,0.0
+PINHEIRINHO DO VALE,homicidio_vitimas,0.0,0.0,0.0
+PINHEIRO MACHADO,homicidio_vitimas,0.0,0.0,0.0
+PINTO BANDEIRA,homicidio_vitimas,1.0,0.0,-1.0
+PINTO BANDEIRA (BENTO GONC),homicidio_vitimas,0.0,1.0,1.0
+PIRAPO,homicidio_vitimas,0.0,0.0,0.0
+PIRATINI,homicidio_vitimas,2.0,2.0,0.0
+PLANALTO,homicidio_vitimas,1.0,1.0,0.0
+POCO DAS ANTAS,homicidio_vitimas,0.0,0.0,0.0
+PONTAO,homicidio_vitimas,0.0,0.0,0.0
+PONTE PRETA,homicidio_vitimas,0.0,0.0,0.0
+PORTAO,homicidio_vitimas,4.0,4.0,0.0
+PORTO ALEGRE,homicidio_vitimas,166.0,192.0,26.0
+PORTO LUCENA,homicidio_vitimas,0.0,0.0,0.0
+PORTO MAUA,homicidio_vitimas,0.0,0.0,0.0
+PORTO VERA CRUZ,homicidio_vitimas,0.0,0.0,0.0
+PORTO XAVIER,homicidio_vitimas,0.0,0.0,0.0
+POUSO NOVO,homicidio_vitimas,0.0,0.0,0.0
+PRESIDENTE LUCENA,homicidio_vitimas,0.0,0.0,0.0
+PROGRESSO,homicidio_vitimas,1.0,1.0,0.0
+PROTASIO ALVES,homicidio_vitimas,0.0,0.0,0.0
+PUTINGA,homicidio_vitimas,0.0,0.0,0.0
+QUARAI,homicidio_vitimas,5.0,5.0,0.0
+QUATRO IRMAOS,homicidio_vitimas,1.0,1.0,0.0
+QUEVEDOS,homicidio_vitimas,0.0,0.0,0.0
+QUINZE DE NOVEMBRO,homicidio_vitimas,0.0,0.0,0.0
+REDENTORA,homicidio_vitimas,2.0,3.0,1.0
+RELVADO,homicidio_vitimas,1.0,1.0,0.0
+RESTINGA SECA,homicidio_vitimas,1.0,1.0,0.0
+RIO DOS INDIOS,homicidio_vitimas,2.0,2.0,0.0
+RIO GRANDE,homicidio_vitimas,37.0,42.0,5.0
+RIO PARDO,homicidio_vitimas,3.0,4.0,1.0
+RIOZINHO,homicidio_vitimas,1.0,1.0,0.0
+ROCA SALES,homicidio_vitimas,1.0,1.0,0.0
+RODEIO BONITO,homicidio_vitimas,1.0,1.0,0.0
+ROLADOR,homicidio_vitimas,0.0,0.0,0.0
+ROLANTE,homicidio_vitimas,5.0,5.0,0.0
+RONDA ALTA,homicidio_vitimas,3.0,3.0,0.0
+RONDINHA,homicidio_vitimas,0.0,0.0,0.0
+ROQUE GONZALES,homicidio_vitimas,3.0,5.0,2.0
+ROSARIO DO SUL,homicidio_vitimas,2.0,2.0,0.0
+SAGRADA FAMILIA,homicidio_vitimas,0.0,0.0,0.0
+SALDANHA MARINHO,homicidio_vitimas,1.0,1.0,0.0
+SALTO DO JACUI,homicidio_vitimas,3.0,3.0,0.0
+SALVADOR DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+SALVADOR DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SANANDUVA,homicidio_vitimas,1.0,1.0,0.0
+SANTA BARBARA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SANTA CECILIA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SANTA CLARA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SANTA CRUZ DO SUL,homicidio_vitimas,17.0,21.0,4.0
+SANTA MARGARIDA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SANTA MARIA,homicidio_vitimas,63.0,72.0,9.0
+SANTA MARIA DO HERVAL,homicidio_vitimas,0.0,0.0,0.0
+SANTA ROSA,homicidio_vitimas,16.0,17.0,1.0
+SANTA TEREZA,homicidio_vitimas,0.0,0.0,0.0
+SANTA VITORIA DO PALMAR,homicidio_vitimas,4.0,4.0,0.0
+SANTANA DA BOA VISTA,homicidio_vitimas,0.0,0.0,0.0
+SANTANA DO LIVRAMENTO,homicidio_vitimas,11.0,13.0,2.0
+SANTIAGO,homicidio_vitimas,2.0,2.0,0.0
+SANTO ANGELO,homicidio_vitimas,14.0,22.0,8.0
+SANTO ANTONIO DA PATRULHA,homicidio_vitimas,2.0,2.0,0.0
+SANTO ANTONIO DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+SANTO ANTONIO DO PALMA,homicidio_vitimas,2.0,2.0,0.0
+SANTO ANTONIO DO PLANALTO,homicidio_vitimas,0.0,0.0,0.0
+SANTO AUGUSTO,homicidio_vitimas,1.0,1.0,0.0
+SANTO CRISTO,homicidio_vitimas,1.0,1.0,0.0
+SANTO EXPEDITO DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO BORJA,homicidio_vitimas,4.0,4.0,0.0
+SAO DOMINGOS DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO FRANCISCO DE ASSIS,homicidio_vitimas,2.0,2.0,0.0
+SAO FRANCISCO DE PAULA,homicidio_vitimas,2.0,2.0,0.0
+SAO GABRIEL,homicidio_vitimas,6.0,6.0,0.0
+SAO JERONIMO,homicidio_vitimas,1.0,1.0,0.0
+SAO JOAO DA URTIGA,homicidio_vitimas,0.0,0.0,0.0
+SAO JOAO DO POLESINE,homicidio_vitimas,1.0,8.0,7.0
+SAO JORGE,homicidio_vitimas,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,homicidio_vitimas,1.0,1.0,0.0
+SAO JOSE DO HERVAL,homicidio_vitimas,1.0,1.0,0.0
+SAO JOSE DO HORTENCIO,homicidio_vitimas,0.0,0.0,0.0
+SAO JOSE DO INHACORA,homicidio_vitimas,0.0,0.0,0.0
+SAO JOSE DO NORTE,homicidio_vitimas,4.0,5.0,1.0
+SAO JOSE DO OURO,homicidio_vitimas,1.0,2.0,1.0
+SAO JOSE DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO JOSE DOS AUSENTES,homicidio_vitimas,0.0,0.0,0.0
+SAO LEOPOLDO,homicidio_vitimas,17.0,20.0,3.0
+SAO LOURENCO DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO LUIZ GONZAGA,homicidio_vitimas,2.0,2.0,0.0
+SAO MARCOS,homicidio_vitimas,3.0,3.0,0.0
+SAO MARTINHO,homicidio_vitimas,0.0,0.0,0.0
+SAO MARTINHO DA SERRA,homicidio_vitimas,2.0,7.0,5.0
+SAO MIGUEL DAS MISSOES,homicidio_vitimas,1.0,1.0,0.0
+SAO NICOLAU,homicidio_vitimas,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+SAO PEDRO DA SERRA,homicidio_vitimas,0.0,0.0,0.0
+SAO PEDRO DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,homicidio_vitimas,0.0,0.0,0.0
+SAO PEDRO DO SUL,homicidio_vitimas,3.0,4.0,1.0
+SAO SEBASTIAO DO CAI,homicidio_vitimas,2.0,2.0,0.0
+SAO SEPE,homicidio_vitimas,0.0,0.0,0.0
+SAO VALENTIM,homicidio_vitimas,0.0,0.0,0.0
+SAO VALENTIM DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO VALERIO DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAO VENDELINO,homicidio_vitimas,0.0,0.0,0.0
+SAO VICENTE DO SUL,homicidio_vitimas,0.0,0.0,0.0
+SAPIRANGA,homicidio_vitimas,8.0,11.0,3.0
+SAPUCAIA DO SUL,homicidio_vitimas,19.0,19.0,0.0
+SARANDI,homicidio_vitimas,0.0,0.0,0.0
+SEBERI,homicidio_vitimas,3.0,3.0,0.0
+SEDE NOVA,homicidio_vitimas,0.0,0.0,0.0
+SEGREDO,homicidio_vitimas,0.0,0.0,0.0
+SELBACH,homicidio_vitimas,0.0,0.0,0.0
+SENADOR SALGADO FILHO,homicidio_vitimas,0.0,0.0,0.0
+SENTINELA DO SUL,homicidio_vitimas,1.0,1.0,0.0
+SERAFINA CORREA,homicidio_vitimas,4.0,5.0,1.0
+SERIO,homicidio_vitimas,0.0,0.0,0.0
+SERTAO,homicidio_vitimas,0.0,0.0,0.0
+SERTAO SANTANA,homicidio_vitimas,0.0,0.0,0.0
+SETE DE SETEMBRO,homicidio_vitimas,0.0,0.0,0.0
+SEVERIANO DE ALMEIDA,homicidio_vitimas,0.0,0.0,0.0
+SILVEIRA MARTINS,homicidio_vitimas,1.0,1.0,0.0
+SINIMBU,homicidio_vitimas,1.0,1.0,0.0
+SOBRADINHO,homicidio_vitimas,1.0,1.0,0.0
+SOLEDADE,homicidio_vitimas,8.0,8.0,0.0
+TABAI,homicidio_vitimas,0.0,0.0,0.0
+TAPEJARA,homicidio_vitimas,1.0,1.0,0.0
+TAPERA,homicidio_vitimas,1.0,1.0,0.0
+TAPES,homicidio_vitimas,2.0,2.0,0.0
+TAQUARA,homicidio_vitimas,3.0,3.0,0.0
+TAQUARI,homicidio_vitimas,7.0,7.0,0.0
+TAQUARUCU DO SUL,homicidio_vitimas,0.0,0.0,0.0
+TAVARES,homicidio_vitimas,0.0,0.0,0.0
+TENENTE PORTELA,homicidio_vitimas,2.0,2.0,0.0
+TERRA DE AREIA,homicidio_vitimas,0.0,0.0,0.0
+TEUTONIA,homicidio_vitimas,1.0,1.0,0.0
+TIO HUGO,homicidio_vitimas,1.0,1.0,0.0
+TIRADENTES DO SUL,homicidio_vitimas,1.0,1.0,0.0
+TOROPI,homicidio_vitimas,1.0,1.0,0.0
+TORRES,homicidio_vitimas,5.0,9.0,4.0
+TRAMANDAI,homicidio_vitimas,13.0,17.0,4.0
+TRAVESSEIRO,homicidio_vitimas,0.0,0.0,0.0
+TRES ARROIOS,homicidio_vitimas,0.0,0.0,0.0
+TRES CACHOEIRAS,homicidio_vitimas,0.0,0.0,0.0
+TRES COROAS,homicidio_vitimas,2.0,2.0,0.0
+TRES DE MAIO,homicidio_vitimas,3.0,3.0,0.0
+TRES FORQUILHAS,homicidio_vitimas,0.0,0.0,0.0
+TRES PALMEIRAS,homicidio_vitimas,0.0,0.0,0.0
+TRES PASSOS,homicidio_vitimas,2.0,2.0,0.0
+TRINDADE DO SUL,homicidio_vitimas,5.0,6.0,1.0
+TRIUNFO,homicidio_vitimas,3.0,3.0,0.0
+TUCUNDUVA,homicidio_vitimas,1.0,1.0,0.0
+TUNAS,homicidio_vitimas,0.0,0.0,0.0
+TUPANCI DO SUL,homicidio_vitimas,0.0,0.0,0.0
+TUPANCIRETA,homicidio_vitimas,1.0,1.0,0.0
+TUPANDI,homicidio_vitimas,0.0,0.0,0.0
+TUPARENDI,homicidio_vitimas,1.0,1.0,0.0
+TURUCU,homicidio_vitimas,0.0,0.0,0.0
+UBIRETAMA,homicidio_vitimas,0.0,0.0,0.0
+UNIAO DA SERRA,homicidio_vitimas,1.0,1.0,0.0
+UNISTALDA,homicidio_vitimas,0.0,0.0,0.0
+URUGUAIANA,homicidio_vitimas,8.0,8.0,0.0
+VACARIA,homicidio_vitimas,14.0,17.0,3.0
+VALE DO SOL,homicidio_vitimas,0.0,0.0,0.0
+VALE REAL,homicidio_vitimas,0.0,0.0,0.0
+VALE VERDE,homicidio_vitimas,0.0,0.0,0.0
+VANINI,homicidio_vitimas,0.0,0.0,0.0
+VENANCIO AIRES,homicidio_vitimas,8.0,10.0,2.0
+VERA CRUZ,homicidio_vitimas,2.0,2.0,0.0
+VERANOPOLIS,homicidio_vitimas,3.0,3.0,0.0
+VESPASIANO CORREA,homicidio_vitimas,0.0,0.0,0.0
+VIADUTOS,homicidio_vitimas,1.0,1.0,0.0
+VIAMAO,homicidio_vitimas,39.0,42.0,3.0
+VICENTE DUTRA,homicidio_vitimas,1.0,1.0,0.0
+VICTOR GRAEFF,homicidio_vitimas,0.0,0.0,0.0
+VILA FLORES,homicidio_vitimas,1.0,1.0,0.0
+VILA LANGARO,homicidio_vitimas,0.0,0.0,0.0
+VILA MARIA,homicidio_vitimas,0.0,0.0,0.0
+VILA NOVA DO SUL,homicidio_vitimas,0.0,0.0,0.0
+VISTA ALEGRE,homicidio_vitimas,1.0,1.0,0.0
+VISTA ALEGRE DO PRATA,homicidio_vitimas,0.0,0.0,0.0
+VISTA GAUCHA,homicidio_vitimas,2.0,2.0,0.0
+VITORIA DAS MISSOES,homicidio_vitimas,0.0,0.0,0.0
+WESTFALIA,homicidio_vitimas,0.0,0.0,0.0
+XANGRI-LA,homicidio_vitimas,2.0,2.0,0.0
+XANGRILA,homicidio_vitimas,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",latrocinio_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,latrocinio_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,latrocinio_oco,0.0,0.0,0.0
+ACEGUA,latrocinio_oco,0.0,0.0,0.0
+AGUA SANTA,latrocinio_oco,0.0,0.0,0.0
+AGUDO,latrocinio_oco,0.0,0.0,0.0
+AJURICABA,latrocinio_oco,0.0,0.0,0.0
+ALECRIM,latrocinio_oco,0.0,0.0,0.0
+ALEGRETE,latrocinio_oco,0.0,0.0,0.0
+ALEGRIA,latrocinio_oco,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,latrocinio_oco,0.0,0.0,0.0
+ALPESTRE,latrocinio_oco,0.0,0.0,0.0
+ALTO ALEGRE,latrocinio_oco,0.0,0.0,0.0
+ALTO FELIZ,latrocinio_oco,0.0,0.0,0.0
+ALVORADA,latrocinio_oco,0.0,0.0,0.0
+AMARAL FERRADOR,latrocinio_oco,0.0,0.0,0.0
+AMETISTA DO SUL,latrocinio_oco,0.0,0.0,0.0
+ANDRE DA ROCHA,latrocinio_oco,0.0,0.0,0.0
+ANTA GORDA,latrocinio_oco,0.0,0.0,0.0
+ANTONIO PRADO,latrocinio_oco,0.0,0.0,0.0
+ARAMBARE,latrocinio_oco,0.0,0.0,0.0
+ARARICA,latrocinio_oco,0.0,0.0,0.0
+ARATIBA,latrocinio_oco,0.0,0.0,0.0
+ARROIO DO MEIO,latrocinio_oco,0.0,0.0,0.0
+ARROIO DO PADRE,latrocinio_oco,0.0,0.0,0.0
+ARROIO DO SAL,latrocinio_oco,0.0,0.0,0.0
+ARROIO DO TIGRE,latrocinio_oco,0.0,0.0,0.0
+ARROIO DOS RATOS,latrocinio_oco,0.0,0.0,0.0
+ARROIO GRANDE,latrocinio_oco,0.0,0.0,0.0
+ARVOREZINHA,latrocinio_oco,0.0,0.0,0.0
+AUGUSTO PESTANA,latrocinio_oco,0.0,0.0,0.0
+AUREA,latrocinio_oco,0.0,0.0,0.0
+BAGE,latrocinio_oco,0.0,0.0,0.0
+BALNEARIO PINHAL,latrocinio_oco,0.0,0.0,0.0
+BARAO,latrocinio_oco,0.0,0.0,0.0
+BARAO DE COTEGIPE,latrocinio_oco,0.0,0.0,0.0
+BARAO DO COTEGIPE,latrocinio_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,latrocinio_oco,0.0,0.0,0.0
+BARRA DO GUARITA,latrocinio_oco,0.0,0.0,0.0
+BARRA DO QUARAI,latrocinio_oco,0.0,0.0,0.0
+BARRA DO RIBEIRO,latrocinio_oco,0.0,0.0,0.0
+BARRA DO RIO AZUL,latrocinio_oco,0.0,0.0,0.0
+BARRA FUNDA,latrocinio_oco,0.0,0.0,0.0
+BARRACAO,latrocinio_oco,0.0,0.0,0.0
+BARROS CASSAL,latrocinio_oco,1.0,1.0,0.0
+BENJAMIN CONSTANT DO SUL,latrocinio_oco,0.0,0.0,0.0
+BENTO GONCALVES,latrocinio_oco,1.0,1.0,0.0
+BOA VISTA DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+BOA VISTA DO BURICA,latrocinio_oco,0.0,0.0,0.0
+BOA VISTA DO CADEADO,latrocinio_oco,0.0,0.0,0.0
+BOA VISTA DO INCRA,latrocinio_oco,0.0,0.0,0.0
+BOA VISTA DO SUL,latrocinio_oco,0.0,0.0,0.0
+BOM JESUS,latrocinio_oco,0.0,0.0,0.0
+BOM PRINCIPIO,latrocinio_oco,0.0,0.0,0.0
+BOM PROGRESSO,latrocinio_oco,0.0,0.0,0.0
+BOM RETIRO DO SUL,latrocinio_oco,0.0,0.0,0.0
+BOQUEIRAO DO LEAO,latrocinio_oco,0.0,0.0,0.0
+BOSSOROCA,latrocinio_oco,0.0,0.0,0.0
+BOZANO,latrocinio_oco,0.0,0.0,0.0
+BRAGA,latrocinio_oco,0.0,0.0,0.0
+BROCHIER,latrocinio_oco,0.0,0.0,0.0
+BUTIA,latrocinio_oco,0.0,0.0,0.0
+CACAPAVA DO SUL,latrocinio_oco,0.0,0.0,0.0
+CACEQUI,latrocinio_oco,0.0,0.0,0.0
+CACHOEIRA DO SUL,latrocinio_oco,1.0,1.0,0.0
+CACHOEIRINHA,latrocinio_oco,0.0,0.0,0.0
+CACIQUE DOBLE,latrocinio_oco,0.0,0.0,0.0
+CAIBATE,latrocinio_oco,0.0,0.0,0.0
+CAICARA,latrocinio_oco,0.0,0.0,0.0
+CAMAQUA,latrocinio_oco,0.0,0.0,0.0
+CAMARGO,latrocinio_oco,0.0,0.0,0.0
+CAMBARA DO SUL,latrocinio_oco,0.0,0.0,0.0
+CAMPESTRE DA SERRA,latrocinio_oco,0.0,0.0,0.0
+CAMPINA DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+CAMPINAS DO SUL,latrocinio_oco,0.0,0.0,0.0
+CAMPO BOM,latrocinio_oco,0.0,0.0,0.0
+CAMPO NOVO,latrocinio_oco,0.0,0.0,0.0
+CAMPOS BORGES,latrocinio_oco,0.0,0.0,0.0
+CANDELARIA,latrocinio_oco,0.0,0.0,0.0
+CANDIDO GODOI,latrocinio_oco,0.0,0.0,0.0
+CANDIOTA,latrocinio_oco,0.0,0.0,0.0
+CANELA,latrocinio_oco,0.0,0.0,0.0
+CANGUCU,latrocinio_oco,0.0,0.0,0.0
+CANOAS,latrocinio_oco,1.0,1.0,0.0
+CANUDOS DO VALE,latrocinio_oco,0.0,0.0,0.0
+CAPAO BONITO DO SUL,latrocinio_oco,0.0,0.0,0.0
+CAPAO DA CANOA,latrocinio_oco,0.0,0.0,0.0
+CAPAO DO CIPO,latrocinio_oco,0.0,0.0,0.0
+CAPAO DO LEAO,latrocinio_oco,0.0,0.0,0.0
+CAPELA DE SANTANA,latrocinio_oco,0.0,0.0,0.0
+CAPITAO,latrocinio_oco,0.0,0.0,0.0
+CAPIVARI DO SUL,latrocinio_oco,0.0,0.0,0.0
+CARAA,latrocinio_oco,0.0,0.0,0.0
+CARAZINHO,latrocinio_oco,0.0,0.0,0.0
+CARLOS BARBOSA,latrocinio_oco,0.0,0.0,0.0
+CARLOS GOMES,latrocinio_oco,0.0,0.0,0.0
+CASCA,latrocinio_oco,0.0,0.0,0.0
+CASEIROS,latrocinio_oco,0.0,0.0,0.0
+CATUIPE,latrocinio_oco,0.0,0.0,0.0
+CAXIAS DO SUL,latrocinio_oco,1.0,1.0,0.0
+CENTENARIO,latrocinio_oco,0.0,0.0,0.0
+CERRITO,latrocinio_oco,1.0,1.0,0.0
+CERRO BRANCO,latrocinio_oco,0.0,0.0,0.0
+CERRO GRANDE,latrocinio_oco,0.0,0.0,0.0
+CERRO GRANDE DO SUL,latrocinio_oco,0.0,0.0,0.0
+CERRO LARGO,latrocinio_oco,0.0,0.0,0.0
+CHAPADA,latrocinio_oco,0.0,0.0,0.0
+CHARQUEADAS,latrocinio_oco,0.0,0.0,0.0
+CHARRUA,latrocinio_oco,0.0,0.0,0.0
+CHIAPETTA,latrocinio_oco,0.0,0.0,0.0
+CHUI,latrocinio_oco,0.0,0.0,0.0
+CHUVISCA,latrocinio_oco,0.0,0.0,0.0
+CIDREIRA,latrocinio_oco,0.0,0.0,0.0
+CIRIACO,latrocinio_oco,0.0,0.0,0.0
+COLINAS,latrocinio_oco,0.0,0.0,0.0
+COLORADO,latrocinio_oco,0.0,0.0,0.0
+CONDOR,latrocinio_oco,0.0,0.0,0.0
+CONSTANTINA,latrocinio_oco,0.0,0.0,0.0
+COQUEIRO BAIXO,latrocinio_oco,0.0,0.0,0.0
+COQUEIROS DO SUL,latrocinio_oco,0.0,0.0,0.0
+CORONEL BARROS,latrocinio_oco,0.0,0.0,0.0
+CORONEL BICACO,latrocinio_oco,0.0,0.0,0.0
+CORONEL PILAR,latrocinio_oco,0.0,0.0,0.0
+COTIPORA,latrocinio_oco,0.0,0.0,0.0
+COXILHA,latrocinio_oco,0.0,0.0,0.0
+CRISSIUMAL,latrocinio_oco,0.0,0.0,0.0
+CRISTAL,latrocinio_oco,0.0,0.0,0.0
+CRISTAL DO SUL,latrocinio_oco,0.0,0.0,0.0
+CRUZ ALTA,latrocinio_oco,1.0,1.0,0.0
+CRUZALTENSE,latrocinio_oco,0.0,0.0,0.0
+CRUZEIRO DO SUL,latrocinio_oco,0.0,0.0,0.0
+DAVID CANABARRO,latrocinio_oco,0.0,0.0,0.0
+DERRUBADAS,latrocinio_oco,0.0,0.0,0.0
+DEZESSEIS DE NOVEMBRO,latrocinio_oco,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,latrocinio_oco,0.0,0.0,0.0
+DOIS IRMAOS,latrocinio_oco,0.0,0.0,0.0
+DOIS IRMAOS DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+DOIS LAJEADOS,latrocinio_oco,0.0,0.0,0.0
+DOM FELICIANO,latrocinio_oco,0.0,0.0,0.0
+DOM PEDRITO,latrocinio_oco,0.0,0.0,0.0
+DOM PEDRO DE ALCANTARA,latrocinio_oco,0.0,0.0,0.0
+DONA FRANCISCA,latrocinio_oco,0.0,0.0,0.0
+DOUTOR RICARDO,latrocinio_oco,0.0,0.0,0.0
+DR MAURICIO CARDOSO,latrocinio_oco,0.0,0.0,0.0
+ELDORADO DO SUL,latrocinio_oco,0.0,0.0,0.0
+ENCANTADO,latrocinio_oco,0.0,0.0,0.0
+ENCRUZILHADA DO SUL,latrocinio_oco,0.0,0.0,0.0
+ENGENHO VELHO,latrocinio_oco,0.0,0.0,0.0
+ENTRE IJUIS,latrocinio_oco,0.0,0.0,0.0
+ENTRE RIOS DO SUL,latrocinio_oco,0.0,0.0,0.0
+EREBANGO,latrocinio_oco,0.0,0.0,0.0
+ERECHIM,latrocinio_oco,0.0,0.0,0.0
+ERNESTINA,latrocinio_oco,0.0,0.0,0.0
+ERVAL GRANDE,latrocinio_oco,0.0,0.0,0.0
+ERVAL SECO,latrocinio_oco,0.0,0.0,0.0
+ESMERALDA,latrocinio_oco,0.0,0.0,0.0
+ESPERANCA DO SUL,latrocinio_oco,0.0,0.0,0.0
+ESPUMOSO,latrocinio_oco,0.0,0.0,0.0
+ESTACAO,latrocinio_oco,0.0,0.0,0.0
+ESTANCIA VELHA,latrocinio_oco,0.0,0.0,0.0
+ESTEIO,latrocinio_oco,0.0,0.0,0.0
+ESTRELA,latrocinio_oco,1.0,1.0,0.0
+ESTRELA VELHA,latrocinio_oco,0.0,0.0,0.0
+EUGENIO DE CASTRO,latrocinio_oco,0.0,0.0,0.0
+FAGUNDES VARELA,latrocinio_oco,0.0,0.0,0.0
+FARROUPILHA,latrocinio_oco,0.0,0.0,0.0
+FAXINAL DO SOTURNO,latrocinio_oco,0.0,0.0,0.0
+FAXINALZINHO,latrocinio_oco,0.0,0.0,0.0
+FAZENDA VILA NOVA,latrocinio_oco,0.0,0.0,0.0
+FELIZ,latrocinio_oco,0.0,0.0,0.0
+FLORES DA CUNHA,latrocinio_oco,0.0,0.0,0.0
+FLORIANO PEIXOTO,latrocinio_oco,0.0,0.0,0.0
+FONTOURA XAVIER,latrocinio_oco,0.0,0.0,0.0
+FORMIGUEIRO,latrocinio_oco,0.0,0.0,0.0
+FORQUETINHA,latrocinio_oco,0.0,0.0,0.0
+FORTALEZA DOS VALOS,latrocinio_oco,0.0,0.0,0.0
+FREDERICO WESTPHALEN,latrocinio_oco,0.0,0.0,0.0
+GARIBALDI,latrocinio_oco,0.0,0.0,0.0
+GARRUCHOS,latrocinio_oco,0.0,0.0,0.0
+GAURAMA,latrocinio_oco,0.0,0.0,0.0
+GENERAL CAMARA,latrocinio_oco,0.0,0.0,0.0
+GENTIL,latrocinio_oco,0.0,0.0,0.0
+GERAL,latrocinio_oco,0.0,0.0,0.0
+GETULIO VARGAS,latrocinio_oco,0.0,0.0,0.0
+GIRUA,latrocinio_oco,0.0,0.0,0.0
+GLORINHA,latrocinio_oco,0.0,0.0,0.0
+GRAMADO,latrocinio_oco,0.0,0.0,0.0
+GRAMADO DOS LOUREIROS,latrocinio_oco,0.0,0.0,0.0
+GRAMADO XAVIER,latrocinio_oco,0.0,0.0,0.0
+GRAVATAI,latrocinio_oco,0.0,0.0,0.0
+GUABIJU,latrocinio_oco,0.0,0.0,0.0
+GUAIBA,latrocinio_oco,0.0,0.0,0.0
+GUAPORE,latrocinio_oco,0.0,0.0,0.0
+GUARANI DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+HARMONIA,latrocinio_oco,0.0,0.0,0.0
+HERVAL,latrocinio_oco,0.0,0.0,0.0
+HERVEIRAS,latrocinio_oco,0.0,0.0,0.0
+HORIZONTINA,latrocinio_oco,0.0,0.0,0.0
+HULHA NEGRA,latrocinio_oco,0.0,0.0,0.0
+HUMAITA,latrocinio_oco,0.0,0.0,0.0
+IBARAMA,latrocinio_oco,0.0,0.0,0.0
+IBIACA,latrocinio_oco,0.0,0.0,0.0
+IBIRAIARAS,latrocinio_oco,0.0,0.0,0.0
+IBIRAPUITA,latrocinio_oco,0.0,0.0,0.0
+IBIRUBA,latrocinio_oco,0.0,0.0,0.0
+IGREJINHA,latrocinio_oco,0.0,0.0,0.0
+IJUI,latrocinio_oco,0.0,0.0,0.0
+ILOPOLIS,latrocinio_oco,0.0,0.0,0.0
+IMBE,latrocinio_oco,0.0,0.0,0.0
+IMIGRANTE,latrocinio_oco,0.0,0.0,0.0
+INDEPENDENCIA,latrocinio_oco,0.0,0.0,0.0
+INHACORA,latrocinio_oco,0.0,0.0,0.0
+IPE,latrocinio_oco,0.0,0.0,0.0
+IPIRANGA DO SUL,latrocinio_oco,0.0,0.0,0.0
+IRAI,latrocinio_oco,0.0,0.0,0.0
+ITAARA,latrocinio_oco,0.0,0.0,0.0
+ITACURUBI,latrocinio_oco,0.0,0.0,0.0
+ITAPUCA,latrocinio_oco,0.0,0.0,0.0
+ITAQUI,latrocinio_oco,0.0,0.0,0.0
+ITATI,latrocinio_oco,0.0,0.0,0.0
+ITATIBA DO SUL,latrocinio_oco,0.0,0.0,0.0
+IVORA,latrocinio_oco,0.0,0.0,0.0
+IVOTI,latrocinio_oco,0.0,0.0,0.0
+JABOTICABA,latrocinio_oco,0.0,0.0,0.0
+JACUIZINHO,latrocinio_oco,0.0,0.0,0.0
+JACUTINGA,latrocinio_oco,0.0,0.0,0.0
+JAGUARAO,latrocinio_oco,0.0,0.0,0.0
+JAGUARI,latrocinio_oco,0.0,0.0,0.0
+JAQUIRANA,latrocinio_oco,0.0,0.0,0.0
+JARI,latrocinio_oco,0.0,0.0,0.0
+JOIA,latrocinio_oco,0.0,0.0,0.0
+JULIO DE CASTILHOS,latrocinio_oco,0.0,0.0,0.0
+LAGOA BONITA DO SUL,latrocinio_oco,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,latrocinio_oco,0.0,0.0,0.0
+LAGOA VERMELHA,latrocinio_oco,0.0,0.0,0.0
+LAGOAO,latrocinio_oco,0.0,0.0,0.0
+LAJEADO,latrocinio_oco,2.0,2.0,0.0
+LAJEADO DO BUGRE,latrocinio_oco,0.0,0.0,0.0
+LAVRAS DO SUL,latrocinio_oco,0.0,0.0,0.0
+LIBERATO SALZANO,latrocinio_oco,0.0,0.0,0.0
+LINDOLFO COLLOR,latrocinio_oco,0.0,0.0,0.0
+LINHA NOVA,latrocinio_oco,0.0,0.0,0.0
+MACAMBARA,latrocinio_oco,0.0,0.0,0.0
+MACHADINHO,latrocinio_oco,0.0,0.0,0.0
+MAMPITUBA,latrocinio_oco,0.0,0.0,0.0
+MANOEL VIANA,latrocinio_oco,0.0,0.0,0.0
+MAQUINE,latrocinio_oco,0.0,0.0,0.0
+MARATA,latrocinio_oco,0.0,0.0,0.0
+MARAU,latrocinio_oco,0.0,0.0,0.0
+MARCELINO RAMOS,latrocinio_oco,0.0,0.0,0.0
+MARIANA PIMENTEL,latrocinio_oco,0.0,0.0,0.0
+MARIANO MORO,latrocinio_oco,0.0,0.0,0.0
+MARQUES DE SOUZA,latrocinio_oco,0.0,0.0,0.0
+MATA,latrocinio_oco,0.0,0.0,0.0
+MATO CASTELHANO,latrocinio_oco,1.0,1.0,0.0
+MATO LEITAO,latrocinio_oco,0.0,0.0,0.0
+MATO QUEIMADO,latrocinio_oco,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,latrocinio_oco,0.0,0.0,0.0
+MINAS DO LEAO,latrocinio_oco,0.0,0.0,0.0
+MIRAGUAI,latrocinio_oco,0.0,0.0,0.0
+MONTAURI,latrocinio_oco,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,latrocinio_oco,0.0,0.0,0.0
+MONTE BELO DO SUL,latrocinio_oco,0.0,0.0,0.0
+MONTENEGRO,latrocinio_oco,1.0,1.0,0.0
+MORMACO,latrocinio_oco,0.0,0.0,0.0
+MORRINHOS DO SUL,latrocinio_oco,0.0,0.0,0.0
+MORRO REDONDO,latrocinio_oco,0.0,0.0,0.0
+MORRO REUTER,latrocinio_oco,0.0,0.0,0.0
+MOSTARDAS,latrocinio_oco,0.0,0.0,0.0
+MUCUM,latrocinio_oco,0.0,0.0,0.0
+MUITOS CAPOES,latrocinio_oco,0.0,0.0,0.0
+MULITERNO,latrocinio_oco,1.0,1.0,0.0
+NAN,latrocinio_oco,0.0,0.0,0.0
+NAN,latrocinio_oco,0.0,0.0,0.0
+NAO ME TOQUE,latrocinio_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,latrocinio_oco,1.0,1.0,0.0
+NICOLAU VERGUEIRO,latrocinio_oco,0.0,0.0,0.0
+NONOAI,latrocinio_oco,0.0,0.0,0.0
+NOVA ALVORADA,latrocinio_oco,0.0,0.0,0.0
+NOVA ARACA,latrocinio_oco,0.0,0.0,0.0
+NOVA BASSANO,latrocinio_oco,0.0,0.0,0.0
+NOVA BOA VISTA,latrocinio_oco,0.0,0.0,0.0
+NOVA BRESCIA,latrocinio_oco,0.0,0.0,0.0
+NOVA CANDELARIA,latrocinio_oco,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,latrocinio_oco,0.0,0.0,0.0
+NOVA HARTZ,latrocinio_oco,1.0,1.0,0.0
+NOVA PADUA,latrocinio_oco,0.0,0.0,0.0
+NOVA PALMA,latrocinio_oco,0.0,0.0,0.0
+NOVA PETROPOLIS,latrocinio_oco,0.0,0.0,0.0
+NOVA PRATA,latrocinio_oco,0.0,0.0,0.0
+NOVA RAMADA,latrocinio_oco,0.0,0.0,0.0
+NOVA ROMA DO SUL,latrocinio_oco,0.0,0.0,0.0
+NOVA SANTA RITA,latrocinio_oco,0.0,0.0,0.0
+NOVO BARREIRO,latrocinio_oco,0.0,0.0,0.0
+NOVO CABRAIS,latrocinio_oco,0.0,0.0,0.0
+NOVO HAMBURGO,latrocinio_oco,3.0,3.0,0.0
+NOVO MACHADO,latrocinio_oco,0.0,0.0,0.0
+NOVO TIRADENTES,latrocinio_oco,0.0,0.0,0.0
+NOVO XINGU,latrocinio_oco,0.0,0.0,0.0
+OSORIO,latrocinio_oco,0.0,0.0,0.0
+PAIM FILHO,latrocinio_oco,0.0,0.0,0.0
+PALMARES DO SUL,latrocinio_oco,0.0,0.0,0.0
+PALMEIRA DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+PALMITINHO,latrocinio_oco,0.0,0.0,0.0
+PANAMBI,latrocinio_oco,0.0,0.0,0.0
+PANTANO GRANDE,latrocinio_oco,0.0,0.0,0.0
+PARAI,latrocinio_oco,0.0,0.0,0.0
+PARAISO DO SUL,latrocinio_oco,0.0,0.0,0.0
+PARECI NOVO,latrocinio_oco,0.0,0.0,0.0
+PAROBE,latrocinio_oco,0.0,0.0,0.0
+PASSA SETE,latrocinio_oco,0.0,0.0,0.0
+PASSO DO SOBRADO,latrocinio_oco,0.0,0.0,0.0
+PASSO FUNDO,latrocinio_oco,0.0,0.0,0.0
+PAULO BENTO,latrocinio_oco,0.0,0.0,0.0
+PAVERAMA,latrocinio_oco,0.0,0.0,0.0
+PEDRAS ALTAS,latrocinio_oco,0.0,0.0,0.0
+PEDRO OSORIO,latrocinio_oco,0.0,0.0,0.0
+PEJUCARA,latrocinio_oco,0.0,0.0,0.0
+PELOTAS,latrocinio_oco,1.0,1.0,0.0
+PICADA CAFE,latrocinio_oco,0.0,0.0,0.0
+PINHAL,latrocinio_oco,0.0,0.0,0.0
+PINHAL DA SERRA,latrocinio_oco,0.0,0.0,0.0
+PINHAL GRANDE,latrocinio_oco,0.0,0.0,0.0
+PINHEIRINHO DO VALE,latrocinio_oco,0.0,0.0,0.0
+PINHEIRO MACHADO,latrocinio_oco,0.0,0.0,0.0
+PINTO BANDEIRA,latrocinio_oco,0.0,0.0,0.0
+PINTO BANDEIRA (BENTO GONC),latrocinio_oco,0.0,0.0,0.0
+PIRAPO,latrocinio_oco,0.0,0.0,0.0
+PIRATINI,latrocinio_oco,0.0,0.0,0.0
+PLANALTO,latrocinio_oco,0.0,0.0,0.0
+POCO DAS ANTAS,latrocinio_oco,0.0,0.0,0.0
+PONTAO,latrocinio_oco,0.0,0.0,0.0
+PONTE PRETA,latrocinio_oco,0.0,0.0,0.0
+PORTAO,latrocinio_oco,1.0,1.0,0.0
+PORTO ALEGRE,latrocinio_oco,4.0,4.0,0.0
+PORTO LUCENA,latrocinio_oco,0.0,0.0,0.0
+PORTO MAUA,latrocinio_oco,0.0,0.0,0.0
+PORTO VERA CRUZ,latrocinio_oco,0.0,0.0,0.0
+PORTO XAVIER,latrocinio_oco,0.0,0.0,0.0
+POUSO NOVO,latrocinio_oco,0.0,0.0,0.0
+PRESIDENTE LUCENA,latrocinio_oco,0.0,0.0,0.0
+PROGRESSO,latrocinio_oco,0.0,0.0,0.0
+PROTASIO ALVES,latrocinio_oco,0.0,0.0,0.0
+PUTINGA,latrocinio_oco,0.0,0.0,0.0
+QUARAI,latrocinio_oco,0.0,0.0,0.0
+QUATRO IRMAOS,latrocinio_oco,0.0,0.0,0.0
+QUEVEDOS,latrocinio_oco,0.0,0.0,0.0
+QUINZE DE NOVEMBRO,latrocinio_oco,0.0,0.0,0.0
+REDENTORA,latrocinio_oco,0.0,0.0,0.0
+RELVADO,latrocinio_oco,0.0,0.0,0.0
+RESTINGA SECA,latrocinio_oco,0.0,0.0,0.0
+RIO DOS INDIOS,latrocinio_oco,0.0,0.0,0.0
+RIO GRANDE,latrocinio_oco,0.0,0.0,0.0
+RIO PARDO,latrocinio_oco,0.0,0.0,0.0
+RIOZINHO,latrocinio_oco,1.0,1.0,0.0
+ROCA SALES,latrocinio_oco,0.0,0.0,0.0
+RODEIO BONITO,latrocinio_oco,0.0,0.0,0.0
+ROLADOR,latrocinio_oco,0.0,0.0,0.0
+ROLANTE,latrocinio_oco,1.0,1.0,0.0
+RONDA ALTA,latrocinio_oco,0.0,0.0,0.0
+RONDINHA,latrocinio_oco,0.0,0.0,0.0
+ROQUE GONZALES,latrocinio_oco,0.0,0.0,0.0
+ROSARIO DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAGRADA FAMILIA,latrocinio_oco,0.0,0.0,0.0
+SALDANHA MARINHO,latrocinio_oco,0.0,0.0,0.0
+SALTO DO JACUI,latrocinio_oco,0.0,0.0,0.0
+SALVADOR DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SALVADOR DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANANDUVA,latrocinio_oco,1.0,1.0,0.0
+SANTA BARBARA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANTA CECILIA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANTA CLARA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANTA CRUZ DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANTA MARGARIDA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SANTA MARIA,latrocinio_oco,0.0,0.0,0.0
+SANTA MARIA DO HERVAL,latrocinio_oco,0.0,0.0,0.0
+SANTA ROSA,latrocinio_oco,0.0,0.0,0.0
+SANTA TEREZA,latrocinio_oco,0.0,0.0,0.0
+SANTA VITORIA DO PALMAR,latrocinio_oco,0.0,0.0,0.0
+SANTANA DA BOA VISTA,latrocinio_oco,0.0,0.0,0.0
+SANTANA DO LIVRAMENTO,latrocinio_oco,0.0,0.0,0.0
+SANTIAGO,latrocinio_oco,0.0,0.0,0.0
+SANTO ANGELO,latrocinio_oco,0.0,0.0,0.0
+SANTO ANTONIO DA PATRULHA,latrocinio_oco,0.0,0.0,0.0
+SANTO ANTONIO DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PALMA,latrocinio_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PLANALTO,latrocinio_oco,0.0,0.0,0.0
+SANTO AUGUSTO,latrocinio_oco,0.0,0.0,0.0
+SANTO CRISTO,latrocinio_oco,0.0,0.0,0.0
+SANTO EXPEDITO DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO BORJA,latrocinio_oco,0.0,0.0,0.0
+SAO DOMINGOS DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO FRANCISCO DE ASSIS,latrocinio_oco,0.0,0.0,0.0
+SAO FRANCISCO DE PAULA,latrocinio_oco,0.0,0.0,0.0
+SAO GABRIEL,latrocinio_oco,0.0,0.0,0.0
+SAO JERONIMO,latrocinio_oco,0.0,0.0,0.0
+SAO JOAO DA URTIGA,latrocinio_oco,0.0,0.0,0.0
+SAO JOAO DO POLESINE,latrocinio_oco,0.0,0.0,0.0
+SAO JORGE,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO HERVAL,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO HORTENCIO,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO INHACORA,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO NORTE,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO OURO,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO JOSE DOS AUSENTES,latrocinio_oco,0.0,0.0,0.0
+SAO LEOPOLDO,latrocinio_oco,0.0,0.0,0.0
+SAO LOURENCO DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO LUIZ GONZAGA,latrocinio_oco,0.0,0.0,0.0
+SAO MARCOS,latrocinio_oco,0.0,0.0,0.0
+SAO MARTINHO,latrocinio_oco,0.0,0.0,0.0
+SAO MARTINHO DA SERRA,latrocinio_oco,0.0,0.0,0.0
+SAO MIGUEL DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SAO NICOLAU,latrocinio_oco,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SAO PEDRO DA SERRA,latrocinio_oco,0.0,0.0,0.0
+SAO PEDRO DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,latrocinio_oco,0.0,0.0,0.0
+SAO PEDRO DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO SEBASTIAO DO CAI,latrocinio_oco,0.0,0.0,0.0
+SAO SEPE,latrocinio_oco,0.0,0.0,0.0
+SAO VALENTIM,latrocinio_oco,0.0,0.0,0.0
+SAO VALENTIM DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO VALERIO DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAO VENDELINO,latrocinio_oco,0.0,0.0,0.0
+SAO VICENTE DO SUL,latrocinio_oco,0.0,0.0,0.0
+SAPIRANGA,latrocinio_oco,0.0,0.0,0.0
+SAPUCAIA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SARANDI,latrocinio_oco,0.0,0.0,0.0
+SEBERI,latrocinio_oco,0.0,0.0,0.0
+SEDE NOVA,latrocinio_oco,0.0,0.0,0.0
+SEGREDO,latrocinio_oco,0.0,0.0,0.0
+SELBACH,latrocinio_oco,0.0,0.0,0.0
+SENADOR SALGADO FILHO,latrocinio_oco,0.0,0.0,0.0
+SENTINELA DO SUL,latrocinio_oco,0.0,0.0,0.0
+SERAFINA CORREA,latrocinio_oco,0.0,0.0,0.0
+SERIO,latrocinio_oco,0.0,0.0,0.0
+SERTAO,latrocinio_oco,0.0,0.0,0.0
+SERTAO SANTANA,latrocinio_oco,0.0,0.0,0.0
+SETE DE SETEMBRO,latrocinio_oco,0.0,0.0,0.0
+SEVERIANO DE ALMEIDA,latrocinio_oco,0.0,0.0,0.0
+SILVEIRA MARTINS,latrocinio_oco,0.0,0.0,0.0
+SINIMBU,latrocinio_oco,0.0,0.0,0.0
+SOBRADINHO,latrocinio_oco,0.0,0.0,0.0
+SOLEDADE,latrocinio_oco,0.0,0.0,0.0
+TABAI,latrocinio_oco,0.0,0.0,0.0
+TAPEJARA,latrocinio_oco,0.0,0.0,0.0
+TAPERA,latrocinio_oco,0.0,0.0,0.0
+TAPES,latrocinio_oco,0.0,0.0,0.0
+TAQUARA,latrocinio_oco,0.0,0.0,0.0
+TAQUARI,latrocinio_oco,0.0,0.0,0.0
+TAQUARUCU DO SUL,latrocinio_oco,0.0,0.0,0.0
+TAVARES,latrocinio_oco,0.0,0.0,0.0
+TENENTE PORTELA,latrocinio_oco,0.0,0.0,0.0
+TERRA DE AREIA,latrocinio_oco,0.0,0.0,0.0
+TEUTONIA,latrocinio_oco,0.0,0.0,0.0
+TIO HUGO,latrocinio_oco,0.0,0.0,0.0
+TIRADENTES DO SUL,latrocinio_oco,0.0,0.0,0.0
+TOROPI,latrocinio_oco,0.0,0.0,0.0
+TORRES,latrocinio_oco,1.0,0.0,-1.0
+TRAMANDAI,latrocinio_oco,0.0,0.0,0.0
+TRAVESSEIRO,latrocinio_oco,0.0,0.0,0.0
+TRES ARROIOS,latrocinio_oco,0.0,0.0,0.0
+TRES CACHOEIRAS,latrocinio_oco,0.0,0.0,0.0
+TRES COROAS,latrocinio_oco,0.0,0.0,0.0
+TRES DE MAIO,latrocinio_oco,0.0,0.0,0.0
+TRES FORQUILHAS,latrocinio_oco,0.0,0.0,0.0
+TRES PALMEIRAS,latrocinio_oco,0.0,0.0,0.0
+TRES PASSOS,latrocinio_oco,0.0,0.0,0.0
+TRINDADE DO SUL,latrocinio_oco,0.0,0.0,0.0
+TRIUNFO,latrocinio_oco,0.0,0.0,0.0
+TUCUNDUVA,latrocinio_oco,0.0,0.0,0.0
+TUNAS,latrocinio_oco,0.0,0.0,0.0
+TUPANCI DO SUL,latrocinio_oco,0.0,0.0,0.0
+TUPANCIRETA,latrocinio_oco,0.0,0.0,0.0
+TUPANDI,latrocinio_oco,0.0,0.0,0.0
+TUPARENDI,latrocinio_oco,0.0,0.0,0.0
+TURUCU,latrocinio_oco,0.0,0.0,0.0
+UBIRETAMA,latrocinio_oco,0.0,0.0,0.0
+UNIAO DA SERRA,latrocinio_oco,0.0,0.0,0.0
+UNISTALDA,latrocinio_oco,0.0,0.0,0.0
+URUGUAIANA,latrocinio_oco,0.0,0.0,0.0
+VACARIA,latrocinio_oco,1.0,1.0,0.0
+VALE DO SOL,latrocinio_oco,0.0,0.0,0.0
+VALE REAL,latrocinio_oco,0.0,0.0,0.0
+VALE VERDE,latrocinio_oco,0.0,0.0,0.0
+VANINI,latrocinio_oco,0.0,0.0,0.0
+VENANCIO AIRES,latrocinio_oco,0.0,0.0,0.0
+VERA CRUZ,latrocinio_oco,0.0,0.0,0.0
+VERANOPOLIS,latrocinio_oco,0.0,0.0,0.0
+VESPASIANO CORREA,latrocinio_oco,0.0,0.0,0.0
+VIADUTOS,latrocinio_oco,0.0,0.0,0.0
+VIAMAO,latrocinio_oco,0.0,0.0,0.0
+VICENTE DUTRA,latrocinio_oco,0.0,0.0,0.0
+VICTOR GRAEFF,latrocinio_oco,0.0,0.0,0.0
+VILA FLORES,latrocinio_oco,0.0,0.0,0.0
+VILA LANGARO,latrocinio_oco,0.0,0.0,0.0
+VILA MARIA,latrocinio_oco,0.0,0.0,0.0
+VILA NOVA DO SUL,latrocinio_oco,0.0,0.0,0.0
+VISTA ALEGRE,latrocinio_oco,0.0,0.0,0.0
+VISTA ALEGRE DO PRATA,latrocinio_oco,0.0,0.0,0.0
+VISTA GAUCHA,latrocinio_oco,0.0,0.0,0.0
+VITORIA DAS MISSOES,latrocinio_oco,0.0,0.0,0.0
+WESTFALIA,latrocinio_oco,0.0,0.0,0.0
+XANGRI-LA,latrocinio_oco,0.0,0.0,0.0
+XANGRILA,latrocinio_oco,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",roubo_veiculo_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,roubo_veiculo_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,roubo_veiculo_oco,0.0,0.0,0.0
+ACEGUA,roubo_veiculo_oco,0.0,0.0,0.0
+AGUA SANTA,roubo_veiculo_oco,1.0,1.0,0.0
+AGUDO,roubo_veiculo_oco,0.0,0.0,0.0
+AJURICABA,roubo_veiculo_oco,0.0,0.0,0.0
+ALECRIM,roubo_veiculo_oco,0.0,0.0,0.0
+ALEGRETE,roubo_veiculo_oco,0.0,0.0,0.0
+ALEGRIA,roubo_veiculo_oco,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+ALPESTRE,roubo_veiculo_oco,0.0,0.0,0.0
+ALTO ALEGRE,roubo_veiculo_oco,0.0,0.0,0.0
+ALTO FELIZ,roubo_veiculo_oco,2.0,2.0,0.0
+ALVORADA,roubo_veiculo_oco,150.0,150.0,0.0
+AMARAL FERRADOR,roubo_veiculo_oco,0.0,0.0,0.0
+AMETISTA DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+ANDRE DA ROCHA,roubo_veiculo_oco,0.0,0.0,0.0
+ANTA GORDA,roubo_veiculo_oco,0.0,0.0,0.0
+ANTONIO PRADO,roubo_veiculo_oco,1.0,1.0,0.0
+ARAMBARE,roubo_veiculo_oco,0.0,0.0,0.0
+ARARICA,roubo_veiculo_oco,1.0,1.0,0.0
+ARATIBA,roubo_veiculo_oco,0.0,0.0,0.0
+ARROIO DO MEIO,roubo_veiculo_oco,4.0,4.0,0.0
+ARROIO DO PADRE,roubo_veiculo_oco,0.0,0.0,0.0
+ARROIO DO SAL,roubo_veiculo_oco,1.0,1.0,0.0
+ARROIO DO TIGRE,roubo_veiculo_oco,0.0,0.0,0.0
+ARROIO DOS RATOS,roubo_veiculo_oco,0.0,0.0,0.0
+ARROIO GRANDE,roubo_veiculo_oco,0.0,0.0,0.0
+ARVOREZINHA,roubo_veiculo_oco,1.0,1.0,0.0
+AUGUSTO PESTANA,roubo_veiculo_oco,0.0,0.0,0.0
+AUREA,roubo_veiculo_oco,0.0,0.0,0.0
+BAGE,roubo_veiculo_oco,4.0,4.0,0.0
+BALNEARIO PINHAL,roubo_veiculo_oco,3.0,3.0,0.0
+BARAO,roubo_veiculo_oco,0.0,0.0,0.0
+BARAO DE COTEGIPE,roubo_veiculo_oco,0.0,0.0,0.0
+BARAO DO COTEGIPE,roubo_veiculo_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,roubo_veiculo_oco,0.0,0.0,0.0
+BARRA DO GUARITA,roubo_veiculo_oco,0.0,0.0,0.0
+BARRA DO QUARAI,roubo_veiculo_oco,0.0,0.0,0.0
+BARRA DO RIBEIRO,roubo_veiculo_oco,0.0,0.0,0.0
+BARRA DO RIO AZUL,roubo_veiculo_oco,0.0,0.0,0.0
+BARRA FUNDA,roubo_veiculo_oco,0.0,0.0,0.0
+BARRACAO,roubo_veiculo_oco,0.0,0.0,0.0
+BARROS CASSAL,roubo_veiculo_oco,0.0,0.0,0.0
+BENJAMIN CONSTANT DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+BENTO GONCALVES,roubo_veiculo_oco,8.0,8.0,0.0
+BOA VISTA DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO BURICA,roubo_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO CADEADO,roubo_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO INCRA,roubo_veiculo_oco,0.0,0.0,0.0
+BOA VISTA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+BOM JESUS,roubo_veiculo_oco,0.0,0.0,0.0
+BOM PRINCIPIO,roubo_veiculo_oco,0.0,0.0,0.0
+BOM PROGRESSO,roubo_veiculo_oco,0.0,0.0,0.0
+BOM RETIRO DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+BOQUEIRAO DO LEAO,roubo_veiculo_oco,0.0,0.0,0.0
+BOSSOROCA,roubo_veiculo_oco,0.0,0.0,0.0
+BOZANO,roubo_veiculo_oco,0.0,0.0,0.0
+BRAGA,roubo_veiculo_oco,0.0,0.0,0.0
+BROCHIER,roubo_veiculo_oco,0.0,0.0,0.0
+BUTIA,roubo_veiculo_oco,1.0,1.0,0.0
+CACAPAVA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CACEQUI,roubo_veiculo_oco,1.0,1.0,0.0
+CACHOEIRA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CACHOEIRINHA,roubo_veiculo_oco,69.0,69.0,0.0
+CACIQUE DOBLE,roubo_veiculo_oco,0.0,0.0,0.0
+CAIBATE,roubo_veiculo_oco,0.0,0.0,0.0
+CAICARA,roubo_veiculo_oco,0.0,0.0,0.0
+CAMAQUA,roubo_veiculo_oco,3.0,3.0,0.0
+CAMARGO,roubo_veiculo_oco,0.0,0.0,0.0
+CAMBARA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CAMPESTRE DA SERRA,roubo_veiculo_oco,0.0,0.0,0.0
+CAMPINA DAS MISSOES,roubo_veiculo_oco,1.0,1.0,0.0
+CAMPINAS DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CAMPO BOM,roubo_veiculo_oco,26.0,26.0,0.0
+CAMPO NOVO,roubo_veiculo_oco,0.0,0.0,0.0
+CAMPOS BORGES,roubo_veiculo_oco,0.0,0.0,0.0
+CANDELARIA,roubo_veiculo_oco,0.0,0.0,0.0
+CANDIDO GODOI,roubo_veiculo_oco,0.0,0.0,0.0
+CANDIOTA,roubo_veiculo_oco,0.0,0.0,0.0
+CANELA,roubo_veiculo_oco,3.0,3.0,0.0
+CANGUCU,roubo_veiculo_oco,1.0,1.0,0.0
+CANOAS,roubo_veiculo_oco,153.0,152.0,-1.0
+CANUDOS DO VALE,roubo_veiculo_oco,0.0,0.0,0.0
+CAPAO BONITO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CAPAO DA CANOA,roubo_veiculo_oco,13.0,13.0,0.0
+CAPAO DO CIPO,roubo_veiculo_oco,0.0,0.0,0.0
+CAPAO DO LEAO,roubo_veiculo_oco,2.0,2.0,0.0
+CAPELA DE SANTANA,roubo_veiculo_oco,1.0,1.0,0.0
+CAPITAO,roubo_veiculo_oco,0.0,0.0,0.0
+CAPIVARI DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CARAA,roubo_veiculo_oco,0.0,0.0,0.0
+CARAZINHO,roubo_veiculo_oco,3.0,3.0,0.0
+CARLOS BARBOSA,roubo_veiculo_oco,1.0,1.0,0.0
+CARLOS GOMES,roubo_veiculo_oco,0.0,0.0,0.0
+CASCA,roubo_veiculo_oco,0.0,0.0,0.0
+CASEIROS,roubo_veiculo_oco,0.0,0.0,0.0
+CATUIPE,roubo_veiculo_oco,1.0,1.0,0.0
+CAXIAS DO SUL,roubo_veiculo_oco,113.0,112.0,-1.0
+CENTENARIO,roubo_veiculo_oco,0.0,0.0,0.0
+CERRITO,roubo_veiculo_oco,0.0,0.0,0.0
+CERRO BRANCO,roubo_veiculo_oco,0.0,0.0,0.0
+CERRO GRANDE,roubo_veiculo_oco,0.0,0.0,0.0
+CERRO GRANDE DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+CERRO LARGO,roubo_veiculo_oco,0.0,0.0,0.0
+CHAPADA,roubo_veiculo_oco,0.0,0.0,0.0
+CHARQUEADAS,roubo_veiculo_oco,0.0,0.0,0.0
+CHARRUA,roubo_veiculo_oco,1.0,1.0,0.0
+CHIAPETTA,roubo_veiculo_oco,0.0,0.0,0.0
+CHUI,roubo_veiculo_oco,0.0,0.0,0.0
+CHUVISCA,roubo_veiculo_oco,0.0,0.0,0.0
+CIDREIRA,roubo_veiculo_oco,7.0,7.0,0.0
+CIRIACO,roubo_veiculo_oco,0.0,0.0,0.0
+COLINAS,roubo_veiculo_oco,0.0,0.0,0.0
+COLORADO,roubo_veiculo_oco,1.0,1.0,0.0
+CONDOR,roubo_veiculo_oco,1.0,1.0,0.0
+CONSTANTINA,roubo_veiculo_oco,1.0,1.0,0.0
+COQUEIRO BAIXO,roubo_veiculo_oco,0.0,0.0,0.0
+COQUEIROS DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+CORONEL BARROS,roubo_veiculo_oco,0.0,0.0,0.0
+CORONEL BICACO,roubo_veiculo_oco,0.0,0.0,0.0
+CORONEL PILAR,roubo_veiculo_oco,0.0,0.0,0.0
+COTIPORA,roubo_veiculo_oco,0.0,0.0,0.0
+COXILHA,roubo_veiculo_oco,0.0,0.0,0.0
+CRISSIUMAL,roubo_veiculo_oco,0.0,0.0,0.0
+CRISTAL,roubo_veiculo_oco,0.0,0.0,0.0
+CRISTAL DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+CRUZ ALTA,roubo_veiculo_oco,5.0,5.0,0.0
+CRUZALTENSE,roubo_veiculo_oco,0.0,0.0,0.0
+CRUZEIRO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+DAVID CANABARRO,roubo_veiculo_oco,0.0,0.0,0.0
+DERRUBADAS,roubo_veiculo_oco,0.0,0.0,0.0
+DEZESSEIS DE NOVEMBRO,roubo_veiculo_oco,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,roubo_veiculo_oco,0.0,0.0,0.0
+DOIS IRMAOS,roubo_veiculo_oco,1.0,1.0,0.0
+DOIS IRMAOS DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+DOIS LAJEADOS,roubo_veiculo_oco,0.0,0.0,0.0
+DOM FELICIANO,roubo_veiculo_oco,0.0,0.0,0.0
+DOM PEDRITO,roubo_veiculo_oco,1.0,1.0,0.0
+DOM PEDRO DE ALCANTARA,roubo_veiculo_oco,1.0,1.0,0.0
+DONA FRANCISCA,roubo_veiculo_oco,0.0,0.0,0.0
+DOUTOR RICARDO,roubo_veiculo_oco,0.0,0.0,0.0
+DR MAURICIO CARDOSO,roubo_veiculo_oco,0.0,0.0,0.0
+ELDORADO DO SUL,roubo_veiculo_oco,4.0,4.0,0.0
+ENCANTADO,roubo_veiculo_oco,0.0,0.0,0.0
+ENCRUZILHADA DO SUL,roubo_veiculo_oco,3.0,3.0,0.0
+ENGENHO VELHO,roubo_veiculo_oco,0.0,0.0,0.0
+ENTRE IJUIS,roubo_veiculo_oco,0.0,0.0,0.0
+ENTRE RIOS DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+EREBANGO,roubo_veiculo_oco,0.0,0.0,0.0
+ERECHIM,roubo_veiculo_oco,5.0,5.0,0.0
+ERNESTINA,roubo_veiculo_oco,0.0,0.0,0.0
+ERVAL GRANDE,roubo_veiculo_oco,0.0,0.0,0.0
+ERVAL SECO,roubo_veiculo_oco,1.0,1.0,0.0
+ESMERALDA,roubo_veiculo_oco,2.0,2.0,0.0
+ESPERANCA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+ESPUMOSO,roubo_veiculo_oco,0.0,0.0,0.0
+ESTACAO,roubo_veiculo_oco,0.0,0.0,0.0
+ESTANCIA VELHA,roubo_veiculo_oco,9.0,9.0,0.0
+ESTEIO,roubo_veiculo_oco,24.0,24.0,0.0
+ESTRELA,roubo_veiculo_oco,1.0,1.0,0.0
+ESTRELA VELHA,roubo_veiculo_oco,0.0,0.0,0.0
+EUGENIO DE CASTRO,roubo_veiculo_oco,0.0,0.0,0.0
+FAGUNDES VARELA,roubo_veiculo_oco,0.0,0.0,0.0
+FARROUPILHA,roubo_veiculo_oco,17.0,17.0,0.0
+FAXINAL DO SOTURNO,roubo_veiculo_oco,0.0,0.0,0.0
+FAXINALZINHO,roubo_veiculo_oco,0.0,0.0,0.0
+FAZENDA VILA NOVA,roubo_veiculo_oco,0.0,0.0,0.0
+FELIZ,roubo_veiculo_oco,1.0,1.0,0.0
+FLORES DA CUNHA,roubo_veiculo_oco,1.0,1.0,0.0
+FLORIANO PEIXOTO,roubo_veiculo_oco,0.0,0.0,0.0
+FONTOURA XAVIER,roubo_veiculo_oco,0.0,0.0,0.0
+FORMIGUEIRO,roubo_veiculo_oco,0.0,0.0,0.0
+FORQUETINHA,roubo_veiculo_oco,0.0,0.0,0.0
+FORTALEZA DOS VALOS,roubo_veiculo_oco,1.0,1.0,0.0
+FREDERICO WESTPHALEN,roubo_veiculo_oco,1.0,1.0,0.0
+GARIBALDI,roubo_veiculo_oco,5.0,5.0,0.0
+GARRUCHOS,roubo_veiculo_oco,0.0,0.0,0.0
+GAURAMA,roubo_veiculo_oco,0.0,0.0,0.0
+GENERAL CAMARA,roubo_veiculo_oco,0.0,0.0,0.0
+GENTIL,roubo_veiculo_oco,0.0,0.0,0.0
+GERAL,roubo_veiculo_oco,0.0,0.0,0.0
+GETULIO VARGAS,roubo_veiculo_oco,0.0,0.0,0.0
+GIRUA,roubo_veiculo_oco,1.0,1.0,0.0
+GLORINHA,roubo_veiculo_oco,1.0,1.0,0.0
+GRAMADO,roubo_veiculo_oco,2.0,2.0,0.0
+GRAMADO DOS LOUREIROS,roubo_veiculo_oco,0.0,0.0,0.0
+GRAMADO XAVIER,roubo_veiculo_oco,0.0,0.0,0.0
+GRAVATAI,roubo_veiculo_oco,130.0,130.0,0.0
+GUABIJU,roubo_veiculo_oco,0.0,0.0,0.0
+GUAIBA,roubo_veiculo_oco,6.0,5.0,-1.0
+GUAPORE,roubo_veiculo_oco,0.0,0.0,0.0
+GUARANI DAS MISSOES,roubo_veiculo_oco,2.0,2.0,0.0
+HARMONIA,roubo_veiculo_oco,0.0,0.0,0.0
+HERVAL,roubo_veiculo_oco,0.0,0.0,0.0
+HERVEIRAS,roubo_veiculo_oco,0.0,0.0,0.0
+HORIZONTINA,roubo_veiculo_oco,0.0,0.0,0.0
+HULHA NEGRA,roubo_veiculo_oco,0.0,0.0,0.0
+HUMAITA,roubo_veiculo_oco,0.0,0.0,0.0
+IBARAMA,roubo_veiculo_oco,0.0,0.0,0.0
+IBIACA,roubo_veiculo_oco,1.0,1.0,0.0
+IBIRAIARAS,roubo_veiculo_oco,0.0,0.0,0.0
+IBIRAPUITA,roubo_veiculo_oco,0.0,0.0,0.0
+IBIRUBA,roubo_veiculo_oco,0.0,0.0,0.0
+IGREJINHA,roubo_veiculo_oco,1.0,1.0,0.0
+IJUI,roubo_veiculo_oco,7.0,7.0,0.0
+ILOPOLIS,roubo_veiculo_oco,0.0,0.0,0.0
+IMBE,roubo_veiculo_oco,2.0,2.0,0.0
+IMIGRANTE,roubo_veiculo_oco,0.0,0.0,0.0
+INDEPENDENCIA,roubo_veiculo_oco,0.0,0.0,0.0
+INHACORA,roubo_veiculo_oco,0.0,0.0,0.0
+IPE,roubo_veiculo_oco,0.0,0.0,0.0
+IPIRANGA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+IRAI,roubo_veiculo_oco,0.0,0.0,0.0
+ITAARA,roubo_veiculo_oco,0.0,0.0,0.0
+ITACURUBI,roubo_veiculo_oco,0.0,0.0,0.0
+ITAPUCA,roubo_veiculo_oco,0.0,0.0,0.0
+ITAQUI,roubo_veiculo_oco,1.0,1.0,0.0
+ITATI,roubo_veiculo_oco,0.0,0.0,0.0
+ITATIBA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+IVORA,roubo_veiculo_oco,0.0,0.0,0.0
+IVOTI,roubo_veiculo_oco,0.0,0.0,0.0
+JABOTICABA,roubo_veiculo_oco,0.0,0.0,0.0
+JACUIZINHO,roubo_veiculo_oco,0.0,0.0,0.0
+JACUTINGA,roubo_veiculo_oco,0.0,0.0,0.0
+JAGUARAO,roubo_veiculo_oco,1.0,1.0,0.0
+JAGUARI,roubo_veiculo_oco,0.0,0.0,0.0
+JAQUIRANA,roubo_veiculo_oco,0.0,0.0,0.0
+JARI,roubo_veiculo_oco,1.0,1.0,0.0
+JOIA,roubo_veiculo_oco,0.0,0.0,0.0
+JULIO DE CASTILHOS,roubo_veiculo_oco,0.0,0.0,0.0
+LAGOA BONITA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,roubo_veiculo_oco,0.0,0.0,0.0
+LAGOA VERMELHA,roubo_veiculo_oco,0.0,0.0,0.0
+LAGOAO,roubo_veiculo_oco,0.0,0.0,0.0
+LAJEADO,roubo_veiculo_oco,6.0,6.0,0.0
+LAJEADO DO BUGRE,roubo_veiculo_oco,0.0,0.0,0.0
+LAVRAS DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+LIBERATO SALZANO,roubo_veiculo_oco,0.0,0.0,0.0
+LINDOLFO COLLOR,roubo_veiculo_oco,0.0,0.0,0.0
+LINHA NOVA,roubo_veiculo_oco,0.0,0.0,0.0
+MACAMBARA,roubo_veiculo_oco,0.0,0.0,0.0
+MACHADINHO,roubo_veiculo_oco,0.0,0.0,0.0
+MAMPITUBA,roubo_veiculo_oco,0.0,0.0,0.0
+MANOEL VIANA,roubo_veiculo_oco,0.0,0.0,0.0
+MAQUINE,roubo_veiculo_oco,2.0,2.0,0.0
+MARATA,roubo_veiculo_oco,0.0,0.0,0.0
+MARAU,roubo_veiculo_oco,2.0,2.0,0.0
+MARCELINO RAMOS,roubo_veiculo_oco,0.0,0.0,0.0
+MARIANA PIMENTEL,roubo_veiculo_oco,0.0,0.0,0.0
+MARIANO MORO,roubo_veiculo_oco,0.0,0.0,0.0
+MARQUES DE SOUZA,roubo_veiculo_oco,1.0,1.0,0.0
+MATA,roubo_veiculo_oco,0.0,0.0,0.0
+MATO CASTELHANO,roubo_veiculo_oco,0.0,0.0,0.0
+MATO LEITAO,roubo_veiculo_oco,0.0,0.0,0.0
+MATO QUEIMADO,roubo_veiculo_oco,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,roubo_veiculo_oco,0.0,0.0,0.0
+MINAS DO LEAO,roubo_veiculo_oco,0.0,0.0,0.0
+MIRAGUAI,roubo_veiculo_oco,0.0,0.0,0.0
+MONTAURI,roubo_veiculo_oco,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,roubo_veiculo_oco,0.0,0.0,0.0
+MONTE BELO DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+MONTENEGRO,roubo_veiculo_oco,2.0,2.0,0.0
+MORMACO,roubo_veiculo_oco,0.0,0.0,0.0
+MORRINHOS DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+MORRO REDONDO,roubo_veiculo_oco,0.0,0.0,0.0
+MORRO REUTER,roubo_veiculo_oco,1.0,1.0,0.0
+MOSTARDAS,roubo_veiculo_oco,1.0,1.0,0.0
+MUCUM,roubo_veiculo_oco,0.0,0.0,0.0
+MUITOS CAPOES,roubo_veiculo_oco,0.0,0.0,0.0
+MULITERNO,roubo_veiculo_oco,0.0,0.0,0.0
+NAN,roubo_veiculo_oco,0.0,0.0,0.0
+NAN,roubo_veiculo_oco,0.0,0.0,0.0
+NAO ME TOQUE,roubo_veiculo_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,roubo_veiculo_oco,0.0,0.0,0.0
+NICOLAU VERGUEIRO,roubo_veiculo_oco,0.0,0.0,0.0
+NONOAI,roubo_veiculo_oco,1.0,1.0,0.0
+NOVA ALVORADA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA ARACA,roubo_veiculo_oco,1.0,1.0,0.0
+NOVA BASSANO,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA BOA VISTA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA BRESCIA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA CANDELARIA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA HARTZ,roubo_veiculo_oco,2.0,2.0,0.0
+NOVA PADUA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA PALMA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA PETROPOLIS,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA PRATA,roubo_veiculo_oco,1.0,1.0,0.0
+NOVA RAMADA,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA ROMA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+NOVA SANTA RITA,roubo_veiculo_oco,3.0,3.0,0.0
+NOVO BARREIRO,roubo_veiculo_oco,1.0,1.0,0.0
+NOVO CABRAIS,roubo_veiculo_oco,0.0,0.0,0.0
+NOVO HAMBURGO,roubo_veiculo_oco,137.0,137.0,0.0
+NOVO MACHADO,roubo_veiculo_oco,0.0,0.0,0.0
+NOVO TIRADENTES,roubo_veiculo_oco,0.0,0.0,0.0
+NOVO XINGU,roubo_veiculo_oco,0.0,0.0,0.0
+OSORIO,roubo_veiculo_oco,5.0,5.0,0.0
+PAIM FILHO,roubo_veiculo_oco,0.0,0.0,0.0
+PALMARES DO SUL,roubo_veiculo_oco,2.0,2.0,0.0
+PALMEIRA DAS MISSOES,roubo_veiculo_oco,6.0,6.0,0.0
+PALMITINHO,roubo_veiculo_oco,0.0,0.0,0.0
+PANAMBI,roubo_veiculo_oco,1.0,1.0,0.0
+PANTANO GRANDE,roubo_veiculo_oco,2.0,2.0,0.0
+PARAI,roubo_veiculo_oco,1.0,1.0,0.0
+PARAISO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+PARECI NOVO,roubo_veiculo_oco,0.0,0.0,0.0
+PAROBE,roubo_veiculo_oco,6.0,6.0,0.0
+PASSA SETE,roubo_veiculo_oco,0.0,0.0,0.0
+PASSO DO SOBRADO,roubo_veiculo_oco,3.0,3.0,0.0
+PASSO FUNDO,roubo_veiculo_oco,26.0,26.0,0.0
+PAULO BENTO,roubo_veiculo_oco,0.0,0.0,0.0
+PAVERAMA,roubo_veiculo_oco,1.0,1.0,0.0
+PEDRAS ALTAS,roubo_veiculo_oco,0.0,0.0,0.0
+PEDRO OSORIO,roubo_veiculo_oco,0.0,0.0,0.0
+PEJUCARA,roubo_veiculo_oco,0.0,0.0,0.0
+PELOTAS,roubo_veiculo_oco,25.0,25.0,0.0
+PICADA CAFE,roubo_veiculo_oco,0.0,0.0,0.0
+PINHAL,roubo_veiculo_oco,0.0,0.0,0.0
+PINHAL DA SERRA,roubo_veiculo_oco,0.0,0.0,0.0
+PINHAL GRANDE,roubo_veiculo_oco,1.0,1.0,0.0
+PINHEIRINHO DO VALE,roubo_veiculo_oco,0.0,0.0,0.0
+PINHEIRO MACHADO,roubo_veiculo_oco,0.0,0.0,0.0
+PINTO BANDEIRA,roubo_veiculo_oco,0.0,0.0,0.0
+PINTO BANDEIRA (BENTO GONC),roubo_veiculo_oco,0.0,0.0,0.0
+PIRAPO,roubo_veiculo_oco,0.0,0.0,0.0
+PIRATINI,roubo_veiculo_oco,2.0,2.0,0.0
+PLANALTO,roubo_veiculo_oco,0.0,0.0,0.0
+POCO DAS ANTAS,roubo_veiculo_oco,0.0,0.0,0.0
+PONTAO,roubo_veiculo_oco,0.0,0.0,0.0
+PONTE PRETA,roubo_veiculo_oco,0.0,0.0,0.0
+PORTAO,roubo_veiculo_oco,8.0,8.0,0.0
+PORTO ALEGRE,roubo_veiculo_oco,737.0,737.0,0.0
+PORTO LUCENA,roubo_veiculo_oco,0.0,0.0,0.0
+PORTO MAUA,roubo_veiculo_oco,0.0,0.0,0.0
+PORTO VERA CRUZ,roubo_veiculo_oco,0.0,0.0,0.0
+PORTO XAVIER,roubo_veiculo_oco,0.0,0.0,0.0
+POUSO NOVO,roubo_veiculo_oco,1.0,1.0,0.0
+PRESIDENTE LUCENA,roubo_veiculo_oco,0.0,0.0,0.0
+PROGRESSO,roubo_veiculo_oco,0.0,0.0,0.0
+PROTASIO ALVES,roubo_veiculo_oco,0.0,0.0,0.0
+PUTINGA,roubo_veiculo_oco,0.0,0.0,0.0
+QUARAI,roubo_veiculo_oco,0.0,0.0,0.0
+QUATRO IRMAOS,roubo_veiculo_oco,0.0,0.0,0.0
+QUEVEDOS,roubo_veiculo_oco,0.0,0.0,0.0
+QUINZE DE NOVEMBRO,roubo_veiculo_oco,1.0,1.0,0.0
+REDENTORA,roubo_veiculo_oco,0.0,0.0,0.0
+RELVADO,roubo_veiculo_oco,0.0,0.0,0.0
+RESTINGA SECA,roubo_veiculo_oco,0.0,0.0,0.0
+RIO DOS INDIOS,roubo_veiculo_oco,0.0,0.0,0.0
+RIO GRANDE,roubo_veiculo_oco,19.0,19.0,0.0
+RIO PARDO,roubo_veiculo_oco,1.0,1.0,0.0
+RIOZINHO,roubo_veiculo_oco,0.0,0.0,0.0
+ROCA SALES,roubo_veiculo_oco,0.0,0.0,0.0
+RODEIO BONITO,roubo_veiculo_oco,0.0,0.0,0.0
+ROLADOR,roubo_veiculo_oco,0.0,0.0,0.0
+ROLANTE,roubo_veiculo_oco,1.0,1.0,0.0
+RONDA ALTA,roubo_veiculo_oco,0.0,0.0,0.0
+RONDINHA,roubo_veiculo_oco,0.0,0.0,0.0
+ROQUE GONZALES,roubo_veiculo_oco,0.0,0.0,0.0
+ROSARIO DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+SAGRADA FAMILIA,roubo_veiculo_oco,0.0,0.0,0.0
+SALDANHA MARINHO,roubo_veiculo_oco,1.0,1.0,0.0
+SALTO DO JACUI,roubo_veiculo_oco,0.0,0.0,0.0
+SALVADOR DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+SALVADOR DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SANANDUVA,roubo_veiculo_oco,0.0,0.0,0.0
+SANTA BARBARA DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+SANTA CECILIA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SANTA CLARA DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+SANTA CRUZ DO SUL,roubo_veiculo_oco,7.0,7.0,0.0
+SANTA MARGARIDA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SANTA MARIA,roubo_veiculo_oco,12.0,12.0,0.0
+SANTA MARIA DO HERVAL,roubo_veiculo_oco,0.0,0.0,0.0
+SANTA ROSA,roubo_veiculo_oco,0.0,0.0,0.0
+SANTA TEREZA,roubo_veiculo_oco,1.0,1.0,0.0
+SANTA VITORIA DO PALMAR,roubo_veiculo_oco,2.0,2.0,0.0
+SANTANA DA BOA VISTA,roubo_veiculo_oco,0.0,0.0,0.0
+SANTANA DO LIVRAMENTO,roubo_veiculo_oco,8.0,8.0,0.0
+SANTIAGO,roubo_veiculo_oco,2.0,2.0,0.0
+SANTO ANGELO,roubo_veiculo_oco,1.0,1.0,0.0
+SANTO ANTONIO DA PATRULHA,roubo_veiculo_oco,5.0,5.0,0.0
+SANTO ANTONIO DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PALMA,roubo_veiculo_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PLANALTO,roubo_veiculo_oco,0.0,0.0,0.0
+SANTO AUGUSTO,roubo_veiculo_oco,1.0,1.0,0.0
+SANTO CRISTO,roubo_veiculo_oco,0.0,0.0,0.0
+SANTO EXPEDITO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO BORJA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO DOMINGOS DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO FRANCISCO DE ASSIS,roubo_veiculo_oco,0.0,0.0,0.0
+SAO FRANCISCO DE PAULA,roubo_veiculo_oco,3.0,3.0,0.0
+SAO GABRIEL,roubo_veiculo_oco,1.0,1.0,0.0
+SAO JERONIMO,roubo_veiculo_oco,1.0,1.0,0.0
+SAO JOAO DA URTIGA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOAO DO POLESINE,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JORGE,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO HERVAL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO HORTENCIO,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO INHACORA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO NORTE,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO OURO,roubo_veiculo_oco,0.0,0.0,0.0
+SAO JOSE DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+SAO JOSE DOS AUSENTES,roubo_veiculo_oco,0.0,0.0,0.0
+SAO LEOPOLDO,roubo_veiculo_oco,139.0,139.0,0.0
+SAO LOURENCO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO LUIZ GONZAGA,roubo_veiculo_oco,2.0,2.0,0.0
+SAO MARCOS,roubo_veiculo_oco,0.0,0.0,0.0
+SAO MARTINHO,roubo_veiculo_oco,0.0,0.0,0.0
+SAO MARTINHO DA SERRA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO MIGUEL DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+SAO NICOLAU,roubo_veiculo_oco,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+SAO PEDRO DA SERRA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO PEDRO DAS MISSOES,roubo_veiculo_oco,1.0,1.0,0.0
+SAO PEDRO DO BUTIA,roubo_veiculo_oco,0.0,0.0,0.0
+SAO PEDRO DO SUL,roubo_veiculo_oco,1.0,1.0,0.0
+SAO SEBASTIAO DO CAI,roubo_veiculo_oco,3.0,3.0,0.0
+SAO SEPE,roubo_veiculo_oco,1.0,1.0,0.0
+SAO VALENTIM,roubo_veiculo_oco,0.0,0.0,0.0
+SAO VALENTIM DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO VALERIO DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAO VENDELINO,roubo_veiculo_oco,1.0,1.0,0.0
+SAO VICENTE DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SAPIRANGA,roubo_veiculo_oco,20.0,20.0,0.0
+SAPUCAIA DO SUL,roubo_veiculo_oco,64.0,64.0,0.0
+SARANDI,roubo_veiculo_oco,0.0,0.0,0.0
+SEBERI,roubo_veiculo_oco,0.0,0.0,0.0
+SEDE NOVA,roubo_veiculo_oco,0.0,0.0,0.0
+SEGREDO,roubo_veiculo_oco,0.0,0.0,0.0
+SELBACH,roubo_veiculo_oco,1.0,1.0,0.0
+SENADOR SALGADO FILHO,roubo_veiculo_oco,0.0,0.0,0.0
+SENTINELA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+SERAFINA CORREA,roubo_veiculo_oco,0.0,0.0,0.0
+SERIO,roubo_veiculo_oco,0.0,0.0,0.0
+SERTAO,roubo_veiculo_oco,0.0,0.0,0.0
+SERTAO SANTANA,roubo_veiculo_oco,0.0,0.0,0.0
+SETE DE SETEMBRO,roubo_veiculo_oco,0.0,0.0,0.0
+SEVERIANO DE ALMEIDA,roubo_veiculo_oco,0.0,0.0,0.0
+SILVEIRA MARTINS,roubo_veiculo_oco,0.0,0.0,0.0
+SINIMBU,roubo_veiculo_oco,0.0,0.0,0.0
+SOBRADINHO,roubo_veiculo_oco,0.0,0.0,0.0
+SOLEDADE,roubo_veiculo_oco,2.0,2.0,0.0
+TABAI,roubo_veiculo_oco,1.0,1.0,0.0
+TAPEJARA,roubo_veiculo_oco,0.0,0.0,0.0
+TAPERA,roubo_veiculo_oco,0.0,0.0,0.0
+TAPES,roubo_veiculo_oco,0.0,0.0,0.0
+TAQUARA,roubo_veiculo_oco,12.0,12.0,0.0
+TAQUARI,roubo_veiculo_oco,1.0,1.0,0.0
+TAQUARUCU DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+TAVARES,roubo_veiculo_oco,0.0,0.0,0.0
+TENENTE PORTELA,roubo_veiculo_oco,3.0,3.0,0.0
+TERRA DE AREIA,roubo_veiculo_oco,4.0,4.0,0.0
+TEUTONIA,roubo_veiculo_oco,1.0,1.0,0.0
+TIO HUGO,roubo_veiculo_oco,1.0,0.0,-1.0
+TIRADENTES DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+TOROPI,roubo_veiculo_oco,0.0,0.0,0.0
+TORRES,roubo_veiculo_oco,1.0,1.0,0.0
+TRAMANDAI,roubo_veiculo_oco,8.0,8.0,0.0
+TRAVESSEIRO,roubo_veiculo_oco,0.0,0.0,0.0
+TRES ARROIOS,roubo_veiculo_oco,0.0,0.0,0.0
+TRES CACHOEIRAS,roubo_veiculo_oco,0.0,0.0,0.0
+TRES COROAS,roubo_veiculo_oco,1.0,1.0,0.0
+TRES DE MAIO,roubo_veiculo_oco,0.0,0.0,0.0
+TRES FORQUILHAS,roubo_veiculo_oco,0.0,0.0,0.0
+TRES PALMEIRAS,roubo_veiculo_oco,0.0,0.0,0.0
+TRES PASSOS,roubo_veiculo_oco,1.0,1.0,0.0
+TRINDADE DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+TRIUNFO,roubo_veiculo_oco,2.0,2.0,0.0
+TUCUNDUVA,roubo_veiculo_oco,0.0,0.0,0.0
+TUNAS,roubo_veiculo_oco,1.0,1.0,0.0
+TUPANCI DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+TUPANCIRETA,roubo_veiculo_oco,1.0,1.0,0.0
+TUPANDI,roubo_veiculo_oco,0.0,0.0,0.0
+TUPARENDI,roubo_veiculo_oco,0.0,0.0,0.0
+TURUCU,roubo_veiculo_oco,0.0,0.0,0.0
+UBIRETAMA,roubo_veiculo_oco,0.0,0.0,0.0
+UNIAO DA SERRA,roubo_veiculo_oco,0.0,0.0,0.0
+UNISTALDA,roubo_veiculo_oco,0.0,0.0,0.0
+URUGUAIANA,roubo_veiculo_oco,2.0,2.0,0.0
+VACARIA,roubo_veiculo_oco,6.0,6.0,0.0
+VALE DO SOL,roubo_veiculo_oco,1.0,1.0,0.0
+VALE REAL,roubo_veiculo_oco,1.0,1.0,0.0
+VALE VERDE,roubo_veiculo_oco,0.0,0.0,0.0
+VANINI,roubo_veiculo_oco,0.0,0.0,0.0
+VENANCIO AIRES,roubo_veiculo_oco,7.0,7.0,0.0
+VERA CRUZ,roubo_veiculo_oco,0.0,0.0,0.0
+VERANOPOLIS,roubo_veiculo_oco,0.0,0.0,0.0
+VESPASIANO CORREA,roubo_veiculo_oco,2.0,2.0,0.0
+VIADUTOS,roubo_veiculo_oco,0.0,0.0,0.0
+VIAMAO,roubo_veiculo_oco,121.0,121.0,0.0
+VICENTE DUTRA,roubo_veiculo_oco,0.0,0.0,0.0
+VICTOR GRAEFF,roubo_veiculo_oco,0.0,0.0,0.0
+VILA FLORES,roubo_veiculo_oco,0.0,0.0,0.0
+VILA LANGARO,roubo_veiculo_oco,0.0,0.0,0.0
+VILA MARIA,roubo_veiculo_oco,0.0,0.0,0.0
+VILA NOVA DO SUL,roubo_veiculo_oco,0.0,0.0,0.0
+VISTA ALEGRE,roubo_veiculo_oco,0.0,0.0,0.0
+VISTA ALEGRE DO PRATA,roubo_veiculo_oco,1.0,1.0,0.0
+VISTA GAUCHA,roubo_veiculo_oco,0.0,0.0,0.0
+VITORIA DAS MISSOES,roubo_veiculo_oco,0.0,0.0,0.0
+WESTFALIA,roubo_veiculo_oco,0.0,0.0,0.0
+XANGRI-LA,roubo_veiculo_oco,1.0,1.0,0.0
+XANGRILA,roubo_veiculo_oco,0.0,0.0,0.0
+"1. OS DADOS PRESENTES NA PLANILHA REPRESENTAM UM RECORTE TEMPORAL E RETRATAM OS FATOS REGISTRADOS NA DATA DA ATUALIZACAO DA BASE DE DADOS. ESTAO SUJEITOS, PORTANTO, A ALTERACOES PROVENIENTES DA REVISAO DE OCORRENCIAS DUPLICADAS, APURACAO DE INFORMACOES ORIUNDAS DE INVESTIGACOES, DILIGENCIAS, PERICIAS E CORRECAO DO FATO NO FINAL DA INVESTIGACAO POLICIAL, ENTRE OUTROS.",roubos_oco,0.0,0.0,0.0
+2. AMEACAS ENQUADRADAS PELA LEI 11.340/2006.,roubos_oco,0.0,0.0,0.0
+3. PARA OS DADOS DE ESTUPRO CONSIDERAM-SE OS DADOS REFERENTES A ESTUPRO E ESTUPRO DE VULNERAVEL.,roubos_oco,0.0,0.0,0.0
+ACEGUA,roubos_oco,0.0,0.0,0.0
+AGUA SANTA,roubos_oco,0.0,0.0,0.0
+AGUDO,roubos_oco,0.0,0.0,0.0
+AJURICABA,roubos_oco,1.0,0.0,-1.0
+ALECRIM,roubos_oco,0.0,0.0,0.0
+ALEGRETE,roubos_oco,56.0,56.0,0.0
+ALEGRIA,roubos_oco,0.0,0.0,0.0
+ALMIRANTE TAMANDARE DO SUL,roubos_oco,0.0,0.0,0.0
+ALPESTRE,roubos_oco,0.0,0.0,0.0
+ALTO ALEGRE,roubos_oco,0.0,0.0,0.0
+ALTO FELIZ,roubos_oco,0.0,0.0,0.0
+ALVORADA,roubos_oco,830.0,828.0,-2.0
+AMARAL FERRADOR,roubos_oco,5.0,5.0,0.0
+AMETISTA DO SUL,roubos_oco,0.0,0.0,0.0
+ANDRE DA ROCHA,roubos_oco,0.0,0.0,0.0
+ANTA GORDA,roubos_oco,0.0,0.0,0.0
+ANTONIO PRADO,roubos_oco,1.0,1.0,0.0
+ARAMBARE,roubos_oco,4.0,4.0,0.0
+ARARICA,roubos_oco,6.0,5.0,-1.0
+ARATIBA,roubos_oco,0.0,0.0,0.0
+ARROIO DO MEIO,roubos_oco,3.0,3.0,0.0
+ARROIO DO PADRE,roubos_oco,1.0,1.0,0.0
+ARROIO DO SAL,roubos_oco,7.0,7.0,0.0
+ARROIO DO TIGRE,roubos_oco,4.0,4.0,0.0
+ARROIO DOS RATOS,roubos_oco,5.0,5.0,0.0
+ARROIO GRANDE,roubos_oco,1.0,1.0,0.0
+ARVOREZINHA,roubos_oco,0.0,0.0,0.0
+AUGUSTO PESTANA,roubos_oco,2.0,2.0,0.0
+AUREA,roubos_oco,0.0,0.0,0.0
+BAGE,roubos_oco,149.0,149.0,0.0
+BALNEARIO PINHAL,roubos_oco,20.0,20.0,0.0
+BARAO,roubos_oco,1.0,1.0,0.0
+BARAO DE COTEGIPE,roubos_oco,0.0,0.0,0.0
+BARAO DO COTEGIPE,roubos_oco,0.0,0.0,0.0
+BARAO DO TRIUNFO,roubos_oco,0.0,0.0,0.0
+BARRA DO GUARITA,roubos_oco,0.0,0.0,0.0
+BARRA DO QUARAI,roubos_oco,1.0,1.0,0.0
+BARRA DO RIBEIRO,roubos_oco,4.0,4.0,0.0
+BARRA DO RIO AZUL,roubos_oco,0.0,0.0,0.0
+BARRA FUNDA,roubos_oco,0.0,0.0,0.0
+BARRACAO,roubos_oco,0.0,0.0,0.0
+BARROS CASSAL,roubos_oco,3.0,3.0,0.0
+BENJAMIN CONSTANT DO SUL,roubos_oco,0.0,0.0,0.0
+BENTO GONCALVES,roubos_oco,78.0,78.0,0.0
+BOA VISTA DAS MISSOES,roubos_oco,1.0,1.0,0.0
+BOA VISTA DO BURICA,roubos_oco,0.0,0.0,0.0
+BOA VISTA DO CADEADO,roubos_oco,5.0,5.0,0.0
+BOA VISTA DO INCRA,roubos_oco,1.0,1.0,0.0
+BOA VISTA DO SUL,roubos_oco,2.0,2.0,0.0
+BOM JESUS,roubos_oco,3.0,3.0,0.0
+BOM PRINCIPIO,roubos_oco,5.0,5.0,0.0
+BOM PROGRESSO,roubos_oco,2.0,2.0,0.0
+BOM RETIRO DO SUL,roubos_oco,3.0,3.0,0.0
+BOQUEIRAO DO LEAO,roubos_oco,1.0,1.0,0.0
+BOSSOROCA,roubos_oco,0.0,0.0,0.0
+BOZANO,roubos_oco,0.0,0.0,0.0
+BRAGA,roubos_oco,1.0,1.0,0.0
+BROCHIER,roubos_oco,2.0,2.0,0.0
+BUTIA,roubos_oco,9.0,9.0,0.0
+CACAPAVA DO SUL,roubos_oco,16.0,16.0,0.0
+CACEQUI,roubos_oco,5.0,5.0,0.0
+CACHOEIRA DO SUL,roubos_oco,42.0,42.0,0.0
+CACHOEIRINHA,roubos_oco,383.0,379.0,-4.0
+CACIQUE DOBLE,roubos_oco,0.0,0.0,0.0
+CAIBATE,roubos_oco,1.0,1.0,0.0
+CAICARA,roubos_oco,3.0,3.0,0.0
+CAMAQUA,roubos_oco,43.0,43.0,0.0
+CAMARGO,roubos_oco,0.0,0.0,0.0
+CAMBARA DO SUL,roubos_oco,0.0,0.0,0.0
+CAMPESTRE DA SERRA,roubos_oco,5.0,5.0,0.0
+CAMPINA DAS MISSOES,roubos_oco,0.0,0.0,0.0
+CAMPINAS DO SUL,roubos_oco,0.0,0.0,0.0
+CAMPO BOM,roubos_oco,73.0,73.0,0.0
+CAMPO NOVO,roubos_oco,3.0,3.0,0.0
+CAMPOS BORGES,roubos_oco,0.0,0.0,0.0
+CANDELARIA,roubos_oco,7.0,7.0,0.0
+CANDIDO GODOI,roubos_oco,0.0,0.0,0.0
+CANDIOTA,roubos_oco,1.0,1.0,0.0
+CANELA,roubos_oco,32.0,32.0,0.0
+CANGUCU,roubos_oco,25.0,25.0,0.0
+CANOAS,roubos_oco,869.0,867.0,-2.0
+CANUDOS DO VALE,roubos_oco,0.0,0.0,0.0
+CAPAO BONITO DO SUL,roubos_oco,0.0,0.0,0.0
+CAPAO DA CANOA,roubos_oco,126.0,125.0,-1.0
+CAPAO DO CIPO,roubos_oco,0.0,0.0,0.0
+CAPAO DO LEAO,roubos_oco,29.0,29.0,0.0
+CAPELA DE SANTANA,roubos_oco,5.0,5.0,0.0
+CAPITAO,roubos_oco,0.0,0.0,0.0
+CAPIVARI DO SUL,roubos_oco,0.0,0.0,0.0
+CARAA,roubos_oco,1.0,1.0,0.0
+CARAZINHO,roubos_oco,55.0,55.0,0.0
+CARLOS BARBOSA,roubos_oco,3.0,3.0,0.0
+CARLOS GOMES,roubos_oco,0.0,0.0,0.0
+CASCA,roubos_oco,4.0,4.0,0.0
+CASEIROS,roubos_oco,0.0,0.0,0.0
+CATUIPE,roubos_oco,0.0,0.0,0.0
+CAXIAS DO SUL,roubos_oco,763.0,760.0,-3.0
+CENTENARIO,roubos_oco,0.0,0.0,0.0
+CERRITO,roubos_oco,6.0,6.0,0.0
+CERRO BRANCO,roubos_oco,1.0,1.0,0.0
+CERRO GRANDE,roubos_oco,0.0,0.0,0.0
+CERRO GRANDE DO SUL,roubos_oco,1.0,1.0,0.0
+CERRO LARGO,roubos_oco,0.0,0.0,0.0
+CHAPADA,roubos_oco,1.0,1.0,0.0
+CHARQUEADAS,roubos_oco,10.0,10.0,0.0
+CHARRUA,roubos_oco,4.0,4.0,0.0
+CHIAPETTA,roubos_oco,1.0,1.0,0.0
+CHUI,roubos_oco,13.0,13.0,0.0
+CHUVISCA,roubos_oco,1.0,1.0,0.0
+CIDREIRA,roubos_oco,34.0,33.0,-1.0
+CIRIACO,roubos_oco,1.0,1.0,0.0
+COLINAS,roubos_oco,2.0,2.0,0.0
+COLORADO,roubos_oco,0.0,0.0,0.0
+CONDOR,roubos_oco,3.0,3.0,0.0
+CONSTANTINA,roubos_oco,1.0,1.0,0.0
+COQUEIRO BAIXO,roubos_oco,0.0,0.0,0.0
+COQUEIROS DO SUL,roubos_oco,0.0,0.0,0.0
+CORONEL BARROS,roubos_oco,0.0,0.0,0.0
+CORONEL BICACO,roubos_oco,4.0,4.0,0.0
+CORONEL PILAR,roubos_oco,0.0,0.0,0.0
+COTIPORA,roubos_oco,0.0,0.0,0.0
+COXILHA,roubos_oco,2.0,2.0,0.0
+CRISSIUMAL,roubos_oco,3.0,3.0,0.0
+CRISTAL,roubos_oco,0.0,0.0,0.0
+CRISTAL DO SUL,roubos_oco,0.0,0.0,0.0
+CRUZ ALTA,roubos_oco,48.0,48.0,0.0
+CRUZALTENSE,roubos_oco,0.0,0.0,0.0
+CRUZEIRO DO SUL,roubos_oco,3.0,3.0,0.0
+DAVID CANABARRO,roubos_oco,0.0,0.0,0.0
+DERRUBADAS,roubos_oco,0.0,0.0,0.0
+DEZESSEIS DE NOVEMBRO,roubos_oco,0.0,0.0,0.0
+DILERMANDO DE AGUIAR,roubos_oco,0.0,0.0,0.0
+DOIS IRMAOS,roubos_oco,7.0,7.0,0.0
+DOIS IRMAOS DAS MISSOES,roubos_oco,1.0,1.0,0.0
+DOIS LAJEADOS,roubos_oco,0.0,0.0,0.0
+DOM FELICIANO,roubos_oco,3.0,3.0,0.0
+DOM PEDRITO,roubos_oco,22.0,22.0,0.0
+DOM PEDRO DE ALCANTARA,roubos_oco,0.0,0.0,0.0
+DONA FRANCISCA,roubos_oco,0.0,0.0,0.0
+DOUTOR RICARDO,roubos_oco,0.0,0.0,0.0
+DR MAURICIO CARDOSO,roubos_oco,0.0,0.0,0.0
+ELDORADO DO SUL,roubos_oco,41.0,40.0,-1.0
+ENCANTADO,roubos_oco,10.0,10.0,0.0
+ENCRUZILHADA DO SUL,roubos_oco,13.0,13.0,0.0
+ENGENHO VELHO,roubos_oco,0.0,0.0,0.0
+ENTRE IJUIS,roubos_oco,2.0,2.0,0.0
+ENTRE RIOS DO SUL,roubos_oco,1.0,1.0,0.0
+EREBANGO,roubos_oco,2.0,2.0,0.0
+ERECHIM,roubos_oco,59.0,59.0,0.0
+ERNESTINA,roubos_oco,1.0,1.0,0.0
+ERVAL GRANDE,roubos_oco,0.0,0.0,0.0
+ERVAL SECO,roubos_oco,3.0,3.0,0.0
+ESMERALDA,roubos_oco,6.0,6.0,0.0
+ESPERANCA DO SUL,roubos_oco,0.0,0.0,0.0
+ESPUMOSO,roubos_oco,9.0,9.0,0.0
+ESTACAO,roubos_oco,4.0,4.0,0.0
+ESTANCIA VELHA,roubos_oco,43.0,42.0,-1.0
+ESTEIO,roubos_oco,167.0,167.0,0.0
+ESTRELA,roubos_oco,9.0,9.0,0.0
+ESTRELA VELHA,roubos_oco,1.0,1.0,0.0
+EUGENIO DE CASTRO,roubos_oco,0.0,0.0,0.0
+FAGUNDES VARELA,roubos_oco,0.0,0.0,0.0
+FARROUPILHA,roubos_oco,40.0,40.0,0.0
+FAXINAL DO SOTURNO,roubos_oco,0.0,0.0,0.0
+FAXINALZINHO,roubos_oco,2.0,2.0,0.0
+FAZENDA VILA NOVA,roubos_oco,1.0,1.0,0.0
+FELIZ,roubos_oco,1.0,1.0,0.0
+FLORES DA CUNHA,roubos_oco,14.0,14.0,0.0
+FLORIANO PEIXOTO,roubos_oco,0.0,0.0,0.0
+FONTOURA XAVIER,roubos_oco,1.0,1.0,0.0
+FORMIGUEIRO,roubos_oco,1.0,1.0,0.0
+FORQUETINHA,roubos_oco,2.0,2.0,0.0
+FORTALEZA DOS VALOS,roubos_oco,1.0,1.0,0.0
+FREDERICO WESTPHALEN,roubos_oco,9.0,9.0,0.0
+GARIBALDI,roubos_oco,10.0,9.0,-1.0
+GARRUCHOS,roubos_oco,0.0,0.0,0.0
+GAURAMA,roubos_oco,0.0,0.0,0.0
+GENERAL CAMARA,roubos_oco,4.0,4.0,0.0
+GENTIL,roubos_oco,0.0,0.0,0.0
+GERAL,roubos_oco,0.0,0.0,0.0
+GETULIO VARGAS,roubos_oco,14.0,14.0,0.0
+GIRUA,roubos_oco,4.0,4.0,0.0
+GLORINHA,roubos_oco,5.0,5.0,0.0
+GRAMADO,roubos_oco,8.0,8.0,0.0
+GRAMADO DOS LOUREIROS,roubos_oco,0.0,0.0,0.0
+GRAMADO XAVIER,roubos_oco,0.0,0.0,0.0
+GRAVATAI,roubos_oco,741.0,736.0,-5.0
+GUABIJU,roubos_oco,0.0,0.0,0.0
+GUAIBA,roubos_oco,132.0,131.0,-1.0
+GUAPORE,roubos_oco,4.0,4.0,0.0
+GUARANI DAS MISSOES,roubos_oco,1.0,1.0,0.0
+HARMONIA,roubos_oco,0.0,0.0,0.0
+HERVAL,roubos_oco,1.0,1.0,0.0
+HERVEIRAS,roubos_oco,0.0,0.0,0.0
+HORIZONTINA,roubos_oco,5.0,5.0,0.0
+HULHA NEGRA,roubos_oco,2.0,2.0,0.0
+HUMAITA,roubos_oco,1.0,1.0,0.0
+IBARAMA,roubos_oco,0.0,0.0,0.0
+IBIACA,roubos_oco,1.0,1.0,0.0
+IBIRAIARAS,roubos_oco,1.0,1.0,0.0
+IBIRAPUITA,roubos_oco,2.0,2.0,0.0
+IBIRUBA,roubos_oco,4.0,4.0,0.0
+IGREJINHA,roubos_oco,10.0,10.0,0.0
+IJUI,roubos_oco,64.0,63.0,-1.0
+ILOPOLIS,roubos_oco,2.0,2.0,0.0
+IMBE,roubos_oco,40.0,40.0,0.0
+IMIGRANTE,roubos_oco,1.0,1.0,0.0
+INDEPENDENCIA,roubos_oco,0.0,0.0,0.0
+INHACORA,roubos_oco,0.0,0.0,0.0
+IPE,roubos_oco,4.0,4.0,0.0
+IPIRANGA DO SUL,roubos_oco,0.0,0.0,0.0
+IRAI,roubos_oco,5.0,5.0,0.0
+ITAARA,roubos_oco,2.0,2.0,0.0
+ITACURUBI,roubos_oco,0.0,0.0,0.0
+ITAPUCA,roubos_oco,0.0,0.0,0.0
+ITAQUI,roubos_oco,28.0,28.0,0.0
+ITATI,roubos_oco,1.0,1.0,0.0
+ITATIBA DO SUL,roubos_oco,0.0,0.0,0.0
+IVORA,roubos_oco,0.0,0.0,0.0
+IVOTI,roubos_oco,5.0,5.0,0.0
+JABOTICABA,roubos_oco,1.0,1.0,0.0
+JACUIZINHO,roubos_oco,0.0,0.0,0.0
+JACUTINGA,roubos_oco,0.0,0.0,0.0
+JAGUARAO,roubos_oco,13.0,13.0,0.0
+JAGUARI,roubos_oco,0.0,0.0,0.0
+JAQUIRANA,roubos_oco,2.0,2.0,0.0
+JARI,roubos_oco,0.0,0.0,0.0
+JOIA,roubos_oco,0.0,0.0,0.0
+JULIO DE CASTILHOS,roubos_oco,11.0,11.0,0.0
+LAGOA BONITA DO SUL,roubos_oco,0.0,0.0,0.0
+LAGOA DOS TRES CANTOS,roubos_oco,0.0,0.0,0.0
+LAGOA VERMELHA,roubos_oco,13.0,13.0,0.0
+LAGOAO,roubos_oco,0.0,0.0,0.0
+LAJEADO,roubos_oco,45.0,45.0,0.0
+LAJEADO DO BUGRE,roubos_oco,0.0,0.0,0.0
+LAVRAS DO SUL,roubos_oco,2.0,2.0,0.0
+LIBERATO SALZANO,roubos_oco,0.0,0.0,0.0
+LINDOLFO COLLOR,roubos_oco,0.0,0.0,0.0
+LINHA NOVA,roubos_oco,1.0,1.0,0.0
+MACAMBARA,roubos_oco,0.0,0.0,0.0
+MACHADINHO,roubos_oco,3.0,3.0,0.0
+MAMPITUBA,roubos_oco,0.0,0.0,0.0
+MANOEL VIANA,roubos_oco,0.0,0.0,0.0
+MAQUINE,roubos_oco,4.0,4.0,0.0
+MARATA,roubos_oco,0.0,0.0,0.0
+MARAU,roubos_oco,28.0,28.0,0.0
+MARCELINO RAMOS,roubos_oco,0.0,0.0,0.0
+MARIANA PIMENTEL,roubos_oco,2.0,2.0,0.0
+MARIANO MORO,roubos_oco,0.0,0.0,0.0
+MARQUES DE SOUZA,roubos_oco,2.0,2.0,0.0
+MATA,roubos_oco,0.0,0.0,0.0
+MATO CASTELHANO,roubos_oco,2.0,2.0,0.0
+MATO LEITAO,roubos_oco,0.0,0.0,0.0
+MATO QUEIMADO,roubos_oco,0.0,0.0,0.0
+MAXIMILIANO DE ALMEIDA,roubos_oco,0.0,0.0,0.0
+MINAS DO LEAO,roubos_oco,8.0,8.0,0.0
+MIRAGUAI,roubos_oco,3.0,3.0,0.0
+MONTAURI,roubos_oco,0.0,0.0,0.0
+MONTE ALEGRE DOS CAMPOS,roubos_oco,0.0,0.0,0.0
+MONTE BELO DO SUL,roubos_oco,1.0,1.0,0.0
+MONTENEGRO,roubos_oco,45.0,45.0,0.0
+MORMACO,roubos_oco,1.0,1.0,0.0
+MORRINHOS DO SUL,roubos_oco,1.0,1.0,0.0
+MORRO REDONDO,roubos_oco,1.0,1.0,0.0
+MORRO REUTER,roubos_oco,0.0,0.0,0.0
+MOSTARDAS,roubos_oco,2.0,2.0,0.0
+MUCUM,roubos_oco,2.0,2.0,0.0
+MUITOS CAPOES,roubos_oco,0.0,0.0,0.0
+MULITERNO,roubos_oco,1.0,1.0,0.0
+NAN,roubos_oco,0.0,0.0,0.0
+NAN,roubos_oco,0.0,0.0,0.0
+NAO ME TOQUE,roubos_oco,0.0,0.0,0.0
+NAO-ME-TOQUE,roubos_oco,3.0,3.0,0.0
+NICOLAU VERGUEIRO,roubos_oco,1.0,1.0,0.0
+NONOAI,roubos_oco,4.0,4.0,0.0
+NOVA ALVORADA,roubos_oco,1.0,1.0,0.0
+NOVA ARACA,roubos_oco,0.0,0.0,0.0
+NOVA BASSANO,roubos_oco,2.0,2.0,0.0
+NOVA BOA VISTA,roubos_oco,0.0,0.0,0.0
+NOVA BRESCIA,roubos_oco,1.0,1.0,0.0
+NOVA CANDELARIA,roubos_oco,0.0,0.0,0.0
+NOVA ESPERANCA DO SUL,roubos_oco,0.0,0.0,0.0
+NOVA HARTZ,roubos_oco,13.0,13.0,0.0
+NOVA PADUA,roubos_oco,1.0,1.0,0.0
+NOVA PALMA,roubos_oco,0.0,0.0,0.0
+NOVA PETROPOLIS,roubos_oco,1.0,1.0,0.0
+NOVA PRATA,roubos_oco,4.0,4.0,0.0
+NOVA RAMADA,roubos_oco,0.0,0.0,0.0
+NOVA ROMA DO SUL,roubos_oco,0.0,0.0,0.0
+NOVA SANTA RITA,roubos_oco,27.0,27.0,0.0
+NOVO BARREIRO,roubos_oco,0.0,0.0,0.0
+NOVO CABRAIS,roubos_oco,0.0,0.0,0.0
+NOVO HAMBURGO,roubos_oco,597.0,595.0,-2.0
+NOVO MACHADO,roubos_oco,0.0,0.0,0.0
+NOVO TIRADENTES,roubos_oco,0.0,0.0,0.0
+NOVO XINGU,roubos_oco,0.0,0.0,0.0
+OSORIO,roubos_oco,32.0,32.0,0.0
+PAIM FILHO,roubos_oco,2.0,2.0,0.0
+PALMARES DO SUL,roubos_oco,20.0,20.0,0.0
+PALMEIRA DAS MISSOES,roubos_oco,18.0,18.0,0.0
+PALMITINHO,roubos_oco,2.0,2.0,0.0
+PANAMBI,roubos_oco,11.0,11.0,0.0
+PANTANO GRANDE,roubos_oco,7.0,7.0,0.0
+PARAI,roubos_oco,1.0,1.0,0.0
+PARAISO DO SUL,roubos_oco,2.0,2.0,0.0
+PARECI NOVO,roubos_oco,0.0,0.0,0.0
+PAROBE,roubos_oco,40.0,39.0,-1.0
+PASSA SETE,roubos_oco,1.0,1.0,0.0
+PASSO DO SOBRADO,roubos_oco,3.0,3.0,0.0
+PASSO FUNDO,roubos_oco,334.0,334.0,0.0
+PAULO BENTO,roubos_oco,0.0,0.0,0.0
+PAVERAMA,roubos_oco,0.0,0.0,0.0
+PEDRAS ALTAS,roubos_oco,1.0,1.0,0.0
+PEDRO OSORIO,roubos_oco,1.0,1.0,0.0
+PEJUCARA,roubos_oco,0.0,0.0,0.0
+PELOTAS,roubos_oco,720.0,718.0,-2.0
+PICADA CAFE,roubos_oco,0.0,0.0,0.0
+PINHAL,roubos_oco,0.0,0.0,0.0
+PINHAL DA SERRA,roubos_oco,0.0,0.0,0.0
+PINHAL GRANDE,roubos_oco,1.0,1.0,0.0
+PINHEIRINHO DO VALE,roubos_oco,2.0,2.0,0.0
+PINHEIRO MACHADO,roubos_oco,2.0,2.0,0.0
+PINTO BANDEIRA,roubos_oco,0.0,0.0,0.0
+PINTO BANDEIRA (BENTO GONC),roubos_oco,0.0,0.0,0.0
+PIRAPO,roubos_oco,0.0,0.0,0.0
+PIRATINI,roubos_oco,7.0,7.0,0.0
+PLANALTO,roubos_oco,3.0,3.0,0.0
+POCO DAS ANTAS,roubos_oco,1.0,1.0,0.0
+PONTAO,roubos_oco,1.0,1.0,0.0
+PONTE PRETA,roubos_oco,0.0,0.0,0.0
+PORTAO,roubos_oco,34.0,34.0,0.0
+PORTO ALEGRE,roubos_oco,9173.0,9139.0,-34.0
+PORTO LUCENA,roubos_oco,1.0,1.0,0.0
+PORTO MAUA,roubos_oco,0.0,0.0,0.0
+PORTO VERA CRUZ,roubos_oco,0.0,0.0,0.0
+PORTO XAVIER,roubos_oco,2.0,2.0,0.0
+POUSO NOVO,roubos_oco,0.0,0.0,0.0
+PRESIDENTE LUCENA,roubos_oco,0.0,0.0,0.0
+PROGRESSO,roubos_oco,4.0,4.0,0.0
+PROTASIO ALVES,roubos_oco,0.0,0.0,0.0
+PUTINGA,roubos_oco,0.0,0.0,0.0
+QUARAI,roubos_oco,12.0,12.0,0.0
+QUATRO IRMAOS,roubos_oco,0.0,0.0,0.0
+QUEVEDOS,roubos_oco,1.0,1.0,0.0
+QUINZE DE NOVEMBRO,roubos_oco,0.0,0.0,0.0
+REDENTORA,roubos_oco,4.0,4.0,0.0
+RELVADO,roubos_oco,0.0,0.0,0.0
+RESTINGA SECA,roubos_oco,5.0,5.0,0.0
+RIO DOS INDIOS,roubos_oco,2.0,2.0,0.0
+RIO GRANDE,roubos_oco,505.0,505.0,0.0
+RIO PARDO,roubos_oco,28.0,28.0,0.0
+RIOZINHO,roubos_oco,0.0,0.0,0.0
+ROCA SALES,roubos_oco,2.0,2.0,0.0
+RODEIO BONITO,roubos_oco,0.0,0.0,0.0
+ROLADOR,roubos_oco,0.0,0.0,0.0
+ROLANTE,roubos_oco,3.0,3.0,0.0
+RONDA ALTA,roubos_oco,3.0,3.0,0.0
+RONDINHA,roubos_oco,0.0,0.0,0.0
+ROQUE GONZALES,roubos_oco,1.0,1.0,0.0
+ROSARIO DO SUL,roubos_oco,17.0,17.0,0.0
+SAGRADA FAMILIA,roubos_oco,0.0,0.0,0.0
+SALDANHA MARINHO,roubos_oco,0.0,0.0,0.0
+SALTO DO JACUI,roubos_oco,4.0,4.0,0.0
+SALVADOR DAS MISSOES,roubos_oco,0.0,0.0,0.0
+SALVADOR DO SUL,roubos_oco,3.0,3.0,0.0
+SANANDUVA,roubos_oco,2.0,2.0,0.0
+SANTA BARBARA DO SUL,roubos_oco,6.0,6.0,0.0
+SANTA CECILIA DO SUL,roubos_oco,0.0,0.0,0.0
+SANTA CLARA DO SUL,roubos_oco,0.0,0.0,0.0
+SANTA CRUZ DO SUL,roubos_oco,91.0,91.0,0.0
+SANTA MARGARIDA DO SUL,roubos_oco,1.0,1.0,0.0
+SANTA MARIA,roubos_oco,411.0,411.0,0.0
+SANTA MARIA DO HERVAL,roubos_oco,0.0,0.0,0.0
+SANTA ROSA,roubos_oco,25.0,25.0,0.0
+SANTA TEREZA,roubos_oco,0.0,0.0,0.0
+SANTA VITORIA DO PALMAR,roubos_oco,29.0,29.0,0.0
+SANTANA DA BOA VISTA,roubos_oco,2.0,2.0,0.0
+SANTANA DO LIVRAMENTO,roubos_oco,100.0,100.0,0.0
+SANTIAGO,roubos_oco,10.0,10.0,0.0
+SANTO ANGELO,roubos_oco,83.0,83.0,0.0
+SANTO ANTONIO DA PATRULHA,roubos_oco,36.0,36.0,0.0
+SANTO ANTONIO DAS MISSOES,roubos_oco,4.0,4.0,0.0
+SANTO ANTONIO DO PALMA,roubos_oco,0.0,0.0,0.0
+SANTO ANTONIO DO PLANALTO,roubos_oco,1.0,1.0,0.0
+SANTO AUGUSTO,roubos_oco,8.0,8.0,0.0
+SANTO CRISTO,roubos_oco,1.0,1.0,0.0
+SANTO EXPEDITO DO SUL,roubos_oco,0.0,0.0,0.0
+SAO BORJA,roubos_oco,29.0,29.0,0.0
+SAO DOMINGOS DO SUL,roubos_oco,0.0,0.0,0.0
+SAO FRANCISCO DE ASSIS,roubos_oco,3.0,3.0,0.0
+SAO FRANCISCO DE PAULA,roubos_oco,5.0,5.0,0.0
+SAO GABRIEL,roubos_oco,54.0,54.0,0.0
+SAO JERONIMO,roubos_oco,9.0,9.0,0.0
+SAO JOAO DA URTIGA,roubos_oco,0.0,0.0,0.0
+SAO JOAO DO POLESINE,roubos_oco,0.0,0.0,0.0
+SAO JORGE,roubos_oco,0.0,0.0,0.0
+SAO JOSE DAS MISSOES,roubos_oco,0.0,0.0,0.0
+SAO JOSE DO HERVAL,roubos_oco,0.0,0.0,0.0
+SAO JOSE DO HORTENCIO,roubos_oco,0.0,0.0,0.0
+SAO JOSE DO INHACORA,roubos_oco,0.0,0.0,0.0
+SAO JOSE DO NORTE,roubos_oco,8.0,8.0,0.0
+SAO JOSE DO OURO,roubos_oco,0.0,0.0,0.0
+SAO JOSE DO SUL,roubos_oco,0.0,0.0,0.0
+SAO JOSE DOS AUSENTES,roubos_oco,0.0,0.0,0.0
+SAO LEOPOLDO,roubos_oco,525.0,523.0,-2.0
+SAO LOURENCO DO SUL,roubos_oco,24.0,24.0,0.0
+SAO LUIZ GONZAGA,roubos_oco,29.0,29.0,0.0
+SAO MARCOS,roubos_oco,6.0,6.0,0.0
+SAO MARTINHO,roubos_oco,3.0,3.0,0.0
+SAO MARTINHO DA SERRA,roubos_oco,0.0,0.0,0.0
+SAO MIGUEL DAS MISSOES,roubos_oco,0.0,0.0,0.0
+SAO NICOLAU,roubos_oco,0.0,0.0,0.0
+SAO PAULO DAS MISSOES,roubos_oco,2.0,2.0,0.0
+SAO PEDRO DA SERRA,roubos_oco,3.0,3.0,0.0
+SAO PEDRO DAS MISSOES,roubos_oco,0.0,0.0,0.0
+SAO PEDRO DO BUTIA,roubos_oco,0.0,0.0,0.0
+SAO PEDRO DO SUL,roubos_oco,8.0,8.0,0.0
+SAO SEBASTIAO DO CAI,roubos_oco,7.0,7.0,0.0
+SAO SEPE,roubos_oco,13.0,13.0,0.0
+SAO VALENTIM,roubos_oco,0.0,0.0,0.0
+SAO VALENTIM DO SUL,roubos_oco,2.0,2.0,0.0
+SAO VALERIO DO SUL,roubos_oco,0.0,0.0,0.0
+SAO VENDELINO,roubos_oco,0.0,0.0,0.0
+SAO VICENTE DO SUL,roubos_oco,2.0,2.0,0.0
+SAPIRANGA,roubos_oco,71.0,69.0,-2.0
+SAPUCAIA DO SUL,roubos_oco,322.0,322.0,0.0
+SARANDI,roubos_oco,6.0,6.0,0.0
+SEBERI,roubos_oco,5.0,5.0,0.0
+SEDE NOVA,roubos_oco,0.0,0.0,0.0
+SEGREDO,roubos_oco,0.0,0.0,0.0
+SELBACH,roubos_oco,2.0,2.0,0.0
+SENADOR SALGADO FILHO,roubos_oco,0.0,0.0,0.0
+SENTINELA DO SUL,roubos_oco,3.0,3.0,0.0
+SERAFINA CORREA,roubos_oco,2.0,2.0,0.0
+SERIO,roubos_oco,1.0,1.0,0.0
+SERTAO,roubos_oco,1.0,1.0,0.0
+SERTAO SANTANA,roubos_oco,2.0,2.0,0.0
+SETE DE SETEMBRO,roubos_oco,0.0,0.0,0.0
+SEVERIANO DE ALMEIDA,roubos_oco,0.0,0.0,0.0
+SILVEIRA MARTINS,roubos_oco,2.0,2.0,0.0
+SINIMBU,roubos_oco,0.0,0.0,0.0
+SOBRADINHO,roubos_oco,10.0,10.0,0.0
+SOLEDADE,roubos_oco,19.0,19.0,0.0
+TABAI,roubos_oco,4.0,4.0,0.0
+TAPEJARA,roubos_oco,10.0,10.0,0.0
+TAPERA,roubos_oco,2.0,2.0,0.0
+TAPES,roubos_oco,10.0,10.0,0.0
+TAQUARA,roubos_oco,50.0,50.0,0.0
+TAQUARI,roubos_oco,16.0,16.0,0.0
+TAQUARUCU DO SUL,roubos_oco,0.0,0.0,0.0
+TAVARES,roubos_oco,0.0,0.0,0.0
+TENENTE PORTELA,roubos_oco,8.0,8.0,0.0
+TERRA DE AREIA,roubos_oco,3.0,3.0,0.0
+TEUTONIA,roubos_oco,8.0,8.0,0.0
+TIO HUGO,roubos_oco,0.0,0.0,0.0
+TIRADENTES DO SUL,roubos_oco,0.0,0.0,0.0
+TOROPI,roubos_oco,1.0,1.0,0.0
+TORRES,roubos_oco,70.0,70.0,0.0
+TRAMANDAI,roubos_oco,99.0,99.0,0.0
+TRAVESSEIRO,roubos_oco,0.0,0.0,0.0
+TRES ARROIOS,roubos_oco,0.0,0.0,0.0
+TRES CACHOEIRAS,roubos_oco,3.0,3.0,0.0
+TRES COROAS,roubos_oco,7.0,6.0,-1.0
+TRES DE MAIO,roubos_oco,4.0,4.0,0.0
+TRES FORQUILHAS,roubos_oco,1.0,1.0,0.0
+TRES PALMEIRAS,roubos_oco,0.0,0.0,0.0
+TRES PASSOS,roubos_oco,8.0,8.0,0.0
+TRINDADE DO SUL,roubos_oco,2.0,2.0,0.0
+TRIUNFO,roubos_oco,8.0,8.0,0.0
+TUCUNDUVA,roubos_oco,2.0,2.0,0.0
+TUNAS,roubos_oco,0.0,0.0,0.0
+TUPANCI DO SUL,roubos_oco,0.0,0.0,0.0
+TUPANCIRETA,roubos_oco,9.0,9.0,0.0
+TUPANDI,roubos_oco,0.0,0.0,0.0
+TUPARENDI,roubos_oco,0.0,0.0,0.0
+TURUCU,roubos_oco,0.0,0.0,0.0
+UBIRETAMA,roubos_oco,0.0,0.0,0.0
+UNIAO DA SERRA,roubos_oco,0.0,0.0,0.0
+UNISTALDA,roubos_oco,0.0,0.0,0.0
+URUGUAIANA,roubos_oco,142.0,141.0,-1.0
+VACARIA,roubos_oco,95.0,93.0,-2.0
+VALE DO SOL,roubos_oco,5.0,5.0,0.0
+VALE REAL,roubos_oco,0.0,0.0,0.0
+VALE VERDE,roubos_oco,2.0,2.0,0.0
+VANINI,roubos_oco,0.0,0.0,0.0
+VENANCIO AIRES,roubos_oco,42.0,42.0,0.0
+VERA CRUZ,roubos_oco,7.0,7.0,0.0
+VERANOPOLIS,roubos_oco,1.0,1.0,0.0
+VESPASIANO CORREA,roubos_oco,1.0,1.0,0.0
+VIADUTOS,roubos_oco,0.0,0.0,0.0
+VIAMAO,roubos_oco,848.0,846.0,-2.0
+VICENTE DUTRA,roubos_oco,0.0,0.0,0.0
+VICTOR GRAEFF,roubos_oco,0.0,0.0,0.0
+VILA FLORES,roubos_oco,0.0,0.0,0.0
+VILA LANGARO,roubos_oco,0.0,0.0,0.0
+VILA MARIA,roubos_oco,1.0,1.0,0.0
+VILA NOVA DO SUL,roubos_oco,0.0,0.0,0.0
+VISTA ALEGRE,roubos_oco,0.0,0.0,0.0
+VISTA ALEGRE DO PRATA,roubos_oco,1.0,1.0,0.0
+VISTA GAUCHA,roubos_oco,1.0,1.0,0.0
+VITORIA DAS MISSOES,roubos_oco,1.0,1.0,0.0
+WESTFALIA,roubos_oco,0.0,0.0,0.0
+XANGRI-LA,roubos_oco,18.0,18.0,0.0
+XANGRILA,roubos_oco,0.0,0.0,0.0
