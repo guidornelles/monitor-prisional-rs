@@ -54,9 +54,11 @@ source("scripts/rs/01b_download_sisdepen.R")      # SISDEPEN Base Única (ShareP
 source("scripts/rs/run_all.R")
 ```
 
-A aquisição da Base Única do SISDEPEN e das tabelas de saúde do TABNET tem um passo
-manual de download (documentado em `docs/decisoes_metodologicas.md`); o restante é
-totalmente scriptado. Integridade conferida por manifestos com md5.
+A Base Única do SISDEPEN é baixada **automaticamente** pelo `01b_download_sisdepen.R`
+(link de compartilhamento do SharePoint + `&download=1`, nome versionado e checagem de
+md5). O único passo **manual** é a exportação das tabelas de saúde do TABNET para
+`data/raw/nacional/saude/` (documentado em `docs/decisoes_metodologicas.md`); todo o
+restante é scriptado. Integridade conferida por manifestos com md5.
 
 ## Estrutura
 
