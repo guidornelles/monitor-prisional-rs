@@ -1,0 +1,34 @@
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# Dados brutos grandes NÃO vão para o Git; versionar só manifestos/dicionários/esquemas pequenos.
+# (padrão "ignora tudo + reinclui pastas + arquivos específicos" — necessário p/ reincluir em subpasta)
+data/raw/**
+!data/raw/**/
+!data/raw/README.md
+!data/raw/sp_schema_prisional.csv
+!data/raw/ssp_rs_fontes.csv
+!data/raw/sisdepen_fontes.csv
+!data/raw/**/MANIFEST_*.csv
+
+# microdados criminais brutos da SSP-RS, colocados manualmente (~1 GB) — NÃO versionar
+data/EstatisticasCriminaisRS/
+data/intermediate/
+
+*.zip
+*.rar
+*.7z
+
+outputs/temp/
+outputs/cache/
+
+tmp/
+temp/
+cache/
+logs/
+
+*.log
+.positai
