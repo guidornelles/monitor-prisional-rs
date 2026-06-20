@@ -26,15 +26,13 @@
 
 4. Confirmar com a equipe de SP a definição de "prisões efetuadas" (Polícia Civil: flagrantes lavrados + mandados cumpridos), conforme levantamento documental (Res. SSP-SP nº 160/2001).
 
-5. Recorte regional. SP usa 11 macrorregiões; o RS tem recortes próprios (RISP/COREDEs), não equivalentes. Definir se a comparação será municipal/estadual, tratando "região" à parte.
+5. Recorte regional. Embora a Nota Metodológica do Monitor de SP fale em macrorregiões administrativas, as regiões exibidas no painel correspondem às 11 regiões geográficas intermediárias do estado de São Paulo, conforme o IBGE. O RS tem recortes próprios (RISP/COREDEs), não equivalentes. Definir se a comparação será municipal/estadual, tratando "região" à parte.
 
 6. Base de comparação. Comparar por taxas (por 100 mil habitantes) e tendências, não por números absolutos, exibindo a janela temporal válida de cada indicador.
+
+7. Homicídios — vítimas ou ocorrências? É possível contabilizar o homicídio doloso de duas formas: por número de vítimas ou por número de ocorrências. A Nota Metodológica do Monitor de SP indica ocorrências, mas os scripts e a visualização do DataStudio parecem indicar vítimas. Confirmar com a equipe de SP qual medida efetivamente alimenta o Monitor.
 
 
 ## Nota metodológica
 
-Nota sobre a coluna "Cobertura e granularidade temporal": mostra a cobertura (de que ano) e a menor unidade de desagregação (dia/mês/ano/semestre) — distinta da frequência de publicação (ex.: os Dados Abertos saem semestralmente, mas têm registros com data, desagregáveis por dia). Como o Monitor de SP usa dado anual, qualquer fonte do RS pode ser agregada à unidade temporal de SP; as restrições reais à comparação são o ano de início e a abrangência territorial (município × estadual).
-
----
-
-*Fontes: elaborado por Guilherme Souza (2026) a partir da Nota Metodológica do Monitor do Sistema Prisional (NEV-USP), das páginas de estatísticas da SSP-RS (Indicadores Criminais, Dados Abertos – Lei 15.610, Indicadores da Violência Contra a Mulher, Indicadores de Atividade) e dos dicionários de dados oficiais. As equivalências criminais foram validadas por reconciliação dos microdados com as tabelas oficiais (2023 e 2024).*
+Nota sobre a coluna "Cobertura e granularidade temporal": mostra a cobertura (de que ano) e a menor unidade de desagregação (dia/mês/ano/semestre) — distinta da frequência de publicação (ex.: os Dados Abertos saem semestralmente, mas têm registros com data, desagregáveis por dia). Como o Monitor de SP usa dado anual, qualquer fonte do RS pode ser agregada à unidade temporal de SP;

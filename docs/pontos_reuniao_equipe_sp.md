@@ -24,5 +24,5 @@
 - **Demonstrado** (não é versão antiga do script): recompondo da Base Única SISDEPEN, em **1.071 estabelecimentos de SP, 1.071 batem com a fórmula bugada (só Art.14) e 0 com a soma correta**; 501 casos com diferença visível, todos confirmando o bug. Detalhe em `docs/auditoria_tipo_penal_sp.md`.
 - **Encaminhamento:** reportar à equipe de SP para correção; decidir se o RS corrige (recomendado) e documenta a divergência.
 
-## (a preparar depois) Roteiro/briefing da reunião
-Guilherme pedirá ajuda para preparar materiais de apoio para a reunião com base nestes pontos.
+## 5. Achados da revisão das bases do DataStudio (jun/2026)
+> Origem: comparação das 5 bases exportadas do DataStudio de SP (`data/raw/bases_data_
