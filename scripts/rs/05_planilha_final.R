@@ -112,7 +112,8 @@ painel_criminal <- grade |>
                 dplyr::all_of(vars_cont), populacao, pib, distorcao_idade_serie_fund,
                 dplyr::ends_with("_taxa_100k")) |>
   dplyr::arrange(nom_mun, ano)
-readr::write_csv(painel_criminal, file.path(paths$out_tab, "painel_criminal_municipio_ano.csv"))
+readr::write_csv(painel_criminal, file.path(paths$out_tab, "painel_criminal_municipio_ano.csv"),
+                 na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
 # ---- 2) Painel prisional estabelecimento × ano (enriquecido) -----------------
 prisional <- readr::read_csv(file.path(paths$processed, "prisional_rs.csv"), show_col_types = FALSE)
@@ -124,24 +125,22 @@ if (!is.na(col_ibge)) {
     dplyr::left_join(dplyr::select(contexto, id_municipio, nome_regiao_intermediaria),
                      by = "id_municipio")
 }
-# junta as DERIVADAS (03b, 1º sem) e a MORTALIDADE (03c, 2º sem) por id, se existirem
+# junta as DERIVADAS por id (03b já inclui regime, pena, tipo_penal, continentes,
+# óbitos ANUAIS 1º+2º sem, atendimento/gestantes/lactantes). A mortalidade NÃO é mais
+# um arquivo separado (o antigo 03c foi mesclado no 03b).
 arq_der <- file.path(paths$processed, "prisional_derivadas_rs.csv")
 if (file.exists(arq_der)) {
   der <- readr::read_csv(arq_der, show_col_types = FALSE) |> dplyr::select(-dplyr::any_of("periodo"))
   painel_prisional <- dplyr::left_join(painel_prisional, der, by = "id")
-  message("  + ", ncol(der)-1, " colunas derivadas juntadas ao painel prisional.")
+  message("  + ", ncol(der)-1, " colunas derivadas (incl. óbitos anuais e continentes) juntadas ao painel prisional.")
 }
-arq_mort <- file.path(paths$processed, "prisional_mortalidade_rs.csv")
-if (file.exists(arq_mort)) {
-  mort <- readr::read_csv(arq_mort, show_col_types = FALSE) |> dplyr::select(-dplyr::any_of("periodo"))
-  painel_prisional <- dplyr::left_join(painel_prisional, mort, by = "id")
-  message("  + mortalidade (2º sem) juntada ao painel prisional.")
-}
-readr::write_csv(painel_prisional, file.path(paths$out_tab, "painel_prisional_estabelecimento.csv"))
+readr::write_csv(painel_prisional, file.path(paths$out_tab, "painel_prisional_estabelecimento.csv"),
+                 na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
 # ---- 3) Painel de contexto (denominadores/panoramas) -------------------------
 readr::write_csv(dplyr::select(contexto, -chave),
-                 file.path(paths$out_tab, "painel_contexto_municipio.csv"))
+                 file.path(paths$out_tab, "painel_contexto_municipio.csv"),
+                 na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
 # ---- 4) Painel de saúde município × ano (se 04b/01c já gerou) -----------------
 # Período próprio (ex.: 2018–2025, como SP) — não restrito a cfg$anos. Junta por código
@@ -162,7 +161,12 @@ if (file.exists(arq_saude)) {
                                 .names = "{.col}_taxa_100k")) |>
     dplyr::filter(!is.na(ano)) |>
     dplyr::arrange(nom_mun, ano)
-  readr::write_csv(painel_saude, file.path(paths$out_tab, "painel_saude_municipio_ano.csv"))
+  # na = "" grava célula VAZIA (não o texto "NA"). Necessário para o Looker Studio /
+  # Google Sheets tratarem obitos_*/casos_* como colunas NUMÉRICAS: com "NA" textual a
+  # coluna inteira vira texto e o Looker só oferece Contagem/Contar diferentes (sem Soma).
+  # Vazio = ausente (≠ zero); o Looker o interpreta como nulo numérico e exclui da soma.
+  readr::write_csv(painel_saude, file.path(paths$out_tab, "painel_saude_municipio_ano.csv"),
+                   na = "")
   message("painel_saude_municipio_ano.csv gravado (", nrow(painel_saude), " linhas; indicadores: ",
           paste(ind_saude, collapse = ", "), ").")
 } else {
@@ -180,3 +184,4 @@ readr::write_csv(auditoria, file.path(paths$out_aud, "planilha_final_cobertura.c
 
 message("OK — painéis finais gravados em outputs/tabelas/ (criminal, prisional, contexto).")
 print(auditoria)
+                                                                                                                                                                       

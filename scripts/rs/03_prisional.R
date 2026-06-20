@@ -86,24 +86,20 @@ base <- ler_base_unica()
 presentes <- intersect(schema, names(base))
 id_presentes <- intersect(c(COLS_ID, "ano", "periodo", "id"), names(base))
 prisional <- dplyr::select(base, dplyr::all_of(unique(c(id_presentes, presentes))))
-readr::write_csv(prisional, file.path(paths$processed, "prisional_rs.csv"))
 
-# ---- Auditoria: cobertura por ano --------------------------------------------
-auditoria <- base |>
-  dplyr::count(ano, name = "estab_recorte") |>
-  dplyr::mutate(recorte = cfg$escolhas$prisional_recorte,
-                fonte = cfg$escolhas$sisdepen_fonte,
-                cols_match = length(presentes),
-                cols_schema = length(schema))
-readr::write_csv(auditoria, file.path(paths$out_aud, "prisional_cobertura.csv"))
-
-message("OK — prisional_rs.csv (", nrow(prisional), " linhas, ", ncol(prisional),
-        " colunas; ", length(presentes), "/", length(schema), " do esquema SP) e auditoria gravados.")
-print(auditoria)
-
-# NOTAS:
-# - As ~65 colunas do esquema de SP ausentes aqui são variáveis DERIVADAS por SP
-#   (provisorios_*, sentenciado_*, obitos_*, faixas de pena), computadas em depen.R
-#   a partir das colunas brutas do SISDEPEN. Replicá-las é passo posterior (transform
-#   estilo depen.R) — a base bruta (312/377) já é o alicerce.
-# - Mortalidade (seção 6.8) usa o 2º semestre: rodar com cfg$escolhas$prisional_semestre = 2L.
+# ---- Endereço pronto para o mapa (espelha o depen.R de SP) --------------------
+# SP anexa " - <estado>, <país>" ao Endereço para o gráfico de localização ancorar
+# no estado/país certos. No RS os endereços vêm só com a rua -> no Google Maps vários
+# caíam FORA do RS (ruas homônimas entre estados). Anexamos município + RS + Brasil.
+# GUARDA: não duplica o município se ele já aparecer na linha de endereço.
+estado_extenso <- "Rio Grande do Sul"; pais <- "Brasil"
+if (all(c("Endereço", "Município") %in% names(prisional))) {
+  end <- prisional[["Endereço"]]; mun <- prisional[["Município"]]
+  end_squish <- stringr::str_squish(tidyr::replace_na(as.character(end), ""))
+  end_norm   <- norm_txt(end_squish); mun_norm <- norm_txt(as.character(mun))
+  tem_mun  <- nzchar(mun_norm) & stringr::str_detect(end_norm, stringr::fixed(mun_norm))
+  end_vazio <- !nzchar(end_squish)
+  prisional[["Endereço"]] <- dplyr::case_when(
+    end_vazio ~ paste0(mun, " - ", estado_extenso, ", ", pais),
+    tem_mun   ~ paste0(end_squish, " - ", estado_extenso, ", ", pais),
+    TRUE      ~ paste0(end_squish, ", ", mun, " - ", estado_extens

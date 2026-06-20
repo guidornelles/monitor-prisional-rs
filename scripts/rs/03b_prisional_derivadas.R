@@ -1,65 +1,93 @@
 # =============================================================================
 # 03b_prisional_derivadas.R — Colunas DERIVADAS do prisional (padrão Monitor SP)
 # -----------------------------------------------------------------------------
-# Calcula as variáveis derivadas que o Base_Sisdepen de SP publica e que não estão
-# no SISDEPEN bruto. Reproduz FIELMENTE as definições de SP onde elas são corretas, e
-# CORRIGE onde o depen.R de SP tem bug (ver docs/auditoria_tipo_penal_sp.md). As somas
-# são feitas por PADRÃO de nome de coluna (não por transcrição) — robusto e auditável.
+# CONSOLIDA o que o Monitor de SP faz em DOIS scripts (depen.R, 1º sem +
+# dados_sem2.R, 2º sem). Como nossa fonte é a Base Única (todos os ciclos num só
+# arquivo, com a coluna Referência "AAAA/S"), os dois semestres são apenas um
+# FILTRO sobre o mesmo arquivo — então fazemos tudo numa leitura só.
 #
-# Fonte: Base Única SISDEPEN, RS, 1º semestre, cela física (mesmo recorte do 03).
-# Derivadas calculadas:
-#   - Regime (ocup): provisorios/sentenciado_fechado/semiaberto/aberto/internacao/tratamento × M/F
-#                    = soma Justiça Estadual + Federal + Outros (fiel a SP).
-#   - Pena (5.12):   pena_{m,f}_{0_4,1_8,8_15,15_20,20_30,30_50,50_mais,sem_info} (fiel a SP).
-#   - Pena remanescente (5.13): pena_remanescente_{m,f}_{0_4,4_8,8_15,15_20,20_30,30_50,50mais}.
-#   - Filhos (5.10): mulheres/homens_presos_com_filhos_as = soma de 1..10 e "11 ou mais".
-#   - Tipo penal (5.14): 6 grupos × M/F/Total. CORRIGIDO:
-#       * desarmamento = soma dos 5 tipos (SP somava só 1 — bug auditado).
-#       * contra_patrimonio = AMPLO (13 subtipos do CP; decisão do pesquisador).
-#       * outros = RESIDUAL (total 5.14 − 5 grupos nomeados) → partição sem dupla contagem.
-#     ⚠ Diverge do output (bugado) de SP; documentado para levar à equipe de SP.
+# Fonte: Base Única SISDEPEN, RS, cela física (mesmo recorte do 03).
+#   1º semestre (perfil/capacidade), como depen.R:
+#     - Regime (4.1): provisorios/sentenciado_{fechado,semiaberto,aberto}/internacao/tratamento × M/F
+#                     = soma Justiça Estadual + Federal + Outros (fiel a SP).
+#     - Pena (5.12): pena_{m,f}_{0_2,2_4,4_8,8_15,15_20,20_30,30_mais,sem_info}  ← BINNING DE SP.
+#     - Pena remanescente (5.13): pena_remanescente_{m,f}_{0_4,4_8,8_15,15_20,20_30,30_50,50mais}.
+#     - Filhos (5.10): mulheres/homens_presos_com_filhos_as = soma de 1..10 e "11 ou mais".
+#     - Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO — ver nota abaixo).
+#     - Continentes (5.8): continente_{america,asia,africa,europa,oceania}
+#                          = rowSums das colunas 5.8 do continente × (M|F) (fiel a depen.R::nacionalidade).
+#   2º semestre, como dados_sem2.R:
+#     - Mortalidade (6.8): obitos_{saude,criminais,suicidio,acidentais,desconhecida}_{m,f,total}
+#       = óbitos do 1º sem + óbitos do 2º sem  (ANUAL — era o erro: a versão antiga pegava só o 2º).
+#     - Atendimento (6.6): atendimento_estabelecimento/externo/odonto (Consultas|Total).
+#     - cela_gestantes (2.1, texto Sim/Não) e quantidade_lactantes (5.9).
 #
-# Saída: data/processed/prisional_derivadas_rs.csv  (id, periodo, <derivadas>)
+# ⚠ Tipo penal: a PoC DIVERGE de propósito do depen.R de SP, que tem bugs
+#   (contra_pessoa_total soma por engano um termo de patrimônio; desarmamento é
+#   dupla-contado dentro de "outros"). Mantemos a versão CORRIGIDA (outros = residual)
+#   e levaremos o ponto à equipe de SP. Ver docs/auditoria_tipo_penal_sp.md.
+#
+# Saída: data/processed/prisional_derivadas_rs.csv  (id, periodo, <derivadas + obitos + sem2>)
+# Substitui o antigo par 03b (derivadas 1º sem) + 03c (mortalidade 2º sem).
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
 norm_txt <- function(x) stringi::stri_trans_general(stringr::str_squish(stringr::str_to_lower(x)), "Latin-ASCII")
 
-# ---- leitura + recorte (idêntico ao 03) --------------------------------------
+# ---- leitura única da Base Única ---------------------------------------------
 arq <- arquivo_baseunica()
 message("Base Única: ", basename(arq))
-df <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 10000))
-sem <- cfg$escolhas$prisional_semestre
-ref_alvo <- paste0(cfg$anos, "/", sem)
-df <- df |>
-  dplyr::mutate(UF = toupper(.data[["UF"]]), ref = as.character(.data[["Referência"]])) |>
-  dplyr::filter(UF == cfg$uf, ref %in% ref_alvo)
-if ("Tipo de Recolhimento" %in% names(df)) {
-  df <- dplyr::filter(df, norm_txt(.data[["Tipo de Recolhimento"]]) == "cela fisica")
+df_full <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 10000))
+
+# filtra UF + recorte cela física + anos, para UM semestre (mesmo recorte do 03)
+prep_sem <- function(s) {
+  ref_alvo <- paste0(cfg$anos, "/", s)
+  d <- df_full |>
+    dplyr::mutate(UF = toupper(.data[["UF"]]), ref = as.character(.data[["Referência"]])) |>
+    dplyr::filter(UF == cfg$uf, ref %in% ref_alvo)
+  if (identical(cfg$escolhas$prisional_recorte, "cela_fisica") &&
+      "Tipo de Recolhimento" %in% names(d)) {
+    nome_norm <- norm_txt(d[["Nome do Estabelecimento"]])
+    d <- dplyr::filter(d,
+      norm_txt(.data[["Tipo de Recolhimento"]]) == "cela fisica",
+      !stringr::str_detect(nome_norm, "domiciliar|monitoramento eletronico|monitoracao eletronica"))
+  }
+  d |> dplyr::mutate(
+    ano = as.integer(stringr::str_extract(ref, "^\\d{4}")),
+    periodo = as.character(ano),
+    id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-"),
+    dplyr::across(where(is.numeric), ~ ifelse(is.na(.), 0, .)))
 }
-df <- df |> dplyr::mutate(
-  ano = as.integer(stringr::str_extract(ref, "^\\d{4}")),
-  periodo = as.character(ano),
-  id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-"),
-  dplyr::across(where(is.numeric), ~ ifelse(is.na(.), 0, .))
-)
+df1 <- prep_sem(1L)   # perfil/capacidade/estrutura (universo da camada, como depen.R)
+df2 <- prep_sem(2L)   # 2º sem: mortalidade, atendimento, gestantes, lactantes
 
-nomes <- names(df)
-# soma, por linha, das colunas cujo nome contém TODOS os tokens (e exclui os de 'sem')
-soma_cols <- function(tokens, sem_tokens = character(0), mínimo = 1L) {
-  ok <- vapply(nomes, function(n)
-    all(vapply(tokens, function(t) grepl(t, n, fixed = TRUE), logical(1))) &&
-    !any(vapply(sem_tokens, function(t) grepl(t, n, fixed = TRUE), logical(1))),
-    logical(1))
-  cols <- nomes[ok]
-  if (length(cols) < mínimo) stop("Padrão sem colunas suficientes (", length(cols), "<", mínimo, "): ",
-                                  paste(tokens, collapse = " + "))
-  rowSums(dplyr::select(df, dplyr::all_of(cols)))
+# ---- helpers de soma por PADRÃO de nome (sobre um data frame) -----------------
+# fábrica: devolve uma 'soma_cols' ligada a um data frame específico (df1 ou df2)
+somador <- function(d) {
+  nomes <- names(d)
+  function(tokens, sem_tokens = character(0), mínimo = 1L) {
+    ok <- vapply(nomes, function(n)
+      all(vapply(tokens, function(t) grepl(t, n, fixed = TRUE), logical(1))) &&
+      !any(vapply(sem_tokens, function(t) grepl(t, n, fixed = TRUE), logical(1))),
+      logical(1))
+    cols <- nomes[ok]
+    if (length(cols) < mínimo) stop("Padrão sem colunas suficientes (", length(cols), "<", mínimo, "): ",
+                                    paste(tokens, collapse = " + "))
+    rowSums(dplyr::select(d, dplyr::all_of(cols)))
+  }
+}
+# localiza UMA coluna única que contém todos os tokens (para campos avulsos)
+col_unica <- function(d, tokens) {
+  nm <- names(d)
+  ok <- nm[vapply(nm, function(n) all(vapply(tokens, function(t) grepl(t, n, fixed = TRUE), logical(1))), logical(1))]
+  if (length(ok) != 1) stop("Coluna não única para ", paste(tokens, collapse = " + "), " (", length(ok), ")")
+  d[[ok]]
 }
 
-der <- tibble::tibble(id = df$id, periodo = df$periodo)
+s1 <- somador(df1)
+der <- tibble::tibble(id = df1$id, periodo = df1$periodo)
 
-# ---- Regime (4.1): soma Estadual + Federal + Outros, por regime × sexo -------
+# ---- Regime (4.1): soma Estadual + Federal + Outros, por regime × sexo --------
 regimes <- list(
   provisorios = "Presos provisórios (sem condenação)",
   sentenciado_fechado = "Presos sentenciados - regime fechado",
@@ -69,74 +97,46 @@ regimes <- list(
   tratamento = "Medida de segurança - tratamento ambulatorial")
 for (rk in names(regimes)) for (sx in c("masculino","feminino")) {
   Sx <- if (sx=="masculino") "Masculino" else "Feminino"
-  der[[paste0(rk, "_", sx)]] <- soma_cols(
-    c("4.1 População prisional", regimes[[rk]], "Just", Sx), mínimo = 3L)
+  der[[paste0(rk, "_", sx)]] <- s1(c("4.1 População prisional", regimes[[rk]], "Just", Sx), mínimo = 3L)
 }
 
-# ---- Pena (5.12) e pena remanescente (5.13): faixas -> buckets ---------------
+# ---- Pena (5.12) e pena remanescente (5.13): faixas -> buckets ----------------
+# Faixas nativas do SISDEPEN (5.12/5.13):
 f6m  <- "Até 6 meses (inclusive)"; f1a <- "Mais de 6 meses até 1 ano (inclusive)"
 f2a  <- "Mais de 1 ano até 2 anos (inclusive)"; f4a <- "Mais de 2 até 4 anos (inclusive)"
 f8a  <- "Mais de 4 até 8 anos (inclusive)"; f15 <- "Mais de 8 até 15 anos (inclusive)"
 f20  <- "Mais de 15 até 20 anos (inclusive)"; f30 <- "Mais de 20 até 30 anos (inclusive)"
 f50  <- "Mais de 30 até 50 anos (inclusive)"; f100 <- "Mais de 50 até 100 anos (inclusive)"
 fmais<- "Mais de 100 anos"; fsi <- "Número de pessoas sem informação"
-add_faixa <- function(sec, faixa, Sx) soma_cols(c(sec, paste0("| ", faixa, " | "), Sx), mínimo = 1L)
+add_faixa <- function(sec, faixa, Sx) s1(c(sec, paste0("| ", faixa, " | "), Sx), mínimo = 1L)
 for (sx in c("masculino","feminino")) {
-  Sx <- if (sx=="masculino") "Masculino" else "Feminino"; S <- substr(sx,1,1)
+  Sx <- if (sx=="masculino") "Masculino" else "Feminino"
+  # PENA (5.12) — binning DE SP (depen.R): 0_2 / 2_4 / 4_8 / 8_15 / 15_20 / 20_30 / 30_mais / sem_info
   pre <- "5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas"
-  der[[paste0("pena_",sx,"_0_4anos")]]   <- add_faixa(pre,f6m,Sx)+add_faixa(pre,f1a,Sx)+add_faixa(pre,f2a,Sx)+add_faixa(pre,f4a,Sx)
-  der[[paste0("pena_",sx,"_1_8anos")]]   <- add_faixa(pre,f8a,Sx)
-  der[[paste0("pena_",sx,"_8_15anos")]]  <- add_faixa(pre,f15,Sx)
-  der[[paste0("pena_",sx,"_15_20anos")]] <- add_faixa(pre,f20,Sx)
-  der[[paste0("pena_",sx,"_20_30anos")]] <- add_faixa(pre,f30,Sx)
-  der[[paste0("pena_",sx,"_30_50anos")]] <- add_faixa(pre,f50,Sx)
-  der[[paste0("pena_",sx,"_50_maisanos")]] <- add_faixa(pre,f100,Sx)+add_faixa(pre,fmais,Sx)
-  der[[paste0("pena_",sx,"_sem_info")]]  <- add_faixa(pre,fsi,Sx)
+  der[[paste0("pena_",sx,"_0_2anos")]]    <- add_faixa(pre,f6m,Sx)+add_faixa(pre,f1a,Sx)+add_faixa(pre,f2a,Sx)
+  der[[paste0("pena_",sx,"_2_4anos")]]    <- add_faixa(pre,f4a,Sx)
+  der[[paste0("pena_",sx,"_4_8anos")]]    <- add_faixa(pre,f8a,Sx)
+  der[[paste0("pena_",sx,"_8_15anos")]]   <- add_faixa(pre,f15,Sx)
+  der[[paste0("pena_",sx,"_15_20anos")]]  <- add_faixa(pre,f20,Sx)
+  der[[paste0("pena_",sx,"_20_30anos")]]  <- add_faixa(pre,f30,Sx)
+  der[[paste0("pena_",sx,"_30_maisanos")]]<- add_faixa(pre,f50,Sx)+add_faixa(pre,f100,Sx)+add_faixa(pre,fmais,Sx)
+  der[[paste0("pena_",sx,"_sem_info")]]   <- add_faixa(pre,fsi,Sx)
+  # PENA REMANESCENTE (5.13) — já idêntica a SP; não alterar
   prr <- "5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente"
-  suf <- if (sx=="masculino") "masculino" else "feminino"
-  der[[paste0("pena_remanescente_",suf,"_0_4anos")]]   <- add_faixa(prr,f6m,Sx)+add_faixa(prr,f1a,Sx)+add_faixa(prr,f2a,Sx)+add_faixa(prr,f4a,Sx)
-  der[[paste0("pena_remanescente_",suf,"_4_8anos")]]   <- add_faixa(prr,f8a,Sx)
-  der[[paste0("pena_remanescente_",suf,"_8_15anos")]]  <- add_faixa(prr,f15,Sx)
-  der[[paste0("pena_remanescente_",suf,"_15_20anos")]] <- add_faixa(prr,f20,Sx)
-  der[[paste0("pena_remanescente_",suf,"_20_30anos")]] <- add_faixa(prr,f30,Sx)
-  der[[paste0("pena_remanescente_",suf,"_30_50anos")]] <- add_faixa(prr,f50,Sx)
-  der[[paste0("pena_remanescente_",suf,"_50maisanos")]]<- add_faixa(prr,f100,Sx)+add_faixa(prr,fmais,Sx)
+  der[[paste0("pena_remanescente_",sx,"_0_4anos")]]   <- add_faixa(prr,f6m,Sx)+add_faixa(prr,f1a,Sx)+add_faixa(prr,f2a,Sx)+add_faixa(prr,f4a,Sx)
+  der[[paste0("pena_remanescente_",sx,"_4_8anos")]]   <- add_faixa(prr,f8a,Sx)
+  der[[paste0("pena_remanescente_",sx,"_8_15anos")]]  <- add_faixa(prr,f15,Sx)
+  der[[paste0("pena_remanescente_",sx,"_15_20anos")]] <- add_faixa(prr,f20,Sx)
+  der[[paste0("pena_remanescente_",sx,"_20_30anos")]] <- add_faixa(prr,f30,Sx)
+  der[[paste0("pena_remanescente_",sx,"_30_50anos")]] <- add_faixa(prr,f50,Sx)
+  der[[paste0("pena_remanescente_",sx,"_50maisanos")]]<- add_faixa(prr,f100,Sx)+add_faixa(prr,fmais,Sx)
 }
 
-# ---- Filhos (5.10): soma de 1..10 e "11 ou mais" (exclui Sem filhos/Sem info) -
+# ---- Filhos (5.10): soma de 1..10 e "11 ou mais" -----------------------------
 filhos <- function(Sx) Reduce(`+`, lapply(c(as.character(1:10), "11 ou mais"),
-  function(n) soma_cols(c("5.10 Número de filhos/as", paste0("| ", n, " | "), Sx), mínimo = 1L)))
+  function(n) s1(c("5.10 Número de filhos/as", paste0("| ", n, " | "), Sx), mínimo = 1L)))
 der$mulheres_presas_com_filhos_as <- filhos("Feminino")
 der$homens_presos_com_filhos_as   <- filhos("Masculino")
 
-# ---- Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO) ---------------------
-grupos_cp <- list(
-  contra_pessoa = "Grupo: Crimes contra a pessoa",
-  contra_patrimonio = "Grupo: Crimes contra o patrimônio",   # AMPLO: todos os 13 subtipos do grupo
-  dignidade_sexual = "Grupo: Crimes contra a dignidade sexual",
-  drogas = "Grupo: Drogas (Lei 6.368/76 e Lei 11.343/06)",
-  desarmamento = "Grupo: Estatuto do Desarmamento")
-# soma de todas as colunas-folha do grupo, por sexo/total
-for (g in names(grupos_cp)) for (TT in c("Masculino","Feminino","Total")) {
-  der[[paste0("tipo_penal_", g, "_", tolower(TT))]] <-
-    soma_cols(c("5.14 Quantidade de incidências por tipo penal", grupos_cp[[g]],
-                paste0(" | ", TT)), mínimo = 1L)
-}
-# OUTROS = residual: total geral (5.14 | sexo) − soma dos 5 grupos nomeados
-grand <- function(TT) {
-  alvo <- paste0("5.14 Quantidade de incidências por tipo penal | ", TT)
-  if (!alvo %in% nomes) stop("Total geral não encontrado: ", alvo)
-  df[[alvo]]
-}
-for (TT in c("Masculino","Feminino","Total")) {
-  somag <- Reduce(`+`, lapply(names(grupos_cp), function(g) der[[paste0("tipo_penal_", g, "_", tolower(TT))]]))
-  total_geral <- tryCatch(grand(TT), error = function(e) { message("⚠ ", conditionMessage(e),
-                          " — outros_", tolower(TT), " via M+F."); NULL })
-  if (!is.null(total_geral)) der[[paste0("tipo_penal_outros_", tolower(TT))]] <- pmax(total_geral - somag, 0)
-}
-if (is.null(der[["tipo_penal_outros_total"]]) && !is.null(der[["tipo_penal_outros_masculino"]]))
-  der[["tipo_penal_outros_total"]] <- der[["tipo_penal_outros_masculino"]] + der[["tipo_penal_outros_feminino"]]
-
-readr::write_csv(der, file.path(paths$processed, "prisional_derivadas_rs.csv"))
-message("OK — prisional_derivadas_rs.csv (", nrow(der), " linhas, ", ncol(der)-2, " derivadas).")
-print(utils::head(der[, 1:8]))
+# ---- Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO — diverge de SP) ------
+grupos_cp

@@ -22,13 +22,11 @@ t0 <- Sys.time(); etapa <- function(f) { message("\n==== ", f, " ===="); source(
 # ---- 1. Processamento por módulo (lê data/raw -> escreve data/processed) ------
 etapa("02_criminal.R")             # ✅ pronto e validado (2022–2025); auditoria automática
 etapa("02b_atividade.R")           # ✅ prisões em flagrante (PC) por município×ano (Lei 15.610 Art.6 IX)
-etapa("03_prisional.R")            # ✅ Base Única SISDEPEN -> base prisional (padrão Base_Sisdepen); cela física
-etapa("03b_prisional_derivadas.R") # ✅ derivadas (regime, pena, pena_remanescente, filhos, tipo_penal CORRIGIDO)
-etapa("03c_mortalidade.R")         # ✅ mortalidade prisional (seção 6.8, 2º semestre)
+etapa("03_prisional.R")            # ✅ Base Única SISDEPEN -> base prisional (padrão Base_Sisdepen); cela física; Endereço p/ mapa
+etapa("03b_prisional_derivadas.R") # ✅ derivadas: regime, pena (binning SP), filhos, tipo_penal CORRIGIDO, continentes, óbitos ANUAIS (1º+2º), atendimento/gestantes/lactantes
+# 03c_mortalidade.R — DESCONTINUADO (mesclado no 03b; mortalidade agora é anual 1º+2º sem)
 etapa("04_contexto.R")             # ✅ região intermediária + população + PIB + distorção idade-série (denominadores)
 etapa("04b_saude.R")               # ✅ saúde (TABNET: casos+óbitos TB/hep/HIV); requer os CSV em data/raw/nacional/saude/
 etapa("05_planilha_final.R")       # ✅ painéis finais (nomes de SP + id_municipio + ano + taxas/100 mil)
 etapa("06_auditoria.R")            # ✅ auditoria consolidada -> RELATORIO_AUDITORIA.md + qualidade_paineis.csv
-
-message("\nConcluído em ", round(difftime(Sys.time(), t0, units = "secs"), 1), "s. ",
-        "Saídas em outputs/tabelas/ e auditoria em outputs/auditoria/.")
+etapa("07_validacao_prisional.R")  # ✅ valida correções prisionais (c

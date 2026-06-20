@@ -40,7 +40,8 @@ cfg <- list(
     # --- Prisional (SISDEPEN) ---
     sisdepen_fonte   = "base_unica",    # "base_unica" (consolidada SENAPPEN; recomendado) | "ciclos"
     prisional_recorte = "cela_fisica",  # "cela_fisica" (exclui domiciliar/monit. eletrônica) | "todos"
-    prisional_semestre = 1L             # 1 = perfil/capacidade/estrutura (como SP); 2 = mortalidade
+    prisional_semestre = 1L             # semestre da base BRUTA (03): 1 = perfil/capacidade (como SP).
+                                        # Mortalidade (03b) é ANUAL (1º+2º sem) e ignora este parâmetro.
   ),
 
   # --- Tolerâncias de auditoria (reconciliação microdado x agregado oficial) ---
@@ -110,5 +111,4 @@ arquivo_baseunica <- function() {
   cands[which.max(file.info(cands)$mtime)]   # a mais recente
 }
 
-message("Config carregada — UF=", cfg$uf, " | anos=", paste(range(cfg$anos), collapse = "-"),
-        " | SISDEPEN=", cfg$escolhas$sisdepen_fonte)
+message("Config carregada — UF=", c
