@@ -37,7 +37,12 @@ norm_txt <- function(x) stringi::stri_trans_general(stringr::str_squish(stringr:
 # ---- leitura única da Base Única ---------------------------------------------
 arq <- arquivo_baseunica()
 message("Base Única: ", basename(arq))
-df_full <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 10000))
+# guess_max = Inf: as colunas ESPARSAS (ex.: 5.8 nacionalidade por país, preenchidas em
+# pouquíssimos estabelecimentos) ficam vazias nos primeiros milhares de registros nacionais;
+# com guess_max baixo o readxl as adivinha como LÓGICAS e os valores reais (RS) viram NA —
+# zerando os continentes. Um guess_max grande (readxl limita ao nº real de linhas) garante
+# o tipo numérico correto. Evitamos Inf (algumas versões do readxl avisam).
+df_full <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 1000000L))
 
 # filtra UF + recorte cela física + anos, para UM semestre (mesmo recorte do 03)
 prep_sem <- function(s) {
@@ -132,11 +137,4 @@ for (sx in c("masculino","feminino")) {
   der[[paste0("pena_remanescente_",sx,"_50maisanos")]]<- add_faixa(prr,f100,Sx)+add_faixa(prr,fmais,Sx)
 }
 
-# ---- Filhos (5.10): soma de 1..10 e "11 ou mais" -----------------------------
-filhos <- function(Sx) Reduce(`+`, lapply(c(as.character(1:10), "11 ou mais"),
-  function(n) s1(c("5.10 Número de filhos/as", paste0("| ", n, " | "), Sx), mínimo = 1L)))
-der$mulheres_presas_com_filhos_as <- filhos("Feminino")
-der$homens_presos_com_filhos_as   <- filhos("Masculino")
-
-# ---- Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO — diverge de SP) ------
-grupos_cp
+# ---- Filh
