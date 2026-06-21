@@ -137,4 +137,98 @@ for (sx in c("masculino","feminino")) {
   der[[paste0("pena_remanescente_",sx,"_50maisanos")]]<- add_faixa(prr,f100,Sx)+add_faixa(prr,fmais,Sx)
 }
 
-# ---- Filh
+# ---- Filhos (5.10): soma de 1..10 e "11 ou mais" -----------------------------
+filhos <- function(Sx) Reduce(`+`, lapply(c(as.character(1:10), "11 ou mais"),
+  function(n) s1(c("5.10 Número de filhos/as", paste0("| ", n, " | "), Sx), mínimo = 1L)))
+der$mulheres_presas_com_filhos_as <- filhos("Feminino")
+der$homens_presos_com_filhos_as   <- filhos("Masculino")
+
+# ---- Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO — diverge de SP) ------
+grupos_cp <- list(
+  contra_pessoa = "Grupo: Crimes contra a pessoa",
+  contra_patrimonio = "Grupo: Crimes contra o patrimônio",
+  dignidade_sexual = "Grupo: Crimes contra a dignidade sexual",
+  drogas = "Grupo: Drogas (Lei 6.368/76 e Lei 11.343/06)",
+  desarmamento = "Grupo: Estatuto do Desarmamento")
+for (g in names(grupos_cp)) for (TT in c("Masculino","Feminino","Total")) {
+  der[[paste0("tipo_penal_", g, "_", tolower(TT))]] <-
+    s1(c("5.14 Quantidade de incidências por tipo penal", grupos_cp[[g]], paste0(" | ", TT)), mínimo = 1L)
+}
+# OUTROS = residual: total geral (5.14 | sexo) − soma dos 5 grupos nomeados (sem dupla contagem)
+for (TT in c("Masculino","Feminino","Total")) {
+  somag <- Reduce(`+`, lapply(names(grupos_cp), function(g) der[[paste0("tipo_penal_", g, "_", tolower(TT))]]))
+  alvo <- paste0("5.14 Quantidade de incidências por tipo penal | ", TT)
+  total_geral <- if (alvo %in% names(df1)) df1[[alvo]] else { message("⚠ total geral 5.14 ausente p/ ", TT); NULL }
+  if (!is.null(total_geral)) der[[paste0("tipo_penal_outros_", tolower(TT))]] <- pmax(total_geral - somag, 0)
+}
+if (is.null(der[["tipo_penal_outros_total"]]) && !is.null(der[["tipo_penal_outros_masculino"]]))
+  der[["tipo_penal_outros_total"]] <- der[["tipo_penal_outros_masculino"]] + der[["tipo_penal_outros_feminino"]]
+
+# ---- Continentes (5.8): origem dos presos ESTRANGEIROS por continente ---------
+# = rowSums de todas as colunas 5.8 que contêm o nome do continente × (Masculino|Feminino),
+# inclusive "Outros países do continente X". Brasileiros ficam em Brasileiro nato/naturalizado
+# (fora); "Sem informação" não entra em continente. Fiel a depen.R::nacionalidade.
+cont_sum <- function(d, continente) {
+  nm <- names(d)
+  cols <- nm[grepl("5.8", nm, fixed = TRUE) & grepl(continente, nm, fixed = TRUE) &
+             (grepl("Masculino", nm, fixed = TRUE) | grepl("Feminino", nm, fixed = TRUE))]
+  if (length(cols) == 0) { message("⚠ 5.8 sem colunas para ", continente, " — continente = 0"); return(rep(0, nrow(d))) }
+  rowSums(dplyr::select(d, dplyr::all_of(cols)), na.rm = TRUE)
+}
+der$continente_america <- cont_sum(df1, "América")
+der$continente_asia    <- cont_sum(df1, "Ásia")
+der$continente_africa  <- cont_sum(df1, "África")
+der$continente_europa  <- cont_sum(df1, "Europa")
+der$continente_oceania <- cont_sum(df1, "Oceania")
+
+# ---- Mortalidade ANUAL (6.8) = 1º sem + 2º sem (como dados_sem2.R) ------------
+tipos_ob <- list(saude = "Óbitos naturais", criminais = "Óbitos criminais",
+                 suicidio = "Óbitos suicídios", acidentais = "Óbitos acidentais",
+                 desconhecida = "Óbitos com causa desconhecida")
+obitos_frame <- function(d) {
+  nm <- names(d); out <- tibble::tibble(id = d$id)
+  for (tk in names(tipos_ob)) for (sx in c("masculino","feminino","total")) {
+    Sx <- c(masculino="Masculino", feminino="Feminino", total="Total")[[sx]]
+    col <- nm[grepl("6.8 Mortalidade", nm, fixed = TRUE) &
+              grepl(tipos_ob[[tk]], nm, fixed = TRUE) & endsWith(nm, paste0("| ", Sx))]
+    if (length(col) != 1) stop("Coluna 6.8 não única: ", tipos_ob[[tk]], " | ", Sx, " (", length(col), ")")
+    out[[paste0("obitos_", tk, "_", sx)]] <- d[[col]]
+  }
+  out
+}
+m1 <- obitos_frame(df1)                                   # óbitos do 1º sem
+m2 <- obitos_frame(df2) |> dplyr::rename_with(~paste0(.x, "_s2"), -id)  # óbitos do 2º sem
+ob_cols <- setdiff(names(m1), "id")
+mort <- dplyr::left_join(m1, m2, by = "id")
+for (c in ob_cols) mort[[c]] <- mort[[c]] + tidyr::replace_na(mort[[paste0(c, "_s2")]], 0)
+mort <- dplyr::select(mort, id, dplyr::all_of(ob_cols))
+
+# ---- Colunas do 2º semestre: atendimento (6.6), gestantes (2.1), lactantes (5.9)
+sem2 <- tibble::tibble(
+  id = df2$id,
+  atendimento_estabelecimento = col_unica(df2, c("6.6", "Consultas médicas realizadas no estabelecimento", "| Total")),
+  atendimento_externo         = col_unica(df2, c("6.6", "Consultas médicas realizadas externamente", "| Total")),
+  atendimento_odonto          = col_unica(df2, c("6.6", "Consultas odontológicas", "| Total")),
+  cela_gestantes              = col_unica(df2, c("2.1", "dormitório para gestantes")),
+  quantidade_lactantes        = col_unica(df2, c("5.9", "Quantidade de lactantes"))
+)
+
+# ---- Junta tudo no universo do 1º semestre (id) ------------------------------
+der <- der |>
+  dplyr::left_join(mort, by = "id") |>
+  dplyr::left_join(sem2, by = "id")
+# zera NA nas numéricas vindas do 2º sem (estab. sem linha no 2º sem); cela_gestantes (texto) fica NA
+num_2sem <- c(ob_cols, "atendimento_estabelecimento", "atendimento_externo", "atendimento_odonto", "quantidade_lactantes")
+der <- der |> dplyr::mutate(dplyr::across(dplyr::any_of(num_2sem), ~ tidyr::replace_na(., 0)))
+
+readr::write_csv(der, file.path(paths$processed, "prisional_derivadas_rs.csv"), na = "")
+message("OK — prisional_derivadas_rs.csv (", nrow(der), " linhas, ", ncol(der)-2, " derivadas; ",
+        "óbitos ANUAIS 1º+2º sem; continentes; atendimento/gestantes/lactantes do 2º sem).")
+# auditoria rápida de óbitos (deve subir vs. a versão antiga só-2º-sem)
+aud <- der |> dplyr::group_by(periodo) |>
+  dplyr::summarise(estab = dplyr::n(),
+                   obitos_total = sum(obitos_saude_total + obitos_criminais_total +
+                                      obitos_suicidio_total + obitos_acidentais_total +
+                                      obitos_desconhecida_total), .groups = "drop")
+readr::write_csv(aud, file.path(paths$out_aud, "prisional_mortalidade_cobertura.csv"))
+print(aud)
