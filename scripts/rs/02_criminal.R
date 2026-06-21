@@ -41,7 +41,10 @@ ler_oficial <- function(ano) {
     transmute(
       municipio,
       hd_vitima      = as.numeric(.data[["Total de vítimas de Homicidio Doloso"]]),
-      of_hd_oco      = as.numeric(.data[["Homicídio  Doloso"]]),
+      # NB: a coluna oficial é "Homicídio  Doloso" (espaço duplo), mas a linha 37
+      # aplica rename_with(str_squish), que colapsa para espaço simples. Por isso
+      # referenciamos aqui o nome JÁ normalizado (simples), senão o lookup falha.
+      of_hd_oco      = as.numeric(.data[["Homicídio Doloso"]]),
       of_furtos      = as.numeric(.data[["Furtos"]]),
       of_roubos      = as.numeric(.data[["Roubos"]])
     )
@@ -85,8 +88,4 @@ auditoria <- crim |>
   mutate(
     d_hd_pct     = round((hd_oco_micro - hd_oco_ofi) / hd_oco_ofi * 100, 2),
     d_furtos_pct = round((furtos_total_micro - furtos_ofi) / furtos_ofi * 100, 2),
-    d_roubos_pct = round((roubos_total_micro - roubos_ofi) / roubos_ofi * 100, 2)
-  )
-readr::write_csv(auditoria, file.path(paths$out_aud, "criminal_reconciliacao.csv"))
-message("OK — criminal_rs_municipio_ano.csv e auditoria gravados.")
-print(auditoria)
+    d_

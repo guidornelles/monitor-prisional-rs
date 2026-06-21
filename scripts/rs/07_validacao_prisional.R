@@ -112,13 +112,12 @@ if (length(estr) >= 1 && length(cont) >= 1) {
       "  [Σcont=", sum(soma_cont), " ; Σestrangeiros=", sum(soma_estr), "]")
 } else add("  4c) continentes/estrangeiros: colunas-fonte ausentes — pulado.")
 # 4d) faixas de pena: soma 8 faixas (M+F) vs condenados com tempo de pena
-faixas <- c("0_2","2_4","4_8","8_15","15_20","20_30","30_mais","sem_info")
-pcols <- as.vector(outer(c("pena_masculino_","pena_feminino_"), paste0(faixas,"anos"), paste0))
+# nomes exatos: 7 faixas terminam em "anos"; "sem_info" NÃO leva sufixo "anos"
+suf_pena <- c("0_2anos","2_4anos","4_8anos","8_15anos","15_20anos","20_30anos","30_maisanos","sem_info")
+pcols <- as.vector(outer(c("pena_masculino_","pena_feminino_"), suf_pena, paste0))
 pcols <- intersect(pcols, names(painel))
 if (length(pcols)) add("  4d) faixas de pena presentes: ", length(pcols), "/16  (", ok(length(pcols)==16), ") — Σ presos por pena = ",
                        sum(rowSums(dplyr::select(painel, dplyr::all_of(pcols)), na.rm = TRUE)))
 
 # ---- Grava relatório ---------------------------------------------------------
-saida <- file.path(paths$out_aud, "validacao_prisional.md")
-writeLines(linhas, saida)
-add("\nRelatório salvo em ", saida)
+saida <- file.path(paths$o
