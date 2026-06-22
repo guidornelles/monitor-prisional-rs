@@ -35,4 +35,8 @@
 
 ## Nota metodológica
 
-Nota sobre a coluna "Cobertura e granularidade temporal": mostra a cobertura (de que ano) e a menor unidade de desagregação (dia/mês/ano/semestre) — distinta da frequência de publicação (ex.: os Dados Abertos saem semestralmente, mas têm registros com data, desagregáveis por dia). Como o Monitor de SP usa dado anual, qualquer fonte do RS pode ser agregada à unidade temporal de SP;
+Nota sobre a coluna "Cobertura e granularidade temporal": mostra a cobertura (de que ano) e a menor unidade de desagregação (dia/mês/ano/semestre) — distinta da frequência de publicação (ex.: os Dados Abertos saem semestralmente, mas têm registros com data, desagregáveis por dia). Como o Monitor de SP usa dado anual, qualquer fonte do RS pode ser agregada à unidade temporal de SP; as restrições reais à comparação são o ano de início e a abrangência territorial (município × estadual).
+
+---
+
+*Fontes: elaborado por Guilherme Souza (2026) a partir da Nota Metodológica do Monitor do Sistema Prisional (NEV-USP), das páginas de estatísticas da SSP-RS (Indicadores Criminais, Dados Abertos – Lei 15.610, Indicadores da Violência Contra a Mulher, Indicadores de Atividade) e dos dicionários de dados oficiais. As equivalências criminais foram validadas por reconciliação dos microdados com as tabelas oficiais (2023 e 2024).*

@@ -22,3 +22,22 @@
 - Tratar **2022 com cautela** nos painéis criminais (sinalizar; não usar como base de comparação fina de furtos).
 - **Consultar a SSP-RS** (ou a equipe que mantém os dados abertos) sobre a completude do microdado 2022 para furtos.
 - Reavaliar se vale **usar o agregado oficial** para furtos de 2022 em vez da reconstrução do microdado (decisão pendente).
+
+## 2. Tempo de pena do RS (SISDEPEN 5.12 e 5.13) — faixa "Até 6 meses" inflada (~78%)
+
+**O que se sabe (verificado):**
+- A **binagem do pipeline está CORRETA** (validada contra a derivada de SP, mesma fórmula): `pena_*_0_2anos` = (Até 6m)+(6m–1a)+(1–2a); `pena_remanescente_*_0_4anos` = idem + (2–4a). Não é erro de soma nosso.
+- **No RS, a primeira faixa "Até 6 meses (inclusive)" concentra ~78% dos condenados**, nas DUAS bases:
+  - **5.12 (tempo total de pena):** "Até 6 meses" M = 27.799; bucket 0–2 = 27.886 de ~36.578 condenados M ≈ **76%**.
+  - **5.13 (pena remanescente):** "Até 6 meses" M = 28.678 de 36.578 = **78,4%**.
+- **Em SP a distribuição é realista** (mesma binagem): pena total bucket 0–2 = **5,1%**; remanescente 0–4 = **30,9%**. Os maiores buckets de SP são 4–8 e 8–15 anos (esperado para população prisional).
+- A inflação no RS está **espalhada por TODOS os estabelecimentos grandes** (Canoas 2.133/pop 2.452; Jacuí 1.976/2.531; ~80% da população de cada um), não num único registro — é **sistemática**.
+- O campo `Número de pessoas sem informação` tem só **37** — ou seja, o "Até 6 meses" está funcionando como **depósito de "tempo não registrado"**.
+
+**O que falta saber:**
+- Por que o RS preenche a 5.12/5.13 do SISDEPEN jogando a maioria em "Até 6 meses" (erro de digitação/mapeamento da SUSEPE-RS? *default* do sistema de captação? interpretação equivocada do campo?).
+- Se há algum ciclo em que o RS preenche corretamente (testar outros semestres/anos).
+
+**Encaminhamento:**
+- **NÃO usar a distribuição de tempo de pena do RS** (total nem remanescente) como confiável — **sinalizar no painel ou omitir** essa visão.
+- Levar à equipe de SP (a comparação RS×SP deixa o problema evidente) e à **SUSEPE-RS / SENAPPEN** (qualidade do preenchimento da 5.12/5.13). Pena remanescente **não** serve de alternativa — sofre do mesmo problema.

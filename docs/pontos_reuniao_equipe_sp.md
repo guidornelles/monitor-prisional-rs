@@ -50,5 +50,9 @@
 ### 5.6 [RS] Distorção idade-série: total × fundamental
 - SP usa a taxa **total**; a PoC produz a do **ensino fundamental**. Alinhar o nível para casar com SP, ou documentar a escolha.
 
+### 5.7 [SP+RS] Tempo de pena do RS (5.12/5.13) — faixa "Até 6 meses" inflada (~78%)
+- No RS, ~78% dos condenados caem em "Até 6 meses" (tempo total **e** remanescente) — implausível. Em SP é 5,1% (total) / 30,9% (remanescente). Binagem nossa validada contra SP (não é erro de soma). É **qualidade de preenchimento do SISDEPEN no RS** (a faixa vira depósito de "tempo não registrado"; `sem_informação` = 37).
+- **Encaminhamento:** não usar a distribuição de pena do RS como confiável; levar à equipe de SP (comparação evidencia) e à SUSEPE-RS/SENAPPEN. Detalhe em `docs/problemas_dados.md` (item 2).
+
 ### (a preparar depois) Roteiro/briefing da reunião
 Guilherme pedirá ajuda para preparar materiais de apoio para a reunião com base nestes pontos.
