@@ -105,6 +105,25 @@ for (rk in names(regimes)) for (sx in c("masculino","feminino")) {
   der[[paste0(rk, "_", sx)]] <- s1(c("4.1 População prisional", regimes[[rk]], "Just", Sx), mínimo = 3L)
 }
 
+# ---- População e Capacidade TOTAIS (lotação = população / capacidade) --------
+# populacao_total: total de pessoas (4.1 | Total, reportado pelo SISDEPEN).
+# capacidade_total: vagas (1.3 Capacidade | Masculino | Total + | Feminino | Total).
+col_pop_tot <- "4.1 População prisional | Total"
+der$populacao_total <- if (col_pop_tot %in% names(df1)) df1[[col_pop_tot]] else NA_real_
+cap_m <- "1.3 Capacidade do estabelecimento | Masculino | Total"
+cap_f <- "1.3 Capacidade do estabelecimento | Feminino | Total"
+der$capacidade_total <- (if (cap_m %in% names(df1)) df1[[cap_m]] else 0) +
+                        (if (cap_f %in% names(df1)) df1[[cap_f]] else 0)
+
+# Total de médicos: soma das 4 categorias de médico (3.1 Servidores | Médicos ... | Total)
+# = clínicos gerais + ginecologistas + psiquiatras + outras especialidades. O padrão pega
+# as 4 colunas "| Total" (o traço varia "-"/"–", mas todas contêm "Médicos" e "| Total");
+# não há agregado "Médicos | Total" no SISDEPEN, então não há dupla contagem. (Obs.: o
+# depen.R de SP somava só 3, omitindo ginecologistas — aqui incluímos as 4.)
+der$total_medicos <- s1(c("3.1", "Médicos", "| Total"), mínimo = 1L)
+# Agravos transmissíveis (6.7): usar as colunas RAW por sexo já no painel
+# ("6.7 … | HIV | Masculino/Feminino", idem Tuberculose/Hepatite/Sífilis). Sem derivadas de Total.
+
 # ---- Pena (5.12) e pena remanescente (5.13): faixas -> buckets ----------------
 # Faixas nativas do SISDEPEN (5.12/5.13):
 f6m  <- "Até 6 meses (inclusive)"; f1a <- "Mais de 6 meses até 1 ano (inclusive)"
@@ -180,6 +199,9 @@ der$continente_asia    <- cont_sum(df1, "Ásia")
 der$continente_africa  <- cont_sum(df1, "África")
 der$continente_europa  <- cont_sum(df1, "Europa")
 der$continente_oceania <- cont_sum(df1, "Oceania")
+# Brasileiros natos (total = Masculino + Feminino), para o painel de nacionalidade ao lado
+# dos continente_*. ("Brasileiro nato" não casa com "naturalizado"; só há M e F, sem | Total.)
+der$brasileiro_nato <- s1(c("5.8", "Brasileiro nato"), mínimo = 2L)
 
 # ---- Mortalidade ANUAL (6.8) = 1º sem + 2º sem (como dados_sem2.R) ------------
 tipos_ob <- list(saude = "Óbitos naturais", criminais = "Óbitos criminais",
@@ -204,10 +226,14 @@ for (c in ob_cols) mort[[c]] <- mort[[c]] + tidyr::replace_na(mort[[paste0(c, "_
 mort <- dplyr::select(mort, id, dplyr::all_of(ob_cols))
 
 # ---- Colunas do 2º semestre: atendimento (6.6), gestantes (2.1), lactantes (5.9)
+# 6.6 — Informações da área de saúde (total do período): 4 tipos de consulta (| Total).
+# atendimento_estabelecimento/externo = consultas médicas; atendimento_psicologico;
+# atendimento_odonto = consultas odontológicas. (SP só trazia médicas+odonto; incluímos psicológicas.)
 sem2 <- tibble::tibble(
   id = df2$id,
   atendimento_estabelecimento = col_unica(df2, c("6.6", "Consultas médicas realizadas no estabelecimento", "| Total")),
   atendimento_externo         = col_unica(df2, c("6.6", "Consultas médicas realizadas externamente", "| Total")),
+  atendimento_psicologico     = col_unica(df2, c("6.6", "Consultas psicológicas", "| Total")),
   atendimento_odonto          = col_unica(df2, c("6.6", "Consultas odontológicas", "| Total")),
   cela_gestantes              = col_unica(df2, c("2.1", "dormitório para gestantes")),
   quantidade_lactantes        = col_unica(df2, c("5.9", "Quantidade de lactantes"))
@@ -218,7 +244,7 @@ der <- der |>
   dplyr::left_join(mort, by = "id") |>
   dplyr::left_join(sem2, by = "id")
 # zera NA nas numéricas vindas do 2º sem (estab. sem linha no 2º sem); cela_gestantes (texto) fica NA
-num_2sem <- c(ob_cols, "atendimento_estabelecimento", "atendimento_externo", "atendimento_odonto", "quantidade_lactantes")
+num_2sem <- c(ob_cols, "atendimento_estabelecimento", "atendimento_externo", "atendimento_psicologico", "atendimento_odonto", "quantidade_lactantes")
 der <- der |> dplyr::mutate(dplyr::across(dplyr::any_of(num_2sem), ~ tidyr::replace_na(., 0)))
 
 readr::write_csv(der, file.path(paths$processed, "prisional_derivadas_rs.csv"), na = "")

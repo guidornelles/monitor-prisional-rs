@@ -88,4 +88,8 @@ auditoria <- crim |>
   mutate(
     d_hd_pct     = round((hd_oco_micro - hd_oco_ofi) / hd_oco_ofi * 100, 2),
     d_furtos_pct = round((furtos_total_micro - furtos_ofi) / furtos_ofi * 100, 2),
-    d_
+    d_roubos_pct = round((roubos_total_micro - roubos_ofi) / roubos_ofi * 100, 2)
+  )
+readr::write_csv(auditoria, file.path(paths$out_aud, "criminal_reconciliacao.csv"))
+message("OK — criminal_rs_municipio_ano.csv e auditoria gravados.")
+print(auditoria)

@@ -120,4 +120,6 @@ if (length(pcols)) add("  4d) faixas de pena presentes: ", length(pcols), "/16  
                        sum(rowSums(dplyr::select(painel, dplyr::all_of(pcols)), na.rm = TRUE)))
 
 # ---- Grava relatório ---------------------------------------------------------
-saida <- file.path(paths$o
+saida <- file.path(paths$out_aud, "validacao_prisional.md")
+writeLines(linhas, saida)
+add("\nRelatório salvo em ", saida)

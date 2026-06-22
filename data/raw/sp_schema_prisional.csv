@@ -1,8 +1,5 @@
-﻿variavel
-id
-periodo
+variavel
 Situação de Preenchimento
-Responsável pela Finalização
 Nome do Estabelecimento
 Situação do Estabelecimento
 Outras Denominações
@@ -45,7 +42,6 @@ Telefone Principal
 1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Masculino
 1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Feminino
 1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Total de vagas desativadas
-1.6 Data de inauguração do estabelecimento.1
 1.7 O estabelecimento foi concebido como estabelecimento penal ou foi construído para outra utilização e foi adaptado?
 2.1 Há cela adequada/ dormitório para gestantes? (apenas para estabelecimentos com vagas para mulheres)
 2.2 Possui berçário e/ou centro de referência materno-infantil? (apenas para estabelecimentos com vagas para mulheres)
@@ -73,6 +69,11 @@ Telefone Principal
 2.8 Há local específico para visita íntima?
 2.12 Possui sala de videoconferência?
 "2.13 Há cela(s)-seguro""?"""
+"2.14 Há ala ou cela destinadas exclusivamente às pessoas privadas de liberdade que se declarem lésbicas, gays, bissexuais, travestis e transexuais (LGBT)?"
+2.15 Há ala ou cela destinada exclusivamente para idosos?
+2.16 Há ala ou cela destinada exclusivamente para indígenas?
+2.17 Há ala ou cela destinada exclusivamente para pessoas estrangeiras?
+2.18 Há acessibilidade para pessoas com deficiência?
 3.1 Quantidade de Servidores que atuam no Sistema Prisional | Cargos administrativos | Total
 3.1 Quantidade de Servidores que atuam no Sistema Prisional | Enfermeiros | Total
 3.1 Quantidade de Servidores que atuam no Sistema Prisional | Psicólogos | Total
@@ -96,23 +97,11 @@ Telefone Principal
 "3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por advogados conveniados/ dativos"
 "3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por ONG ou outra entidade sem fins lucrativos"
 "3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, outro. Qual?"
-provisorios_masculino
-provisorios_feminino
 4.1 População prisional | Presos provisórios (sem condenação) | Total
-sentenciado_fechado_masculino
-sentenciado_fechado_feminino
 4.1 População prisional | Presos sentenciados - regime fechado | Total
-sentenciado_semiaberto_masculino
-sentenciado_semiaberto_feminino
 4.1 População prisional | Presos sentenciados - regime semiaberto | Total
-sentenciado_aberto_masculino
-sentenciado_aberto_feminino
 4.1 População prisional | Presos sentenciados - regime aberto | Total
-internacao_masculino
-internacao_feminino
 4.1 População prisional | Medida de segurança - internação | Total
-tratamento_masculino
-tratamento_feminino
 4.1 População prisional | Medida de segurança - tratamento ambulatorial | Total
 4.1 População prisional | Total
 4.1 População prisional | Quantas pessoas privadas de liberdade estão em Regime Disciplinar Diferenciado?
@@ -229,12 +218,13 @@ tratamento_feminino
 5.4 Estado civil | Feminino
 5.4 Estado civil | Total
 5.5 Pessoas com deficiência | O estabelecimento tem condições de obter estas informações em seus registros?
-5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Masculino
-5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Feminino
 5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Total
-5.5 Pessoas com deficiência | Masculino
-5.5 Pessoas com deficiência | Feminino
 5.5 Pessoas com deficiência | Total
+5.5 Pessoas com deficiência | Pessoas com deficiência intelectual | Total
+5.5 Pessoas com deficiência | Pessoas com deficiência física | Total
+5.5 Pessoas com deficiência | Pessoas com deficiência auditiva | Total
+5.5 Pessoas com deficiência | Pessoas com deficiência visual | Total
+5.5 Pessoas com deficiência | Pessoas com deficiências múltiplas | Total
 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | O estabelecimento tem condições de obter estas informações em seus registros?
 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Masculino
 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Feminino
@@ -307,26 +297,8 @@ tratamento_feminino
 5.10 Número de filhos/as | O estabelecimento tem condições de obter estas informações em seus registros?
 5.10 Número de filhos/as | Sem filhos | Masculino
 5.10 Número de filhos/as | Sem filhos | Feminino
-mulheres_presas_com_filhos_as
-homens_presos_com_filhos_as
 5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Masculino
 5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Feminino
-pena_masculino_0_4anos
-pena_masculino_1_8anos
-pena_masculino_8_15anos
-pena_masculino_15_20anos
-pena_masculino_20_30anos
-pena_masculino_30_50anos
-pena_masculino_50_maisanos
-pena_masculino_sem_info
-pena_feminino_0_4anos
-pena_feminino_1_8anos
-pena_feminino_8_15anos
-pena_feminino_15_20anos
-pena_feminino_20_30anos
-pena_feminino_30_50anos
-pena_feminino_50_maisanos
-pena_feminino_sem_info
 5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | O estabelecimento tem condições de obter estas informações em seus registros?
 5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Como é registrada essa informação?
 5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Número de pessoas sem informação | Masculino
@@ -334,40 +306,8 @@ pena_feminino_sem_info
 5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | O estabelecimento tem condições de obter estas informações em seus registros?
 5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Masculino
 5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Feminino
-pena_remanescente_masculino_0_4anos
-pena_remanescente_feminino_0_4anos
-pena_remanescente_masculino_4_8anos
-pena_remanescente_feminino_4_8anos
-pena_remanescente_masculino_8_15anos
-pena_remanescente_feminino_8_15anos
-pena_remanescente_masculino_15_20anos
-pena_remanescente_feminino_15_20anos
-pena_remanescente_masculino_20_30anos
-pena_remanescente_feminino_20_30anos
-pena_remanescente_masculino_30_50anos
-pena_remanescente_feminino_30_50anos
-pena_remanescente_masculino_50maisanos
-pena_remanescente_feminino_50maisanos
 5.14 Quantidade de incidências por tipo penal | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?
 5.14 Quantidade de incidências por tipo penal | Como é registrada essa informação?
-tipo_penal_contra_pessoa_masculino
-tipo_penal_contra_pessoa_feminino
-tipo_penal_contra_pessoa_total
-tipo_penal_contra_patrimonio_masculino
-tipo_penal_contra_patrimonio_feminino
-tipo_penal_contra_patrimonio_total
-tipo_penal_dignidade_sexual_masculino
-tipo_penal_dignidade_sexual_feminino
-tipo_penal_dignidade_sexual_total
-tipo_penal_drogas_masculino
-tipo_penal_drogas_feminino
-tipo_penal_drogas_total
-tipo_penal_desarmamento_masculino
-tipo_penal_desarmamento_feminino
-tipo_penal_desarmamento_total
-tipo_penal_outros_masculino
-tipo_penal_outros_feminino
-tipo_penal_outros_total
 5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Masculino
 5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Feminino
 5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Total
@@ -376,3 +316,130 @@ tipo_penal_outros_total
 5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Total
 5.14 Quantidade de incidências por tipo penal | Masculino
 5.14 Quantidade de incidências por tipo penal | Feminino
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Existem pessoas privadas de liberdade neste estabelecimento em atividades laborterápicas?
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor primário - rural, agrícola e artesanato | Total"
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor secundário - industrial e contrução civil | Total
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor terciário - serviços | Total
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento | Trabalho interno Masculino
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento | Total
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor primário - rural, agrícola e artesanato | Total"
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor secundário - industrial e contrução civil | Total
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor terciário - serviços | Total
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor primário - rural, agrícola e artesanato | Total"
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor secundário - industrial e contrução civil | Total
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor terciário - serviços | Total
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho externo Masculino
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho externo Feminino
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho interno Masculino
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho interno Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | O estabelecimento tem condições de obter estas informações em seus registros?
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Não recebe | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Não recebe | Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Menos do que 3/4 do salário mínimo mensal | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Menos do que 3/4 do salário mínimo mensal | Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 3/4 e 1 salário mínimo mensal | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 3/4 e 1 salário mínimo mensal | Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 1 e 2 salários mínimos mensais | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 1 e 2 salários mínimos mensais | Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Mais que 2 salários mínimos mensais | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Mais que 2 salários mínimos mensais | Feminino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Sem informação | Masculino
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Sem informação | Feminino
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Existem pessoas privadas de liberdade neste estabelecimento em atividades educacionais?
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Ensino à distância Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Ensino à distância Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Certificação/ conclusão no período Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Certificação/ conclusão no período Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Total
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Ensino à distância Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Ensino à distância Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Certificação/ conclusão no período Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Certificação/ conclusão no período Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Total
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Ensino à distância Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Ensino à distância Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Certificação/ conclusão no período Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Certificação/ conclusão no período Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Total
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Ensino à distância Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Ensino à distância Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Certificação/ conclusão no período Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Certificação/ conclusão no período Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Total
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Ensino à distância Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Ensino à distância Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Certificação/ conclusão no período Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Certificação/ conclusão no período Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Total
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Presencial Masc."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Presencial Fem."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Ensino à distância Masc."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Ensino à distância Fem."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Certificação/ conclusão no período Masc."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Certificação/ conclusão no período Fem."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Total"
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Total
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Presencial Masc.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Presencial Fem.
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Total
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Presencial Masc."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Presencial Fem."
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Total"
+"6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente | Pessoas que trabalham e estudam | Masculino"
+"6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente | Pessoas que trabalham e estudam | Feminino"
+6.5 Quantidade de famílias que recebem auxílio-reclusão | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Masculino
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Feminino
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Total
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Masculino
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Feminino
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Total
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Masculino
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Feminino
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Total
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Masculino
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Feminino
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Total
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Masculino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Feminino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Total
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Masculino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Feminino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Total
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Masculino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Feminino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Total
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Masculino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Feminino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Total
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Masculino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Feminino
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Total
+7.3 Quantidade de visitas registradas no período de referência | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de visitas registradas no período de referência
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de presos que receberam visita no período de referência | Masculino
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de presos que receberam visita no período de referência | Feminino
+7.5 Foi realizada visita(s) de inspeção no período de referência?
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho Nacional de Política Criminal e Penitenciária - CNPCP
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho Estadual de Política Criminal e Penitenciária/ Conselho Penitenciário
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho da Comunidade
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Ouvidoria do sistema prisional - estadual ou nacional
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Defensoria Pública
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Judiciário
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Ministério Público
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Masculino
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Feminino
+5.5 Pessoas com deficiência | Masculino
+5.5 Pessoas com deficiência | Feminino

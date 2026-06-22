@@ -181,4 +181,3 @@ if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "Sintese_Indicadores_Monitor_SP_RS.pdf"
     build(out)
     print("OK ->", out)
-                                                     

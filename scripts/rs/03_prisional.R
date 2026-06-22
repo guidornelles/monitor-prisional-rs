@@ -25,7 +25,7 @@
 #   - Semestre = cfg$escolhas$prisional_semestre (1 = perfil/capacidade/estrutura, como SP).
 #
 # Entrada : data/raw/sisdepen/*baseunica*.xlsx   (Base Única, manual)
-#           data/raw/sp_schema_prisional.csv     (377 colunas-alvo do Base_Sisdepen de SP)
+#           data/raw/sp_schema_prisional.csv     (444 colunas; regenerado do header da base do DataStudio ∩ Base Única)
 # Saída   : data/processed/prisional_rs.csv
 # Auditoria: outputs/auditoria/prisional_cobertura.csv (estab. por ano × recorte)
 # =============================================================================
@@ -37,6 +37,12 @@ norm_txt <- function(x) stringi::stri_trans_general(stringr::str_squish(stringr:
 
 # Identidade da Base Única que preservamos além do esquema de SP (rastreabilidade longitudinal)
 COLS_ID <- c("ID", "ciclo", "Referência")
+
+# Colunas ALÉM do esquema que queremos capturar. Vazio porque o sp_schema_prisional.csv foi
+# REGENERADO (2026-06) a partir do que SP de fato mantém (header da base do DataStudio ∩ Base
+# Única): 444 colunas, incluindo as seções antes faltantes (6.1–6.7, 7.3/7.5, 2.14–2.18, 5.5).
+# Mantido como mecanismo para adições futuras pontuais (colunas que SP não mantenha e queiramos).
+COLS_EXTRA <- character(0)
 
 # ---- Recorte de estabelecimentos ---------------------------------------------
 aplicar_recorte <- function(df) {
@@ -77,6 +83,17 @@ ler_base_unica <- function() {
       id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-"),
       dplyr::across(where(is.numeric), ~ ifelse(is.na(.), 0, .))
     )
+
+  # 2.13 "cela(s)-seguro": a Base Única traz a coluna ORIGINAL (com o dado Sim/Não) e uma
+  # VARIANTE de aspas trocadas que vem VAZIA (artefato da consolidação). O sp_schema espera
+  # a variante (SP renomeia a original p/ ela em depen.R). Replicamos: descartamos a variante
+  # vazia e renomeamos a original para o nome do schema, levando o dado adiante.
+  c213_orig <- '2.13 Há "cela(s)-seguro"?'
+  c213_var  <- '2.13 Há cela(s)-seguro"?"'
+  if (c213_orig %in% names(df)) {
+    if (c213_var %in% names(df)) df[[c213_var]] <- NULL
+    names(df)[names(df) == c213_orig] <- c213_var
+  }
   df
 }
 
@@ -85,7 +102,8 @@ base <- ler_base_unica()
 # ---- Espelhamento do esquema de SP + identidade da Base Única ----------------
 presentes <- intersect(schema, names(base))
 id_presentes <- intersect(c(COLS_ID, "ano", "periodo", "id"), names(base))
-prisional <- dplyr::select(base, dplyr::all_of(unique(c(id_presentes, presentes))))
+extra_presentes <- intersect(COLS_EXTRA, names(base))   # colunas fora do schema que queremos (ex.: 2.16)
+prisional <- dplyr::select(base, dplyr::all_of(unique(c(id_presentes, presentes, extra_presentes))))
 
 # ---- Endereço pronto para o mapa (espelha o depen.R de SP) --------------------
 # SP anexa " - <estado>, <país>" ao Endereço para o gráfico de localização ancorar
@@ -134,9 +152,11 @@ message("OK — prisional_rs.csv (", nrow(prisional), " linhas, ", ncol(prisiona
 print(auditoria)
 
 # NOTAS:
-# - As ~65 colunas do esquema de SP ausentes aqui são variáveis DERIVADAS por SP
-#   (provisorios_*, sentenciado_*, obitos_*, faixas de pena, continentes), computadas
-#   a partir das colunas brutas do SISDEPEN em 03b_prisional_derivadas.R (porta depen.R
-#   + dados_sem2.R). A base bruta deste script é o alicerce; as derivadas vêm no 03b.
+# - Schema REGENERADO (2026-06): o sp_schema_prisional.csv antigo (377) era um recorte
+#   incompleto que deixava seções inteiras de fora (6.1–6.7, 7.3/7.5, 2.14–2.18, 5.5).
+#   O novo (444) = colunas que SP de fato mantém (header da base do DataStudio) ∩ Base Única,
+#   então praticamente TODAS casam (length(presentes) ≈ length(schema)). As variáveis DERIVADAS
+#   por SP (provisorios_*, obitos_*, faixas de pena, continentes, atendimento…) NÃO entram no
+#   schema — são computadas no 03b a partir das brutas (porta depen.R + dados_sem2.R).
 # - Mortalidade (6.8) é ANUAL (1º + 2º sem), computada no 03b (não mais só 2º sem).
 #   O 03 produz o 1º semestre (perfil/capacidade); o 03b lê os dois semestres.

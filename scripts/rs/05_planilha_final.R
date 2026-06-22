@@ -184,4 +184,3 @@ readr::write_csv(auditoria, file.path(paths$out_aud, "planilha_final_cobertura.c
 
 message("OK — painéis finais gravados em outputs/tabelas/ (criminal, prisional, contexto).")
 print(auditoria)
-                                                                                                                                                                       

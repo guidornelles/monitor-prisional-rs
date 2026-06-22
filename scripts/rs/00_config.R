@@ -111,4 +111,5 @@ arquivo_baseunica <- function() {
   cands[which.max(file.info(cands)$mtime)]   # a mais recente
 }
 
-message("Config carregada — UF=", c
+message("Config carregada — UF=", cfg$uf, " | anos=", paste(range(cfg$anos), collapse = "-"),
+        " | SISDEPEN=", cfg$escolhas$sisdepen_fonte)
