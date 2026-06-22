@@ -25,4 +25,30 @@
 - **Encaminhamento:** reportar à equipe de SP para correção; decidir se o RS corrige (recomendado) e documenta a divergência.
 
 ## 5. Achados da revisão das bases do DataStudio (jun/2026)
-> Origem: comparação das 5 bases exportadas do DataStudio de SP (`data/raw/bases_data_
+> Origem: comparação das 5 bases exportadas do DataStudio de SP (`data/raw/bases_data_studio/`) com os painéis da PoC. Relatório completo em `docs/revisao_sintese_e_bases_datastudio.md`. Itens marcados [SP] são para alinhar com a equipe de SP; [RS] são decisões internas nossas.
+
+### 5.1 [SP] Camada prisional — qual base alimenta o painel?
+- A base `base_sisdepen` do DataStudio (530 col) **não contém** as derivadas de **regime, faixas de pena, pena remanescente, filhos e tipo penal** que a PoC reproduz hoje. Ela só traz, como derivadas: continentes (origem), atendimento, cela/gestantes/lactantes e **óbitos**.
+- Hipóteses: (a) SP calcula essas derivadas **dentro do Looker** (campos calculados); (b) há **outra base prisional** não exportada; (c) elas foram inferidas do `depen.R`, não do que o painel consome.
+- **Encaminhamento:** confirmar qual base alimenta cada elemento do painel prisional **antes** de continuar replicando regime/pena/tipo penal — pode ser esforço desnecessário.
+
+### 5.2 [SP] Conflito de nomes nos óbitos prisionais
+- SP usa `obitos_saude_*` e `obitos_suicidio_*` (singular); a PoC usa `obitos_naturais_*` e `obitos_suicidios_*` (plural). Mesma informação, rótulo diferente — quebra o blend no Looker.
+- **Encaminhamento:** confirmar os rótulos canônicos de SP e alinhar.
+
+### 5.3 [SP] Série criminal exportada só tem 2001, 2023 e 2025
+- A `dinamica_criminal.csv` exportada contém apenas esses 3 anos. Confirmar se é recorte do export, do painel ou da fonte — afeta a afirmação de "série desde 2001".
+
+### 5.4 [SP] Formato das bases (forma, não fonte)
+- Criminal e saúde no DataStudio são **long/tidy** (coluna `Crime`/`Tipo`); a PoC é **wide**. A "troca direta de base" nunca funcionou por isso, não por falta de dado. Resolvível com um passo de export dedicado.
+
+### 5.5 [RS] Variáveis de contexto que SP carrega e a PoC não tem
+- Populações censitárias históricas (`Pop_70…Pop_2022`); PIB em 3 anos; presença de estabelecimento penal por ano (`munic_ep_*` / `tem_EP` / `Tem_prisão`); infraestrutura de saúde CNES (`ambulatorial/interna/urgencia`).
+- **PIB — fonte (resolvido):** a Nota Metodológica de SP confirma **IBGE** (PIB dos Municípios); o "Fundação Seade" do descritivo está errado. RS também usa IBGE — sem divergência.
+- **Decisão interna:** quais desses panoramas entram no escopo do RS (CNES é nacional, sem limitação).
+
+### 5.6 [RS] Distorção idade-série: total × fundamental
+- SP usa a taxa **total**; a PoC produz a do **ensino fundamental**. Alinhar o nível para casar com SP, ou documentar a escolha.
+
+### (a preparar depois) Roteiro/briefing da reunião
+Guilherme pedirá ajuda para preparar materiais de apoio para a reunião com base nestes pontos.

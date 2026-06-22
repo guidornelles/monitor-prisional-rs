@@ -78,7 +78,10 @@ equipe SP: qual exatamente alimenta o Monitor (vítimas ou ocorrências)?"*
 A base `dados.csv` de SP carrega variáveis de contexto que **não aparecem na síntese**:
 
 - **Populações censitárias históricas** (`Pop_70, Pop_80, Pop_91, Pop_2000, Pop_2010, Pop_2022`) — a síntese só menciona "Censos" genericamente, mas SP carrega a série completa. Sem limitação para o RS (Censos são nacionais).
-- **PIB em 3 anos** (`PIB_2010, PIB_2021, PIB_2023`). **Ponto crítico de fonte:** o descritivo de SP indica **Fundação Seade** como fonte do PIB — uma fonte **estadual de SP, inexistente no RS**. Para o RS o PIB municipal vem do **IBGE** (e/ou DEE/FEE-RS). A síntese diz "IBGE — PIB municípios", o que está **certo para o RS**, mas convém anotar explicitamente: *"SP usou Fundação Seade; no RS a fonte equivalente é o IBGE (PIB dos Municípios)."*
+- **PIB em 3 anos** (`PIB_2010, PIB_2021, PIB_2023`). **Fonte — CORRIGIDO (2026-06-21):** o
+  *descritivo* de SP traz "Fundação Seade", mas a **Nota Metodológica de SP afirma que o PIB vem do
+  IBGE** (PIB dos Municípios, série desde 2010, atualizada anualmente). Ou seja, o "Seade" do
+  descritivo está **errado** — SP usou **IBGE**, a mesma fonte do RS. Nada a divergir aqui.
 - **Presença de estabelecimento penal por ano censitário** (`munic_ep_70…munic_ep_2020`, Sim/Não). É um indicador de contexto que SP exibe e a síntese ignora. No RS é **derivável do SISDEPEN** (quais municípios têm EP) — sem limitação.
 - **Infraestrutura de saúde CNES** (`ambulatorial_*, interna_*, urgencia_*`, 2018–2023) consta no descritivo de SP. **Decisão necessária:** incluir no escopo do RS (CNES é nacional, sem limitação) ou deixar fora? Hoje não está na síntese nem na PoC.
 - `IDEB_2021` e `total de estupros` (a versão antiga) aparecem marcados **"EXCLUIR"** no descritivo de SP — ou seja, SP os removeu. Bom sinal de que a síntese está certa em não os listar; vale só registrar que foram conscientemente excluídos.
@@ -222,7 +225,7 @@ valor→`quantidade`.)
 | `Município`, `Município (IBGE)`, `ID Município` | parcial | criar campo "(RS)" e nomes/limpos |
 | `Nome Macrorregião` | ✅ (`nome_regiao_intermediaria`) | só renomear |
 | `Pop_70 … Pop_2022` (6 censos) | ❌ (só 1 pop.) | IBGE — Censos (nacional, sem limitação) |
-| `PIB_2010, PIB_2021, PIB_2023` | parcial (1 ano) | **IBGE** (não Seade); confirmar anos |
+| `PIB_2010, PIB_2021, PIB_2023` | parcial (1 ano) | **IBGE** (Nota Metodológica de SP confirma IBGE; "Seade" do descritivo está errado) |
 | `IDEB_2021` | ❌ | SP marcou **EXCLUIR** — não precisa |
 | `Distorção idade-serie` (total) | ⚠️ (PoC usa fundamental) | alinhar nível (ver M4) |
 | `munic_ep_70 … munic_ep_2020` | ❌ | derivar do SISDEPEN (presença de EP por ano) |
@@ -304,8 +307,9 @@ formato/nomes do DataStudio. Em ordem de esforço:
    mas **obrigatório** para o blend do Looker.
 4. **Derivar `tem_EP` / `Tem_prisão` / `munic_ep_*`** a partir do SISDEPEN e juntar às camadas.
    Esforço baixo.
-5. **Enriquecer o contexto** com pop. censitária histórica e PIB multi-ano (fonte **IBGE**, não
-   Seade) — e decidir CNES e nível da distorção (M4). Esforço médio (novas ingestões).
+5. **Enriquecer o contexto** — DECIDIDO: pop. censitária histórica e PIB multi-ano ficam **fora**
+   (não necessários à PoC); PIB = **IBGE** (Nota confirma; não Seade); distorção = **fundamental**
+   (Nota confirma); IDEB fora. Resta a flag **`munic_ep`** (presença de presídio) — já no 04/05b.
 6. **Derivar as 10 colunas prisionais faltantes** (continentes, atendimento, cela/lactantes).
    Esforço baixo.
 7. **Decidir o destino das derivadas prisionais "extras"** (regime/pena/tipo penal) — *só depois* de
@@ -322,8 +326,10 @@ produto enviado aos pesquisadores:
   definição plena de SP.
 - **Janela criminal:** estupro e "outros" estrito só desde **2022** (microdado); SP exibe série mais
   longa. E **2022 de furtos é anômalo** (−24%, ver `problemas_dados.md`) — sinalizar.
-- **Distorção idade-série:** confirmar nível (total × fundamental) para casar com SP.
-- **PIB:** fonte RS é IBGE (SP usou Seade) — valores não são produzidos pela mesma instituição.
+- **Distorção idade-série:** RESOLVIDO — a Nota Metodológica de SP diz **Ensino Fundamental**, que é
+  exatamente o que a PoC usa (`distorcao_idade_serie_fund`). Sem divergência.
+- **PIB:** RESOLVIDO — a Nota Metodológica de SP confirma **IBGE** (mesma fonte do RS); o "Fundação
+  Seade" do descritivo está errado. Sem divergência de fonte.
 
 ---
 

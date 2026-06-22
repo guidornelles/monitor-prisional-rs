@@ -28,5 +28,9 @@ etapa("03b_prisional_derivadas.R") # ✅ derivadas: regime, pena (binning SP), f
 etapa("04_contexto.R")             # ✅ região intermediária + população + PIB + distorção idade-série (denominadores)
 etapa("04b_saude.R")               # ✅ saúde (TABNET: casos+óbitos TB/hep/HIV); requer os CSV em data/raw/nacional/saude/
 etapa("05_planilha_final.R")       # ✅ painéis finais (nomes de SP + id_municipio + ano + taxas/100 mil)
+etapa("05b_export_formato_sp.R")   # ✅ export formato DataStudio SP (contexto agora; criminal/saúde: próxima iteração)
 etapa("06_auditoria.R")            # ✅ auditoria consolidada -> RELATORIO_AUDITORIA.md + qualidade_paineis.csv
-etapa("07_validacao_prisional.R")  # ✅ valida correções prisionais (c
+etapa("07_validacao_prisional.R")  # ✅ valida correções prisionais (cobertura, óbitos anuais, paridade de nomes, consistência)
+
+message("\nConcluído em ", round(difftime(Sys.time(), t0, units = "secs"), 1), "s. ",
+        "Saídas em outputs/tabelas/ e auditoria em outputs/auditoria/.")

@@ -102,4 +102,41 @@ if (all(c("Endereço", "Município") %in% names(prisional))) {
   prisional[["Endereço"]] <- dplyr::case_when(
     end_vazio ~ paste0(mun, " - ", estado_extenso, ", ", pais),
     tem_mun   ~ paste0(end_squish, " - ", estado_extenso, ", ", pais),
-    TRUE      ~ paste0(end_squish, ", ", mun, " - ", estado_extens
+    TRUE      ~ paste0(end_squish, ", ", mun, " - ", estado_extenso, ", ", pais))
+  message("  Endereço ajustado p/ geolocalização (município + ", estado_extenso, " + ", pais, ").")
+}
+
+# ---- ano_inauguracao: ano do "1.6 Data de inauguração..." (p/ filtro do mapa) -
+# SP filtra o Mapa de Estabelecimentos pelo ano de inauguração. O campo bruto é texto
+# dd/mm/aaaa (e em SP vem com formatos inconsistentes); extraímos um ANO inteiro robusto
+# (\\b(19|20)\\d{2}\\b) para o filtro não depender do Looker interpretar texto-data.
+col_inaug <- intersect("1.6 Data de inauguração do estabelecimento", names(prisional))[1]
+if (!is.na(col_inaug)) {
+  prisional$ano_inauguracao <- suppressWarnings(as.integer(stringr::str_extract(
+    as.character(prisional[[col_inaug]]), "\\b(19|20)\\d{2}\\b")))
+  message("  ano_inauguracao derivado (", sum(!is.na(prisional$ano_inauguracao)), "/",
+          nrow(prisional), " com ano).")
+}
+
+readr::write_csv(prisional, file.path(paths$processed, "prisional_rs.csv"))
+
+# ---- Auditoria: cobertura por ano --------------------------------------------
+auditoria <- base |>
+  dplyr::count(ano, name = "estab_recorte") |>
+  dplyr::mutate(recorte = cfg$escolhas$prisional_recorte,
+                fonte = cfg$escolhas$sisdepen_fonte,
+                cols_match = length(presentes),
+                cols_schema = length(schema))
+readr::write_csv(auditoria, file.path(paths$out_aud, "prisional_cobertura.csv"))
+
+message("OK — prisional_rs.csv (", nrow(prisional), " linhas, ", ncol(prisional),
+        " colunas; ", length(presentes), "/", length(schema), " do esquema SP) e auditoria gravados.")
+print(auditoria)
+
+# NOTAS:
+# - As ~65 colunas do esquema de SP ausentes aqui são variáveis DERIVADAS por SP
+#   (provisorios_*, sentenciado_*, obitos_*, faixas de pena, continentes), computadas
+#   a partir das colunas brutas do SISDEPEN em 03b_prisional_derivadas.R (porta depen.R
+#   + dados_sem2.R). A base bruta deste script é o alicerce; as derivadas vêm no 03b.
+# - Mortalidade (6.8) é ANUAL (1º + 2º sem), computada no 03b (não mais só 2º sem).
+#   O 03 produz o 1º semestre (perfil/capacidade); o 03b lê os dois semestres.

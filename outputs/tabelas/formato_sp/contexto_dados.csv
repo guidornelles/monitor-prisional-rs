@@ -1,0 +1,498 @@
+Município,Município (IBGE),ID Município,Nome Macrorregião,Pop_2022,PIB (em R$),Distorção idade-serie,munic_ep
+Aceguá (RS),Aceguá,4300034,Pelotas,4170,382340,13.7,Não
+Agudo (RS),Agudo,4300109,Santa Maria,16041,780152,15.1,Sim
+Ajuricaba (RS),Ajuricaba,4300208,Ijuí,6720,383525,4.5,Não
+Alecrim (RS),Alecrim,4300307,Ijuí,6123,153719,5.2,Não
+Alegrete (RS),Alegrete,4300406,Uruguaiana,72409,3102028,10.6,Sim
+Alegria (RS),Alegria,4300455,Ijuí,3651,136099,8,Não
+Almirante Tamandaré do Sul (RS),Almirante Tamandaré do Sul,4300471,Passo Fundo,1969,223167,7.1,Não
+Alpestre (RS),Alpestre,4300505,Passo Fundo,7117,302869,3.6,Não
+Alto Alegre (RS),Alto Alegre,4300554,Passo Fundo,1800,72442,3.4,Não
+Alto Feliz (RS),Alto Feliz,4300570,Caxias do Sul,3072,203171,5.2,Não
+Alvorada (RS),Alvorada,4300604,Porto Alegre,187315,4129934,16.6,Não
+Amaral Ferrador (RS),Amaral Ferrador,4300638,Porto Alegre,5310,174054,10.2,Não
+Ametista do Sul (RS),Ametista do Sul,4300646,Passo Fundo,7650,203478,12.7,Não
+André da Rocha (RS),André da Rocha,4300661,Caxias do Sul,1135,112013,19.5,Não
+Anta Gorda (RS),Anta Gorda,4300703,Santa Cruz do Sul - Lajeado,5957,333257,3.4,Não
+Antônio Prado (RS),Antônio Prado,4300802,Caxias do Sul,13045,926443,9.2,Não
+Arambaré (RS),Arambaré,4300851,Porto Alegre,4112,233582,16.3,Não
+Araricá (RS),Araricá,4300877,Porto Alegre,8525,322955,10.8,Não
+Aratiba (RS),Aratiba,4300901,Passo Fundo,6483,1185217,2,Não
+Arroio Grande (RS),Arroio Grande,4301305,Pelotas,17558,965508,16.7,Não
+Arroio do Meio (RS),Arroio do Meio,4301008,Santa Cruz do Sul - Lajeado,21958,1943138,8.6,Sim
+Arroio do Padre (RS),Arroio do Padre,4301073,Pelotas,2599,96551,7.1,Não
+Arroio do Sal (RS),Arroio do Sal,4301057,Porto Alegre,11057,353687,16.7,Não
+Arroio do Tigre (RS),Arroio do Tigre,4301206,Santa Cruz do Sul - Lajeado,12058,472739,3.7,Não
+Arroio dos Ratos (RS),Arroio dos Ratos,4301107,Porto Alegre,14601,404985,14.7,Sim
+Arvorezinha (RS),Arvorezinha,4301404,Passo Fundo,10322,404652,5,Não
+Augusto Pestana (RS),Augusto Pestana,4301503,Ijuí,7149,350687,6.3,Não
+Bagé (RS),Bagé,4301602,Pelotas,117938,4414768,11.9,Sim
+Balneário Pinhal (RS),Balneário Pinhal,4301636,Porto Alegre,14955,333149,21.8,Não
+Barra Funda (RS),Barra Funda,4301958,Passo Fundo,2498,167382,4.2,Não
+Barra do Guarita (RS),Barra do Guarita,4301859,Ijuí,3161,63072,8.9,Não
+Barra do Quaraí (RS),Barra do Quaraí,4301875,Uruguaiana,4241,332590,14.2,Não
+Barra do Ribeiro (RS),Barra do Ribeiro,4301909,Porto Alegre,12225,581054,14.6,Não
+Barra do Rio Azul (RS),Barra do Rio Azul,4301925,Passo Fundo,1696,78571,0,Não
+Barracão (RS),Barracão,4301800,Passo Fundo,4831,300015,8.7,Não
+Barros Cassal (RS),Barros Cassal,4302006,Passo Fundo,9296,274474,12.1,Não
+Barão (RS),Barão,4301651,Caxias do Sul,6461,462911,5.7,Não
+Barão de Cotegipe (RS),Barão de Cotegipe,4301701,Passo Fundo,7144,324769,3.7,Não
+Barão do Triunfo (RS),Barão do Triunfo,4301750,Porto Alegre,5889,142447,37.5,Não
+Benjamin Constant do Sul (RS),Benjamin Constant do Sul,4302055,Passo Fundo,2082,49986,11.9,Não
+Bento Gonçalves (RS),Bento Gonçalves,4302105,Caxias do Sul,123151,9062598,10.2,Sim
+Boa Vista das Missões (RS),Boa Vista das Missões,4302154,Passo Fundo,1933,173200,11.8,Não
+Boa Vista do Buricá (RS),Boa Vista do Buricá,4302204,Ijuí,6966,354602,10.7,Não
+Boa Vista do Cadeado (RS),Boa Vista do Cadeado,4302220,Passo Fundo,2229,269991,11.7,Não
+Boa Vista do Incra (RS),Boa Vista do Incra,4302238,Passo Fundo,2271,196998,6.9,Não
+Boa Vista do Sul (RS),Boa Vista do Sul,4302253,Caxias do Sul,2779,134912,5.4,Não
+Bom Jesus (RS),Bom Jesus,4302303,Caxias do Sul,11202,593403,9.5,Não
+Bom Princípio (RS),Bom Princípio,4302352,Porto Alegre,13142,951019,10.9,Não
+Bom Progresso (RS),Bom Progresso,4302378,Ijuí,2096,73593,8.7,Não
+Bom Retiro do Sul (RS),Bom Retiro do Sul,4302402,Santa Cruz do Sul - Lajeado,12294,509725,11.5,Não
+Boqueirão do Leão (RS),Boqueirão do Leão,4302451,Santa Cruz do Sul - Lajeado,6247,199040,7.2,Não
+Bossoroca (RS),Bossoroca,4302501,Ijuí,5890,250550,11.3,Não
+Bozano (RS),Bozano,4302584,Ijuí,2151,119425,5.2,Não
+Braga (RS),Braga,4302600,Ijuí,3268,109439,10.6,Não
+Brochier (RS),Brochier,4302659,Porto Alegre,4966,132265,10.1,Não
+Butiá (RS),Butiá,4302709,Porto Alegre,19084,567081,13.1,Não
+Cacequi (RS),Cacequi,4302907,Santa Maria,11157,566823,13.6,Sim
+Cachoeira do Sul (RS),Cachoeira do Sul,4303004,Santa Maria,80070,3371237,12.2,Sim
+Cachoeirinha (RS),Cachoeirinha,4303103,Porto Alegre,136258,7781824,13.8,Não
+Cacique Doble (RS),Cacique Doble,4303202,Passo Fundo,4603,154022,4.9,Não
+Caibaté (RS),Caibaté,4303301,Ijuí,4704,180412,11.6,Não
+Caiçara (RS),Caiçara,4303400,Passo Fundo,4836,159894,2,Não
+Camaquã (RS),Camaquã,4303509,Porto Alegre,62200,3154677,8.3,Sim
+Camargo (RS),Camargo,4303558,Passo Fundo,2981,612435,7.3,Não
+Cambará do Sul (RS),Cambará do Sul,4303608,Caxias do Sul,6361,275332,11.9,Não
+Campestre da Serra (RS),Campestre da Serra,4303673,Caxias do Sul,3242,236802,11.7,Não
+Campina das Missões (RS),Campina das Missões,4303707,Ijuí,5882,203771,5.4,Não
+Campinas do Sul (RS),Campinas do Sul,4303806,Passo Fundo,5284,294875,2.4,Não
+Campo Bom (RS),Campo Bom,4303905,Porto Alegre,62886,4528757,2.6,Não
+Campo Novo (RS),Campo Novo,4304002,Ijuí,4975,287302,11.5,Não
+Campos Borges (RS),Campos Borges,4304101,Passo Fundo,3613,105020,3.5,Não
+Candelária (RS),Candelária,4304200,Santa Cruz do Sul - Lajeado,28906,1234677,13.1,Sim
+Candiota (RS),Candiota,4304358,Pelotas,10710,1699384,12.1,Não
+Canela (RS),Canela,4304408,Caxias do Sul,48946,1959719,9.5,Sim
+Canguçu (RS),Canguçu,4304507,Pelotas,49680,1825528,16,Sim
+Canoas (RS),Canoas,4304606,Porto Alegre,347657,29166697,15.8,Sim
+Canudos do Vale (RS),Canudos do Vale,4304614,Santa Cruz do Sul - Lajeado,1656,66953,11.2,Não
+Capela de Santana (RS),Capela de Santana,4304689,Porto Alegre,11159,315947,21.2,Não
+Capitão (RS),Capitão,4304697,Santa Cruz do Sul - Lajeado,2921,88569,7.8,Não
+Capivari do Sul (RS),Capivari do Sul,4304671,Porto Alegre,3991,399405,8.2,Não
+Capão Bonito do Sul (RS),Capão Bonito do Sul,4304622,Passo Fundo,1733,223071,5.1,Não
+Capão da Canoa (RS),Capão da Canoa,4304630,Porto Alegre,63594,2588161,17.3,Não
+Capão do Cipó (RS),Capão do Cipó,4304655,Santa Maria,3119,220126,7,Não
+Capão do Leão (RS),Capão do Leão,4304663,Pelotas,26487,854022,22.3,Não
+Carazinho (RS),Carazinho,4304705,Passo Fundo,61804,3744967,7.2,Sim
+Caraá (RS),Caraá,4304713,Porto Alegre,7394,158174,13.1,Não
+Carlos Barbosa (RS),Carlos Barbosa,4304804,Caxias do Sul,30420,3815080,5.9,Não
+Carlos Gomes (RS),Carlos Gomes,4304853,Passo Fundo,1368,61763,1.8,Não
+Casca (RS),Casca,4304903,Passo Fundo,9465,875949,2.6,Não
+Caseiros (RS),Caseiros,4304952,Passo Fundo,3000,177158,8.2,Não
+Catuípe (RS),Catuípe,4305009,Ijuí,8674,425026,3.4,Não
+Caxias do Sul (RS),Caxias do Sul,4305108,Caxias do Sul,463501,37860602,9,Sim
+Caçapava do Sul (RS),Caçapava do Sul,4302808,Santa Maria,32515,1175802,17.1,Sim
+Centenário (RS),Centenário,4305116,Passo Fundo,2721,123347,2.3,Não
+Cerrito (RS),Cerrito,4305124,Pelotas,5808,131166,14,Não
+Cerro Branco (RS),Cerro Branco,4305132,Santa Maria,3802,104220,9.1,Não
+Cerro Grande (RS),Cerro Grande,4305157,Passo Fundo,2379,61938,4.4,Não
+Cerro Grande do Sul (RS),Cerro Grande do Sul,4305173,Porto Alegre,9178,251120,12.2,Não
+Cerro Largo (RS),Cerro Largo,4305207,Ijuí,13705,807007,7.2,Sim
+Chapada (RS),Chapada,4305306,Passo Fundo,9540,603053,7.1,Não
+Charqueadas (RS),Charqueadas,4305355,Porto Alegre,35012,1857420,16.3,Sim
+Charrua (RS),Charrua,4305371,Passo Fundo,2768,125647,15.1,Não
+Chiapetta (RS),Chiapetta,4305405,Ijuí,3913,265708,7.6,Não
+Chuvisca (RS),Chuvisca,4305447,Porto Alegre,4597,163415,15.8,Não
+Chuí (RS),Chuí,4305439,Pelotas,6262,522360,13.3,Não
+Cidreira (RS),Cidreira,4305454,Porto Alegre,17071,406916,25.3,Não
+Ciríaco (RS),Ciríaco,4305504,Passo Fundo,4149,233410,5.9,Não
+Colinas (RS),Colinas,4305587,Santa Cruz do Sul - Lajeado,2423,90398,11.4,Não
+Colorado (RS),Colorado,4305603,Passo Fundo,3258,198977,7,Não
+Condor (RS),Condor,4305702,Ijuí,6406,470592,11.9,Não
+Constantina (RS),Constantina,4305801,Passo Fundo,10385,471925,8.1,Não
+Coqueiro Baixo (RS),Coqueiro Baixo,4305835,Santa Cruz do Sul - Lajeado,1290,56011,1.1,Não
+Coqueiros do Sul (RS),Coqueiros do Sul,4305850,Passo Fundo,2211,139283,4.5,Não
+Coronel Barros (RS),Coronel Barros,4305871,Ijuí,2822,143058,7.8,Não
+Coronel Bicaco (RS),Coronel Bicaco,4305900,Ijuí,6144,397095,17.9,Não
+Coronel Pilar (RS),Coronel Pilar,4305934,Caxias do Sul,1607,58153,4.4,Não
+Cotiporã (RS),Cotiporã,4305959,Caxias do Sul,3846,205102,10.3,Não
+Coxilha (RS),Coxilha,4305975,Passo Fundo,2667,349364,8.2,Não
+Crissiumal (RS),Crissiumal,4306007,Ijuí,12886,500660,10.9,Não
+Cristal (RS),Cristal,4306056,Porto Alegre,7299,300530,14.8,Não
+Cristal do Sul (RS),Cristal do Sul,4306072,Passo Fundo,2692,98787,3.8,Não
+Cruz Alta (RS),Cruz Alta,4306106,Passo Fundo,58913,4399886,13.3,Sim
+Cruzaltense (RS),Cruzaltense,4306130,Passo Fundo,1635,104945,2.8,Não
+Cruzeiro do Sul (RS),Cruzeiro do Sul,4306205,Santa Cruz do Sul - Lajeado,11600,685746,11.8,Não
+Cândido Godói (RS),Cândido Godói,4304309,Ijuí,6294,375022,7.7,Não
+David Canabarro (RS),David Canabarro,4306304,Passo Fundo,4321,206880,1.4,Não
+Derrubadas (RS),Derrubadas,4306320,Ijuí,2751,117581,4,Não
+Dezesseis de Novembro (RS),Dezesseis de Novembro,4306353,Ijuí,2507,51412,7.2,Não
+Dilermando de Aguiar (RS),Dilermando de Aguiar,4306379,Santa Maria,2806,202939,16.2,Não
+Dois Irmãos (RS),Dois Irmãos,4306403,Porto Alegre,30709,2639523,8.1,Não
+Dois Irmãos das Missões (RS),Dois Irmãos das Missões,4306429,Passo Fundo,2090,125757,10.3,Não
+Dois Lajeados (RS),Dois Lajeados,4306452,Caxias do Sul,3097,166002,3.5,Não
+Dom Feliciano (RS),Dom Feliciano,4306502,Porto Alegre,13051,418179,19.4,Não
+Dom Pedrito (RS),Dom Pedrito,4306601,Pelotas,36981,2288172,18.5,Sim
+Dom Pedro de Alcântara (RS),Dom Pedro de Alcântara,4306551,Porto Alegre,2562,83656,7.6,Não
+Dona Francisca (RS),Dona Francisca,4306700,Santa Maria,3079,112216,8.7,Não
+Doutor Maurício Cardoso (RS),Doutor Maurício Cardoso,4306734,Ijuí,4470,228266,7.6,Não
+Doutor Ricardo (RS),Doutor Ricardo,4306759,Santa Cruz do Sul - Lajeado,1888,89704,2.8,Não
+Eldorado do Sul (RS),Eldorado do Sul,4306767,Porto Alegre,39559,2623491,16.4,Não
+Encantado (RS),Encantado,4306809,Santa Cruz do Sul - Lajeado,22962,1411422,8.1,Sim
+Encruzilhada do Sul (RS),Encruzilhada do Sul,4306908,Santa Cruz do Sul - Lajeado,23819,1189528,19.9,Sim
+Engenho Velho (RS),Engenho Velho,4306924,Passo Fundo,1296,50748,6.5,Não
+Entre Rios do Sul (RS),Entre Rios do Sul,4306957,Passo Fundo,2685,209711,3.5,Não
+Entre-Ijuís (RS),Entre-Ijuís,4306932,Ijuí,9158,478944,15.3,Não
+Erebango (RS),Erebango,4306973,Passo Fundo,3054,152046,14.6,Não
+Erechim (RS),Erechim,4307005,Passo Fundo,105705,8497106,5.9,Sim
+Ernestina (RS),Ernestina,4307054,Passo Fundo,3034,163434,9,Não
+Erval Grande (RS),Erval Grande,4307203,Passo Fundo,4930,161672,8.3,Não
+Erval Seco (RS),Erval Seco,4307302,Passo Fundo,6787,299811,3.4,Não
+Esmeralda (RS),Esmeralda,4307401,Caxias do Sul,3195,363781,14,Não
+Esperança do Sul (RS),Esperança do Sul,4307450,Ijuí,3226,101346,4.3,Não
+Espumoso (RS),Espumoso,4307500,Passo Fundo,15173,861538,8,Sim
+Estação (RS),Estação,4307559,Passo Fundo,5582,397872,5.4,Não
+Esteio (RS),Esteio,4307708,Porto Alegre,76137,3998587,6.6,Não
+Estrela (RS),Estrela,4307807,Santa Cruz do Sul - Lajeado,32183,2376913,6.6,Não
+Estrela Velha (RS),Estrela Velha,4307815,Santa Cruz do Sul - Lajeado,3070,145289,9.5,Não
+Estância Velha (RS),Estância Velha,4307609,Porto Alegre,47924,2309196,6.5,Não
+Eugênio de Castro (RS),Eugênio de Castro,4307831,Ijuí,2633,224862,20.5,Não
+Fagundes Varela (RS),Fagundes Varela,4307864,Caxias do Sul,2566,189848,10.5,Não
+Farroupilha (RS),Farroupilha,4307906,Caxias do Sul,70286,4960621,4.4,Não
+Faxinal do Soturno (RS),Faxinal do Soturno,4308003,Santa Maria,6702,298533,8.3,Não
+Faxinalzinho (RS),Faxinalzinho,4308052,Passo Fundo,2520,113640,11,Não
+Fazenda Vilanova (RS),Fazenda Vilanova,4308078,Santa Cruz do Sul - Lajeado,4291,145766,13.2,Não
+Feliz (RS),Feliz,4308102,Caxias do Sul,13764,676581,4,Não
+Flores da Cunha (RS),Flores da Cunha,4308201,Caxias do Sul,30892,3336288,6.8,Não
+Floriano Peixoto (RS),Floriano Peixoto,4308250,Passo Fundo,1668,77406,5.3,Não
+Fontoura Xavier (RS),Fontoura Xavier,4308300,Passo Fundo,9550,260495,8.2,Não
+Formigueiro (RS),Formigueiro,4308409,Santa Maria,6413,263216,14.8,Não
+Forquetinha (RS),Forquetinha,4308433,Santa Cruz do Sul - Lajeado,2393,64513,14.5,Não
+Fortaleza dos Valos (RS),Fortaleza dos Valos,4308458,Passo Fundo,4477,330898,9.9,Não
+Frederico Westphalen (RS),Frederico Westphalen,4308508,Passo Fundo,32627,1792336,6.6,Sim
+Garibaldi (RS),Garibaldi,4308607,Caxias do Sul,34335,3565442,6.1,Não
+Garruchos (RS),Garruchos,4308656,Ijuí,2688,134739,8,Não
+Gaurama (RS),Gaurama,4308706,Passo Fundo,5665,349016,5.4,Não
+General Câmara (RS),General Câmara,4308805,Porto Alegre,7612,234058,13.5,Não
+Gentil (RS),Gentil,4308854,Passo Fundo,1744,152256,6,Não
+Getúlio Vargas (RS),Getúlio Vargas,4308904,Passo Fundo,16602,879960,2.6,Sim
+Giruá (RS),Giruá,4309001,Ijuí,16013,1017468,3.7,Não
+Glorinha (RS),Glorinha,4309050,Porto Alegre,7658,595369,14.6,Não
+Gramado (RS),Gramado,4309100,Caxias do Sul,40134,3565830,9.6,Não
+Gramado Xavier (RS),Gramado Xavier,4309159,Santa Cruz do Sul - Lajeado,3304,124280,14,Não
+Gramado dos Loureiros (RS),Gramado dos Loureiros,4309126,Passo Fundo,2014,87589,19.9,Não
+Gravataí (RS),Gravataí,4309209,Porto Alegre,265074,15545558,13.5,Sim
+Guabiju (RS),Guabiju,4309258,Caxias do Sul,1417,107684,1,Não
+Guaporé (RS),Guaporé,4309407,Caxias do Sul,25268,1264537,4.8,Sim
+Guarani das Missões (RS),Guarani das Missões,4309506,Ijuí,7415,295743,5.8,Não
+Guaíba (RS),Guaíba,4309308,Porto Alegre,92924,9001785,11.5,Sim
+Harmonia (RS),Harmonia,4309555,Porto Alegre,5378,306941,7.2,Não
+Herval (RS),Herval,4307104,Pelotas,6191,199383,18.9,Não
+Herveiras (RS),Herveiras,4309571,Santa Cruz do Sul - Lajeado,2565,88439,18.5,Não
+Horizontina (RS),Horizontina,4309605,Ijuí,18851,1828050,3.8,Não
+Hulha Negra (RS),Hulha Negra,4309654,Pelotas,5976,228860,9,Não
+Humaitá (RS),Humaitá,4309704,Ijuí,4681,218021,9.4,Não
+Ibarama (RS),Ibarama,4309753,Santa Cruz do Sul - Lajeado,3732,105469,10.1,Não
+Ibiaçá (RS),Ibiaçá,4309803,Passo Fundo,4527,298761,4,Não
+Ibiraiaras (RS),Ibiraiaras,4309902,Passo Fundo,6776,380199,9.7,Não
+Ibirapuitã (RS),Ibirapuitã,4309951,Passo Fundo,3723,188102,7.1,Não
+Ibirubá (RS),Ibirubá,4310009,Passo Fundo,21583,1708042,9.3,Não
+Igrejinha (RS),Igrejinha,4310108,Porto Alegre,32808,2656127,3.5,Não
+Ijuí (RS),Ijuí,4310207,Ijuí,84780,6105244,6.5,Sim
+Ilópolis (RS),Ilópolis,4310306,Santa Cruz do Sul - Lajeado,4157,164900,4.4,Não
+Imbé (RS),Imbé,4310330,Porto Alegre,26824,762866,16.1,Não
+Imigrante (RS),Imigrante,4310363,Santa Cruz do Sul - Lajeado,3080,590476,17.8,Não
+Independência (RS),Independência,4310405,Ijuí,6427,443606,13.7,Não
+Inhacorá (RS),Inhacorá,4310413,Ijuí,2014,76396,12,Não
+Ipiranga do Sul (RS),Ipiranga do Sul,4310462,Passo Fundo,1720,122376,8.6,Não
+Ipê (RS),Ipê,4310439,Caxias do Sul,5399,392922,11,Não
+Iraí (RS),Iraí,4310504,Passo Fundo,7482,255785,8.6,Sim
+Itaara (RS),Itaara,4310538,Santa Maria,5572,304167,10.5,Não
+Itacurubi (RS),Itacurubi,4310553,Santa Maria,2995,114342,11.5,Não
+Itapuca (RS),Itapuca,4310579,Passo Fundo,1937,93881,1.8,Não
+Itaqui (RS),Itaqui,4310603,Uruguaiana,35768,2068939,10.1,Sim
+Itati (RS),Itati,4310652,Porto Alegre,2638,103483,12.1,Não
+Itatiba do Sul (RS),Itatiba do Sul,4310702,Passo Fundo,3208,85113,4.5,Não
+Ivorá (RS),Ivorá,4310751,Santa Maria,1929,53952,10.6,Não
+Ivoti (RS),Ivoti,4310801,Porto Alegre,22983,1538878,5,Não
+Jaboticaba (RS),Jaboticaba,4310850,Passo Fundo,3779,106763,10.5,Não
+Jacuizinho (RS),Jacuizinho,4310876,Passo Fundo,2040,125146,12.2,Não
+Jacutinga (RS),Jacutinga,4310900,Passo Fundo,3338,188689,4.1,Não
+Jaguari (RS),Jaguari,4311106,Santa Maria,10579,328937,15.3,Sim
+Jaguarão (RS),Jaguarão,4311007,Pelotas,26603,1034802,19.1,Sim
+Jaquirana (RS),Jaquirana,4311122,Caxias do Sul,3690,101810,6.9,Não
+Jari (RS),Jari,4311130,Santa Maria,3349,211635,4.4,Não
+Jóia (RS),Jóia,4311155,Ijuí,7184,345894,11.7,Não
+Júlio de Castilhos (RS),Júlio de Castilhos,4311205,Santa Maria,18226,1306882,11.2,Sim
+Lagoa Bonita do Sul (RS),Lagoa Bonita do Sul,4311239,Santa Cruz do Sul - Lajeado,2251,84224,2.8,Não
+Lagoa Vermelha (RS),Lagoa Vermelha,4311304,Passo Fundo,27659,1608163,6.9,Sim
+Lagoa dos Três Cantos (RS),Lagoa dos Três Cantos,4311270,Passo Fundo,1738,81864,3.5,Não
+Lagoão (RS),Lagoão,4311254,Santa Cruz do Sul - Lajeado,5341,149771,13.2,Não
+Lajeado (RS),Lajeado,4311403,Santa Cruz do Sul - Lajeado,93646,6705227,6,Sim
+Lajeado do Bugre (RS),Lajeado do Bugre,4311429,Passo Fundo,2601,65433,8.9,Não
+Lavras do Sul (RS),Lavras do Sul,4311502,Santa Maria,7157,369845,19.1,Sim
+Liberato Salzano (RS),Liberato Salzano,4311601,Passo Fundo,4781,152571,6.8,Não
+Lindolfo Collor (RS),Lindolfo Collor,4311627,Porto Alegre,6248,353109,6,Não
+Linha Nova (RS),Linha Nova,4311643,Porto Alegre,1683,76154,8.2,Não
+Machadinho (RS),Machadinho,4311700,Passo Fundo,5735,260895,7.2,Não
+Mampituba (RS),Mampituba,4311734,Porto Alegre,3131,101220,11,Não
+Manoel Viana (RS),Manoel Viana,4311759,Uruguaiana,6801,303342,11.7,Não
+Maquiné (RS),Maquiné,4311775,Porto Alegre,7418,228748,11.4,Não
+Maratá (RS),Maratá,4311791,Porto Alegre,2470,104147,6.5,Não
+Marau (RS),Marau,4311809,Passo Fundo,45124,3738295,7.4,Não
+Marcelino Ramos (RS),Marcelino Ramos,4311908,Passo Fundo,4320,192535,3.2,Não
+Mariana Pimentel (RS),Mariana Pimentel,4311981,Porto Alegre,3916,117787,16.2,Não
+Mariano Moro (RS),Mariano Moro,4312005,Passo Fundo,1858,71583,2.8,Não
+Marques de Souza (RS),Marques de Souza,4312054,Santa Cruz do Sul - Lajeado,3969,137495,6.3,Não
+Mata (RS),Mata,4312104,Santa Maria,4698,174006,10.7,Não
+Mato Castelhano (RS),Mato Castelhano,4312138,Passo Fundo,2553,128502,11.9,Não
+Mato Leitão (RS),Mato Leitão,4312153,Santa Cruz do Sul - Lajeado,4859,295044,7.4,Não
+Mato Queimado (RS),Mato Queimado,4312179,Ijuí,1795,61648,5.7,Não
+Maximiliano de Almeida (RS),Maximiliano de Almeida,4312203,Passo Fundo,4191,159588,0.5,Não
+Maçambará (RS),Maçambará,4311718,Uruguaiana,4425,367963,12.4,Não
+Minas do Leão (RS),Minas do Leão,4312252,Porto Alegre,7505,291061,16,Não
+Miraguaí (RS),Miraguaí,4312302,Ijuí,4427,200597,6.8,Não
+Montauri (RS),Montauri,4312351,Caxias do Sul,1499,73733,4.2,Não
+Monte Alegre dos Campos (RS),Monte Alegre dos Campos,4312377,Caxias do Sul,3180,117051,25.2,Não
+Monte Belo do Sul (RS),Monte Belo do Sul,4312385,Caxias do Sul,2557,126816,5.5,Não
+Montenegro (RS),Montenegro,4312401,Porto Alegre,64322,5259437,11,Sim
+Mormaço (RS),Mormaço,4312427,Passo Fundo,2756,102289,4.2,Não
+Morrinhos do Sul (RS),Morrinhos do Sul,4312443,Porto Alegre,3071,103248,5.9,Não
+Morro Redondo (RS),Morro Redondo,4312450,Pelotas,6046,153226,15.9,Não
+Morro Reuter (RS),Morro Reuter,4312476,Porto Alegre,6029,304040,3.1,Não
+Mostardas (RS),Mostardas,4312500,Porto Alegre,12090,494341,15.4,Não
+Muitos Capões (RS),Muitos Capões,4312617,Caxias do Sul,2879,950302,11.8,Não
+Muliterno (RS),Muliterno,4312625,Passo Fundo,1721,71170,6.4,Não
+Muçum (RS),Muçum,4312609,Santa Cruz do Sul - Lajeado,4601,273363,12.1,Não
+Nicolau Vergueiro (RS),Nicolau Vergueiro,4312674,Passo Fundo,1932,101823,8,Não
+Nonoai (RS),Nonoai,4312708,Passo Fundo,13719,539374,8.4,Não
+Nova Alvorada (RS),Nova Alvorada,4312757,Passo Fundo,3163,201942,4.7,Não
+Nova Araçá (RS),Nova Araçá,4312807,Caxias do Sul,4954,474775,4.9,Não
+Nova Bassano (RS),Nova Bassano,4312906,Caxias do Sul,9649,765058,7.2,Não
+Nova Boa Vista (RS),Nova Boa Vista,4312955,Passo Fundo,2042,137786,2.8,Não
+Nova Bréscia (RS),Nova Bréscia,4313003,Santa Cruz do Sul - Lajeado,3044,153973,2.5,Não
+Nova Candelária (RS),Nova Candelária,4313011,Ijuí,3061,225892,7.4,Não
+Nova Esperança do Sul (RS),Nova Esperança do Sul,4313037,Santa Maria,4865,197238,3.1,Não
+Nova Hartz (RS),Nova Hartz,4313060,Porto Alegre,20088,1054362,7.8,Não
+Nova Palma (RS),Nova Palma,4313102,Santa Maria,5586,306852,5.3,Não
+Nova Petrópolis (RS),Nova Petrópolis,4313201,Caxias do Sul,23300,1103618,7.2,Não
+Nova Prata (RS),Nova Prata,4313300,Caxias do Sul,25692,1559276,6.5,Sim
+Nova Pádua (RS),Nova Pádua,4313086,Caxias do Sul,2343,115884,4.4,Não
+Nova Ramada (RS),Nova Ramada,4313334,Ijuí,2163,204997,9.9,Não
+Nova Roma do Sul (RS),Nova Roma do Sul,4313359,Caxias do Sul,3466,206674,7.3,Não
+Nova Santa Rita (RS),Nova Santa Rita,4313375,Porto Alegre,29024,3229383,14.6,Não
+Novo Barreiro (RS),Novo Barreiro,4313490,Passo Fundo,4272,120313,6.3,Não
+Novo Cabrais (RS),Novo Cabrais,4313391,Santa Maria,3568,131684,6.2,Não
+Novo Hamburgo (RS),Novo Hamburgo,4313409,Porto Alegre,227646,11936582,6.4,Sim
+Novo Machado (RS),Novo Machado,4313425,Ijuí,3198,140899,12.5,Não
+Novo Tiradentes (RS),Novo Tiradentes,4313441,Passo Fundo,2146,73353,3.3,Não
+Novo Xingu (RS),Novo Xingu,4313466,Passo Fundo,1646,67741,3.4,Não
+Não-Me-Toque (RS),Não-Me-Toque,4312658,Passo Fundo,17898,2951960,9,Não
+Osório (RS),Osório,4313508,Porto Alegre,47396,2141950,10.2,Sim
+Paim Filho (RS),Paim Filho,4313607,Passo Fundo,3629,162821,1.5,Não
+Palmares do Sul (RS),Palmares do Sul,4313656,Porto Alegre,12844,739855,16.1,Não
+Palmeira das Missões (RS),Palmeira das Missões,4313706,Passo Fundo,33216,1708324,10.7,Sim
+Palmitinho (RS),Palmitinho,4313805,Passo Fundo,7839,265325,4.4,Não
+Panambi (RS),Panambi,4313904,Ijuí,43515,4011216,10.3,Não
+Pantano Grande (RS),Pantano Grande,4313953,Santa Cruz do Sul - Lajeado,10212,576614,10.6,Não
+Paraí (RS),Paraí,4314001,Caxias do Sul,7194,488256,2.4,Não
+Paraíso do Sul (RS),Paraíso do Sul,4314027,Santa Maria,6519,230034,11,Não
+Pareci Novo (RS),Pareci Novo,4314035,Porto Alegre,4319,159254,9,Não
+Parobé (RS),Parobé,4314050,Porto Alegre,52058,1725746,10.1,Não
+Passa Sete (RS),Passa Sete,4314068,Santa Cruz do Sul - Lajeado,3983,144618,8.5,Não
+Passo Fundo (RS),Passo Fundo,4314100,Passo Fundo,206215,14069540,13.7,Sim
+Passo do Sobrado (RS),Passo do Sobrado,4314076,Santa Cruz do Sul - Lajeado,6025,281871,7.4,Não
+Paulo Bento (RS),Paulo Bento,4314134,Passo Fundo,2144,238558,8.4,Não
+Paverama (RS),Paverama,4314159,Santa Cruz do Sul - Lajeado,7978,301262,12.8,Não
+Pedras Altas (RS),Pedras Altas,4314175,Pelotas,2061,172852,13.9,Não
+Pedro Osório (RS),Pedro Osório,4314209,Pelotas,7484,242415,18.8,Não
+Pejuçara (RS),Pejuçara,4314308,Ijuí,3745,293084,7.3,Não
+Pelotas (RS),Pelotas,4314407,Pelotas,325685,12480919,13.7,Sim
+Picada Café (RS),Picada Café,4314423,Caxias do Sul,5351,393452,6.8,Não
+Pinhal (RS),Pinhal,4314456,Passo Fundo,2959,154127,4.7,Não
+Pinhal Grande (RS),Pinhal Grande,4314472,Santa Maria,3805,500998,9.8,Não
+Pinhal da Serra (RS),Pinhal da Serra,4314464,Caxias do Sul,2248,249016,4,Não
+Pinheirinho do Vale (RS),Pinheirinho do Vale,4314498,Passo Fundo,4540,140566,6.5,Não
+Pinheiro Machado (RS),Pinheiro Machado,4314506,Pelotas,11214,357896,18.6,Não
+Pinto Bandeira (RS),Pinto Bandeira,4314548,Caxias do Sul,2723,93134,6.4,Não
+Pirapó (RS),Pirapó,4314555,Ijuí,2260,72016,9.3,Não
+Piratini (RS),Piratini,4314605,Pelotas,17504,744361,14.5,Não
+Planalto (RS),Planalto,4314704,Passo Fundo,10406,325778,5.2,Não
+Ponte Preta (RS),Ponte Preta,4314787,Passo Fundo,1575,78317,2.9,Não
+Pontão (RS),Pontão,4314779,Passo Fundo,3296,271978,8.4,Não
+Porto Alegre (RS),Porto Alegre,4314902,Porto Alegre,1332845,104743272,14.4,Sim
+Porto Lucena (RS),Porto Lucena,4315008,Ijuí,4360,128972,7.7,Não
+Porto Mauá (RS),Porto Mauá,4315057,Ijuí,2142,79557,16,Não
+Porto Vera Cruz (RS),Porto Vera Cruz,4315073,Ijuí,1560,48373,5.3,Não
+Porto Xavier (RS),Porto Xavier,4315107,Ijuí,9938,230082,5.1,Não
+Portão (RS),Portão,4314803,Porto Alegre,34071,1816677,15.5,Não
+Pouso Novo (RS),Pouso Novo,4315131,Santa Cruz do Sul - Lajeado,1739,57904,4.6,Não
+Poço das Antas (RS),Poço das Antas,4314753,Santa Cruz do Sul - Lajeado,2171,100774,5.7,Não
+Presidente Lucena (RS),Presidente Lucena,4315149,Porto Alegre,3077,371734,5.7,Não
+Progresso (RS),Progresso,4315156,Santa Cruz do Sul - Lajeado,5340,181523,4.5,Não
+Protásio Alves (RS),Protásio Alves,4315172,Caxias do Sul,2025,93358,5.5,Não
+Putinga (RS),Putinga,4315206,Santa Cruz do Sul - Lajeado,3747,153758,3,Não
+Quaraí (RS),Quaraí,4315305,Uruguaiana,23500,720057,11.2,Sim
+Quatro Irmãos (RS),Quatro Irmãos,4315313,Passo Fundo,1552,136523,11.7,Não
+Quevedos (RS),Quevedos,4315321,Santa Maria,2507,156253,13.3,Não
+Quinze de Novembro (RS),Quinze de Novembro,4315354,Passo Fundo,3910,172891,5,Não
+Redentora (RS),Redentora,4315404,Ijuí,9738,207604,16.8,Não
+Relvado (RS),Relvado,4315453,Santa Cruz do Sul - Lajeado,1796,75597,10,Não
+Restinga Sêca (RS),Restinga Sêca,4315503,Santa Maria,14939,643230,12.9,Não
+Rio Grande (RS),Rio Grande,4315602,Pelotas,191900,14106680,17.6,Sim
+Rio Pardo (RS),Rio Pardo,4315701,Santa Cruz do Sul - Lajeado,34654,1248019,7.4,Sim
+Rio dos Índios (RS),Rio dos Índios,4315552,Passo Fundo,2835,116660,7.4,Não
+Riozinho (RS),Riozinho,4315750,Porto Alegre,4473,165772,7,Não
+Roca Sales (RS),Roca Sales,4315800,Santa Cruz do Sul - Lajeado,10418,626611,10.6,Não
+Rodeio Bonito (RS),Rodeio Bonito,4315909,Passo Fundo,6654,301150,5.9,Não
+Rolador (RS),Rolador,4315958,Ijuí,2291,91405,13.1,Não
+Rolante (RS),Rolante,4316006,Porto Alegre,21253,951008,6.1,Não
+Ronda Alta (RS),Ronda Alta,4316105,Passo Fundo,9777,402816,8.4,Não
+Rondinha (RS),Rondinha,4316204,Passo Fundo,4991,227716,5.1,Não
+Roque Gonzales (RS),Roque Gonzales,4316303,Ijuí,6576,396753,11.7,Não
+Rosário do Sul (RS),Rosário do Sul,4316402,Uruguaiana,36630,1498313,10.9,Sim
+Sagrada Família (RS),Sagrada Família,4316428,Passo Fundo,2480,67102,5,Não
+Saldanha Marinho (RS),Saldanha Marinho,4316436,Passo Fundo,2575,170089,5.4,Não
+Salto do Jacuí (RS),Salto do Jacuí,4316451,Passo Fundo,10203,594921,22.6,Não
+Salvador das Missões (RS),Salvador das Missões,4316477,Ijuí,2877,162260,7.1,Não
+Salvador do Sul (RS),Salvador do Sul,4316501,Porto Alegre,6879,395636,7.5,Não
+Sananduva (RS),Sananduva,4316600,Passo Fundo,16399,877957,2.8,Não
+Sant'Ana do Livramento (RS),Sant'Ana do Livramento,4317103,Uruguaiana,84421,3143614,14.7,Sim
+Santa Bárbara do Sul (RS),Santa Bárbara do Sul,4316709,Passo Fundo,8122,875561,5.8,Não
+Santa Cecília do Sul (RS),Santa Cecília do Sul,4316733,Passo Fundo,1674,91361,3.7,Não
+Santa Clara do Sul (RS),Santa Clara do Sul,4316758,Santa Cruz do Sul - Lajeado,6887,427744,6.8,Não
+Santa Cruz do Sul (RS),Santa Cruz do Sul,4316808,Santa Cruz do Sul - Lajeado,133230,13396618,11,Sim
+Santa Margarida do Sul (RS),Santa Margarida do Sul,4316972,Santa Maria,2596,278310,30.1,Não
+Santa Maria (RS),Santa Maria,4316907,Santa Maria,271735,10932024,11.5,Sim
+Santa Maria do Herval (RS),Santa Maria do Herval,4316956,Porto Alegre,6340,271501,8.8,Não
+Santa Rosa (RS),Santa Rosa,4317202,Ijuí,76963,4530356,7.8,Sim
+Santa Tereza (RS),Santa Tereza,4317251,Caxias do Sul,1505,53742,3.3,Não
+Santa Vitória do Palmar (RS),Santa Vitória do Palmar,4317301,Pelotas,30983,1990739,13.4,Sim
+Santana da Boa Vista (RS),Santana da Boa Vista,4317004,Santa Maria,7024,237629,21.5,Não
+Santiago (RS),Santiago,4317400,Santa Maria,48938,1861691,6.4,Sim
+Santo Antônio da Patrulha (RS),Santo Antônio da Patrulha,4317608,Porto Alegre,42947,2178831,7.8,Não
+Santo Antônio das Missões (RS),Santo Antônio das Missões,4317707,Ijuí,10300,433323,13.1,Não
+Santo Antônio do Palma (RS),Santo Antônio do Palma,4317558,Passo Fundo,2091,112425,5.9,Não
+Santo Antônio do Planalto (RS),Santo Antônio do Planalto,4317756,Passo Fundo,2089,166647,5.7,Não
+Santo Augusto (RS),Santo Augusto,4317806,Ijuí,13902,728450,6.7,Não
+Santo Cristo (RS),Santo Cristo,4317905,Ijuí,15320,766616,10.4,Sim
+Santo Expedito do Sul (RS),Santo Expedito do Sul,4317954,Passo Fundo,2349,105537,3.8,Não
+Santo Ângelo (RS),Santo Ângelo,4317509,Ijuí,76917,3379818,10,Sim
+Sapiranga (RS),Sapiranga,4319901,Porto Alegre,75648,4674054,9.5,Não
+Sapucaia do Sul (RS),Sapucaia do Sul,4320008,Porto Alegre,132107,4729408,13,Sim
+Sarandi (RS),Sarandi,4320107,Passo Fundo,22851,1427661,5,Sim
+Seberi (RS),Seberi,4320206,Passo Fundo,11950,827496,6.6,Não
+Sede Nova (RS),Sede Nova,4320230,Ijuí,2704,122595,14.4,Não
+Segredo (RS),Segredo,4320263,Santa Cruz do Sul - Lajeado,6009,181686,9.8,Não
+Selbach (RS),Selbach,4320305,Passo Fundo,5107,286810,9.1,Não
+Senador Salgado Filho (RS),Senador Salgado Filho,4320321,Ijuí,2673,93393,6.7,Não
+Sentinela do Sul (RS),Sentinela do Sul,4320354,Porto Alegre,5306,179897,11.6,Não
+Serafina Corrêa (RS),Serafina Corrêa,4320404,Caxias do Sul,16961,988516,4.1,Não
+Sertão (RS),Sertão,4320503,Passo Fundo,5541,389514,10,Não
+Sertão Santana (RS),Sertão Santana,4320552,Porto Alegre,5863,344571,14.8,Não
+Sete de Setembro (RS),Sete de Setembro,4320578,Ijuí,1830,77186,9.3,Não
+Severiano de Almeida (RS),Severiano de Almeida,4320602,Passo Fundo,3406,142412,1.9,Não
+Silveira Martins (RS),Silveira Martins,4320651,Santa Maria,2028,72204,7.1,Não
+Sinimbu (RS),Sinimbu,4320677,Santa Cruz do Sul - Lajeado,8578,248267,16.8,Não
+Sobradinho (RS),Sobradinho,4320701,Santa Cruz do Sul - Lajeado,14226,523240,6.1,Sim
+Soledade (RS),Soledade,4320800,Passo Fundo,29991,1312842,8.4,Sim
+São Borja (RS),São Borja,4318002,Uruguaiana,59676,2550388,8.2,Sim
+São Domingos do Sul (RS),São Domingos do Sul,4318051,Passo Fundo,2754,130564,6.5,Não
+São Francisco de Assis (RS),São Francisco de Assis,4318101,Santa Maria,17618,592569,4.9,Sim
+São Francisco de Paula (RS),São Francisco de Paula,4318200,Caxias do Sul,21893,1202082,9.3,Sim
+São Gabriel (RS),São Gabriel,4318309,Santa Maria,58487,2682926,18.5,Sim
+São Jerônimo (RS),São Jerônimo,4318408,Porto Alegre,21028,712278,12,Sim
+São Jorge (RS),São Jorge,4318440,Caxias do Sul,2912,113154,6.5,Não
+São José das Missões (RS),São José das Missões,4318457,Passo Fundo,2362,76281,5.6,Não
+São José do Herval (RS),São José do Herval,4318465,Passo Fundo,1902,55694,4.3,Não
+São José do Hortêncio (RS),São José do Hortêncio,4318481,Porto Alegre,4447,149146,9.5,Não
+São José do Inhacorá (RS),São José do Inhacorá,4318499,Ijuí,2406,214097,1.4,Não
+São José do Norte (RS),São José do Norte,4318507,Pelotas,25443,1273464,22.5,Não
+São José do Ouro (RS),São José do Ouro,4318606,Passo Fundo,6834,426238,4.4,Não
+São José do Sul (RS),São José do Sul,4318614,Porto Alegre,2380,111514,8.8,Não
+São José dos Ausentes (RS),São José dos Ausentes,4318622,Caxias do Sul,4172,177177,11.2,Não
+São João da Urtiga (RS),São João da Urtiga,4318424,Passo Fundo,4461,198261,2.3,Não
+São João do Polêsine (RS),São João do Polêsine,4318432,Santa Maria,2649,117973,9,Não
+São Leopoldo (RS),São Leopoldo,4318705,Porto Alegre,217409,11740913,14.5,Sim
+São Lourenço do Sul (RS),São Lourenço do Sul,4318804,Pelotas,41989,1719596,18.5,Não
+São Luiz Gonzaga (RS),São Luiz Gonzaga,4318903,Ijuí,34752,1712990,9.4,Sim
+São Marcos (RS),São Marcos,4319000,Caxias do Sul,21084,1488757,12.1,Não
+São Martinho (RS),São Martinho,4319109,Ijuí,5481,304939,13.2,Não
+São Martinho da Serra (RS),São Martinho da Serra,4319125,Santa Maria,2860,211210,11.6,Não
+São Miguel das Missões (RS),São Miguel das Missões,4319158,Ijuí,7056,517182,12.6,Não
+São Nicolau (RS),São Nicolau,4319208,Ijuí,5118,178749,8.6,Não
+São Paulo das Missões (RS),São Paulo das Missões,4319307,Ijuí,5846,214703,9,Não
+São Pedro da Serra (RS),São Pedro da Serra,4319356,Porto Alegre,3548,122651,12.4,Não
+São Pedro das Missões (RS),São Pedro das Missões,4319364,Passo Fundo,1757,72911,6.1,Não
+São Pedro do Butiá (RS),São Pedro do Butiá,4319372,Ijuí,3070,139485,6.6,Não
+São Pedro do Sul (RS),São Pedro do Sul,4319406,Santa Maria,15577,505803,8.2,Não
+São Sebastião do Caí (RS),São Sebastião do Caí,4319505,Porto Alegre,24428,1123568,17.3,Não
+São Sepé (RS),São Sepé,4319604,Santa Maria,21219,1059509,8.1,Sim
+São Valentim (RS),São Valentim,4319703,Passo Fundo,3264,124878,4.9,Não
+São Valentim do Sul (RS),São Valentim do Sul,4319711,Caxias do Sul,2207,84857,5.2,Não
+São Valério do Sul (RS),São Valério do Sul,4319737,Ijuí,2543,67841,22.6,Não
+São Vendelino (RS),São Vendelino,4319752,Porto Alegre,2251,105311,6.7,Não
+São Vicente do Sul (RS),São Vicente do Sul,4319802,Santa Maria,8097,469886,14.1,Sim
+Sério (RS),Sério,4320453,Santa Cruz do Sul - Lajeado,1941,70329,2.8,Não
+Tabaí (RS),Tabaí,4320859,Santa Cruz do Sul - Lajeado,4461,176254,13.7,Não
+Tapejara (RS),Tapejara,4320909,Passo Fundo,24557,1870497,5.8,Não
+Tapera (RS),Tapera,4321006,Passo Fundo,10592,584149,5.6,Não
+Tapes (RS),Tapes,4321105,Porto Alegre,14695,634090,15.3,Não
+Taquara (RS),Taquara,4321204,Porto Alegre,53242,1815775,7.1,Sim
+Taquari (RS),Taquari,4321303,Santa Cruz do Sul - Lajeado,25198,1123745,10.2,Não
+Taquaruçu do Sul (RS),Taquaruçu do Sul,4321329,Passo Fundo,3119,188337,7.1,Não
+Tavares (RS),Tavares,4321352,Porto Alegre,5212,135924,9.8,Não
+Tenente Portela (RS),Tenente Portela,4321402,Ijuí,14497,614914,7.3,Não
+Terra de Areia (RS),Terra de Areia,4321436,Porto Alegre,10334,342570,19.7,Não
+Teutônia (RS),Teutônia,4321451,Santa Cruz do Sul - Lajeado,32797,2003351,7.9,Não
+Tio Hugo (RS),Tio Hugo,4321469,Passo Fundo,3267,173559,7,Não
+Tiradentes do Sul (RS),Tiradentes do Sul,4321477,Ijuí,5129,162975,13,Não
+Toropi (RS),Toropi,4321493,Santa Maria,2554,82304,7.9,Não
+Torres (RS),Torres,4321501,Porto Alegre,41751,1835529,6.9,Sim
+Tramandaí (RS),Tramandaí,4321600,Porto Alegre,54387,1579725,13.3,Não
+Travesseiro (RS),Travesseiro,4321626,Santa Cruz do Sul - Lajeado,2152,86078,3.1,Não
+Trindade do Sul (RS),Trindade do Sul,4321956,Passo Fundo,7556,403531,5.3,Não
+Triunfo (RS),Triunfo,4322004,Porto Alegre,27498,7571335,13.5,Não
+Três Arroios (RS),Três Arroios,4321634,Passo Fundo,2591,134291,1.3,Não
+Três Cachoeiras (RS),Três Cachoeiras,4321667,Porto Alegre,10962,372783,7,Não
+Três Coroas (RS),Três Coroas,4321709,Porto Alegre,24425,1046073,9.2,Não
+Três Forquilhas (RS),Três Forquilhas,4321832,Porto Alegre,2760,79197,13,Não
+Três Palmeiras (RS),Três Palmeiras,4321857,Passo Fundo,4716,165901,3.3,Não
+Três Passos (RS),Três Passos,4321907,Ijuí,25436,1228032,6.7,Sim
+Três de Maio (RS),Três de Maio,4321808,Ijuí,24916,1525082,7.9,Não
+Tucunduva (RS),Tucunduva,4322103,Ijuí,5542,231162,8.2,Não
+Tunas (RS),Tunas,4322152,Santa Cruz do Sul - Lajeado,3681,94250,5.3,Não
+Tupanci do Sul (RS),Tupanci do Sul,4322186,Passo Fundo,1374,79798,6.1,Não
+Tupanciretã (RS),Tupanciretã,4322202,Passo Fundo,20005,1275254,11.6,Não
+Tupandi (RS),Tupandi,4322251,Porto Alegre,5029,604244,11.3,Não
+Tuparendi (RS),Tuparendi,4322301,Ijuí,8363,375006,6.8,Não
+Turuçu (RS),Turuçu,4322327,Pelotas,3419,161326,16.7,Não
+Ubiretama (RS),Ubiretama,4322343,Ijuí,1994,73526,10.5,Não
+Unistalda (RS),Unistalda,4322376,Santa Maria,1995,71038,4.5,Não
+União da Serra (RS),União da Serra,4322350,Caxias do Sul,1170,64313,6.2,Não
+Uruguaiana (RS),Uruguaiana,4322400,Uruguaiana,117210,3915554,7.8,Sim
+Vacaria (RS),Vacaria,4322509,Caxias do Sul,64197,3701333,10.2,Sim
+Vale Real (RS),Vale Real,4322541,Caxias do Sul,6058,298091,16.5,Não
+Vale Verde (RS),Vale Verde,4322525,Santa Cruz do Sul - Lajeado,3150,156860,11.6,Não
+Vale do Sol (RS),Vale do Sol,4322533,Santa Cruz do Sul - Lajeado,9897,380489,21.1,Não
+Vanini (RS),Vanini,4322558,Passo Fundo,2004,81724,11.1,Não
+Venâncio Aires (RS),Venâncio Aires,4322608,Santa Cruz do Sul - Lajeado,68763,4683134,10.6,Sim
+Vera Cruz (RS),Vera Cruz,4322707,Santa Cruz do Sul - Lajeado,26710,1126736,11.8,Não
+Veranópolis (RS),Veranópolis,4322806,Caxias do Sul,24021,2395417,5.9,Não
+Vespasiano Corrêa (RS),Vespasiano Corrêa,4322855,Santa Cruz do Sul - Lajeado,1818,104348,5.8,Não
+Viadutos (RS),Viadutos,4322905,Passo Fundo,4769,191223,5.1,Não
+Viamão (RS),Viamão,4323002,Porto Alegre,224112,5545184,14.2,Não
+Vicente Dutra (RS),Vicente Dutra,4323101,Passo Fundo,4665,147864,8.2,Não
+Victor Graeff (RS),Victor Graeff,4323200,Passo Fundo,2780,235754,7.4,Não
+Vila Flores (RS),Vila Flores,4323309,Caxias do Sul,3646,376709,13.7,Não
+Vila Lângaro (RS),Vila Lângaro,4323358,Passo Fundo,2079,155271,4.6,Não
+Vila Maria (RS),Vila Maria,4323408,Passo Fundo,4413,393600,9.9,Não
+Vila Nova do Sul (RS),Vila Nova do Sul,4323457,Santa Maria,3863,217498,13.4,Não
+Vista Alegre (RS),Vista Alegre,4323507,Passo Fundo,2660,137185,2.8,Não
+Vista Alegre do Prata (RS),Vista Alegre do Prata,4323606,Caxias do Sul,1590,76367,7.1,Não
+Vista Gaúcha (RS),Vista Gaúcha,4323705,Ijuí,2783,94256,0,Não
+Vitória das Missões (RS),Vitória das Missões,4323754,Ijuí,3260,89071,12.4,Não
+Westfália (RS),Westfália,4323770,Santa Cruz do Sul - Lajeado,3098,234678,4.7,Não
+Xangri-lá (RS),Xangri-lá,4323804,Porto Alegre,16463,914704,14,Não
+Água Santa (RS),Água Santa,4300059,Passo Fundo,3912,418738,13.1,Não
+Áurea (RS),Áurea,4301552,Passo Fundo,3396,177756,7.1,Não
