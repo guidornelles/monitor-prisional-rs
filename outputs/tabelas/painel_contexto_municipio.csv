@@ -1,498 +1,498 @@
-id_municipio,nome,nome_regiao_intermediaria,populacao,pib,distorcao_idade_serie_fund
-4300034,Aceguá,Pelotas,4170,382340,13.7
-4300109,Agudo,Santa Maria,16041,780152,15.1
-4300208,Ajuricaba,Ijuí,6720,383525,4.5
-4300307,Alecrim,Ijuí,6123,153719,5.2
-4300406,Alegrete,Uruguaiana,72409,3102028,10.6
-4300455,Alegria,Ijuí,3651,136099,8
-4300471,Almirante Tamandaré do Sul,Passo Fundo,1969,223167,7.1
-4300505,Alpestre,Passo Fundo,7117,302869,3.6
-4300554,Alto Alegre,Passo Fundo,1800,72442,3.4
-4300570,Alto Feliz,Caxias do Sul,3072,203171,5.2
-4300604,Alvorada,Porto Alegre,187315,4129934,16.6
-4300638,Amaral Ferrador,Porto Alegre,5310,174054,10.2
-4300646,Ametista do Sul,Passo Fundo,7650,203478,12.7
-4300661,André da Rocha,Caxias do Sul,1135,112013,19.5
-4300703,Anta Gorda,Santa Cruz do Sul - Lajeado,5957,333257,3.4
-4300802,Antônio Prado,Caxias do Sul,13045,926443,9.2
-4300851,Arambaré,Porto Alegre,4112,233582,16.3
-4300877,Araricá,Porto Alegre,8525,322955,10.8
-4300901,Aratiba,Passo Fundo,6483,1185217,2
-4301305,Arroio Grande,Pelotas,17558,965508,16.7
-4301008,Arroio do Meio,Santa Cruz do Sul - Lajeado,21958,1943138,8.6
-4301073,Arroio do Padre,Pelotas,2599,96551,7.1
-4301057,Arroio do Sal,Porto Alegre,11057,353687,16.7
-4301206,Arroio do Tigre,Santa Cruz do Sul - Lajeado,12058,472739,3.7
-4301107,Arroio dos Ratos,Porto Alegre,14601,404985,14.7
-4301404,Arvorezinha,Passo Fundo,10322,404652,5
-4301503,Augusto Pestana,Ijuí,7149,350687,6.3
-4301602,Bagé,Pelotas,117938,4414768,11.9
-4301636,Balneário Pinhal,Porto Alegre,14955,333149,21.8
-4301958,Barra Funda,Passo Fundo,2498,167382,4.2
-4301859,Barra do Guarita,Ijuí,3161,63072,8.9
-4301875,Barra do Quaraí,Uruguaiana,4241,332590,14.2
-4301909,Barra do Ribeiro,Porto Alegre,12225,581054,14.6
-4301925,Barra do Rio Azul,Passo Fundo,1696,78571,0
-4301800,Barracão,Passo Fundo,4831,300015,8.7
-4302006,Barros Cassal,Passo Fundo,9296,274474,12.1
-4301651,Barão,Caxias do Sul,6461,462911,5.7
-4301701,Barão de Cotegipe,Passo Fundo,7144,324769,3.7
-4301750,Barão do Triunfo,Porto Alegre,5889,142447,37.5
-4302055,Benjamin Constant do Sul,Passo Fundo,2082,49986,11.9
-4302105,Bento Gonçalves,Caxias do Sul,123151,9062598,10.2
-4302154,Boa Vista das Missões,Passo Fundo,1933,173200,11.8
-4302204,Boa Vista do Buricá,Ijuí,6966,354602,10.7
-4302220,Boa Vista do Cadeado,Passo Fundo,2229,269991,11.7
-4302238,Boa Vista do Incra,Passo Fundo,2271,196998,6.9
-4302253,Boa Vista do Sul,Caxias do Sul,2779,134912,5.4
-4302303,Bom Jesus,Caxias do Sul,11202,593403,9.5
-4302352,Bom Princípio,Porto Alegre,13142,951019,10.9
-4302378,Bom Progresso,Ijuí,2096,73593,8.7
-4302402,Bom Retiro do Sul,Santa Cruz do Sul - Lajeado,12294,509725,11.5
-4302451,Boqueirão do Leão,Santa Cruz do Sul - Lajeado,6247,199040,7.2
-4302501,Bossoroca,Ijuí,5890,250550,11.3
-4302584,Bozano,Ijuí,2151,119425,5.2
-4302600,Braga,Ijuí,3268,109439,10.6
-4302659,Brochier,Porto Alegre,4966,132265,10.1
-4302709,Butiá,Porto Alegre,19084,567081,13.1
-4302907,Cacequi,Santa Maria,11157,566823,13.6
-4303004,Cachoeira do Sul,Santa Maria,80070,3371237,12.2
-4303103,Cachoeirinha,Porto Alegre,136258,7781824,13.8
-4303202,Cacique Doble,Passo Fundo,4603,154022,4.9
-4303301,Caibaté,Ijuí,4704,180412,11.6
-4303400,Caiçara,Passo Fundo,4836,159894,2
-4303509,Camaquã,Porto Alegre,62200,3154677,8.3
-4303558,Camargo,Passo Fundo,2981,612435,7.3
-4303608,Cambará do Sul,Caxias do Sul,6361,275332,11.9
-4303673,Campestre da Serra,Caxias do Sul,3242,236802,11.7
-4303707,Campina das Missões,Ijuí,5882,203771,5.4
-4303806,Campinas do Sul,Passo Fundo,5284,294875,2.4
-4303905,Campo Bom,Porto Alegre,62886,4528757,2.6
-4304002,Campo Novo,Ijuí,4975,287302,11.5
-4304101,Campos Borges,Passo Fundo,3613,105020,3.5
-4304200,Candelária,Santa Cruz do Sul - Lajeado,28906,1234677,13.1
-4304358,Candiota,Pelotas,10710,1699384,12.1
-4304408,Canela,Caxias do Sul,48946,1959719,9.5
-4304507,Canguçu,Pelotas,49680,1825528,16
-4304606,Canoas,Porto Alegre,347657,29166697,15.8
-4304614,Canudos do Vale,Santa Cruz do Sul - Lajeado,1656,66953,11.2
-4304689,Capela de Santana,Porto Alegre,11159,315947,21.2
-4304697,Capitão,Santa Cruz do Sul - Lajeado,2921,88569,7.8
-4304671,Capivari do Sul,Porto Alegre,3991,399405,8.2
-4304622,Capão Bonito do Sul,Passo Fundo,1733,223071,5.1
-4304630,Capão da Canoa,Porto Alegre,63594,2588161,17.3
-4304655,Capão do Cipó,Santa Maria,3119,220126,7
-4304663,Capão do Leão,Pelotas,26487,854022,22.3
-4304705,Carazinho,Passo Fundo,61804,3744967,7.2
-4304713,Caraá,Porto Alegre,7394,158174,13.1
-4304804,Carlos Barbosa,Caxias do Sul,30420,3815080,5.9
-4304853,Carlos Gomes,Passo Fundo,1368,61763,1.8
-4304903,Casca,Passo Fundo,9465,875949,2.6
-4304952,Caseiros,Passo Fundo,3000,177158,8.2
-4305009,Catuípe,Ijuí,8674,425026,3.4
-4305108,Caxias do Sul,Caxias do Sul,463501,37860602,9
-4302808,Caçapava do Sul,Santa Maria,32515,1175802,17.1
-4305116,Centenário,Passo Fundo,2721,123347,2.3
-4305124,Cerrito,Pelotas,5808,131166,14
-4305132,Cerro Branco,Santa Maria,3802,104220,9.1
-4305157,Cerro Grande,Passo Fundo,2379,61938,4.4
-4305173,Cerro Grande do Sul,Porto Alegre,9178,251120,12.2
-4305207,Cerro Largo,Ijuí,13705,807007,7.2
-4305306,Chapada,Passo Fundo,9540,603053,7.1
-4305355,Charqueadas,Porto Alegre,35012,1857420,16.3
-4305371,Charrua,Passo Fundo,2768,125647,15.1
-4305405,Chiapetta,Ijuí,3913,265708,7.6
-4305447,Chuvisca,Porto Alegre,4597,163415,15.8
-4305439,Chuí,Pelotas,6262,522360,13.3
-4305454,Cidreira,Porto Alegre,17071,406916,25.3
-4305504,Ciríaco,Passo Fundo,4149,233410,5.9
-4305587,Colinas,Santa Cruz do Sul - Lajeado,2423,90398,11.4
-4305603,Colorado,Passo Fundo,3258,198977,7
-4305702,Condor,Ijuí,6406,470592,11.9
-4305801,Constantina,Passo Fundo,10385,471925,8.1
-4305835,Coqueiro Baixo,Santa Cruz do Sul - Lajeado,1290,56011,1.1
-4305850,Coqueiros do Sul,Passo Fundo,2211,139283,4.5
-4305871,Coronel Barros,Ijuí,2822,143058,7.8
-4305900,Coronel Bicaco,Ijuí,6144,397095,17.9
-4305934,Coronel Pilar,Caxias do Sul,1607,58153,4.4
-4305959,Cotiporã,Caxias do Sul,3846,205102,10.3
-4305975,Coxilha,Passo Fundo,2667,349364,8.2
-4306007,Crissiumal,Ijuí,12886,500660,10.9
-4306056,Cristal,Porto Alegre,7299,300530,14.8
-4306072,Cristal do Sul,Passo Fundo,2692,98787,3.8
-4306106,Cruz Alta,Passo Fundo,58913,4399886,13.3
-4306130,Cruzaltense,Passo Fundo,1635,104945,2.8
-4306205,Cruzeiro do Sul,Santa Cruz do Sul - Lajeado,11600,685746,11.8
-4304309,Cândido Godói,Ijuí,6294,375022,7.7
-4306304,David Canabarro,Passo Fundo,4321,206880,1.4
-4306320,Derrubadas,Ijuí,2751,117581,4
-4306353,Dezesseis de Novembro,Ijuí,2507,51412,7.2
-4306379,Dilermando de Aguiar,Santa Maria,2806,202939,16.2
-4306403,Dois Irmãos,Porto Alegre,30709,2639523,8.1
-4306429,Dois Irmãos das Missões,Passo Fundo,2090,125757,10.3
-4306452,Dois Lajeados,Caxias do Sul,3097,166002,3.5
-4306502,Dom Feliciano,Porto Alegre,13051,418179,19.4
-4306601,Dom Pedrito,Pelotas,36981,2288172,18.5
-4306551,Dom Pedro de Alcântara,Porto Alegre,2562,83656,7.6
-4306700,Dona Francisca,Santa Maria,3079,112216,8.7
-4306734,Doutor Maurício Cardoso,Ijuí,4470,228266,7.6
-4306759,Doutor Ricardo,Santa Cruz do Sul - Lajeado,1888,89704,2.8
-4306767,Eldorado do Sul,Porto Alegre,39559,2623491,16.4
-4306809,Encantado,Santa Cruz do Sul - Lajeado,22962,1411422,8.1
-4306908,Encruzilhada do Sul,Santa Cruz do Sul - Lajeado,23819,1189528,19.9
-4306924,Engenho Velho,Passo Fundo,1296,50748,6.5
-4306957,Entre Rios do Sul,Passo Fundo,2685,209711,3.5
-4306932,Entre-Ijuís,Ijuí,9158,478944,15.3
-4306973,Erebango,Passo Fundo,3054,152046,14.6
-4307005,Erechim,Passo Fundo,105705,8497106,5.9
-4307054,Ernestina,Passo Fundo,3034,163434,9
-4307203,Erval Grande,Passo Fundo,4930,161672,8.3
-4307302,Erval Seco,Passo Fundo,6787,299811,3.4
-4307401,Esmeralda,Caxias do Sul,3195,363781,14
-4307450,Esperança do Sul,Ijuí,3226,101346,4.3
-4307500,Espumoso,Passo Fundo,15173,861538,8
-4307559,Estação,Passo Fundo,5582,397872,5.4
-4307708,Esteio,Porto Alegre,76137,3998587,6.6
-4307807,Estrela,Santa Cruz do Sul - Lajeado,32183,2376913,6.6
-4307815,Estrela Velha,Santa Cruz do Sul - Lajeado,3070,145289,9.5
-4307609,Estância Velha,Porto Alegre,47924,2309196,6.5
-4307831,Eugênio de Castro,Ijuí,2633,224862,20.5
-4307864,Fagundes Varela,Caxias do Sul,2566,189848,10.5
-4307906,Farroupilha,Caxias do Sul,70286,4960621,4.4
-4308003,Faxinal do Soturno,Santa Maria,6702,298533,8.3
-4308052,Faxinalzinho,Passo Fundo,2520,113640,11
-4308078,Fazenda Vilanova,Santa Cruz do Sul - Lajeado,4291,145766,13.2
-4308102,Feliz,Caxias do Sul,13764,676581,4
-4308201,Flores da Cunha,Caxias do Sul,30892,3336288,6.8
-4308250,Floriano Peixoto,Passo Fundo,1668,77406,5.3
-4308300,Fontoura Xavier,Passo Fundo,9550,260495,8.2
-4308409,Formigueiro,Santa Maria,6413,263216,14.8
-4308433,Forquetinha,Santa Cruz do Sul - Lajeado,2393,64513,14.5
-4308458,Fortaleza dos Valos,Passo Fundo,4477,330898,9.9
-4308508,Frederico Westphalen,Passo Fundo,32627,1792336,6.6
-4308607,Garibaldi,Caxias do Sul,34335,3565442,6.1
-4308656,Garruchos,Ijuí,2688,134739,8
-4308706,Gaurama,Passo Fundo,5665,349016,5.4
-4308805,General Câmara,Porto Alegre,7612,234058,13.5
-4308854,Gentil,Passo Fundo,1744,152256,6
-4308904,Getúlio Vargas,Passo Fundo,16602,879960,2.6
-4309001,Giruá,Ijuí,16013,1017468,3.7
-4309050,Glorinha,Porto Alegre,7658,595369,14.6
-4309100,Gramado,Caxias do Sul,40134,3565830,9.6
-4309159,Gramado Xavier,Santa Cruz do Sul - Lajeado,3304,124280,14
-4309126,Gramado dos Loureiros,Passo Fundo,2014,87589,19.9
-4309209,Gravataí,Porto Alegre,265074,15545558,13.5
-4309258,Guabiju,Caxias do Sul,1417,107684,1
-4309407,Guaporé,Caxias do Sul,25268,1264537,4.8
-4309506,Guarani das Missões,Ijuí,7415,295743,5.8
-4309308,Guaíba,Porto Alegre,92924,9001785,11.5
-4309555,Harmonia,Porto Alegre,5378,306941,7.2
-4307104,Herval,Pelotas,6191,199383,18.9
-4309571,Herveiras,Santa Cruz do Sul - Lajeado,2565,88439,18.5
-4309605,Horizontina,Ijuí,18851,1828050,3.8
-4309654,Hulha Negra,Pelotas,5976,228860,9
-4309704,Humaitá,Ijuí,4681,218021,9.4
-4309753,Ibarama,Santa Cruz do Sul - Lajeado,3732,105469,10.1
-4309803,Ibiaçá,Passo Fundo,4527,298761,4
-4309902,Ibiraiaras,Passo Fundo,6776,380199,9.7
-4309951,Ibirapuitã,Passo Fundo,3723,188102,7.1
-4310009,Ibirubá,Passo Fundo,21583,1708042,9.3
-4310108,Igrejinha,Porto Alegre,32808,2656127,3.5
-4310207,Ijuí,Ijuí,84780,6105244,6.5
-4310306,Ilópolis,Santa Cruz do Sul - Lajeado,4157,164900,4.4
-4310330,Imbé,Porto Alegre,26824,762866,16.1
-4310363,Imigrante,Santa Cruz do Sul - Lajeado,3080,590476,17.8
-4310405,Independência,Ijuí,6427,443606,13.7
-4310413,Inhacorá,Ijuí,2014,76396,12
-4310462,Ipiranga do Sul,Passo Fundo,1720,122376,8.6
-4310439,Ipê,Caxias do Sul,5399,392922,11
-4310504,Iraí,Passo Fundo,7482,255785,8.6
-4310538,Itaara,Santa Maria,5572,304167,10.5
-4310553,Itacurubi,Santa Maria,2995,114342,11.5
-4310579,Itapuca,Passo Fundo,1937,93881,1.8
-4310603,Itaqui,Uruguaiana,35768,2068939,10.1
-4310652,Itati,Porto Alegre,2638,103483,12.1
-4310702,Itatiba do Sul,Passo Fundo,3208,85113,4.5
-4310751,Ivorá,Santa Maria,1929,53952,10.6
-4310801,Ivoti,Porto Alegre,22983,1538878,5
-4310850,Jaboticaba,Passo Fundo,3779,106763,10.5
-4310876,Jacuizinho,Passo Fundo,2040,125146,12.2
-4310900,Jacutinga,Passo Fundo,3338,188689,4.1
-4311106,Jaguari,Santa Maria,10579,328937,15.3
-4311007,Jaguarão,Pelotas,26603,1034802,19.1
-4311122,Jaquirana,Caxias do Sul,3690,101810,6.9
-4311130,Jari,Santa Maria,3349,211635,4.4
-4311155,Jóia,Ijuí,7184,345894,11.7
-4311205,Júlio de Castilhos,Santa Maria,18226,1306882,11.2
-4311239,Lagoa Bonita do Sul,Santa Cruz do Sul - Lajeado,2251,84224,2.8
-4311304,Lagoa Vermelha,Passo Fundo,27659,1608163,6.9
-4311270,Lagoa dos Três Cantos,Passo Fundo,1738,81864,3.5
-4311254,Lagoão,Santa Cruz do Sul - Lajeado,5341,149771,13.2
-4311403,Lajeado,Santa Cruz do Sul - Lajeado,93646,6705227,6
-4311429,Lajeado do Bugre,Passo Fundo,2601,65433,8.9
-4311502,Lavras do Sul,Santa Maria,7157,369845,19.1
-4311601,Liberato Salzano,Passo Fundo,4781,152571,6.8
-4311627,Lindolfo Collor,Porto Alegre,6248,353109,6
-4311643,Linha Nova,Porto Alegre,1683,76154,8.2
-4311700,Machadinho,Passo Fundo,5735,260895,7.2
-4311734,Mampituba,Porto Alegre,3131,101220,11
-4311759,Manoel Viana,Uruguaiana,6801,303342,11.7
-4311775,Maquiné,Porto Alegre,7418,228748,11.4
-4311791,Maratá,Porto Alegre,2470,104147,6.5
-4311809,Marau,Passo Fundo,45124,3738295,7.4
-4311908,Marcelino Ramos,Passo Fundo,4320,192535,3.2
-4311981,Mariana Pimentel,Porto Alegre,3916,117787,16.2
-4312005,Mariano Moro,Passo Fundo,1858,71583,2.8
-4312054,Marques de Souza,Santa Cruz do Sul - Lajeado,3969,137495,6.3
-4312104,Mata,Santa Maria,4698,174006,10.7
-4312138,Mato Castelhano,Passo Fundo,2553,128502,11.9
-4312153,Mato Leitão,Santa Cruz do Sul - Lajeado,4859,295044,7.4
-4312179,Mato Queimado,Ijuí,1795,61648,5.7
-4312203,Maximiliano de Almeida,Passo Fundo,4191,159588,0.5
-4311718,Maçambará,Uruguaiana,4425,367963,12.4
-4312252,Minas do Leão,Porto Alegre,7505,291061,16
-4312302,Miraguaí,Ijuí,4427,200597,6.8
-4312351,Montauri,Caxias do Sul,1499,73733,4.2
-4312377,Monte Alegre dos Campos,Caxias do Sul,3180,117051,25.2
-4312385,Monte Belo do Sul,Caxias do Sul,2557,126816,5.5
-4312401,Montenegro,Porto Alegre,64322,5259437,11
-4312427,Mormaço,Passo Fundo,2756,102289,4.2
-4312443,Morrinhos do Sul,Porto Alegre,3071,103248,5.9
-4312450,Morro Redondo,Pelotas,6046,153226,15.9
-4312476,Morro Reuter,Porto Alegre,6029,304040,3.1
-4312500,Mostardas,Porto Alegre,12090,494341,15.4
-4312617,Muitos Capões,Caxias do Sul,2879,950302,11.8
-4312625,Muliterno,Passo Fundo,1721,71170,6.4
-4312609,Muçum,Santa Cruz do Sul - Lajeado,4601,273363,12.1
-4312674,Nicolau Vergueiro,Passo Fundo,1932,101823,8
-4312708,Nonoai,Passo Fundo,13719,539374,8.4
-4312757,Nova Alvorada,Passo Fundo,3163,201942,4.7
-4312807,Nova Araçá,Caxias do Sul,4954,474775,4.9
-4312906,Nova Bassano,Caxias do Sul,9649,765058,7.2
-4312955,Nova Boa Vista,Passo Fundo,2042,137786,2.8
-4313003,Nova Bréscia,Santa Cruz do Sul - Lajeado,3044,153973,2.5
-4313011,Nova Candelária,Ijuí,3061,225892,7.4
-4313037,Nova Esperança do Sul,Santa Maria,4865,197238,3.1
-4313060,Nova Hartz,Porto Alegre,20088,1054362,7.8
-4313102,Nova Palma,Santa Maria,5586,306852,5.3
-4313201,Nova Petrópolis,Caxias do Sul,23300,1103618,7.2
-4313300,Nova Prata,Caxias do Sul,25692,1559276,6.5
-4313086,Nova Pádua,Caxias do Sul,2343,115884,4.4
-4313334,Nova Ramada,Ijuí,2163,204997,9.9
-4313359,Nova Roma do Sul,Caxias do Sul,3466,206674,7.3
-4313375,Nova Santa Rita,Porto Alegre,29024,3229383,14.6
-4313490,Novo Barreiro,Passo Fundo,4272,120313,6.3
-4313391,Novo Cabrais,Santa Maria,3568,131684,6.2
-4313409,Novo Hamburgo,Porto Alegre,227646,11936582,6.4
-4313425,Novo Machado,Ijuí,3198,140899,12.5
-4313441,Novo Tiradentes,Passo Fundo,2146,73353,3.3
-4313466,Novo Xingu,Passo Fundo,1646,67741,3.4
-4312658,Não-Me-Toque,Passo Fundo,17898,2951960,9
-4313508,Osório,Porto Alegre,47396,2141950,10.2
-4313607,Paim Filho,Passo Fundo,3629,162821,1.5
-4313656,Palmares do Sul,Porto Alegre,12844,739855,16.1
-4313706,Palmeira das Missões,Passo Fundo,33216,1708324,10.7
-4313805,Palmitinho,Passo Fundo,7839,265325,4.4
-4313904,Panambi,Ijuí,43515,4011216,10.3
-4313953,Pantano Grande,Santa Cruz do Sul - Lajeado,10212,576614,10.6
-4314001,Paraí,Caxias do Sul,7194,488256,2.4
-4314027,Paraíso do Sul,Santa Maria,6519,230034,11
-4314035,Pareci Novo,Porto Alegre,4319,159254,9
-4314050,Parobé,Porto Alegre,52058,1725746,10.1
-4314068,Passa Sete,Santa Cruz do Sul - Lajeado,3983,144618,8.5
-4314100,Passo Fundo,Passo Fundo,206215,14069540,13.7
-4314076,Passo do Sobrado,Santa Cruz do Sul - Lajeado,6025,281871,7.4
-4314134,Paulo Bento,Passo Fundo,2144,238558,8.4
-4314159,Paverama,Santa Cruz do Sul - Lajeado,7978,301262,12.8
-4314175,Pedras Altas,Pelotas,2061,172852,13.9
-4314209,Pedro Osório,Pelotas,7484,242415,18.8
-4314308,Pejuçara,Ijuí,3745,293084,7.3
-4314407,Pelotas,Pelotas,325685,12480919,13.7
-4314423,Picada Café,Caxias do Sul,5351,393452,6.8
-4314456,Pinhal,Passo Fundo,2959,154127,4.7
-4314472,Pinhal Grande,Santa Maria,3805,500998,9.8
-4314464,Pinhal da Serra,Caxias do Sul,2248,249016,4
-4314498,Pinheirinho do Vale,Passo Fundo,4540,140566,6.5
-4314506,Pinheiro Machado,Pelotas,11214,357896,18.6
-4314548,Pinto Bandeira,Caxias do Sul,2723,93134,6.4
-4314555,Pirapó,Ijuí,2260,72016,9.3
-4314605,Piratini,Pelotas,17504,744361,14.5
-4314704,Planalto,Passo Fundo,10406,325778,5.2
-4314787,Ponte Preta,Passo Fundo,1575,78317,2.9
-4314779,Pontão,Passo Fundo,3296,271978,8.4
-4314902,Porto Alegre,Porto Alegre,1332845,104743272,14.4
-4315008,Porto Lucena,Ijuí,4360,128972,7.7
-4315057,Porto Mauá,Ijuí,2142,79557,16
-4315073,Porto Vera Cruz,Ijuí,1560,48373,5.3
-4315107,Porto Xavier,Ijuí,9938,230082,5.1
-4314803,Portão,Porto Alegre,34071,1816677,15.5
-4315131,Pouso Novo,Santa Cruz do Sul - Lajeado,1739,57904,4.6
-4314753,Poço das Antas,Santa Cruz do Sul - Lajeado,2171,100774,5.7
-4315149,Presidente Lucena,Porto Alegre,3077,371734,5.7
-4315156,Progresso,Santa Cruz do Sul - Lajeado,5340,181523,4.5
-4315172,Protásio Alves,Caxias do Sul,2025,93358,5.5
-4315206,Putinga,Santa Cruz do Sul - Lajeado,3747,153758,3
-4315305,Quaraí,Uruguaiana,23500,720057,11.2
-4315313,Quatro Irmãos,Passo Fundo,1552,136523,11.7
-4315321,Quevedos,Santa Maria,2507,156253,13.3
-4315354,Quinze de Novembro,Passo Fundo,3910,172891,5
-4315404,Redentora,Ijuí,9738,207604,16.8
-4315453,Relvado,Santa Cruz do Sul - Lajeado,1796,75597,10
-4315503,Restinga Sêca,Santa Maria,14939,643230,12.9
-4315602,Rio Grande,Pelotas,191900,14106680,17.6
-4315701,Rio Pardo,Santa Cruz do Sul - Lajeado,34654,1248019,7.4
-4315552,Rio dos Índios,Passo Fundo,2835,116660,7.4
-4315750,Riozinho,Porto Alegre,4473,165772,7
-4315800,Roca Sales,Santa Cruz do Sul - Lajeado,10418,626611,10.6
-4315909,Rodeio Bonito,Passo Fundo,6654,301150,5.9
-4315958,Rolador,Ijuí,2291,91405,13.1
-4316006,Rolante,Porto Alegre,21253,951008,6.1
-4316105,Ronda Alta,Passo Fundo,9777,402816,8.4
-4316204,Rondinha,Passo Fundo,4991,227716,5.1
-4316303,Roque Gonzales,Ijuí,6576,396753,11.7
-4316402,Rosário do Sul,Uruguaiana,36630,1498313,10.9
-4316428,Sagrada Família,Passo Fundo,2480,67102,5
-4316436,Saldanha Marinho,Passo Fundo,2575,170089,5.4
-4316451,Salto do Jacuí,Passo Fundo,10203,594921,22.6
-4316477,Salvador das Missões,Ijuí,2877,162260,7.1
-4316501,Salvador do Sul,Porto Alegre,6879,395636,7.5
-4316600,Sananduva,Passo Fundo,16399,877957,2.8
-4317103,Sant'Ana do Livramento,Uruguaiana,84421,3143614,14.7
-4316709,Santa Bárbara do Sul,Passo Fundo,8122,875561,5.8
-4316733,Santa Cecília do Sul,Passo Fundo,1674,91361,3.7
-4316758,Santa Clara do Sul,Santa Cruz do Sul - Lajeado,6887,427744,6.8
-4316808,Santa Cruz do Sul,Santa Cruz do Sul - Lajeado,133230,13396618,11
-4316972,Santa Margarida do Sul,Santa Maria,2596,278310,30.1
-4316907,Santa Maria,Santa Maria,271735,10932024,11.5
-4316956,Santa Maria do Herval,Porto Alegre,6340,271501,8.8
-4317202,Santa Rosa,Ijuí,76963,4530356,7.8
-4317251,Santa Tereza,Caxias do Sul,1505,53742,3.3
-4317301,Santa Vitória do Palmar,Pelotas,30983,1990739,13.4
-4317004,Santana da Boa Vista,Santa Maria,7024,237629,21.5
-4317400,Santiago,Santa Maria,48938,1861691,6.4
-4317608,Santo Antônio da Patrulha,Porto Alegre,42947,2178831,7.8
-4317707,Santo Antônio das Missões,Ijuí,10300,433323,13.1
-4317558,Santo Antônio do Palma,Passo Fundo,2091,112425,5.9
-4317756,Santo Antônio do Planalto,Passo Fundo,2089,166647,5.7
-4317806,Santo Augusto,Ijuí,13902,728450,6.7
-4317905,Santo Cristo,Ijuí,15320,766616,10.4
-4317954,Santo Expedito do Sul,Passo Fundo,2349,105537,3.8
-4317509,Santo Ângelo,Ijuí,76917,3379818,10
-4319901,Sapiranga,Porto Alegre,75648,4674054,9.5
-4320008,Sapucaia do Sul,Porto Alegre,132107,4729408,13
-4320107,Sarandi,Passo Fundo,22851,1427661,5
-4320206,Seberi,Passo Fundo,11950,827496,6.6
-4320230,Sede Nova,Ijuí,2704,122595,14.4
-4320263,Segredo,Santa Cruz do Sul - Lajeado,6009,181686,9.8
-4320305,Selbach,Passo Fundo,5107,286810,9.1
-4320321,Senador Salgado Filho,Ijuí,2673,93393,6.7
-4320354,Sentinela do Sul,Porto Alegre,5306,179897,11.6
-4320404,Serafina Corrêa,Caxias do Sul,16961,988516,4.1
-4320503,Sertão,Passo Fundo,5541,389514,10
-4320552,Sertão Santana,Porto Alegre,5863,344571,14.8
-4320578,Sete de Setembro,Ijuí,1830,77186,9.3
-4320602,Severiano de Almeida,Passo Fundo,3406,142412,1.9
-4320651,Silveira Martins,Santa Maria,2028,72204,7.1
-4320677,Sinimbu,Santa Cruz do Sul - Lajeado,8578,248267,16.8
-4320701,Sobradinho,Santa Cruz do Sul - Lajeado,14226,523240,6.1
-4320800,Soledade,Passo Fundo,29991,1312842,8.4
-4318002,São Borja,Uruguaiana,59676,2550388,8.2
-4318051,São Domingos do Sul,Passo Fundo,2754,130564,6.5
-4318101,São Francisco de Assis,Santa Maria,17618,592569,4.9
-4318200,São Francisco de Paula,Caxias do Sul,21893,1202082,9.3
-4318309,São Gabriel,Santa Maria,58487,2682926,18.5
-4318408,São Jerônimo,Porto Alegre,21028,712278,12
-4318440,São Jorge,Caxias do Sul,2912,113154,6.5
-4318457,São José das Missões,Passo Fundo,2362,76281,5.6
-4318465,São José do Herval,Passo Fundo,1902,55694,4.3
-4318481,São José do Hortêncio,Porto Alegre,4447,149146,9.5
-4318499,São José do Inhacorá,Ijuí,2406,214097,1.4
-4318507,São José do Norte,Pelotas,25443,1273464,22.5
-4318606,São José do Ouro,Passo Fundo,6834,426238,4.4
-4318614,São José do Sul,Porto Alegre,2380,111514,8.8
-4318622,São José dos Ausentes,Caxias do Sul,4172,177177,11.2
-4318424,São João da Urtiga,Passo Fundo,4461,198261,2.3
-4318432,São João do Polêsine,Santa Maria,2649,117973,9
-4318705,São Leopoldo,Porto Alegre,217409,11740913,14.5
-4318804,São Lourenço do Sul,Pelotas,41989,1719596,18.5
-4318903,São Luiz Gonzaga,Ijuí,34752,1712990,9.4
-4319000,São Marcos,Caxias do Sul,21084,1488757,12.1
-4319109,São Martinho,Ijuí,5481,304939,13.2
-4319125,São Martinho da Serra,Santa Maria,2860,211210,11.6
-4319158,São Miguel das Missões,Ijuí,7056,517182,12.6
-4319208,São Nicolau,Ijuí,5118,178749,8.6
-4319307,São Paulo das Missões,Ijuí,5846,214703,9
-4319356,São Pedro da Serra,Porto Alegre,3548,122651,12.4
-4319364,São Pedro das Missões,Passo Fundo,1757,72911,6.1
-4319372,São Pedro do Butiá,Ijuí,3070,139485,6.6
-4319406,São Pedro do Sul,Santa Maria,15577,505803,8.2
-4319505,São Sebastião do Caí,Porto Alegre,24428,1123568,17.3
-4319604,São Sepé,Santa Maria,21219,1059509,8.1
-4319703,São Valentim,Passo Fundo,3264,124878,4.9
-4319711,São Valentim do Sul,Caxias do Sul,2207,84857,5.2
-4319737,São Valério do Sul,Ijuí,2543,67841,22.6
-4319752,São Vendelino,Porto Alegre,2251,105311,6.7
-4319802,São Vicente do Sul,Santa Maria,8097,469886,14.1
-4320453,Sério,Santa Cruz do Sul - Lajeado,1941,70329,2.8
-4320859,Tabaí,Santa Cruz do Sul - Lajeado,4461,176254,13.7
-4320909,Tapejara,Passo Fundo,24557,1870497,5.8
-4321006,Tapera,Passo Fundo,10592,584149,5.6
-4321105,Tapes,Porto Alegre,14695,634090,15.3
-4321204,Taquara,Porto Alegre,53242,1815775,7.1
-4321303,Taquari,Santa Cruz do Sul - Lajeado,25198,1123745,10.2
-4321329,Taquaruçu do Sul,Passo Fundo,3119,188337,7.1
-4321352,Tavares,Porto Alegre,5212,135924,9.8
-4321402,Tenente Portela,Ijuí,14497,614914,7.3
-4321436,Terra de Areia,Porto Alegre,10334,342570,19.7
-4321451,Teutônia,Santa Cruz do Sul - Lajeado,32797,2003351,7.9
-4321469,Tio Hugo,Passo Fundo,3267,173559,7
-4321477,Tiradentes do Sul,Ijuí,5129,162975,13
-4321493,Toropi,Santa Maria,2554,82304,7.9
-4321501,Torres,Porto Alegre,41751,1835529,6.9
-4321600,Tramandaí,Porto Alegre,54387,1579725,13.3
-4321626,Travesseiro,Santa Cruz do Sul - Lajeado,2152,86078,3.1
-4321956,Trindade do Sul,Passo Fundo,7556,403531,5.3
-4322004,Triunfo,Porto Alegre,27498,7571335,13.5
-4321634,Três Arroios,Passo Fundo,2591,134291,1.3
-4321667,Três Cachoeiras,Porto Alegre,10962,372783,7
-4321709,Três Coroas,Porto Alegre,24425,1046073,9.2
-4321832,Três Forquilhas,Porto Alegre,2760,79197,13
-4321857,Três Palmeiras,Passo Fundo,4716,165901,3.3
-4321907,Três Passos,Ijuí,25436,1228032,6.7
-4321808,Três de Maio,Ijuí,24916,1525082,7.9
-4322103,Tucunduva,Ijuí,5542,231162,8.2
-4322152,Tunas,Santa Cruz do Sul - Lajeado,3681,94250,5.3
-4322186,Tupanci do Sul,Passo Fundo,1374,79798,6.1
-4322202,Tupanciretã,Passo Fundo,20005,1275254,11.6
-4322251,Tupandi,Porto Alegre,5029,604244,11.3
-4322301,Tuparendi,Ijuí,8363,375006,6.8
-4322327,Turuçu,Pelotas,3419,161326,16.7
-4322343,Ubiretama,Ijuí,1994,73526,10.5
-4322376,Unistalda,Santa Maria,1995,71038,4.5
-4322350,União da Serra,Caxias do Sul,1170,64313,6.2
-4322400,Uruguaiana,Uruguaiana,117210,3915554,7.8
-4322509,Vacaria,Caxias do Sul,64197,3701333,10.2
-4322541,Vale Real,Caxias do Sul,6058,298091,16.5
-4322525,Vale Verde,Santa Cruz do Sul - Lajeado,3150,156860,11.6
-4322533,Vale do Sol,Santa Cruz do Sul - Lajeado,9897,380489,21.1
-4322558,Vanini,Passo Fundo,2004,81724,11.1
-4322608,Venâncio Aires,Santa Cruz do Sul - Lajeado,68763,4683134,10.6
-4322707,Vera Cruz,Santa Cruz do Sul - Lajeado,26710,1126736,11.8
-4322806,Veranópolis,Caxias do Sul,24021,2395417,5.9
-4322855,Vespasiano Corrêa,Santa Cruz do Sul - Lajeado,1818,104348,5.8
-4322905,Viadutos,Passo Fundo,4769,191223,5.1
-4323002,Viamão,Porto Alegre,224112,5545184,14.2
-4323101,Vicente Dutra,Passo Fundo,4665,147864,8.2
-4323200,Victor Graeff,Passo Fundo,2780,235754,7.4
-4323309,Vila Flores,Caxias do Sul,3646,376709,13.7
-4323358,Vila Lângaro,Passo Fundo,2079,155271,4.6
-4323408,Vila Maria,Passo Fundo,4413,393600,9.9
-4323457,Vila Nova do Sul,Santa Maria,3863,217498,13.4
-4323507,Vista Alegre,Passo Fundo,2660,137185,2.8
-4323606,Vista Alegre do Prata,Caxias do Sul,1590,76367,7.1
-4323705,Vista Gaúcha,Ijuí,2783,94256,0
-4323754,Vitória das Missões,Ijuí,3260,89071,12.4
-4323770,Westfália,Santa Cruz do Sul - Lajeado,3098,234678,4.7
-4323804,Xangri-lá,Porto Alegre,16463,914704,14
-4300059,Água Santa,Passo Fundo,3912,418738,13.1
-4301552,Áurea,Passo Fundo,3396,177756,7.1
+id_municipio,nome,nome_regiao_intermediaria,populacao,pib,distorcao_idade_serie_fund,munic_ep,ano_ep
+4300034,Aceguá,Pelotas,4170,382340,13.7,0,
+4300109,Agudo,Santa Maria,16041,780152,15.1,1,1975
+4300208,Ajuricaba,Ijuí,6720,383525,4.5,0,
+4300307,Alecrim,Ijuí,6123,153719,5.2,0,
+4300406,Alegrete,Uruguaiana,72409,3102028,10.6,1,1975
+4300455,Alegria,Ijuí,3651,136099,8,0,
+4300471,Almirante Tamandaré do Sul,Passo Fundo,1969,223167,7.1,0,
+4300505,Alpestre,Passo Fundo,7117,302869,3.6,0,
+4300554,Alto Alegre,Passo Fundo,1800,72442,3.4,0,
+4300570,Alto Feliz,Caxias do Sul,3072,203171,5.2,0,
+4300604,Alvorada,Porto Alegre,187315,4129934,16.6,0,
+4300638,Amaral Ferrador,Porto Alegre,5310,174054,10.2,0,
+4300646,Ametista do Sul,Passo Fundo,7650,203478,12.7,0,
+4300661,André da Rocha,Caxias do Sul,1135,112013,19.5,0,
+4300703,Anta Gorda,Santa Cruz do Sul - Lajeado,5957,333257,3.4,0,
+4300802,Antônio Prado,Caxias do Sul,13045,926443,9.2,0,
+4300851,Arambaré,Porto Alegre,4112,233582,16.3,0,
+4300877,Araricá,Porto Alegre,8525,322955,10.8,0,
+4300901,Aratiba,Passo Fundo,6483,1185217,2,0,
+4301305,Arroio Grande,Pelotas,17558,965508,16.7,0,
+4301008,Arroio do Meio,Santa Cruz do Sul - Lajeado,21958,1943138,8.6,1,1971
+4301073,Arroio do Padre,Pelotas,2599,96551,7.1,0,
+4301057,Arroio do Sal,Porto Alegre,11057,353687,16.7,0,
+4301206,Arroio do Tigre,Santa Cruz do Sul - Lajeado,12058,472739,3.7,0,
+4301107,Arroio dos Ratos,Porto Alegre,14601,404985,14.7,1,2012
+4301404,Arvorezinha,Passo Fundo,10322,404652,5,0,
+4301503,Augusto Pestana,Ijuí,7149,350687,6.3,0,
+4301602,Bagé,Pelotas,117938,4414768,11.9,1,1977
+4301636,Balneário Pinhal,Porto Alegre,14955,333149,21.8,0,
+4301958,Barra Funda,Passo Fundo,2498,167382,4.2,0,
+4301859,Barra do Guarita,Ijuí,3161,63072,8.9,0,
+4301875,Barra do Quaraí,Uruguaiana,4241,332590,14.2,0,
+4301909,Barra do Ribeiro,Porto Alegre,12225,581054,14.6,0,
+4301925,Barra do Rio Azul,Passo Fundo,1696,78571,0,0,
+4301800,Barracão,Passo Fundo,4831,300015,8.7,0,
+4302006,Barros Cassal,Passo Fundo,9296,274474,12.1,0,
+4301651,Barão,Caxias do Sul,6461,462911,5.7,0,
+4301701,Barão de Cotegipe,Passo Fundo,7144,324769,3.7,0,
+4301750,Barão do Triunfo,Porto Alegre,5889,142447,37.5,0,
+4302055,Benjamin Constant do Sul,Passo Fundo,2082,49986,11.9,0,
+4302105,Bento Gonçalves,Caxias do Sul,123151,9062598,10.2,1,2019
+4302154,Boa Vista das Missões,Passo Fundo,1933,173200,11.8,0,
+4302204,Boa Vista do Buricá,Ijuí,6966,354602,10.7,0,
+4302220,Boa Vista do Cadeado,Passo Fundo,2229,269991,11.7,0,
+4302238,Boa Vista do Incra,Passo Fundo,2271,196998,6.9,0,
+4302253,Boa Vista do Sul,Caxias do Sul,2779,134912,5.4,0,
+4302303,Bom Jesus,Caxias do Sul,11202,593403,9.5,0,
+4302352,Bom Princípio,Porto Alegre,13142,951019,10.9,0,
+4302378,Bom Progresso,Ijuí,2096,73593,8.7,0,
+4302402,Bom Retiro do Sul,Santa Cruz do Sul - Lajeado,12294,509725,11.5,0,
+4302451,Boqueirão do Leão,Santa Cruz do Sul - Lajeado,6247,199040,7.2,0,
+4302501,Bossoroca,Ijuí,5890,250550,11.3,0,
+4302584,Bozano,Ijuí,2151,119425,5.2,0,
+4302600,Braga,Ijuí,3268,109439,10.6,0,
+4302659,Brochier,Porto Alegre,4966,132265,10.1,0,
+4302709,Butiá,Porto Alegre,19084,567081,13.1,0,
+4302907,Cacequi,Santa Maria,11157,566823,13.6,1,1955
+4303004,Cachoeira do Sul,Santa Maria,80070,3371237,12.2,1,1952
+4303103,Cachoeirinha,Porto Alegre,136258,7781824,13.8,0,
+4303202,Cacique Doble,Passo Fundo,4603,154022,4.9,0,
+4303301,Caibaté,Ijuí,4704,180412,11.6,0,
+4303400,Caiçara,Passo Fundo,4836,159894,2,0,
+4303509,Camaquã,Porto Alegre,62200,3154677,8.3,1,1989
+4303558,Camargo,Passo Fundo,2981,612435,7.3,0,
+4303608,Cambará do Sul,Caxias do Sul,6361,275332,11.9,0,
+4303673,Campestre da Serra,Caxias do Sul,3242,236802,11.7,0,
+4303707,Campina das Missões,Ijuí,5882,203771,5.4,0,
+4303806,Campinas do Sul,Passo Fundo,5284,294875,2.4,0,
+4303905,Campo Bom,Porto Alegre,62886,4528757,2.6,0,
+4304002,Campo Novo,Ijuí,4975,287302,11.5,0,
+4304101,Campos Borges,Passo Fundo,3613,105020,3.5,0,
+4304200,Candelária,Santa Cruz do Sul - Lajeado,28906,1234677,13.1,1,1976
+4304358,Candiota,Pelotas,10710,1699384,12.1,0,
+4304408,Canela,Caxias do Sul,48946,1959719,9.5,1,1956
+4304507,Canguçu,Pelotas,49680,1825528,16,1,1983
+4304606,Canoas,Porto Alegre,347657,29166697,15.8,1,1988
+4304614,Canudos do Vale,Santa Cruz do Sul - Lajeado,1656,66953,11.2,0,
+4304689,Capela de Santana,Porto Alegre,11159,315947,21.2,0,
+4304697,Capitão,Santa Cruz do Sul - Lajeado,2921,88569,7.8,0,
+4304671,Capivari do Sul,Porto Alegre,3991,399405,8.2,0,
+4304622,Capão Bonito do Sul,Passo Fundo,1733,223071,5.1,0,
+4304630,Capão da Canoa,Porto Alegre,63594,2588161,17.3,0,
+4304655,Capão do Cipó,Santa Maria,3119,220126,7,0,
+4304663,Capão do Leão,Pelotas,26487,854022,22.3,0,
+4304705,Carazinho,Passo Fundo,61804,3744967,7.2,1,1953
+4304713,Caraá,Porto Alegre,7394,158174,13.1,0,
+4304804,Carlos Barbosa,Caxias do Sul,30420,3815080,5.9,0,
+4304853,Carlos Gomes,Passo Fundo,1368,61763,1.8,0,
+4304903,Casca,Passo Fundo,9465,875949,2.6,0,
+4304952,Caseiros,Passo Fundo,3000,177158,8.2,0,
+4305009,Catuípe,Ijuí,8674,425026,3.4,0,
+4305108,Caxias do Sul,Caxias do Sul,463501,37860602,9,1,1975
+4302808,Caçapava do Sul,Santa Maria,32515,1175802,17.1,1,1961
+4305116,Centenário,Passo Fundo,2721,123347,2.3,0,
+4305124,Cerrito,Pelotas,5808,131166,14,0,
+4305132,Cerro Branco,Santa Maria,3802,104220,9.1,0,
+4305157,Cerro Grande,Passo Fundo,2379,61938,4.4,0,
+4305173,Cerro Grande do Sul,Porto Alegre,9178,251120,12.2,0,
+4305207,Cerro Largo,Ijuí,13705,807007,7.2,1,1974
+4305306,Chapada,Passo Fundo,9540,603053,7.1,0,
+4305355,Charqueadas,Porto Alegre,35012,1857420,16.3,1,1930
+4305371,Charrua,Passo Fundo,2768,125647,15.1,0,
+4305405,Chiapetta,Ijuí,3913,265708,7.6,0,
+4305447,Chuvisca,Porto Alegre,4597,163415,15.8,0,
+4305439,Chuí,Pelotas,6262,522360,13.3,0,
+4305454,Cidreira,Porto Alegre,17071,406916,25.3,0,
+4305504,Ciríaco,Passo Fundo,4149,233410,5.9,0,
+4305587,Colinas,Santa Cruz do Sul - Lajeado,2423,90398,11.4,0,
+4305603,Colorado,Passo Fundo,3258,198977,7,0,
+4305702,Condor,Ijuí,6406,470592,11.9,0,
+4305801,Constantina,Passo Fundo,10385,471925,8.1,0,
+4305835,Coqueiro Baixo,Santa Cruz do Sul - Lajeado,1290,56011,1.1,0,
+4305850,Coqueiros do Sul,Passo Fundo,2211,139283,4.5,0,
+4305871,Coronel Barros,Ijuí,2822,143058,7.8,0,
+4305900,Coronel Bicaco,Ijuí,6144,397095,17.9,0,
+4305934,Coronel Pilar,Caxias do Sul,1607,58153,4.4,0,
+4305959,Cotiporã,Caxias do Sul,3846,205102,10.3,0,
+4305975,Coxilha,Passo Fundo,2667,349364,8.2,0,
+4306007,Crissiumal,Ijuí,12886,500660,10.9,0,
+4306056,Cristal,Porto Alegre,7299,300530,14.8,0,
+4306072,Cristal do Sul,Passo Fundo,2692,98787,3.8,0,
+4306106,Cruz Alta,Passo Fundo,58913,4399886,13.3,1,1959
+4306130,Cruzaltense,Passo Fundo,1635,104945,2.8,0,
+4306205,Cruzeiro do Sul,Santa Cruz do Sul - Lajeado,11600,685746,11.8,0,
+4304309,Cândido Godói,Ijuí,6294,375022,7.7,0,
+4306304,David Canabarro,Passo Fundo,4321,206880,1.4,0,
+4306320,Derrubadas,Ijuí,2751,117581,4,0,
+4306353,Dezesseis de Novembro,Ijuí,2507,51412,7.2,0,
+4306379,Dilermando de Aguiar,Santa Maria,2806,202939,16.2,0,
+4306403,Dois Irmãos,Porto Alegre,30709,2639523,8.1,0,
+4306429,Dois Irmãos das Missões,Passo Fundo,2090,125757,10.3,0,
+4306452,Dois Lajeados,Caxias do Sul,3097,166002,3.5,0,
+4306502,Dom Feliciano,Porto Alegre,13051,418179,19.4,0,
+4306601,Dom Pedrito,Pelotas,36981,2288172,18.5,1,1999
+4306551,Dom Pedro de Alcântara,Porto Alegre,2562,83656,7.6,0,
+4306700,Dona Francisca,Santa Maria,3079,112216,8.7,0,
+4306734,Doutor Maurício Cardoso,Ijuí,4470,228266,7.6,0,
+4306759,Doutor Ricardo,Santa Cruz do Sul - Lajeado,1888,89704,2.8,0,
+4306767,Eldorado do Sul,Porto Alegre,39559,2623491,16.4,0,
+4306809,Encantado,Santa Cruz do Sul - Lajeado,22962,1411422,8.1,1,1951
+4306908,Encruzilhada do Sul,Santa Cruz do Sul - Lajeado,23819,1189528,19.9,1,1990
+4306924,Engenho Velho,Passo Fundo,1296,50748,6.5,0,
+4306957,Entre Rios do Sul,Passo Fundo,2685,209711,3.5,0,
+4306932,Entre-Ijuís,Ijuí,9158,478944,15.3,0,
+4306973,Erebango,Passo Fundo,3054,152046,14.6,0,
+4307005,Erechim,Passo Fundo,105705,8497106,5.9,1,1955
+4307054,Ernestina,Passo Fundo,3034,163434,9,0,
+4307203,Erval Grande,Passo Fundo,4930,161672,8.3,0,
+4307302,Erval Seco,Passo Fundo,6787,299811,3.4,0,
+4307401,Esmeralda,Caxias do Sul,3195,363781,14,0,
+4307450,Esperança do Sul,Ijuí,3226,101346,4.3,0,
+4307500,Espumoso,Passo Fundo,15173,861538,8,1,1972
+4307559,Estação,Passo Fundo,5582,397872,5.4,0,
+4307708,Esteio,Porto Alegre,76137,3998587,6.6,0,
+4307807,Estrela,Santa Cruz do Sul - Lajeado,32183,2376913,6.6,0,
+4307815,Estrela Velha,Santa Cruz do Sul - Lajeado,3070,145289,9.5,0,
+4307609,Estância Velha,Porto Alegre,47924,2309196,6.5,0,
+4307831,Eugênio de Castro,Ijuí,2633,224862,20.5,0,
+4307864,Fagundes Varela,Caxias do Sul,2566,189848,10.5,0,
+4307906,Farroupilha,Caxias do Sul,70286,4960621,4.4,0,
+4308003,Faxinal do Soturno,Santa Maria,6702,298533,8.3,0,
+4308052,Faxinalzinho,Passo Fundo,2520,113640,11,0,
+4308078,Fazenda Vilanova,Santa Cruz do Sul - Lajeado,4291,145766,13.2,0,
+4308102,Feliz,Caxias do Sul,13764,676581,4,0,
+4308201,Flores da Cunha,Caxias do Sul,30892,3336288,6.8,0,
+4308250,Floriano Peixoto,Passo Fundo,1668,77406,5.3,0,
+4308300,Fontoura Xavier,Passo Fundo,9550,260495,8.2,0,
+4308409,Formigueiro,Santa Maria,6413,263216,14.8,0,
+4308433,Forquetinha,Santa Cruz do Sul - Lajeado,2393,64513,14.5,0,
+4308458,Fortaleza dos Valos,Passo Fundo,4477,330898,9.9,0,
+4308508,Frederico Westphalen,Passo Fundo,32627,1792336,6.6,1,1976
+4308607,Garibaldi,Caxias do Sul,34335,3565442,6.1,0,
+4308656,Garruchos,Ijuí,2688,134739,8,0,
+4308706,Gaurama,Passo Fundo,5665,349016,5.4,0,
+4308805,General Câmara,Porto Alegre,7612,234058,13.5,0,
+4308854,Gentil,Passo Fundo,1744,152256,6,0,
+4308904,Getúlio Vargas,Passo Fundo,16602,879960,2.6,1,1954
+4309001,Giruá,Ijuí,16013,1017468,3.7,0,
+4309050,Glorinha,Porto Alegre,7658,595369,14.6,0,
+4309100,Gramado,Caxias do Sul,40134,3565830,9.6,0,
+4309159,Gramado Xavier,Santa Cruz do Sul - Lajeado,3304,124280,14,0,
+4309126,Gramado dos Loureiros,Passo Fundo,2014,87589,19.9,0,
+4309209,Gravataí,Porto Alegre,265074,15545558,13.5,1,1992
+4309258,Guabiju,Caxias do Sul,1417,107684,1,0,
+4309407,Guaporé,Caxias do Sul,25268,1264537,4.8,1,1998
+4309506,Guarani das Missões,Ijuí,7415,295743,5.8,0,
+4309308,Guaíba,Porto Alegre,92924,9001785,11.5,1,2011
+4309555,Harmonia,Porto Alegre,5378,306941,7.2,0,
+4307104,Herval,Pelotas,6191,199383,18.9,0,
+4309571,Herveiras,Santa Cruz do Sul - Lajeado,2565,88439,18.5,0,
+4309605,Horizontina,Ijuí,18851,1828050,3.8,0,
+4309654,Hulha Negra,Pelotas,5976,228860,9,0,
+4309704,Humaitá,Ijuí,4681,218021,9.4,0,
+4309753,Ibarama,Santa Cruz do Sul - Lajeado,3732,105469,10.1,0,
+4309803,Ibiaçá,Passo Fundo,4527,298761,4,0,
+4309902,Ibiraiaras,Passo Fundo,6776,380199,9.7,0,
+4309951,Ibirapuitã,Passo Fundo,3723,188102,7.1,0,
+4310009,Ibirubá,Passo Fundo,21583,1708042,9.3,0,
+4310108,Igrejinha,Porto Alegre,32808,2656127,3.5,0,
+4310207,Ijuí,Ijuí,84780,6105244,6.5,1,1960
+4310306,Ilópolis,Santa Cruz do Sul - Lajeado,4157,164900,4.4,0,
+4310330,Imbé,Porto Alegre,26824,762866,16.1,0,
+4310363,Imigrante,Santa Cruz do Sul - Lajeado,3080,590476,17.8,0,
+4310405,Independência,Ijuí,6427,443606,13.7,0,
+4310413,Inhacorá,Ijuí,2014,76396,12,0,
+4310462,Ipiranga do Sul,Passo Fundo,1720,122376,8.6,0,
+4310439,Ipê,Caxias do Sul,5399,392922,11,0,
+4310504,Iraí,Passo Fundo,7482,255785,8.6,1,1962
+4310538,Itaara,Santa Maria,5572,304167,10.5,0,
+4310553,Itacurubi,Santa Maria,2995,114342,11.5,0,
+4310579,Itapuca,Passo Fundo,1937,93881,1.8,0,
+4310603,Itaqui,Uruguaiana,35768,2068939,10.1,1,1936
+4310652,Itati,Porto Alegre,2638,103483,12.1,0,
+4310702,Itatiba do Sul,Passo Fundo,3208,85113,4.5,0,
+4310751,Ivorá,Santa Maria,1929,53952,10.6,0,
+4310801,Ivoti,Porto Alegre,22983,1538878,5,0,
+4310850,Jaboticaba,Passo Fundo,3779,106763,10.5,0,
+4310876,Jacuizinho,Passo Fundo,2040,125146,12.2,0,
+4310900,Jacutinga,Passo Fundo,3338,188689,4.1,0,
+4311106,Jaguari,Santa Maria,10579,328937,15.3,1,1956
+4311007,Jaguarão,Pelotas,26603,1034802,19.1,1,1968
+4311122,Jaquirana,Caxias do Sul,3690,101810,6.9,0,
+4311130,Jari,Santa Maria,3349,211635,4.4,0,
+4311155,Jóia,Ijuí,7184,345894,11.7,0,
+4311205,Júlio de Castilhos,Santa Maria,18226,1306882,11.2,1,1955
+4311239,Lagoa Bonita do Sul,Santa Cruz do Sul - Lajeado,2251,84224,2.8,0,
+4311304,Lagoa Vermelha,Passo Fundo,27659,1608163,6.9,1,1960
+4311270,Lagoa dos Três Cantos,Passo Fundo,1738,81864,3.5,0,
+4311254,Lagoão,Santa Cruz do Sul - Lajeado,5341,149771,13.2,0,
+4311403,Lajeado,Santa Cruz do Sul - Lajeado,93646,6705227,6,1,1959
+4311429,Lajeado do Bugre,Passo Fundo,2601,65433,8.9,0,
+4311502,Lavras do Sul,Santa Maria,7157,369845,19.1,1,1954
+4311601,Liberato Salzano,Passo Fundo,4781,152571,6.8,0,
+4311627,Lindolfo Collor,Porto Alegre,6248,353109,6,0,
+4311643,Linha Nova,Porto Alegre,1683,76154,8.2,0,
+4311700,Machadinho,Passo Fundo,5735,260895,7.2,0,
+4311734,Mampituba,Porto Alegre,3131,101220,11,0,
+4311759,Manoel Viana,Uruguaiana,6801,303342,11.7,0,
+4311775,Maquiné,Porto Alegre,7418,228748,11.4,0,
+4311791,Maratá,Porto Alegre,2470,104147,6.5,0,
+4311809,Marau,Passo Fundo,45124,3738295,7.4,0,
+4311908,Marcelino Ramos,Passo Fundo,4320,192535,3.2,0,
+4311981,Mariana Pimentel,Porto Alegre,3916,117787,16.2,0,
+4312005,Mariano Moro,Passo Fundo,1858,71583,2.8,0,
+4312054,Marques de Souza,Santa Cruz do Sul - Lajeado,3969,137495,6.3,0,
+4312104,Mata,Santa Maria,4698,174006,10.7,0,
+4312138,Mato Castelhano,Passo Fundo,2553,128502,11.9,0,
+4312153,Mato Leitão,Santa Cruz do Sul - Lajeado,4859,295044,7.4,0,
+4312179,Mato Queimado,Ijuí,1795,61648,5.7,0,
+4312203,Maximiliano de Almeida,Passo Fundo,4191,159588,0.5,0,
+4311718,Maçambará,Uruguaiana,4425,367963,12.4,0,
+4312252,Minas do Leão,Porto Alegre,7505,291061,16,0,
+4312302,Miraguaí,Ijuí,4427,200597,6.8,0,
+4312351,Montauri,Caxias do Sul,1499,73733,4.2,0,
+4312377,Monte Alegre dos Campos,Caxias do Sul,3180,117051,25.2,0,
+4312385,Monte Belo do Sul,Caxias do Sul,2557,126816,5.5,0,
+4312401,Montenegro,Porto Alegre,64322,5259437,11,1,1972
+4312427,Mormaço,Passo Fundo,2756,102289,4.2,0,
+4312443,Morrinhos do Sul,Porto Alegre,3071,103248,5.9,0,
+4312450,Morro Redondo,Pelotas,6046,153226,15.9,0,
+4312476,Morro Reuter,Porto Alegre,6029,304040,3.1,0,
+4312500,Mostardas,Porto Alegre,12090,494341,15.4,0,
+4312617,Muitos Capões,Caxias do Sul,2879,950302,11.8,0,
+4312625,Muliterno,Passo Fundo,1721,71170,6.4,0,
+4312609,Muçum,Santa Cruz do Sul - Lajeado,4601,273363,12.1,0,
+4312674,Nicolau Vergueiro,Passo Fundo,1932,101823,8,0,
+4312708,Nonoai,Passo Fundo,13719,539374,8.4,0,
+4312757,Nova Alvorada,Passo Fundo,3163,201942,4.7,0,
+4312807,Nova Araçá,Caxias do Sul,4954,474775,4.9,0,
+4312906,Nova Bassano,Caxias do Sul,9649,765058,7.2,0,
+4312955,Nova Boa Vista,Passo Fundo,2042,137786,2.8,0,
+4313003,Nova Bréscia,Santa Cruz do Sul - Lajeado,3044,153973,2.5,0,
+4313011,Nova Candelária,Ijuí,3061,225892,7.4,0,
+4313037,Nova Esperança do Sul,Santa Maria,4865,197238,3.1,0,
+4313060,Nova Hartz,Porto Alegre,20088,1054362,7.8,0,
+4313102,Nova Palma,Santa Maria,5586,306852,5.3,0,
+4313201,Nova Petrópolis,Caxias do Sul,23300,1103618,7.2,0,
+4313300,Nova Prata,Caxias do Sul,25692,1559276,6.5,1,1958
+4313086,Nova Pádua,Caxias do Sul,2343,115884,4.4,0,
+4313334,Nova Ramada,Ijuí,2163,204997,9.9,0,
+4313359,Nova Roma do Sul,Caxias do Sul,3466,206674,7.3,0,
+4313375,Nova Santa Rita,Porto Alegre,29024,3229383,14.6,0,
+4313490,Novo Barreiro,Passo Fundo,4272,120313,6.3,0,
+4313391,Novo Cabrais,Santa Maria,3568,131684,6.2,0,
+4313409,Novo Hamburgo,Porto Alegre,227646,11936582,6.4,1,1975
+4313425,Novo Machado,Ijuí,3198,140899,12.5,0,
+4313441,Novo Tiradentes,Passo Fundo,2146,73353,3.3,0,
+4313466,Novo Xingu,Passo Fundo,1646,67741,3.4,0,
+4312658,Não-Me-Toque,Passo Fundo,17898,2951960,9,0,
+4313508,Osório,Porto Alegre,47396,2141950,10.2,1,2002
+4313607,Paim Filho,Passo Fundo,3629,162821,1.5,0,
+4313656,Palmares do Sul,Porto Alegre,12844,739855,16.1,0,
+4313706,Palmeira das Missões,Passo Fundo,33216,1708324,10.7,1,1950
+4313805,Palmitinho,Passo Fundo,7839,265325,4.4,0,
+4313904,Panambi,Ijuí,43515,4011216,10.3,0,
+4313953,Pantano Grande,Santa Cruz do Sul - Lajeado,10212,576614,10.6,0,
+4314001,Paraí,Caxias do Sul,7194,488256,2.4,0,
+4314027,Paraíso do Sul,Santa Maria,6519,230034,11,0,
+4314035,Pareci Novo,Porto Alegre,4319,159254,9,0,
+4314050,Parobé,Porto Alegre,52058,1725746,10.1,0,
+4314068,Passa Sete,Santa Cruz do Sul - Lajeado,3983,144618,8.5,0,
+4314100,Passo Fundo,Passo Fundo,206215,14069540,13.7,1,1977
+4314076,Passo do Sobrado,Santa Cruz do Sul - Lajeado,6025,281871,7.4,0,
+4314134,Paulo Bento,Passo Fundo,2144,238558,8.4,0,
+4314159,Paverama,Santa Cruz do Sul - Lajeado,7978,301262,12.8,0,
+4314175,Pedras Altas,Pelotas,2061,172852,13.9,0,
+4314209,Pedro Osório,Pelotas,7484,242415,18.8,0,
+4314308,Pejuçara,Ijuí,3745,293084,7.3,0,
+4314407,Pelotas,Pelotas,325685,12480919,13.7,1,1948
+4314423,Picada Café,Caxias do Sul,5351,393452,6.8,0,
+4314456,Pinhal,Passo Fundo,2959,154127,4.7,0,
+4314472,Pinhal Grande,Santa Maria,3805,500998,9.8,0,
+4314464,Pinhal da Serra,Caxias do Sul,2248,249016,4,0,
+4314498,Pinheirinho do Vale,Passo Fundo,4540,140566,6.5,0,
+4314506,Pinheiro Machado,Pelotas,11214,357896,18.6,0,
+4314548,Pinto Bandeira,Caxias do Sul,2723,93134,6.4,0,
+4314555,Pirapó,Ijuí,2260,72016,9.3,0,
+4314605,Piratini,Pelotas,17504,744361,14.5,0,
+4314704,Planalto,Passo Fundo,10406,325778,5.2,0,
+4314787,Ponte Preta,Passo Fundo,1575,78317,2.9,0,
+4314779,Pontão,Passo Fundo,3296,271978,8.4,0,
+4314902,Porto Alegre,Porto Alegre,1332845,104743272,14.4,1,1924
+4315008,Porto Lucena,Ijuí,4360,128972,7.7,0,
+4315057,Porto Mauá,Ijuí,2142,79557,16,0,
+4315073,Porto Vera Cruz,Ijuí,1560,48373,5.3,0,
+4315107,Porto Xavier,Ijuí,9938,230082,5.1,0,
+4314803,Portão,Porto Alegre,34071,1816677,15.5,0,
+4315131,Pouso Novo,Santa Cruz do Sul - Lajeado,1739,57904,4.6,0,
+4314753,Poço das Antas,Santa Cruz do Sul - Lajeado,2171,100774,5.7,0,
+4315149,Presidente Lucena,Porto Alegre,3077,371734,5.7,0,
+4315156,Progresso,Santa Cruz do Sul - Lajeado,5340,181523,4.5,0,
+4315172,Protásio Alves,Caxias do Sul,2025,93358,5.5,0,
+4315206,Putinga,Santa Cruz do Sul - Lajeado,3747,153758,3,0,
+4315305,Quaraí,Uruguaiana,23500,720057,11.2,1,1975
+4315313,Quatro Irmãos,Passo Fundo,1552,136523,11.7,0,
+4315321,Quevedos,Santa Maria,2507,156253,13.3,0,
+4315354,Quinze de Novembro,Passo Fundo,3910,172891,5,0,
+4315404,Redentora,Ijuí,9738,207604,16.8,0,
+4315453,Relvado,Santa Cruz do Sul - Lajeado,1796,75597,10,0,
+4315503,Restinga Sêca,Santa Maria,14939,643230,12.9,0,
+4315602,Rio Grande,Pelotas,191900,14106680,17.6,1,1997
+4315701,Rio Pardo,Santa Cruz do Sul - Lajeado,34654,1248019,7.4,1,2022
+4315552,Rio dos Índios,Passo Fundo,2835,116660,7.4,0,
+4315750,Riozinho,Porto Alegre,4473,165772,7,0,
+4315800,Roca Sales,Santa Cruz do Sul - Lajeado,10418,626611,10.6,0,
+4315909,Rodeio Bonito,Passo Fundo,6654,301150,5.9,0,
+4315958,Rolador,Ijuí,2291,91405,13.1,0,
+4316006,Rolante,Porto Alegre,21253,951008,6.1,0,
+4316105,Ronda Alta,Passo Fundo,9777,402816,8.4,0,
+4316204,Rondinha,Passo Fundo,4991,227716,5.1,0,
+4316303,Roque Gonzales,Ijuí,6576,396753,11.7,0,
+4316402,Rosário do Sul,Uruguaiana,36630,1498313,10.9,1,1976
+4316428,Sagrada Família,Passo Fundo,2480,67102,5,0,
+4316436,Saldanha Marinho,Passo Fundo,2575,170089,5.4,0,
+4316451,Salto do Jacuí,Passo Fundo,10203,594921,22.6,0,
+4316477,Salvador das Missões,Ijuí,2877,162260,7.1,0,
+4316501,Salvador do Sul,Porto Alegre,6879,395636,7.5,0,
+4316600,Sananduva,Passo Fundo,16399,877957,2.8,0,
+4317103,Sant'Ana do Livramento,Uruguaiana,84421,3143614,14.7,1,1994
+4316709,Santa Bárbara do Sul,Passo Fundo,8122,875561,5.8,0,
+4316733,Santa Cecília do Sul,Passo Fundo,1674,91361,3.7,0,
+4316758,Santa Clara do Sul,Santa Cruz do Sul - Lajeado,6887,427744,6.8,0,
+4316808,Santa Cruz do Sul,Santa Cruz do Sul - Lajeado,133230,13396618,11,1,1977
+4316972,Santa Margarida do Sul,Santa Maria,2596,278310,30.1,0,
+4316907,Santa Maria,Santa Maria,271735,10932024,11.5,1,1982
+4316956,Santa Maria do Herval,Porto Alegre,6340,271501,8.8,0,
+4317202,Santa Rosa,Ijuí,76963,4530356,7.8,1,1971
+4317251,Santa Tereza,Caxias do Sul,1505,53742,3.3,0,
+4317301,Santa Vitória do Palmar,Pelotas,30983,1990739,13.4,1,1968
+4317004,Santana da Boa Vista,Santa Maria,7024,237629,21.5,0,
+4317400,Santiago,Santa Maria,48938,1861691,6.4,1,1982
+4317608,Santo Antônio da Patrulha,Porto Alegre,42947,2178831,7.8,0,
+4317707,Santo Antônio das Missões,Ijuí,10300,433323,13.1,0,
+4317558,Santo Antônio do Palma,Passo Fundo,2091,112425,5.9,0,
+4317756,Santo Antônio do Planalto,Passo Fundo,2089,166647,5.7,0,
+4317806,Santo Augusto,Ijuí,13902,728450,6.7,0,
+4317905,Santo Cristo,Ijuí,15320,766616,10.4,1,1964
+4317954,Santo Expedito do Sul,Passo Fundo,2349,105537,3.8,0,
+4317509,Santo Ângelo,Ijuí,76917,3379818,10,1,1982
+4319901,Sapiranga,Porto Alegre,75648,4674054,9.5,0,
+4320008,Sapucaia do Sul,Porto Alegre,132107,4729408,13,1,2020
+4320107,Sarandi,Passo Fundo,22851,1427661,5,1,1959
+4320206,Seberi,Passo Fundo,11950,827496,6.6,0,
+4320230,Sede Nova,Ijuí,2704,122595,14.4,0,
+4320263,Segredo,Santa Cruz do Sul - Lajeado,6009,181686,9.8,0,
+4320305,Selbach,Passo Fundo,5107,286810,9.1,0,
+4320321,Senador Salgado Filho,Ijuí,2673,93393,6.7,0,
+4320354,Sentinela do Sul,Porto Alegre,5306,179897,11.6,0,
+4320404,Serafina Corrêa,Caxias do Sul,16961,988516,4.1,0,
+4320503,Sertão,Passo Fundo,5541,389514,10,0,
+4320552,Sertão Santana,Porto Alegre,5863,344571,14.8,0,
+4320578,Sete de Setembro,Ijuí,1830,77186,9.3,0,
+4320602,Severiano de Almeida,Passo Fundo,3406,142412,1.9,0,
+4320651,Silveira Martins,Santa Maria,2028,72204,7.1,0,
+4320677,Sinimbu,Santa Cruz do Sul - Lajeado,8578,248267,16.8,0,
+4320701,Sobradinho,Santa Cruz do Sul - Lajeado,14226,523240,6.1,1,1984
+4320800,Soledade,Passo Fundo,29991,1312842,8.4,1,1974
+4318002,São Borja,Uruguaiana,59676,2550388,8.2,1,1954
+4318051,São Domingos do Sul,Passo Fundo,2754,130564,6.5,0,
+4318101,São Francisco de Assis,Santa Maria,17618,592569,4.9,1,1960
+4318200,São Francisco de Paula,Caxias do Sul,21893,1202082,9.3,1,1959
+4318309,São Gabriel,Santa Maria,58487,2682926,18.5,1,1931
+4318408,São Jerônimo,Porto Alegre,21028,712278,12,1,
+4318440,São Jorge,Caxias do Sul,2912,113154,6.5,0,
+4318457,São José das Missões,Passo Fundo,2362,76281,5.6,0,
+4318465,São José do Herval,Passo Fundo,1902,55694,4.3,0,
+4318481,São José do Hortêncio,Porto Alegre,4447,149146,9.5,0,
+4318499,São José do Inhacorá,Ijuí,2406,214097,1.4,0,
+4318507,São José do Norte,Pelotas,25443,1273464,22.5,0,
+4318606,São José do Ouro,Passo Fundo,6834,426238,4.4,0,
+4318614,São José do Sul,Porto Alegre,2380,111514,8.8,0,
+4318622,São José dos Ausentes,Caxias do Sul,4172,177177,11.2,0,
+4318424,São João da Urtiga,Passo Fundo,4461,198261,2.3,0,
+4318432,São João do Polêsine,Santa Maria,2649,117973,9,0,
+4318705,São Leopoldo,Porto Alegre,217409,11740913,14.5,1,1940
+4318804,São Lourenço do Sul,Pelotas,41989,1719596,18.5,0,
+4318903,São Luiz Gonzaga,Ijuí,34752,1712990,9.4,1,1997
+4319000,São Marcos,Caxias do Sul,21084,1488757,12.1,0,
+4319109,São Martinho,Ijuí,5481,304939,13.2,0,
+4319125,São Martinho da Serra,Santa Maria,2860,211210,11.6,0,
+4319158,São Miguel das Missões,Ijuí,7056,517182,12.6,0,
+4319208,São Nicolau,Ijuí,5118,178749,8.6,0,
+4319307,São Paulo das Missões,Ijuí,5846,214703,9,0,
+4319356,São Pedro da Serra,Porto Alegre,3548,122651,12.4,0,
+4319364,São Pedro das Missões,Passo Fundo,1757,72911,6.1,0,
+4319372,São Pedro do Butiá,Ijuí,3070,139485,6.6,0,
+4319406,São Pedro do Sul,Santa Maria,15577,505803,8.2,0,
+4319505,São Sebastião do Caí,Porto Alegre,24428,1123568,17.3,0,
+4319604,São Sepé,Santa Maria,21219,1059509,8.1,1,1977
+4319703,São Valentim,Passo Fundo,3264,124878,4.9,0,
+4319711,São Valentim do Sul,Caxias do Sul,2207,84857,5.2,0,
+4319737,São Valério do Sul,Ijuí,2543,67841,22.6,0,
+4319752,São Vendelino,Porto Alegre,2251,105311,6.7,0,
+4319802,São Vicente do Sul,Santa Maria,8097,469886,14.1,1,1958
+4320453,Sério,Santa Cruz do Sul - Lajeado,1941,70329,2.8,0,
+4320859,Tabaí,Santa Cruz do Sul - Lajeado,4461,176254,13.7,0,
+4320909,Tapejara,Passo Fundo,24557,1870497,5.8,0,
+4321006,Tapera,Passo Fundo,10592,584149,5.6,0,
+4321105,Tapes,Porto Alegre,14695,634090,15.3,0,
+4321204,Taquara,Porto Alegre,53242,1815775,7.1,1,1953
+4321303,Taquari,Santa Cruz do Sul - Lajeado,25198,1123745,10.2,0,
+4321329,Taquaruçu do Sul,Passo Fundo,3119,188337,7.1,0,
+4321352,Tavares,Porto Alegre,5212,135924,9.8,0,
+4321402,Tenente Portela,Ijuí,14497,614914,7.3,0,
+4321436,Terra de Areia,Porto Alegre,10334,342570,19.7,0,
+4321451,Teutônia,Santa Cruz do Sul - Lajeado,32797,2003351,7.9,0,
+4321469,Tio Hugo,Passo Fundo,3267,173559,7,0,
+4321477,Tiradentes do Sul,Ijuí,5129,162975,13,0,
+4321493,Toropi,Santa Maria,2554,82304,7.9,0,
+4321501,Torres,Porto Alegre,41751,1835529,6.9,1,2010
+4321600,Tramandaí,Porto Alegre,54387,1579725,13.3,0,
+4321626,Travesseiro,Santa Cruz do Sul - Lajeado,2152,86078,3.1,0,
+4321956,Trindade do Sul,Passo Fundo,7556,403531,5.3,0,
+4322004,Triunfo,Porto Alegre,27498,7571335,13.5,0,
+4321634,Três Arroios,Passo Fundo,2591,134291,1.3,0,
+4321667,Três Cachoeiras,Porto Alegre,10962,372783,7,0,
+4321709,Três Coroas,Porto Alegre,24425,1046073,9.2,0,
+4321832,Três Forquilhas,Porto Alegre,2760,79197,13,0,
+4321857,Três Palmeiras,Passo Fundo,4716,165901,3.3,0,
+4321907,Três Passos,Ijuí,25436,1228032,6.7,1,1960
+4321808,Três de Maio,Ijuí,24916,1525082,7.9,0,
+4322103,Tucunduva,Ijuí,5542,231162,8.2,0,
+4322152,Tunas,Santa Cruz do Sul - Lajeado,3681,94250,5.3,0,
+4322186,Tupanci do Sul,Passo Fundo,1374,79798,6.1,0,
+4322202,Tupanciretã,Passo Fundo,20005,1275254,11.6,0,
+4322251,Tupandi,Porto Alegre,5029,604244,11.3,0,
+4322301,Tuparendi,Ijuí,8363,375006,6.8,0,
+4322327,Turuçu,Pelotas,3419,161326,16.7,0,
+4322343,Ubiretama,Ijuí,1994,73526,10.5,0,
+4322376,Unistalda,Santa Maria,1995,71038,4.5,0,
+4322350,União da Serra,Caxias do Sul,1170,64313,6.2,0,
+4322400,Uruguaiana,Uruguaiana,117210,3915554,7.8,1,1953
+4322509,Vacaria,Caxias do Sul,64197,3701333,10.2,1,1968
+4322541,Vale Real,Caxias do Sul,6058,298091,16.5,0,
+4322525,Vale Verde,Santa Cruz do Sul - Lajeado,3150,156860,11.6,0,
+4322533,Vale do Sol,Santa Cruz do Sul - Lajeado,9897,380489,21.1,0,
+4322558,Vanini,Passo Fundo,2004,81724,11.1,0,
+4322608,Venâncio Aires,Santa Cruz do Sul - Lajeado,68763,4683134,10.6,1,2015
+4322707,Vera Cruz,Santa Cruz do Sul - Lajeado,26710,1126736,11.8,0,
+4322806,Veranópolis,Caxias do Sul,24021,2395417,5.9,0,
+4322855,Vespasiano Corrêa,Santa Cruz do Sul - Lajeado,1818,104348,5.8,0,
+4322905,Viadutos,Passo Fundo,4769,191223,5.1,0,
+4323002,Viamão,Porto Alegre,224112,5545184,14.2,0,
+4323101,Vicente Dutra,Passo Fundo,4665,147864,8.2,0,
+4323200,Victor Graeff,Passo Fundo,2780,235754,7.4,0,
+4323309,Vila Flores,Caxias do Sul,3646,376709,13.7,0,
+4323358,Vila Lângaro,Passo Fundo,2079,155271,4.6,0,
+4323408,Vila Maria,Passo Fundo,4413,393600,9.9,0,
+4323457,Vila Nova do Sul,Santa Maria,3863,217498,13.4,0,
+4323507,Vista Alegre,Passo Fundo,2660,137185,2.8,0,
+4323606,Vista Alegre do Prata,Caxias do Sul,1590,76367,7.1,0,
+4323705,Vista Gaúcha,Ijuí,2783,94256,0,0,
+4323754,Vitória das Missões,Ijuí,3260,89071,12.4,0,
+4323770,Westfália,Santa Cruz do Sul - Lajeado,3098,234678,4.7,0,
+4323804,Xangri-lá,Porto Alegre,16463,914704,14,0,
+4300059,Água Santa,Passo Fundo,3912,418738,13.1,0,
+4301552,Áurea,Passo Fundo,3396,177756,7.1,0,

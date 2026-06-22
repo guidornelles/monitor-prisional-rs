@@ -1,5 +1,5 @@
 # Relatório de Auditoria — PoC Monitor Prisional RS
-_Gerado por `06_auditoria.R` em 2026-06-12 14:57:14.631754._
+_Gerado por `06_auditoria.R` em 2026-06-22 09:04:47.866846._
 
 Consolida as auditorias de cada etapa do pipeline (02–05) e diagnostica a
 qualidade dos painéis finais. As decisões metodológicas que explicam cada
@@ -10,8 +10,8 @@ recorte estão em `docs/decisoes_metodologicas.md`.
 | painel | existe | linhas | colunas |
 | --- | --- | --- | --- |
 | painel_criminal_municipio_ano.csv | TRUE | 1.988 | 19 |
-| painel_prisional_estabelecimento.csv | TRUE | 414 | 397 |
-| painel_contexto_municipio.csv | TRUE | 497 | 6 |
+| painel_prisional_estabelecimento.csv | TRUE | 414 | 545 |
+| painel_contexto_municipio.csv | TRUE | 497 | 8 |
 | painel_saude_municipio_ano.csv | TRUE | 3.938 | 18 |
 
 ## Reconciliação criminal (microdado × agregado oficial)
@@ -20,12 +20,12 @@ recorte estão em `docs/decisoes_metodologicas.md`.
 
 Fonte: `outputs/auditoria/criminal_reconciliacao.csv`
 
-| ano | hd_oco_micro | hd_oco_ofi | furtos_total_micro | furtos_ofi | roubos_total_micro | roubos_ofi | roubo_outros_estrito | furto_outros_estrito | d_hd_% | d_furtos_% | d_roubos_% | estrito_vs_total_roubo_% |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2.022 | 1.628 | 1.632 | 96.768 | 128.047 | 35.355 | 36.950 | 32.804 | 90.235 | -0,25 | -24,43 | -4,32 | -7,2 |
-| 2.023 | 1.567 | 1.570 | 125.466 | 125.529 | 32.412 | 32.506 | 29.947 | 117.357 | -0,19 | -0,05 | -0,29 | -7,6 |
-| 2.024 | 1.337 | 1.338 | 105.380 | 105.373 | 20.697 | 20.771 | 19.134 | 98.451 | -0,07 | 0,01 | -0,36 | -7,6 |
-| 2.025 | 968 | 970 | 106.431 | 108.562 | 18.431 | 18.673 | 17.133 | 100.162 | -0,21 | -1,96 | -1,3 | -7 |
+| ano | hd_oco_micro | hd_oco_ofi | furtos_total_micro | furtos_ofi | roubos_total_micro | roubos_ofi | roubo_outros_estrito | furto_outros_estrito | d_hd_pct | d_furtos_pct | d_roubos_pct |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2.022 | 1.628 | 1.632 | 96.768 | 128.047 | 35.355 | 36.950 | 32.804 | 90.235 | -0,25 | -24,43 | -4,32 |
+| 2.023 | 1.567 | 1.570 | 125.466 | 125.529 | 32.412 | 32.506 | 29.947 | 117.357 | -0,19 | -0,05 | -0,29 |
+| 2.024 | 1.337 | 1.338 | 105.380 | 105.373 | 20.697 | 20.771 | 19.134 | 98.451 | -0,07 | 0,01 | -0,36 |
+| 2.025 | 968 | 970 | 106.431 | 108.562 | 18.431 | 18.673 | 17.133 | 100.162 | -0,21 | -1,96 | -1,3 |
 
 ## Prisões em flagrante (PC) — cobertura municipal
 
@@ -44,10 +44,10 @@ Fonte: `outputs/auditoria/prisional_cobertura.csv`
 
 | ano | estab_recorte | recorte | fonte | cols_match | cols_schema |
 | --- | --- | --- | --- | --- | --- |
-| 2.022 | 104 | cela_fisica | base_unica | 313 | 377 |
-| 2.023 | 103 | cela_fisica | base_unica | 313 | 377 |
-| 2.024 | 104 | cela_fisica | base_unica | 313 | 377 |
-| 2.025 | 103 | cela_fisica | base_unica | 313 | 377 |
+| 2.022 | 104 | cela_fisica | base_unica | 444 | 444 |
+| 2.023 | 103 | cela_fisica | base_unica | 444 | 444 |
+| 2.024 | 104 | cela_fisica | base_unica | 444 | 444 |
+| 2.025 | 103 | cela_fisica | base_unica | 444 | 444 |
 
 ## Contexto — cobertura município/região/denominadores
 
@@ -60,6 +60,7 @@ Fonte: `outputs/auditoria/contexto_cobertura.csv`
 | sem_populacao | 0 |
 | sem_pib | 0 |
 | sem_distorcao | 0 |
+| munic_com_ep | 77 |
 
 ## Saúde (DATASUS/TABNET) — cobertura por indicador e ano
 
@@ -86,7 +87,7 @@ Fonte: `outputs/auditoria/planilha_final_cobertura.csv`
 
 | tabela | linhas | municipios | nomes_sem_match |
 | --- | --- | --- | --- |
-| painel_criminal_municipio_ano | 1.988 | 497 | 12 |
+| painel_criminal_municipio_ano | 1.988 | 497 | 14 |
 | painel_prisional_estabelecimento | 414 | NA | NA |
 | painel_contexto_municipio | 497 | 497 | NA |
 
@@ -96,6 +97,8 @@ Fonte: `outputs/auditoria/match_municipios.csv` — conferir que são todos de o
 
 | fonte | nom_mun | chave |
 | --- | --- | --- |
+| criminal | ABIGEATO* - AS OCORRENCIAS DE FURTO ABIGEATO ESTAO CONTIDAS TAMBEM NO SOMATORIO DAS OCORRENCIAS DE FURTO. | ABIGEATO AS OCORRENCIAS DE FURTO ABIGEATO ESTAO CONTIDAS TAMBEM NO SOMATORIO DAS OCORRENCIAS DE FURTO |
+| criminal | TOTAL DE VITIMAS DE CVLI* - CONTEM OS REGISTROS DAS VITIMAS DE: HOMICIDIO DOLOSO DE TRANSITO, ABORTO, INDUZIMENTO/AUXILIO AO SUICIDIO, INFANTICIDIO, HOMICIDIO DECORRENTE DE OPOSICAO A INTERVENCAO POLICIAL, LESAO CORPORAL SEGUIDA DE MORTE, FEMINICIDIO CONSUMADO, HOMICIDIO DOLOSO E LATROCINIO. | TOTAL DE VITIMAS DE CVLI CONTEM OS REGISTROS DAS VITIMAS DE HOMICIDIO DOLOSO DE TRANSITO ABORTO INDUZIMENTO AUXILIO AO SUICIDIO INFANTICIDIO HOMICIDIO DECORRENTE DE OPOSICAO A INTERVENCAO POLICIAL LESAO CORPORAL SEGUIDA DE MORTE FEMINICIDIO CONSUMADO HOMICIDIO DOLOSO E LATROCINIO |
 | prisoes | Ararangua | ARARANGUA |
 | prisoes | Bom Sucesso | BOM SUCESSO |
 | prisoes | Chapeco | CHAPECO |
@@ -301,12 +304,13 @@ NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).
 | painel_prisional_estabelecimento.csv | 5.4 Estado civil / Masculino | 414 | 0 | 25 |
 | painel_prisional_estabelecimento.csv | 5.4 Estado civil / Feminino | 414 | 0 | 211 |
 | painel_prisional_estabelecimento.csv | 5.4 Estado civil / Total | 414 | 0 | 2 |
-| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total de pessoas privadas de liberdade com deficiência / Masculino | 414 | 0 | 269 |
-| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total de pessoas privadas de liberdade com deficiência / Feminino | 414 | 0 | 392 |
 | painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total de pessoas privadas de liberdade com deficiência / Total | 414 | 0 | 260 |
-| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Masculino | 414 | 0 | 269 |
-| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Feminino | 414 | 0 | 392 |
 | painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total | 414 | 0 | 260 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Pessoas com deficiência intelectual / Total | 414 | 0 | 378 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Pessoas com deficiência física / Total | 414 | 0 | 290 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Pessoas com deficiência auditiva / Total | 414 | 0 | 364 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Pessoas com deficiência visual / Total | 414 | 0 | 366 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Pessoas com deficiências múltiplas / Total | 414 | 0 | 401 |
 | painel_prisional_estabelecimento.csv | 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução / Analfabeto / Masculino | 414 | 0 | 61 |
 | painel_prisional_estabelecimento.csv | 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução / Analfabeto / Feminino | 414 | 0 | 359 |
 | painel_prisional_estabelecimento.csv | 5.6 Quantidade de pessoas privadas de liberdade por grau de instrução / Analfabeto / Total | 414 | 0 | 44 |
@@ -388,6 +392,121 @@ NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).
 | painel_prisional_estabelecimento.csv | 5.14 Quantidade de incidências por tipo penal / Número de pessoas privadas de liberdade sem informação sobre tipificação criminal / Total | 414 | 0 | 386 |
 | painel_prisional_estabelecimento.csv | 5.14 Quantidade de incidências por tipo penal / Masculino | 414 | 0 | 33 |
 | painel_prisional_estabelecimento.csv | 5.14 Quantidade de incidências por tipo penal / Feminino | 414 | 0 | 217 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional / Setor primário - rural, agrícola e artesanato / Total | 414 | 0 | 305 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional / Setor secundário - industrial e contrução civil / Total | 414 | 0 | 327 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional / Setor terciário - serviços / Total | 414 | 0 | 285 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento / Trabalho interno Masculino | 414 | 0 | 41 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento / Total | 414 | 0 | 17 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada / Setor primário - rural, agrícola e artesanato / Total | 414 | 0 | 390 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada / Setor secundário - industrial e contrução civil / Total | 414 | 0 | 326 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada / Setor terciário - serviços / Total | 414 | 0 | 243 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos / Setor primário - rural, agrícola e artesanato / Total | 414 | 0 | 404 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos / Setor secundário - industrial e contrução civil / Total | 414 | 0 | 389 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos / Setor terciário - serviços / Total | 414 | 0 | 310 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Trabalho externo Masculino | 414 | 0 | 205 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Trabalho externo Feminino | 414 | 0 | 373 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Trabalho interno Masculino | 414 | 0 | 41 |
+| painel_prisional_estabelecimento.csv | 6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia / Trabalho interno Feminino | 414 | 0 | 242 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Não recebe / Masculino | 414 | 0 | 144 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Não recebe / Feminino | 414 | 0 | 294 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Menos do que 3/4 do salário mínimo mensal / Masculino | 414 | 0 | 356 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Menos do que 3/4 do salário mínimo mensal / Feminino | 414 | 0 | 397 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Entre 3/4 e 1 salário mínimo mensal / Masculino | 414 | 0 | 196 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Entre 3/4 e 1 salário mínimo mensal / Feminino | 414 | 0 | 380 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Entre 1 e 2 salários mínimos mensais / Masculino | 414 | 0 | 330 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Entre 1 e 2 salários mínimos mensais / Feminino | 414 | 0 | 396 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Mais que 2 salários mínimos mensais / Masculino | 414 | 0 | 411 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Mais que 2 salários mínimos mensais / Feminino | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Sem informação / Masculino | 414 | 0 | 401 |
+| painel_prisional_estabelecimento.csv | 6.2 Quantidade de pessoas privadas de liberdade por remuneração / Sem informação / Feminino | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Presencial Masc. | 414 | 0 | 267 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Presencial Fem. | 414 | 0 | 383 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Ensino à distância Masc. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Ensino à distância Fem. | 414 | 0 | 413 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Certificação/ conclusão no período Masc. | 414 | 0 | 408 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Certificação/ conclusão no período Fem. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Alfabetização / Total | 414 | 0 | 257 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Presencial Masc. | 414 | 0 | 158 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Presencial Fem. | 414 | 0 | 338 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Ensino à distância Masc. | 414 | 0 | 413 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Ensino à distância Fem. | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Certificação/ conclusão no período Masc. | 414 | 0 | 401 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Certificação/ conclusão no período Fem. | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Fundamental / Total | 414 | 0 | 136 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Presencial Masc. | 414 | 0 | 238 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Presencial Fem. | 414 | 0 | 360 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Ensino à distância Masc. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Ensino à distância Fem. | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Certificação/ conclusão no período Masc. | 414 | 0 | 402 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Certificação/ conclusão no período Fem. | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Médio / Total | 414 | 0 | 221 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Presencial Masc. | 414 | 0 | 382 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Presencial Fem. | 414 | 0 | 413 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Ensino à distância Masc. | 414 | 0 | 374 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Ensino à distância Fem. | 414 | 0 | 407 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Certificação/ conclusão no período Masc. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Certificação/ conclusão no período Fem. | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Ensino Superior / Total | 414 | 0 | 340 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Presencial Masc. | 414 | 0 | 396 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Presencial Fem. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Ensino à distância Masc. | 414 | 0 | 411 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Ensino à distância Fem. | 414 | 0 | 412 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Certificação/ conclusão no período Masc. | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Certificação/ conclusão no período Fem. | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso Técnico (acima de 800 horas de aula) / Total | 414 | 0 | 391 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Presencial Masc. | 414 | 0 | 362 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Presencial Fem. | 414 | 0 | 399 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Ensino à distância Masc. | 414 | 0 | 393 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Ensino à distância Fem. | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Certificação/ conclusão no período Masc. | 414 | 0 | 403 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Certificação/ conclusão no período Fem. | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) / Total | 414 | 0 | 335 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através da leitura / Presencial Masc. | 414 | 0 | 163 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através da leitura / Presencial Fem. | 414 | 0 | 300 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através da leitura / Total | 414 | 0 | 145 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através do esporte / Presencial Masc. | 414 | 0 | 411 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através do esporte / Presencial Fem. | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas matriculadas em programa de remição pelo estudo através do esporte / Total | 414 | 0 | 411 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) / Presencial Masc. | 414 | 0 | 269 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) / Presencial Fem. | 414 | 0 | 358 |
+| painel_prisional_estabelecimento.csv | 6.3 Quantidade de pessoas privadas de liberdade em atividade educacional / Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) / Total | 414 | 0 | 255 |
+| painel_prisional_estabelecimento.csv | 6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente / Pessoas que trabalham e estudam / Masculino | 414 | 0 | 162 |
+| painel_prisional_estabelecimento.csv | 6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente / Pessoas que trabalham e estudam / Feminino | 414 | 0 | 334 |
+| painel_prisional_estabelecimento.csv | 6.5 Quantidade de famílias que recebem auxílio-reclusão / Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão / Masculino | 414 | 0 | 326 |
+| painel_prisional_estabelecimento.csv | 6.5 Quantidade de famílias que recebem auxílio-reclusão / Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão / Feminino | 414 | 0 | 377 |
+| painel_prisional_estabelecimento.csv | 6.5 Quantidade de famílias que recebem auxílio-reclusão / Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão / Total | 414 | 0 | 316 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas externamente / Masculino | 414 | 0 | 94 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas externamente / Feminino | 414 | 0 | 246 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas externamente / Total | 414 | 0 | 71 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas no estabelecimento / Masculino | 414 | 0 | 158 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas no estabelecimento / Feminino | 414 | 0 | 266 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas médicas realizadas no estabelecimento / Total | 414 | 0 | 137 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas psicológicas / Masculino | 414 | 0 | 45 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas psicológicas / Feminino | 414 | 0 | 226 |
+| painel_prisional_estabelecimento.csv | 6.6 Informações da área de saúde - total do período / Consultas psicológicas / Total | 414 | 0 | 21 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / HIV / Masculino | 414 | 0 | 115 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / HIV / Feminino | 414 | 0 | 323 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / HIV / Total | 414 | 0 | 90 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Sífilis / Masculino | 414 | 0 | 254 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Sífilis / Feminino | 414 | 0 | 357 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Sífilis / Total | 414 | 0 | 232 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Tuberculose / Masculino | 414 | 0 | 163 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Tuberculose / Feminino | 414 | 0 | 384 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Tuberculose / Total | 414 | 0 | 149 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Hepatite / Masculino | 414 | 0 | 251 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Hepatite / Feminino | 414 | 0 | 391 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Hepatite / Total | 414 | 0 | 241 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Outros / Masculino | 414 | 0 | 394 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Outros / Feminino | 414 | 0 | 413 |
+| painel_prisional_estabelecimento.csv | 6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência / Outros / Total | 414 | 0 | 394 |
+| painel_prisional_estabelecimento.csv | 7.3 Quantidade de visitas registradas no período de referência / Quantidade de visitas registradas no período de referência | 414 | 0 | 40 |
+| painel_prisional_estabelecimento.csv | 7.3 Quantidade de visitas registradas no período de referência / Quantidade de presos que receberam visita no período de referência / Masculino | 414 | 0 | 48 |
+| painel_prisional_estabelecimento.csv | 7.3 Quantidade de visitas registradas no período de referência / Quantidade de presos que receberam visita no período de referência / Feminino | 414 | 0 | 219 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total de pessoas privadas de liberdade com deficiência / Masculino | 414 | 0 | 269 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Total de pessoas privadas de liberdade com deficiência / Feminino | 414 | 0 | 392 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Masculino | 414 | 0 | 269 |
+| painel_prisional_estabelecimento.csv | 5.5 Pessoas com deficiência / Feminino | 414 | 0 | 392 |
+| painel_prisional_estabelecimento.csv | ano_inauguracao | 414 | 2 | 0 |
 | painel_prisional_estabelecimento.csv | id_municipio | 414 | 0 | 0 |
 | painel_prisional_estabelecimento.csv | provisorios_masculino | 414 | 0 | 75 |
 | painel_prisional_estabelecimento.csv | provisorios_feminino | 414 | 0 | 233 |
@@ -401,13 +520,16 @@ NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).
 | painel_prisional_estabelecimento.csv | internacao_feminino | 414 | 0 | 410 |
 | painel_prisional_estabelecimento.csv | tratamento_masculino | 414 | 0 | 410 |
 | painel_prisional_estabelecimento.csv | tratamento_feminino | 414 | 0 | 413 |
-| painel_prisional_estabelecimento.csv | pena_masculino_0_4anos | 414 | 0 | 29 |
-| painel_prisional_estabelecimento.csv | pena_masculino_1_8anos | 414 | 0 | 49 |
+| painel_prisional_estabelecimento.csv | populacao_total | 414 | 0 | 0 |
+| painel_prisional_estabelecimento.csv | capacidade_total | 414 | 0 | 1 |
+| painel_prisional_estabelecimento.csv | total_medicos | 414 | 0 | 229 |
+| painel_prisional_estabelecimento.csv | pena_masculino_0_2anos | 414 | 0 | 29 |
+| painel_prisional_estabelecimento.csv | pena_masculino_2_4anos | 414 | 0 | 191 |
+| painel_prisional_estabelecimento.csv | pena_masculino_4_8anos | 414 | 0 | 49 |
 | painel_prisional_estabelecimento.csv | pena_masculino_8_15anos | 414 | 0 | 37 |
 | painel_prisional_estabelecimento.csv | pena_masculino_15_20anos | 414 | 0 | 41 |
 | painel_prisional_estabelecimento.csv | pena_masculino_20_30anos | 414 | 0 | 42 |
-| painel_prisional_estabelecimento.csv | pena_masculino_30_50anos | 414 | 0 | 58 |
-| painel_prisional_estabelecimento.csv | pena_masculino_50_maisanos | 414 | 0 | 127 |
+| painel_prisional_estabelecimento.csv | pena_masculino_30_maisanos | 414 | 0 | 53 |
 | painel_prisional_estabelecimento.csv | pena_masculino_sem_info | 414 | 0 | 412 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_masculino_0_4anos | 414 | 0 | 28 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_masculino_4_8anos | 414 | 0 | 37 |
@@ -416,13 +538,13 @@ NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).
 | painel_prisional_estabelecimento.csv | pena_remanescente_masculino_20_30anos | 414 | 0 | 61 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_masculino_30_50anos | 414 | 0 | 132 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_masculino_50maisanos | 414 | 0 | 232 |
-| painel_prisional_estabelecimento.csv | pena_feminino_0_4anos | 414 | 0 | 217 |
-| painel_prisional_estabelecimento.csv | pena_feminino_1_8anos | 414 | 0 | 307 |
+| painel_prisional_estabelecimento.csv | pena_feminino_0_2anos | 414 | 0 | 217 |
+| painel_prisional_estabelecimento.csv | pena_feminino_2_4anos | 414 | 0 | 404 |
+| painel_prisional_estabelecimento.csv | pena_feminino_4_8anos | 414 | 0 | 307 |
 | painel_prisional_estabelecimento.csv | pena_feminino_8_15anos | 414 | 0 | 285 |
 | painel_prisional_estabelecimento.csv | pena_feminino_15_20anos | 414 | 0 | 310 |
 | painel_prisional_estabelecimento.csv | pena_feminino_20_30anos | 414 | 0 | 295 |
-| painel_prisional_estabelecimento.csv | pena_feminino_30_50anos | 414 | 0 | 360 |
-| painel_prisional_estabelecimento.csv | pena_feminino_50_maisanos | 414 | 0 | 408 |
+| painel_prisional_estabelecimento.csv | pena_feminino_30_maisanos | 414 | 0 | 358 |
 | painel_prisional_estabelecimento.csv | pena_feminino_sem_info | 414 | 0 | 414 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_feminino_0_4anos | 414 | 0 | 213 |
 | painel_prisional_estabelecimento.csv | pena_remanescente_feminino_4_8anos | 414 | 0 | 300 |
@@ -451,26 +573,38 @@ NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).
 | painel_prisional_estabelecimento.csv | tipo_penal_outros_masculino | 414 | 0 | 47 |
 | painel_prisional_estabelecimento.csv | tipo_penal_outros_feminino | 414 | 0 | 310 |
 | painel_prisional_estabelecimento.csv | tipo_penal_outros_total | 414 | 0 | 25 |
-| painel_prisional_estabelecimento.csv | obitos_naturais_masculino | 414 | 2 | 360 |
-| painel_prisional_estabelecimento.csv | obitos_naturais_feminino | 414 | 2 | 408 |
-| painel_prisional_estabelecimento.csv | obitos_naturais_total | 414 | 2 | 358 |
-| painel_prisional_estabelecimento.csv | obitos_criminais_masculino | 414 | 2 | 406 |
-| painel_prisional_estabelecimento.csv | obitos_criminais_feminino | 414 | 2 | 411 |
-| painel_prisional_estabelecimento.csv | obitos_criminais_total | 414 | 2 | 405 |
-| painel_prisional_estabelecimento.csv | obitos_suicidios_masculino | 414 | 2 | 386 |
-| painel_prisional_estabelecimento.csv | obitos_suicidios_feminino | 414 | 2 | 410 |
-| painel_prisional_estabelecimento.csv | obitos_suicidios_total | 414 | 2 | 384 |
-| painel_prisional_estabelecimento.csv | obitos_acidentais_masculino | 414 | 2 | 407 |
-| painel_prisional_estabelecimento.csv | obitos_acidentais_feminino | 414 | 2 | 412 |
-| painel_prisional_estabelecimento.csv | obitos_acidentais_total | 414 | 2 | 407 |
-| painel_prisional_estabelecimento.csv | obitos_desconhecida_masculino | 414 | 2 | 369 |
-| painel_prisional_estabelecimento.csv | obitos_desconhecida_feminino | 414 | 2 | 410 |
-| painel_prisional_estabelecimento.csv | obitos_desconhecida_total | 414 | 2 | 367 |
-| painel_prisional_estabelecimento.csv | obitos_total_geral | 414 | 2 | 300 |
+| painel_prisional_estabelecimento.csv | continente_america | 414 | 0 | 253 |
+| painel_prisional_estabelecimento.csv | continente_asia | 414 | 0 | 404 |
+| painel_prisional_estabelecimento.csv | continente_africa | 414 | 0 | 409 |
+| painel_prisional_estabelecimento.csv | continente_europa | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | continente_oceania | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | brasileiro_nato | 414 | 0 | 1 |
+| painel_prisional_estabelecimento.csv | obitos_saude_masculino | 414 | 0 | 318 |
+| painel_prisional_estabelecimento.csv | obitos_saude_feminino | 414 | 0 | 408 |
+| painel_prisional_estabelecimento.csv | obitos_saude_total | 414 | 0 | 317 |
+| painel_prisional_estabelecimento.csv | obitos_criminais_masculino | 414 | 0 | 395 |
+| painel_prisional_estabelecimento.csv | obitos_criminais_feminino | 414 | 0 | 413 |
+| painel_prisional_estabelecimento.csv | obitos_criminais_total | 414 | 0 | 394 |
+| painel_prisional_estabelecimento.csv | obitos_suicidio_masculino | 414 | 0 | 373 |
+| painel_prisional_estabelecimento.csv | obitos_suicidio_feminino | 414 | 0 | 409 |
+| painel_prisional_estabelecimento.csv | obitos_suicidio_total | 414 | 0 | 368 |
+| painel_prisional_estabelecimento.csv | obitos_acidentais_masculino | 414 | 0 | 409 |
+| painel_prisional_estabelecimento.csv | obitos_acidentais_feminino | 414 | 0 | 414 |
+| painel_prisional_estabelecimento.csv | obitos_acidentais_total | 414 | 0 | 409 |
+| painel_prisional_estabelecimento.csv | obitos_desconhecida_masculino | 414 | 0 | 348 |
+| painel_prisional_estabelecimento.csv | obitos_desconhecida_feminino | 414 | 0 | 410 |
+| painel_prisional_estabelecimento.csv | obitos_desconhecida_total | 414 | 0 | 345 |
+| painel_prisional_estabelecimento.csv | atendimento_estabelecimento | 414 | 0 | 126 |
+| painel_prisional_estabelecimento.csv | atendimento_externo | 414 | 0 | 83 |
+| painel_prisional_estabelecimento.csv | atendimento_psicologico | 414 | 0 | 26 |
+| painel_prisional_estabelecimento.csv | atendimento_odonto | 414 | 0 | 33 |
+| painel_prisional_estabelecimento.csv | quantidade_lactantes | 414 | 0 | 413 |
 | painel_contexto_municipio.csv | id_municipio | 497 | 0 | 0 |
 | painel_contexto_municipio.csv | populacao | 497 | 0 | 0 |
 | painel_contexto_municipio.csv | pib | 497 | 0 | 0 |
 | painel_contexto_municipio.csv | distorcao_idade_serie_fund | 497 | 0 | 2 |
+| painel_contexto_municipio.csv | munic_ep | 497 | 0 | 420 |
+| painel_contexto_municipio.csv | ano_ep | 497 | 421 | 0 |
 | painel_saude_municipio_ano.csv | cod_mun6 | 3.938 | 0 | 0 |
 | painel_saude_municipio_ano.csv | id_municipio | 3.938 | 0 | 0 |
 | painel_saude_municipio_ano.csv | populacao | 3.938 | 0 | 0 |
