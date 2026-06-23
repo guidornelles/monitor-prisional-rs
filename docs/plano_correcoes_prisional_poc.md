@@ -1,5 +1,12 @@
 # Plano de correção da camada prisional da PoC (alinhar a `depen.R` + `dados_sem2.R`)
 
+> ✅ **STATUS (2026-06-22): IMPLEMENTADO e validado.** As correções D1–D6 foram aplicadas; o
+> `03c_mortalidade.R` foi **mesclado no `03b`** (mortalidade ANUAL 1º+2º sem); o
+> `sp_schema_prisional.csv` foi **regenerado (377→444)**; e o `07_validacao_prisional.R` confirma
+> tudo (cobertura 104/103/104/103, óbitos anuais, continentes, 16 faixas de pena, nomes 26/26).
+> `tipo_penal` (D7) mantido **corrigido** de propósito — ponto a discutir com a equipe de SP.
+> Detalhe da implementação na **seção G** ao final. As seções D abaixo são o plano original.
+
 *2026-06-19. Origem: revisão completa dos scripts do Monitor de SP (`MonitorPrisional2024`, fonte de
 inspeção, só leitura). Errata e fórmulas canônicas em `docs/spec_export_prisional_formato_sp.md` §10
 e na memória [[prisional-fonte-canonica-depen-dadossem2]].*
