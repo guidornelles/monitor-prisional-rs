@@ -21,12 +21,27 @@ chave `id_municipio` (IBGE), `nome_regiao_intermediaria` e taxas por 100 mil hab
   doloso (vítimas e ocorrências), estupro, roubos e furtos “outros”, prisões em
   flagrante, além de população, PIB e distorção idade-série.
 - **`painel_prisional_estabelecimento.csv`** — estabelecimento × ano (SISDEPEN, cela
-  física): perfil, capacidade, estrutura, população por regime, faixas de pena, tipo
-  penal e mortalidade.
+  física). Espelha a base `base_sisdepen` de SP no lado bruto (≈444 colunas das seções
+  1–7 do SISDEPEN) e acrescenta as derivadas no padrão de SP: perfil, capacidade,
+  população por regime, faixas de pena e pena remanescente, tipo penal, filhos,
+  nacionalidade por continente, educação (6.3), trabalho, saúde (consultas 6.6 e agravos
+  transmissíveis 6.7), pessoal (médicos), alas exclusivas (LGBT/idosos/indígenas/
+  estrangeiros), endereço pronto para o mapa, ano de inauguração e **mortalidade ANUAL
+  (1º + 2º semestre)**.
 - **`painel_contexto_municipio.csv`** — denominadores e panoramas (população, PIB,
-  região intermediária, distorção idade-série).
+  região intermediária, distorção idade-série, presença de estabelecimento penal `munic_ep`).
 - **`painel_saude_municipio_ano.csv`** — Panorama de Saúde (DATASUS): casos e óbitos
   por tuberculose, hepatite e HIV (2018–2025, com anos provisórios marcados como `NA`).
+
+**Export no formato do DataStudio de SP.** Além dos painéis internos (snake_case, fonte da
+verdade), o passo `05b_export_formato_sp.R` emite em `outputs/tabelas/formato_sp/` as bases já no
+**formato e nomes que o Looker de SP usa** — `contexto_dados.csv` (wide), `dinamica_criminal.csv` e
+`dados_saude.csv` (longo, com coluna `Crime`/`Tipo` + `taxa` + `tem_EP`/`Tem_prisão`). Isso permite
+**importação plug-and-play** no DataStudio, sem renomear campo a campo. A camada prisional não tem
+export à parte: o próprio `painel_prisional_estabelecimento.csv` já espelha o `base_sisdepen` de SP.
+
+As apreensões de **armas** ficam em tabela estadual à parte (`armas_rs_estadual_ano.csv`), pois no
+RS só existem em nível estadual.
 
 ## Fontes de dados
 
@@ -63,7 +78,7 @@ restante é scriptado. Integridade conferida por manifestos com md5.
 ## Estrutura
 
 ```
-scripts/rs/      pipeline numerado (00 config → 06 auditoria) + run_all.R
+scripts/rs/      pipeline numerado (00 config → 07 validação prisional) + run_all.R
 R/               funções reutilizáveis
 data/raw/        dados brutos (NÃO versionados; só manifestos/fontes/esquema)
 data/processed/  bases derivadas
@@ -83,8 +98,10 @@ travadas via `renv`; auditoria por etapa consolidada em
 Decisões e limitações estão registradas em `docs/`:
 `decisoes_metodologicas.md`, `problemas_dados.md`, `auditoria_tipo_penal_sp.md`,
 `consultas_ssp_rs.md` e `pontos_reuniao_equipe_sp.md`. Destaques: furtos de 2022 com
-sub-registro no microdado aberto da SSP-RS; cobertura temporal heterogênea da saúde
-(hepatite consolidada só até 2023); denominador populacional fixo no Censo 2022.
+sub-registro no microdado aberto da SSP-RS; **tempo de pena do RS não-confiável** — o
+SISDEPEN do RS concentra ~78% dos condenados na faixa "Até 6 meses" (5.12 e 5.13), vs.
+~5% em SP, indicando preenchimento incorreto na origem; cobertura temporal heterogênea
+da saúde (hepatite consolidada só até 2023); denominador populacional fixo no Censo 2022.
 
 ## Como citar
 
