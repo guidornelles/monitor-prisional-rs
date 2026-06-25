@@ -5,7 +5,7 @@ Pipeline reprodutível que adapta o **Monitor do Sistema Prisional de São Paulo
 Looker Studio no mesmo padrão de variáveis do monitor paulista — permitindo a
 comparação SP ↔ RS.
 
-Autoria: **Guilherme Souza** (2026). Doutorado em Políticas Públicas — UFRGS.
+Autoria: **Guilherme Souza** (2026). Doutorando em Políticas Públicas — UFRGS.
 
 > Inspirado no Monitor do Sistema Prisional de São Paulo (NEV/USP) e em suas
 > *Notas Metodológicas*, que orientaram as escolhas de fontes, recortes e indicadores
