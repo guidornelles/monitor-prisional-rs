@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "crimes-violentos",
+    "url": "https://dados.mg.gov.br/dataset/29d89d80-8aaf-438b-a80f-70bb64d10f6f/resource/476f959e-e4bc-4960-b5c4-b3c22fc6fefb/download/crimes_violentos_2026.csv",
+    "status_http": 200,
+    "content_length": "7220274",
+    "bytes_lidos": 65536,
+    "primeiras_linhas": [
+      "registros;natureza;municipio;cod_municipio;mes;ano;risp;rmbh",
+      "0;ESTUPRO CONSUMADO;ABADIA DOS DOURADOS;310010;1;2026;RISP 10 - PATOS DE MINAS;NÃO",
+      "0;ESTUPRO CONSUMADO;ABAETE;310020;1;2026;RISP 7 - DIVINÓPOLIS;NÃO"
+    ]
+  },
+  {
+    "dataset": "sejusp_furto_consumado",
+    "url": "https://dados.mg.gov.br/dataset/36350775-2812-4c83-a30f-6ad548403100/resource/ed016a05-7b1f-4284-950e-4f3c11620258/download/furto_consumado.csv",
+    "status_http": 200,
+    "content_length": "9253349",
+    "bytes_lidos": 65536,
+    "primeiras_linhas": [
+      "registros;natureza;municipio;cod_ibge;mes;ano_fato;risp;rmbh",
+      "4;FURTO;ABADIA DOS DOURADOS;310010;1;2012;RISP 10 - PATOS DE MINAS;NÃO",
+      "38;FURTO;ABAETE;310020;1;2012;RISP 7 - DIVINÓPOLIS;NÃO"
+    ]
+  }
+]

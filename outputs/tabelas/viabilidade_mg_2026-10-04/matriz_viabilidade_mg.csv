@@ -1,0 +1,9 @@
+﻿indicador,fonte,desagregacao,periodo,classificacao,condicao
+Homicídio doloso,Homicídio consumado em registros e vítimas; SINESP municipal,Município e mês,2012-2026 parcial,viável com limpeza/padronização,"Ratificar dolo/culpa, feminicídio e unidade"
+Estupros total,"Crimes violentos, quatro rubricas sexuais",Município e mês,2012-2026 parcial,viável com limpeza/padronização,Definir inclusão de tentativas e preservar registros versus vítimas
+Roubo outros SP,Roubo consumado/tentado e sete alvos,Município e mês,Totais 2012; alvos agrupados 2021; completos anunciados 2015,metodologicamente problemático,Alvo Outros de MG não é automaticamente Outros de SP
+Furto outros SP,Furto consumado e sete alvos,Município e mês,Totais 2012; alvos agrupados 2021; completos anunciados 2015,metodologicamente problemático,Harmonizar exclusões; não subtrair veículos de registros
+Armas de fogo apreendidas,SINESP; nenhuma série municipal adequada localizada,Estadual,SINESP 2015-2026 parcial,viável apenas com nova coleta,"Solicitar município, mês, instituição e unidade; inviável municipal com dados atuais"
+Prisões efetuadas,Nenhuma série municipal integral equivalente localizada,Não confirmado,Não confirmado,viável apenas com nova coleta,"Não substituir por mandados; separar flagrantes, mandados, pessoas e instituições"
+Mandados cumpridos,"SINESP VDE, estadual e PF separadas",Município e mês,2015-2026 parcial,viável com limpeza/padronização,Indicador complementar com nome e abrangência próprios
+Roubos e furtos nativos MG,CSV agrupado da Sejusp,Município e mês,2012-2026 parcial,imediatamente viável,Descrição de MG; harmonização interestadual ainda pendente
