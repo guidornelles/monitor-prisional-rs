@@ -27,14 +27,15 @@
 ## 5. Achados da revisão das bases do DataStudio (jun/2026)
 > Origem: comparação das 5 bases exportadas do DataStudio de SP (`data/raw/bases_data_studio/`) com os painéis da PoC. Relatório completo em `docs/revisao_sintese_e_bases_datastudio.md`. Itens marcados [SP] são para alinhar com a equipe de SP; [RS] são decisões internas nossas.
 
-### 5.1 [SP] Camada prisional — qual base alimenta o painel?
-- A base `base_sisdepen` do DataStudio (530 col) **não contém** as derivadas de **regime, faixas de pena, pena remanescente, filhos e tipo penal** que a PoC reproduz hoje. Ela só traz, como derivadas: continentes (origem), atendimento, cela/gestantes/lactantes e **óbitos**.
-- Hipóteses: (a) SP calcula essas derivadas **dentro do Looker** (campos calculados); (b) há **outra base prisional** não exportada; (c) elas foram inferidas do `depen.R`, não do que o painel consome.
-- **Encaminhamento:** confirmar qual base alimenta cada elemento do painel prisional **antes** de continuar replicando regime/pena/tipo penal — pode ser esforço desnecessário.
+### 5.1 [SP] Camada prisional — formato e derivadas a alinhar (CORRIGIDO)
+> ⚠️ **CORREÇÃO (alinha a `revisao_sintese_e_bases_datastudio.md` §2.4, diff coluna a coluna das 530):** uma versão anterior deste item afirmava que a `base_sisdepen` do DataStudio **não continha** regime/pena/tipo penal/filhos. **Isso estava errado** — a inspeção parcial olhou só o início e o fim das 530 colunas.
+- A base `base_sisdepen` do DataStudio (530 col) **contém sim** as derivadas: regime (`provisorios_*`/`sentenciado_*`/`internacao_*`/`tratamento_*`), faixas de pena (`pena_*`), pena remanescente (`pena_remanescente_*`), filhos e todo o bloco `tipo_penal_*` — além de continentes, atendimento, cela/gestantes/lactantes e óbitos. Não há hipótese de "estão só no Looker" para essas colunas: estão materializadas na base.
+- O que **de fato** precisa alinhar com SP nesta camada não é "qual base", e sim **formato e algumas derivadas** (todos já tratados no `03b`): (a) **óbitos** — renomear `naturais→saude`, `suicidios→suicidio` (item 5.2); (b) **binning de pena** divergente — SP usa `0_2/2_4/4_8/8_15/15_20/20_30/30_mais`, a PoC re-somou para casar 100%; (c) **10 colunas** que faltavam na PoC (continentes, atendimento, gestantes/lactantes) — já geradas; (d) **`tipo_penal`** (item 4) que a PoC corrige de propósito.
+- **Encaminhamento:** confirmar com SP apenas o **destino das derivadas "extras"** (regime/pena/tipo penal) e os **rótulos canônicos** — decisão de escopo/nomenclatura, **não** um gate que ameace a replicação. Detalhe em `revisao_sintese_e_bases_datastudio.md` §2.4 e `spec_export_prisional_formato_sp.md`.
 
-### 5.2 [SP] Conflito de nomes nos óbitos prisionais
-- SP usa `obitos_saude_*` e `obitos_suicidio_*` (singular); a PoC usa `obitos_naturais_*` e `obitos_suicidios_*` (plural). Mesma informação, rótulo diferente — quebra o blend no Looker.
-- **Encaminhamento:** confirmar os rótulos canônicos de SP e alinhar.
+### 5.2 [SP] Nomes dos óbitos prisionais — ALINHADO
+- A PoC **já adota os rótulos canônicos de SP**: `obitos_saude_*` e `obitos_suicidio_*` (singular) — renomeação feita no `03b` (antes eram `obitos_naturais_*`/`obitos_suicidios_*`). O blend no Looker não quebra mais por nome.
+- **Encaminhamento:** nada a decidir — apenas registrar na nota metodológica que os rótulos espelham SP.
 
 ### 5.3 [SP] Série criminal exportada só tem 2001, 2023 e 2025
 - A `dinamica_criminal.csv` exportada contém apenas esses 3 anos. Confirmar se é recorte do export, do painel ou da fonte — afeta a afirmação de "série desde 2001".

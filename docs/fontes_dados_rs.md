@@ -1,5 +1,7 @@
 # Fontes de dados para o Monitor do Sistema Prisional — RS
 
+> **Auditoria complementar de 03/10/2026:** a fonte nacional Sinesp VDE foi baixada para 2015–2026 e comparada às bases estaduais locais. A aquisição automatizada é viável, mas a substituição é seletiva: homicídios têm município; estupros, armas e os crimes patrimoniais disponíveis têm apenas UF em SP/RS; roubos/furtos “outros” estão ausentes. Mandados cumpridos municipais oferecem uma possibilidade de complemento ao RS, condicionada à ratificação de unidade e localização. Ver [relatório e matriz de viabilidade](auditoria_sinesp_vde_2026-10-03.md). Nenhuma fonte canônica foi substituída. O restante deste documento preserva o diagnóstico anterior e suas datas.
+
 > Objetivo do projeto: **replicar a visualização de dados do Monitor SP e permitir comparação SP↔RS**, com liberdade para repensar a arquitetura de scripts.
 >
 > Este documento responde a três perguntas:

@@ -62,10 +62,12 @@ Como SP usa **só a PC**, o problema de dupla contagem PC×BM **não se aplica**
 | Bloco (como no Monitor SP) | Comparável SP↔RS | Janela |
 |---|---|---|
 | Capacidade e Lotação; Estrutura; Celas; Pessoal; Saúde; Educação; Trabalho | 🟩 sim (idêntico) | 2017+ (1º semestre) |
-| População Prisional (sentenciamento, sexo, idade, raça/cor, motivo, tempo de pena, estrangeiros, gestantes/lactantes) | 🟩 sim | 2017+ (1º semestre) |
-| Morbidade | 🟩 sim | 2017+ (1º semestre) |
-| Mortalidade (saúde, criminal, suicídio, acidental, desconhecida) | 🟩 sim | 2017+ (**2º semestre**, por orientação metodológica) |
+| População Prisional (sentenciamento, sexo, idade, raça/cor, motivo, tempo de pena, estrangeiros, gestantes/lactantes) | 🟩 sim · ⚠️ ver nota tempo de pena | 2017+ (1º semestre) |
+| Morbidade / Agravos transmissíveis (HIV, sífilis, TB, hepatite) | 🟩 sim | 2017+ (1º semestre) |
+| Mortalidade (saúde, criminal, suicídio, acidental, desconhecida) | 🟩 sim | 2017+ (**ANUAL = 1º + 2º semestre**, como o `dados_sem2.R` de SP) |
 | Controle e Fiscalização (visitas de conselhos, DP, MP, Judiciário…) | 🟩 sim | 2017+ |
+
+⚠️ **Nota — tempo de pena (5.12) e pena remanescente (5.13) do RS: não-confiáveis.** O RS concentra ~78% dos condenados na faixa "Até 6 meses" (vs ~5% em SP), indicando preenchimento incorreto na origem do SISDEPEN-RS. As demais variáveis prisionais não são afetadas. Detalhe em `docs/problemas_dados.md` (item 2). Tratar a distribuição de tempo de pena do RS com cautela ou omiti-la.
 
 🟦 Complemento estadual possível: dados da **Susepe** (Lei 15.610, Inc. X — "número de indivíduos no sistema", por regime) podem servir de contraprova ao SISDEPEN no RS (2021.2+).
 

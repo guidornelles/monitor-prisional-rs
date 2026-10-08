@@ -1,9 +1,17 @@
 # Spec — gerar uma base prisional no formato do DataStudio de SP (em paralelo à da PoC)
 
-*2026-06-19. Objetivo: além do `painel_prisional_estabelecimento.csv` atual, o pipeline passar a
-emitir uma segunda base prisional com o mesmo esquema (nomes + ordem) da base usada no DataStudio de
-SP (`data/raw/bases_data_studio/base_sisdepen - Sheet1.csv`, 530 colunas). Duplicação intencional,
-para testar integração com o Looker.*
+> ⚠️ **STATUS (2026-06-22): documento histórico — abordagem SUPERADA.** A ideia de uma **base
+> prisional paralela** foi abandonada. Em vez disso, **corrigimos a base prisional no lugar**: o
+> `sp_schema_prisional.csv` foi regenerado (377→444 colunas, capturando as ~133 que faltavam) e as
+> derivadas foram portadas de `depen.R`/`dados_sem2.R`, de modo que o próprio
+> `painel_prisional_estabelecimento.csv` (≈544 col) já espelha o `base_sisdepen` de SP. **Não há base
+> prisional separada.** Este spec permanece como registro da análise do gap (o de-para de colunas e
+> as fórmulas das derivadas continuam corretos e úteis). Para o estado atual, ver
+> `docs/decisoes_metodologicas.md` e `docs/plano_correcoes_prisional_poc.md`.
+
+*2026-06-19. Objetivo (original): além do `painel_prisional_estabelecimento.csv` atual, o pipeline
+passar a emitir uma segunda base prisional com o mesmo esquema da base usada no DataStudio de SP
+(`base_sisdepen`, 530 colunas). Duplicação intencional, para testar integração com o Looker.*
 
 > Base do diff: 530 colunas (DataStudio) × 397 colunas (PoC). Resultado: **295 colunas brutas já
 > casam exatamente**; ~133 brutas foram descartadas pela PoC; e há um punhado de derivadas a

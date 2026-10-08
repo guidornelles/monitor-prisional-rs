@@ -1,5 +1,7 @@
 # Inventário do repositório Monitor do Sistema Prisional (SP)
 
+> **Inspeção complementar de 03/10/2026:** o export local da dinâmica criminal contém 2001, 2023 e 2025; a tabela `dados_ssp_2023.xlsx` confirma os totais de 2023. A branch `R`, em `validation/criminal_data_proccessing.R`, lê janeiro–junho e julho–novembro de 2025 e conta registros. A auditoria [Sinesp VDE](auditoria_sinesp_vde_2026-10-03.md) separa esse período parcial de anos integrais e identifica diferenças de composição/unidade. A inspeção não alterou o repositório SP e não prova a regeneração do painel online. O inventário histórico abaixo permanece datado.
+
 > Documento de inspeção. Descreve **fatos observados** no repositório local `MonitorPrisional2024` (fonte de inspeção, **não modificado**). Inferências sobre viabilidade de adaptação para o RS são tratadas em outros documentos (`docs/diagnostico_viabilidade_rs.md`).
 >
 > Data da inspeção: 2026-06-09.

@@ -1,7 +1,7 @@
 # Decisões metodológicas — PoC do Monitor Prisional RS
 
 > Log das escolhas que parametrizam o pipeline (`scripts/rs/00_config.R` → `cfg$escolhas`).
-> Mudar uma decisão = mudar o parâmetro, sem reescrever o código. Marcadores: 🟩 verificado · ⏳ a decidir/confirmar com a equipe. Data: 2026-06-10.
+> Mudar uma decisão = mudar o parâmetro, sem reescrever o código. Marcadores: 🟩 verificado · ⏳ a decidir/confirmar com a equipe. Criado 2026-06-10; atualizado 2026-06-22 (correções prisionais, schema 444, export formato-SP).
 
 ## Reprodutibilidade (corrige os problemas do Monitor SP)
 - **Scripts numerados + `run_all.R` + `renv`** (decidido) — sem branches, sem acoplamento em memória, com lockfile de pacotes.
@@ -60,8 +60,12 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 ## Planilha final / crosswalk municipal — `05_planilha_final.R`
 🟩 **Saída espelhando o Looker de SP** (tabelas separadas, blendadas pela chave municipal):
 - `outputs/tabelas/painel_criminal_municipio_ano.csv` — grão município×ano: `hd_vitima, tot_estupro, roubo_outros, furto_outros, prisoes` (nomes de SP) + `hd_ocorrencias` (extra RS) + `populacao, pib, distorcao_idade_serie_fund` + `*_taxa_100k`. Grade completa **497×4** (ausência de registro = 0 ocorrências). Validado: 1.988 linhas, sem duplicatas.
-- `painel_prisional_estabelecimento.csv` — camada SISDEPEN por estabelecimento, enriquecida com `nome_regiao_intermediaria` via `Código IBGE`.
-- `painel_contexto_municipio.csv` — denominadores/panoramas.
+- `painel_prisional_estabelecimento.csv` — camada SISDEPEN por estabelecimento (≈544 col), enriquecida com `nome_regiao_intermediaria` via `Código IBGE`. É a base prisional que vai ao DataStudio (não há export prisional separado — foi corrigida no lugar).
+- `painel_contexto_municipio.csv` — denominadores/panoramas + `munic_ep` (município tem presídio? do SISDEPEN) e `ano_ep` (menor ano de inauguração do presídio do município → vira `tem_EP` no criminal).
+
+🟩 **Export formato-SP — `05b_export_formato_sp.R` (camada de apresentação):** re-emite as bases internas com os NOMES e o FORMATO que o Looker de SP já usa (importação plug-and-play, sem renomear campo a campo). NÃO recalcula nada — só renomeia/pivota. Saídas em `outputs/tabelas/formato_sp/`: `contexto_dados.csv` (wide), `dinamica_criminal.csv` e `dados_saude.csv` (LONGO, com coluna `Crime`/`Tipo` + `taxa` + `tem_EP`/`Tem_prisão`). Decisões de contexto: distorção = Ensino **Fundamental** (conforme a **Nota Metodológica de SP**; ⚠️ o **descritivo/script de SP menciona o total** — divergência interna de SP, **a confirmar com a equipe**; a PoC usa o fundamental, consistente com a Nota); PIB = **IBGE** (Nota confirma; não Seade); sem histórico de pop/PIB; IDEB fora.
+
+🟩 **Validação — `07_validacao_prisional.R`:** confere cobertura, óbitos anuais, paridade de nomes com a base do DataStudio, e consistências (óbitos M+F, tipo_penal_outros≥0, continentes≤estrangeiros, 16 faixas de pena). Saída em `outputs/auditoria/validacao_prisional.md`.
 
 🟩 **Crosswalk de nome de município (SSP→IBGE):** chave = nome normalizado (maiúsculas, sem acento; apóstrofo deletado, hífen→espaço). Resolve "Sant'Ana"↔"Santana", "Entre-Ijuís", "Xangri-lá", "Não-Me-Toque". Mais um **mapa de aliases explícito** (15 entradas) para divergências de grafia e **erros de digitação na fonte** ("Aceguaá"=Aceguá, "São Josedo Ouro"=São José do Ouro, "Estância Velhas"=Estância Velha, "DR"=Doutor, "Pinto Bandeira (Bento Gonç)"=Pinto Bandeira). Preferiu-se mapa explícito a fuzzy às cegas (auditável). Resultado: **495/497** municípios com flagrantes pareados; residual não-pareado = ~13 registros (0,04% das prisões), todos de **outras UFs** (SC/RJ/SP/MG/PR), corretamente descartados. Auditoria em `outputs/auditoria/match_municipios.csv`.
 
@@ -72,18 +76,18 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 - ⚠️ **Encoding (problema de dados):** os CSVs de flagrante variam entre **UTF-8 e CP850 (DOS)**. Ler CP850 como latin1 gera mojibake ("SÆO LEOPOLDO") que vira chave duplicada de município (inflou 2022 de 438 para 558). `02b` escolhe o encoding por bytes (menos caracteres suspeitos) e normaliza nome (maiúsculas + sem acento) para casar com o IBGE. Também há **bloco de título** antes do cabeçalho (detectado dinamicamente) e **rodapé** ("Fonte:"/"Extração:") descartado pelo filtro de município vazio.
 - ⏳ **Match município→IBGE:** ~522 chaves distintas (2022–2025) vs 497 do IBGE — excesso são municípios de outros estados/variantes; o join no `05` casa por nome normalizado e **audita os não-pareados** (para não perder município real do RS por divergência de grafia).
 
-## Derivadas prisionais — `03b_prisional_derivadas.R` + `03c_mortalidade.R`
-🟩 **Colunas derivadas que o Base_Sisdepen de SP publica** (não estão no SISDEPEN bruto), calculadas por **padrão de nome** (não transcrição). Validado: 414 estabelecimentos; cada regime soma exatamente 3 colunas (Estadual+Federal+Outros).
-- **Regime (4.1):** `provisorios/sentenciado_fechado/semiaberto/aberto/internacao/tratamento × M/F` — fiel a SP.
-- **Pena (5.12)** `pena_{m,f}_{0_4,1_8,8_15,15_20,20_30,30_50,50_mais,sem_info}` e **pena remanescente (5.13)** `pena_remanescente_{m,f}_{0_4,4_8,8_15,15_20,20_30,30_50,50mais}` — fiel a SP (mantém os rótulos de SP, ainda que "1_8anos" contenha a faixa 4–8 anos: é o nome de SP, não erro de conta).
+## Derivadas prisionais — `03b_prisional_derivadas.R` (consolida o que SP faz em depen.R + dados_sem2.R)
+🟩 **ATUALIZAÇÃO (2026-06):** após inspeção dos scripts de SP (`depen.R` + `dados_sem2.R`, repositório de SP, só leitura), portamos as fórmulas FIÉIS desses scripts em vez de reinventar — corrigindo várias divergências (ver `docs/plano_correcoes_prisional_poc.md`). O antigo `03c_mortalidade.R` foi **mesclado no 03b** (DESCONTINUADO): como nossa fonte é a Base Única (todos os ciclos num arquivo, com `Referência` "AAAA/S"), os semestres são só um filtro — uma leitura faz tudo. Cobertura: 104/103/104/103 estab. (cela física, por ano).
+
+- **Regime (4.1):** `provisorios/sentenciado_fechado/semiaberto/aberto/internacao/tratamento × M/F` = soma Just. Estadual+Federal+Outros — fiel a SP.
+- **Pena (5.12) — binning de SP (corrigido):** `pena_{m,f}_{0_2,2_4,4_8,8_15,15_20,20_30,30_mais,sem_info}` (era `0_4/1_8/30_50/50_mais` — errado; agora bate 100% com a derivada de SP). **Pena remanescente (5.13):** `pena_remanescente_{m,f}_{0_4,4_8,8_15,15_20,20_30,30_50,50mais}` (sempre esteve correto).
+  - ⚠️ **Anomalia de DADO do RS (não de cálculo):** a faixa "Até 6 meses" do RS concentra ~78% dos condenados (5.12 e 5.13), vs 5,1%/30,9% em SP — a distribuição de tempo de pena do RS é **não-confiável**. Ver `docs/problemas_dados.md` item 2.
 - **Filhos (5.10):** `mulheres/homens_presos_com_filhos_as` = soma de 1..10 e "11 ou mais".
-- **Tipo penal (5.14) — CORRIGIDO** (decisões do pesquisador; ver `docs/auditoria_tipo_penal_sp.md`):
-  - `desarmamento` = **soma dos 5 tipos** (SP somava só 1 — bug auditado). Validado: total RS_M 15.283 (vs ~só Art.X no SP).
-  - `contra_patrimonio` = **AMPLO: 13 subtipos** do CP (furto/roubo/latrocínio + extorsão, extorsão mediante sequestro, apropriação indébita e previdenciária, estelionato, receptação e qualificada).
-  - `outros` = **RESIDUAL**: total 5.14 (por sexo) − soma dos 5 grupos nomeados → partição sem dupla contagem (validado ≥ 0; RS_M = 207.913 − 186.298 = 21.615).
-  - `contra_pessoa` (8), `dignidade_sexual` (7), `drogas` (3) — somas fiéis. Totais M/F/Total a partir das colunas do grupo.
-  - ⚠️ **Diverge do output (bugado) de SP**; levar à equipe de SP.
-- **Mortalidade (`03c`, seção 6.8, 2º semestre** — como a Nota de SP e o `dados_sem2.R`): `obitos_{naturais,criminais,suicidios,acidentais,desconhecida}_{m,f,total}`. Validado RS: 69/52/61/81 óbitos (2022–2025). Junta-se ao painel prisional por `id` no `05`.
+- **Tipo penal (5.14) — CORRIGIDO** (decisões do pesquisador; ver `docs/auditoria_tipo_penal_sp.md`): `desarmamento` = soma dos 5 tipos; `contra_patrimonio` AMPLO (13 subtipos); `outros` = RESIDUAL (total 5.14 − 5 grupos, sem dupla contagem). ⚠️ Diverge do output de SP de propósito (SP tem bug); levar à equipe de SP.
+- **Continentes (5.8):** `continente_{america,asia,africa,europa,oceania}` = `rowSums` das colunas 5.8 que contêm o nome do continente × M/F (origem dos estrangeiros). Brasileiros ficam em `brasileiro_nato` (= "Brasileiro nato" M+F) e nas colunas raw; "Sem informação" não entra em continente. Fiel a `depen.R::nacionalidade`.
+- **Mortalidade (6.8) — ANUAL = 1º sem + 2º sem** (corrigido; era só 2º sem, subcontava): `obitos_{saude,criminais,suicidio,acidentais,desconhecida}_{m,f,total}` (nomes de SP — `saude` não `naturais`, `suicidio` singular). Validado RS: 152/102/131/140 (2022–2025).
+- **2º semestre (como `dados_sem2.R`):** `atendimento_{estabelecimento,externo,psicologico,odonto}` (6.6 consultas), `cela_gestantes` (2.1), `quantidade_lactantes` (5.9).
+- **Outras variáveis pedidas:** `populacao_total` (4.1 | Total), `capacidade_total` (1.3 M+F Total), `total_medicos` (4 categorias de médico do 3.1), `brasileiro_nato`. Agravos transmissíveis (6.7: HIV/Sífilis/Tuberculose/Hepatite/Outros) ficam nas colunas raw por sexo.
 
 ## Camada prisional (SISDEPEN-RS) — `03_prisional.R`
 🟩 **Fonte: Base Única consolidada da SENAPPEN** (`cfg$escolhas$sisdepen_fonte = "base_unica"`). Decisão revista após inspeção: a SENAPPEN publica, sim, uma **Base Única** ("Todos os ciclos em arquivo único") via SharePoint, além dos arquivos por ciclo. Verificado no arquivo consolidado (28.825 linhas, ciclos 2016–2025, 1.782 colunas).
@@ -96,9 +100,11 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 
 **O que SP fez (evidência do `depen.R`, repositório SP):** leu arquivos **por ciclo**, 1º semestre, 2017→2023, com único filtro `UF == "SP"` — **sem recorte por tipo/recolhimento**. SP não precisou filtrar porque sua janela terminou em 2023, antes de o campo existir nos arquivos por ciclo. **Erro de SP a corrigir:** SP manteve no Monitor estabelecimentos que são apenas cadastros de prisão domiciliar / monitoração eletrônica (inflando contagens — caso de 2021, em que a administração de SP triplicou cadastros do mesmo estabelecimento: cela física + domiciliar + domiciliar c/ monit. eletrônica). Nosso recorte corrige isso.
 
-🟩 **Recorte (`cfg$escolhas$prisional_recorte = "cela_fisica"`):** `UF == RS` + `Tipo de Recolhimento == "Cela física"` + **salvaguarda por nome** (exclui registros tipados cela física mas nomeados domiciliar/monitoração — replica o filtro duplo da tese; em RS hoje não há nenhum, mas guarda ciclos futuros). Semestre 1 (perfil/capacidade/estrutura, como SP); mortalidade (seção 6.8) = semestre 2 (`prisional_semestre = 2L`).
+🟩 **Recorte (`cfg$escolhas$prisional_recorte = "cela_fisica"`):** `UF == RS` + `Tipo de Recolhimento == "Cela física"` + **salvaguarda por nome** (exclui registros tipados cela física mas nomeados domiciliar/monitoração — replica o filtro duplo da tese; em RS hoje não há nenhum, mas guarda ciclos futuros). O `03` produz o **1º semestre** (perfil/capacidade/estrutura, como SP); a mortalidade ANUAL (1º+2º sem) é calculada no `03b` (o `prisional_semestre` agora só parametriza a base bruta do 03).
 
-🟩 **Espelhamento de SP:** seleciona a interseção com o esquema `Base_Sisdepen` de SP (`data/raw/sp_schema_prisional.csv`, 377 colunas) + 3 colunas de identidade da Base Única (`ID`, `ciclo`, `Referência`). Resultado: **311/377** colunas. As ~66 ausentes são **variáveis derivadas por SP** (`provisorios_*`, `sentenciado_*`, `obitos_*`, faixas de pena), computadas em `depen.R` a partir das colunas brutas — replicação é passo posterior.
+🟩 **Endereço para o mapa:** o `03` anexa ao `Endereço` o município + "Rio Grande do Sul, Brasil" (espelha o `depen.R`, que anexa "São Paulo, Brasil"), com guarda anti-duplicação. Sem isso, ruas homônimas geolocalizam fora do RS. Também deriva `ano_inauguracao` (do campo 1.6) para o filtro do mapa por ano.
+
+🟩 **Esquema REGENERADO (2026-06) — `data/raw/sp_schema_prisional.csv` (444 colunas):** o esquema antigo (377) era um recorte **incompleto** que deixava seções inteiras de fora (6.1–6.7, 7.3/7.5, 2.14–2.18, subtipos de 5.5). Regeneramos o esquema a partir do que SP **de fato mantém** — header da base do DataStudio (`base_sisdepen`) ∩ Base Única — preservando a ordem de colunas de SP. Resultado: **444/444** colunas casam (painel ≈ 544 col com as derivadas, espelhando as 530 de SP). As variáveis DERIVADAS por SP (regime, pena, óbitos, continentes, atendimento…) NÃO entram no esquema — são computadas no `03b`.
 
 **Cobertura RS (cela física, 1º sem):** 2022=104 · 2023=103 · 2024=104 · 2025=103 (auditoria: `outputs/auditoria/prisional_cobertura.csv`). **Validação cruzada:** a aproximação por ciclo de 2022 dava 107 — a Base Única (campo nativo) dá 104, mostrando que a aproximação **supercontava 3 unidades**. Mais um argumento pela Base Única.
 

@@ -2,6 +2,15 @@
 
 *Documento de trabalho — 2026-06-19. Autor: Guilherme Souza, com revisão técnica assistida.*
 
+> ⚠️ **STATUS (2026-06-22): revisão de diagnóstico — boa parte das lacunas apontadas JÁ FOI
+> RESOLVIDA.** Desde esta revisão, implementamos: export no formato/nomes de SP para contexto,
+> criminal e saúde (`05b_export_formato_sp.R`, em `outputs/tabelas/formato_sp/`); regeneração do
+> esquema prisional (377→444 col, capturando as seções que faltavam); e a correção das derivadas
+> prisionais (óbitos anuais, faixas de pena, continentes etc.). Também corrigimos aqui dois pontos
+> factuais (PIB = IBGE, não Seade; e a base do DataStudio TEM regime/pena/tipo penal — ver §2.4). O
+> de-para de nomes/formato e o diagnóstico permanecem válidos como referência. Estado atual em
+> `docs/decisoes_metodologicas.md`.
+
 > Base empírica desta revisão: as 5 bases exportadas do DataStudio de SP, salvas em
 > `data/raw/bases_data_studio/`, confrontadas com os painéis gerados pela PoC em
 > `outputs/tabelas/`, à luz do log em `docs/decisoes_metodologicas.md`.
@@ -89,13 +98,18 @@ A base `dados.csv` de SP carrega variáveis de contexto que **não aparecem na s
 **Sugestão:** acrescentar à síntese uma linha/bloco "Panoramas de contexto carregados por SP" com
 pop. censitária histórica, PIB multi-ano (fonte RS = IBGE), presença de EP e (a decidir) CNES.
 
-## M4 — (PRECISÃO) "Distorção idade-série": SP usa o **total**, a PoC usa o **fundamental**
+## M4 — (PRECISÃO) "Distorção idade-série": divergência INTERNA de SP (Nota × descritivo)
 
-O descritivo de SP define a variável como **"Distorção idade série total"**. A PoC produz
-`distorcao_idade_serie_fund` (fundamental). São métricas diferentes do INEP. 
+> ⚠️ **Atualizado:** este item dizia "SP usa o total" com base só no descritivo. As fontes de SP
+> divergem entre si — ver o encaminhamento abaixo.
 
-**Sugestão:** alinhar com SP (usar a taxa **total**), ou documentar explicitamente a escolha do
-fundamental como divergência consciente. Hoje a síntese não especifica o nível — convém fixar.
+Há divergência dentro das próprias fontes de SP: a **Nota Metodológica indica Ensino Fundamental**,
+mas o **descritivo/script menciona o total** ("Distorção idade série total"). São métricas diferentes
+do INEP. A PoC produz `distorcao_idade_serie_fund` (**fundamental**), consistente com a Nota.
+
+**Encaminhamento:** **confirmar com a equipe de SP** qual nível efetivamente alimenta o Monitor
+(fundamental, como a Nota, ou total, como o descritivo) e alinhar o RS a ele. Fixar o nível na síntese
+só após essa confirmação.
 
 ## M5 — (PRECISÃO) Taxas: SP usa população do **ano** do indicador; a PoC usa população fixa de 2022
 
@@ -227,7 +241,7 @@ valor→`quantidade`.)
 | `Pop_70 … Pop_2022` (6 censos) | ❌ (só 1 pop.) | IBGE — Censos (nacional, sem limitação) |
 | `PIB_2010, PIB_2021, PIB_2023` | parcial (1 ano) | **IBGE** (Nota Metodológica de SP confirma IBGE; "Seade" do descritivo está errado) |
 | `IDEB_2021` | ❌ | SP marcou **EXCLUIR** — não precisa |
-| `Distorção idade-serie` (total) | ⚠️ (PoC usa fundamental) | alinhar nível (ver M4) |
+| `Distorção idade-serie` | ⚠️ Nota=fundamental × descritivo=total (PoC usa fundamental) | confirmar nível com SP (ver M4) |
 | `munic_ep_70 … munic_ep_2020` | ❌ | derivar do SISDEPEN (presença de EP por ano) |
 | CNES (`ambulatorial/interna/urgencia`) | ❌ | CNES nacional — decidir se entra |
 
@@ -309,7 +323,8 @@ formato/nomes do DataStudio. Em ordem de esforço:
    Esforço baixo.
 5. **Enriquecer o contexto** — DECIDIDO: pop. censitária histórica e PIB multi-ano ficam **fora**
    (não necessários à PoC); PIB = **IBGE** (Nota confirma; não Seade); distorção = **fundamental**
-   (Nota confirma); IDEB fora. Resta a flag **`munic_ep`** (presença de presídio) — já no 04/05b.
+   (conforme a Nota; descritivo/script de SP diz total — divergência interna a confirmar com SP, ver
+   M4); IDEB fora. Resta a flag **`munic_ep`** (presença de presídio) — já no 04/05b.
 6. **Derivar as 10 colunas prisionais faltantes** (continentes, atendimento, cela/lactantes).
    Esforço baixo.
 7. **Decidir o destino das derivadas prisionais "extras"** (regime/pena/tipo penal) — *só depois* de
@@ -326,8 +341,9 @@ produto enviado aos pesquisadores:
   definição plena de SP.
 - **Janela criminal:** estupro e "outros" estrito só desde **2022** (microdado); SP exibe série mais
   longa. E **2022 de furtos é anômalo** (−24%, ver `problemas_dados.md`) — sinalizar.
-- **Distorção idade-série:** RESOLVIDO — a Nota Metodológica de SP diz **Ensino Fundamental**, que é
-  exatamente o que a PoC usa (`distorcao_idade_serie_fund`). Sem divergência.
+- **Distorção idade-série:** a Nota Metodológica de SP diz **Ensino Fundamental** — o que a PoC usa
+  (`distorcao_idade_serie_fund`). Resta uma **divergência interna de SP** (o descritivo/script menciona
+  o **total**); **confirmar com SP** qual nível alimenta o Monitor (ver M4).
 - **PIB:** RESOLVIDO — a Nota Metodológica de SP confirma **IBGE** (mesma fonte do RS); o "Fundação
   Seade" do descritivo está errado. Sem divergência de fonte.
 
