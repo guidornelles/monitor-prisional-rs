@@ -1,0 +1,132 @@
+﻿contexto,ano,evento,pares,iguais,nacional,estadual,soma_diferencas_absolutas,max_diferenca_absoluta,diferenca,diferenca_pct,iguais_pct
+estado-mês,2015,Furto de veículo,12,12,20420.0,20420.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2015,Homicídio doloso,12,1,2704.0,2662.0,42.0,7.0,42.0,1.5777610818933132,8.333333333333334
+estado-mês,2015,Lesão corporal seguida de morte,12,7,25.0,33.0,8.0,3.0,-8.0,-24.242424242424242,58.333333333333336
+estado-mês,2015,Roubo de veículo,12,12,18138.0,18138.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2015,Roubo seguido de morte (latrocínio),12,0,112.0,145.0,33.0,8.0,-33.0,-22.75862068965517,0.0
+estado-mês,2015,Tráfico de drogas,12,12,9176.0,9176.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2016,Furto de veículo,12,12,19541.0,19541.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2016,Homicídio doloso,12,0,2931.0,2885.0,46.0,8.0,46.0,1.5944540727902947,0.0
+estado-mês,2016,Lesão corporal seguida de morte,12,6,17.0,27.0,10.0,3.0,-10.0,-37.03703703703704,50.0
+estado-mês,2016,Roubo de veículo,12,12,17614.0,17614.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2016,Roubo seguido de morte (latrocínio),12,1,126.0,169.0,45.0,8.0,-43.0,-25.443786982248522,8.333333333333334
+estado-mês,2016,Tráfico de drogas,12,12,8914.0,8914.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2017,Furto de veículo,12,12,16893.0,16893.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2017,Homicídio doloso,12,3,3025.0,2990.0,35.0,7.0,35.0,1.1705685618729098,25.0
+estado-mês,2017,Lesão corporal seguida de morte,12,5,24.0,37.0,13.0,3.0,-13.0,-35.13513513513514,41.666666666666664
+estado-mês,2017,Roubo de veículo,12,12,17859.0,17859.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2017,Roubo seguido de morte (latrocínio),12,0,96.0,137.0,41.0,6.0,-41.0,-29.927007299270073,0.0
+estado-mês,2017,Tráfico de drogas,12,12,9458.0,9458.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Feminicídio,12,12,116.0,116.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Furto de veículo,12,12,14405.0,14405.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Homicídio doloso,12,12,2410.0,2410.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Lesão corporal seguida de morte,12,12,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Roubo de veículo,12,12,16121.0,16121.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Roubo seguido de morte (latrocínio),12,12,95.0,95.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Tentativa de feminicídio,12,12,355.0,355.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2018,Tráfico de drogas,12,11,11782.0,11624.0,158.0,158.0,158.0,1.3592567102546456,91.66666666666667
+estado-mês,2019,Feminicídio,12,12,97.0,97.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Furto de veículo,12,12,13093.0,13093.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Homicídio doloso,12,12,1860.0,1860.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Lesão corporal seguida de morte,12,12,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Roubo de veículo,12,12,11127.0,11127.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Roubo seguido de morte (latrocínio),12,12,73.0,73.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Tentativa de feminicídio,12,12,359.0,359.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2019,Tráfico de drogas,12,12,12722.0,12722.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Feminicídio,12,12,80.0,80.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Furto de veículo,12,12,9411.0,9411.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Homicídio doloso,12,12,1833.0,1833.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Lesão corporal seguida de morte,12,12,28.0,28.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Roubo de veículo,12,12,7887.0,7887.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Roubo seguido de morte (latrocínio),12,12,75.0,75.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Tentativa de feminicídio,12,12,318.0,318.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2020,Tráfico de drogas,12,12,15739.0,15739.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Feminicídio,12,12,96.0,96.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Furto de veículo,12,12,8916.0,8916.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Homicídio doloso,12,11,1639.0,1637.0,2.0,2.0,2.0,0.12217470983506414,91.66666666666667
+estado-mês,2021,Lesão corporal seguida de morte,12,12,35.0,35.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Roubo de veículo,12,12,4942.0,4942.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Roubo seguido de morte (latrocínio),12,12,67.0,67.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Tentativa de feminicídio,12,12,255.0,255.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2021,Tráfico de drogas,12,12,16892.0,16892.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Feminicídio,12,10,111.0,111.0,2.0,1.0,0.0,0.0,83.33333333333333
+estado-mês,2022,Furto de veículo,12,12,8953.0,8953.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Homicídio doloso,12,12,1761.0,1761.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Lesão corporal seguida de morte,12,12,36.0,36.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Roubo de veículo,12,12,4406.0,4406.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Roubo seguido de morte (latrocínio),12,12,53.0,53.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Tentativa de feminicídio,12,12,263.0,263.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2022,Tráfico de drogas,12,12,16290.0,16290.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2023,Feminicídio,12,11,85.0,86.0,1.0,1.0,-1.0,-1.1627906976744187,91.66666666666667
+estado-mês,2023,Furto de veículo,12,12,8556.0,8556.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2023,Homicídio doloso,12,10,1672.0,1670.0,2.0,1.0,2.0,0.11976047904191617,83.33333333333333
+estado-mês,2023,Lesão corporal seguida de morte,12,12,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2023,Roubo de veículo,12,11,3595.0,3594.0,1.0,1.0,1.0,0.027824151363383415,91.66666666666667
+estado-mês,2023,Roubo seguido de morte (latrocínio),12,12,42.0,42.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2023,Tentativa de feminicídio,12,9,237.0,237.0,4.0,2.0,0.0,0.0,75.0
+estado-mês,2023,Tráfico de drogas,12,9,16090.0,16089.0,3.0,1.0,1.0,0.006215426689042203,75.0
+estado-mês,2024,Feminicídio,12,12,73.0,73.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Furto de veículo,12,12,6639.0,6639.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Homicídio doloso,12,12,1418.0,1418.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Lesão corporal seguida de morte,12,12,35.0,35.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Roubo de veículo,12,12,2299.0,2299.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Roubo seguido de morte (latrocínio),12,12,31.0,31.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Tentativa de feminicídio,12,12,236.0,236.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2024,Tráfico de drogas,12,12,16736.0,16736.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2025,Feminicídio,12,10,80.0,80.0,2.0,1.0,0.0,0.0,83.33333333333333
+estado-mês,2025,Furto de veículo,12,6,6295.0,6303.0,8.0,2.0,-8.0,-0.12692368713311122,50.0
+estado-mês,2025,Homicídio doloso,12,5,1051.0,1037.0,14.0,3.0,14.0,1.3500482160077145,41.666666666666664
+estado-mês,2025,Lesão corporal seguida de morte,12,8,46.0,43.0,5.0,2.0,3.0,6.976744186046512,66.66666666666667
+estado-mês,2025,Roubo de veículo,12,2,1869.0,1790.0,79.0,14.0,79.0,4.41340782122905,16.666666666666668
+estado-mês,2025,Roubo seguido de morte (latrocínio),12,10,32.0,30.0,2.0,1.0,2.0,6.666666666666667,83.33333333333333
+estado-mês,2025,Tentativa de feminicídio,12,12,263.0,263.0,0.0,0.0,0.0,0.0,100.0
+estado-mês,2025,Tráfico de drogas,12,1,18189.0,18142.0,47.0,8.0,47.0,0.25906735751295334,8.333333333333334
+município-ano,2015,Homicídio doloso,497,477,2704.0,2662.0,44.0,14.0,42.0,1.5777610818933132,95.97585513078471
+município-ano,2015,Lesão corporal seguida de morte,497,490,25.0,33.0,10.0,3.0,-8.0,-24.242424242424242,98.59154929577464
+município-ano,2015,Roubo seguido de morte (latrocínio),497,476,112.0,145.0,35.0,12.0,-33.0,-22.75862068965517,95.77464788732394
+município-ano,2016,Homicídio doloso,497,477,2931.0,2885.0,48.0,17.0,46.0,1.5944540727902947,95.97585513078471
+município-ano,2016,Lesão corporal seguida de morte,497,488,17.0,27.0,10.0,2.0,-10.0,-37.03703703703704,98.18913480885311
+município-ano,2016,Roubo seguido de morte (latrocínio),497,469,126.0,169.0,45.0,8.0,-43.0,-25.443786982248522,94.36619718309859
+município-ano,2017,Homicídio doloso,497,478,3025.0,2990.0,39.0,9.0,35.0,1.1705685618729098,96.17706237424547
+município-ano,2017,Lesão corporal seguida de morte,497,487,24.0,37.0,13.0,3.0,-13.0,-35.13513513513514,97.98792756539235
+município-ano,2017,Roubo seguido de morte (latrocínio),497,467,96.0,137.0,43.0,6.0,-41.0,-29.927007299270073,93.96378269617706
+município-ano,2018,Feminicídio,497,497,116.0,116.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2018,Homicídio doloso,497,497,2410.0,2410.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2018,Lesão corporal seguida de morte,497,497,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2018,Roubo seguido de morte (latrocínio),497,497,95.0,95.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2018,Tentativa de feminicídio,497,497,355.0,355.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2019,Feminicídio,497,485,97.0,97.0,12.0,1.0,0.0,0.0,97.58551307847083
+município-ano,2019,Homicídio doloso,497,497,1860.0,1860.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2019,Lesão corporal seguida de morte,497,497,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2019,Roubo seguido de morte (latrocínio),497,497,73.0,73.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2019,Tentativa de feminicídio,497,495,359.0,359.0,2.0,1.0,0.0,0.0,99.59758551307847
+município-ano,2020,Feminicídio,497,491,80.0,80.0,8.0,2.0,0.0,0.0,98.79275653923541
+município-ano,2020,Homicídio doloso,497,493,1833.0,1833.0,6.0,2.0,0.0,0.0,99.19517102615694
+município-ano,2020,Lesão corporal seguida de morte,497,497,28.0,28.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2020,Roubo seguido de morte (latrocínio),497,491,75.0,75.0,8.0,2.0,0.0,0.0,98.79275653923541
+município-ano,2020,Tentativa de feminicídio,497,497,318.0,318.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2021,Feminicídio,497,497,96.0,96.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2021,Homicídio doloso,497,496,1639.0,1637.0,2.0,2.0,2.0,0.12217470983506414,99.79879275653923
+município-ano,2021,Lesão corporal seguida de morte,497,497,35.0,35.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2021,Roubo seguido de morte (latrocínio),497,497,67.0,67.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2021,Tentativa de feminicídio,497,497,255.0,255.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2022,Feminicídio,497,495,111.0,111.0,2.0,1.0,0.0,0.0,99.59758551307847
+município-ano,2022,Homicídio doloso,497,495,1761.0,1761.0,2.0,1.0,0.0,0.0,99.59758551307847
+município-ano,2022,Lesão corporal seguida de morte,497,497,36.0,36.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2022,Roubo seguido de morte (latrocínio),497,497,53.0,53.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2022,Tentativa de feminicídio,497,497,263.0,263.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2023,Feminicídio,497,496,85.0,86.0,1.0,1.0,-1.0,-1.1627906976744187,99.79879275653923
+município-ano,2023,Homicídio doloso,497,495,1672.0,1670.0,2.0,1.0,2.0,0.11976047904191617,99.59758551307847
+município-ano,2023,Lesão corporal seguida de morte,497,497,29.0,29.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2023,Roubo seguido de morte (latrocínio),497,497,42.0,42.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2023,Tentativa de feminicídio,497,494,237.0,237.0,4.0,2.0,0.0,0.0,99.3963782696177
+município-ano,2024,Feminicídio,497,497,73.0,73.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2024,Homicídio doloso,497,495,1418.0,1418.0,2.0,1.0,0.0,0.0,99.59758551307847
+município-ano,2024,Lesão corporal seguida de morte,497,497,35.0,35.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2024,Roubo seguido de morte (latrocínio),497,497,31.0,31.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2024,Tentativa de feminicídio,497,497,236.0,236.0,0.0,0.0,0.0,0.0,100.0
+município-ano,2025,Feminicídio,497,495,80.0,80.0,2.0,1.0,0.0,0.0,99.59758551307847
+município-ano,2025,Homicídio doloso,497,467,1051.0,1037.0,42.0,4.0,14.0,1.3500482160077145,93.96378269617706
+município-ano,2025,Lesão corporal seguida de morte,497,488,46.0,43.0,9.0,1.0,3.0,6.976744186046512,98.18913480885311
+município-ano,2025,Roubo seguido de morte (latrocínio),497,495,32.0,30.0,2.0,1.0,2.0,6.666666666666667,99.59758551307847
+município-ano,2025,Tentativa de feminicídio,497,497,263.0,263.0,0.0,0.0,0.0,0.0,100.0

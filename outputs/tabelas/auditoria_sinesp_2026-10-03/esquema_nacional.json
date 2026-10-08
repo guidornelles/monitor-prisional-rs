@@ -1,0 +1,650 @@
+[
+  {
+    "ano": 2015,
+    "linhas": 820160,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "Polícia Penal": 624,
+        "Agente de Trânsito": 624,
+        "Bombeiro Militar": 624,
+        "Guarda Municipal": 624,
+        "Polícia Civil": 624,
+        "Polícia Militar": 624,
+        "Profissionais de Perícia": 624,
+        "PF": 648
+      },
+      "arma": {
+        "Carabina": 636,
+        "Espingarda": 636,
+        "Fuzil": 636,
+        "Metralhadora": 636,
+        "Pistola": 636,
+        "Revolver": 636,
+        "Rifle": 636,
+        "Submetralhadora": 636,
+        "Outra": 636
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 624,
+        "Menor de Idade": 624,
+        "Idade Não Informada": 624
+      },
+      "abrangencia": {
+        "Estadual": 677936,
+        "Polícia Federal": 73704,
+        "Polícia Rodoviária Federal": 68520
+      }
+    }
+  },
+  {
+    "ano": 2016,
+    "linhas": 846569,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PF": 648,
+        "PRF": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 689752,
+        "Polícia Federal": 88297,
+        "Polícia Rodoviária Federal": 68520
+      }
+    }
+  },
+  {
+    "ano": 2017,
+    "linhas": 764537,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "PF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648
+      },
+      "arma": {
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 689861,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2018,
+    "linhas": 764187,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PRF": 648,
+        "PF": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 689511,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2019,
+    "linhas": 764700,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PF": 648,
+        "PRF": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 690024,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2020,
+    "linhas": 764700,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PF": 648
+      },
+      "arma": {
+        "Metralhadora": 648,
+        "Revolver": 648,
+        "Outra": 648,
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Pistola": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 690024,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2021,
+    "linhas": 764732,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PF": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Menor de Idade": 648,
+        "Maior de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 690056,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2022,
+    "linhas": 764652,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PRF": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 689976,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2023,
+    "linhas": 764772,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "PF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648
+      },
+      "arma": {
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Idade Não Informada": 648,
+        "Menor de Idade": 648
+      },
+      "abrangencia": {
+        "Estadual": 690096,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2024,
+    "linhas": 764820,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PF": 648,
+        "PRF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648
+      },
+      "arma": {
+        "Espingarda": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648,
+        "Outra": 648,
+        "Carabina": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648
+      },
+      "faixa_etaria": {
+        "Maior de Idade": 648,
+        "Menor de Idade": 648,
+        "Idade Não Informada": 648
+      },
+      "abrangencia": {
+        "Estadual": 690144,
+        "Polícia Rodoviária Federal": 68520,
+        "Polícia Federal": 6156
+      }
+    }
+  },
+  {
+    "ano": 2025,
+    "linhas": 832293,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PRF": 648,
+        "Agente de Trânsito": 648,
+        "Bombeiro Militar": 648,
+        "Guarda Municipal": 648,
+        "Polícia Civil": 648,
+        "Polícia Militar": 648,
+        "Polícia Penal": 648,
+        "Profissionais de Perícia": 648,
+        "PF": 648
+      },
+      "arma": {
+        "Outra": 648,
+        "Carabina": 648,
+        "Espingarda": 648,
+        "Fuzil": 648,
+        "Metralhadora": 648,
+        "Pistola": 648,
+        "Revolver": 648,
+        "Rifle": 648,
+        "Submetralhadora": 648
+      },
+      "faixa_etaria": {
+        "Idade Não Informada": 648,
+        "Maior de Idade": 648,
+        "Menor de Idade": 648
+      },
+      "abrangencia": {
+        "Estadual": 689880,
+        "Polícia Federal": 73893,
+        "Polícia Rodoviária Federal": 68520
+      }
+    }
+  },
+  {
+    "ano": 2026,
+    "linhas": 554586,
+    "colunas": [
+      "uf",
+      "municipio",
+      "evento",
+      "data_referencia",
+      "agente",
+      "arma",
+      "faixa_etaria",
+      "feminino",
+      "masculino",
+      "nao_informado",
+      "total_vitima",
+      "total",
+      "total_peso",
+      "abrangencia"
+    ],
+    "dimensoes": {
+      "agente": {
+        "PF": 432,
+        "Agente de Trânsito": 432,
+        "Bombeiro Militar": 432,
+        "Guarda Municipal": 432,
+        "Polícia Civil": 432,
+        "Polícia Militar": 432,
+        "Polícia Penal": 432,
+        "Profissionais de Perícia": 432,
+        "PRF": 270
+      },
+      "arma": {
+        "Outra": 432,
+        "Carabina": 432,
+        "Espingarda": 432,
+        "Pistola": 432,
+        "Fuzil": 432,
+        "Metralhadora": 432,
+        "Revolver": 432,
+        "Rifle": 432,
+        "Submetralhadora": 432
+      },
+      "faixa_etaria": {
+        "Menor de Idade": 432,
+        "Maior de Idade": 432,
+        "Idade Não Informada": 432
+      },
+      "abrangencia": {
+        "Estadual": 459824,
+        "Polícia Federal": 49244,
+        "Polícia Rodoviária Federal": 45518
+      }
+    }
+  }
+]

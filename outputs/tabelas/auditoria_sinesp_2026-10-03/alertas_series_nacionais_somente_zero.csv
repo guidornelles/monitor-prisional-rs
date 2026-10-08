@@ -1,0 +1,630 @@
+﻿ano,uf,evento,municipios,meses,abrangencia,lines,valid,zeros,nonzero,missing,total,total_vitima,total_peso
+2015,AC,Lesão corporal seguida de morte,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2015,AC,Tentativa de feminicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2015,AC,Tentativa de homicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2015,AC,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,AC,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,AC,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,AC,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,AL,Mortes a esclarecer (sem indício de crime),103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1236,1236,1236,0,0,0.0,0.0,0.0
+2015,AL,Tentativa de feminicídio,103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1236,1236,1236,0,0,0.0,0.0,0.0
+2015,AL,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,AM,Feminicídio,63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,756,756,756,0,0,0.0,0.0,0.0
+2015,AM,Tentativa de feminicídio,63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,756,756,756,0,0,0.0,0.0,0.0
+2015,AM,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,AP,Tentativa de feminicídio,17,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,204,204,204,0,0,0.0,0.0,0.0
+2015,AP,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,AP,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,AP,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2015,AP,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,BA,Feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2015,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2015,BA,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,BA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,CE,Feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2015,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,4440,2220,2220,0,2220,0.0,0.0,0.0
+2015,CE,Tentativa de feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2015,CE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2015,DF,Tentativa de feminicídio,2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2015,DF,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2015,ES,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,ES,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal;Polícia Rodoviária Federal,24,24,24,0,0,0.0,0.0,0.0
+2015,ES,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,ES,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal;Polícia Rodoviária Federal,24,24,24,0,0,0.0,0.0,0.0
+2015,GO,Feminicídio,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Homicídio doloso,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Lesão corporal seguida de morte,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Mortes a esclarecer (sem indício de crime),247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Roubo seguido de morte (latrocínio),247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Suicídio,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Tentativa de feminicídio,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Tentativa de homicídio,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2964,2964,2964,0,0,0.0,0.0,0.0
+2015,GO,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,GO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,GO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,GO,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,GO,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,GO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2015,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2015,MG,Tentativa de feminicídio,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2015,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2015,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,MT,Feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2015,MT,Tentativa de feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2015,MT,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,MT,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,PA,Tentativa de feminicídio,145,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1740,1740,1740,0,0,0.0,0.0,0.0
+2015,PA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2015,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2015,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,PB,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,PB,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,PE,Feminicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2015,PE,Tentativa de feminicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2015,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,PI,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,PR,Feminicídio,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,4802,4802,4802,0,0,0.0,0.0,0.0
+2015,PR,Tentativa de feminicídio,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,4800,4800,4800,0,0,0.0,0.0,0.0
+2015,PR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,RJ,Feminicídio,93,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1117,1117,1117,0,0,0.0,0.0,0.0
+2015,RJ,Tentativa de feminicídio,93,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1116,1116,1116,0,0,0.0,0.0,0.0
+2015,RJ,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,RN,Tentativa de feminicídio,168,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2016,2016,2016,0,0,0.0,0.0,0.0
+2015,RN,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,RO,Feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2015,RO,Mortes a esclarecer (sem indício de crime),53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2015,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2015,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,RO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,RR,Tentativa de feminicídio,16,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,192,192,192,0,0,0.0,0.0,0.0
+2015,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2015,RR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2015,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,SE,Feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2015,SE,Lesão corporal seguida de morte,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2015,SE,Mortes a esclarecer (sem indício de crime),76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2015,SE,Tentativa de feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2015,SE,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,SP,Lesão corporal seguida de morte,646,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,7752,7752,7752,0,0,0.0,0.0,0.0
+2015,SP,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,TO,Feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2015,TO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2015,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2015,TO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2015,TO,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,TO,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2015,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,AC,Tentativa de feminicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2016,AC,Tentativa de homicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2016,AC,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,AC,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,AC,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,AC,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,AL,Mortes a esclarecer (sem indício de crime),103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1237,1237,1237,0,0,0.0,0.0,0.0
+2016,AL,Tentativa de feminicídio,103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1236,1236,1236,0,0,0.0,0.0,0.0
+2016,AL,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,AM,Tentativa de feminicídio,63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,756,756,756,0,0,0.0,0.0,0.0
+2016,AM,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2016,AM,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,AP,Tentativa de feminicídio,17,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,204,204,204,0,0,0.0,0.0,0.0
+2016,AP,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,AP,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,AP,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2016,AP,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,BA,Feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2016,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2016,BA,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2016,CE,Feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2016,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,5055,2220,2220,0,2835,0.0,0.0,0.0
+2016,CE,Tentativa de feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2016,CE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2016,DF,Tentativa de feminicídio,2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2016,DF,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,ES,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2016,ES,Mortes a esclarecer (sem indício de crime),79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2016,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2016,ES,Tentativa de homicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2016,ES,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,ES,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,ES,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,GO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2016,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2016,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2016,MG,Tentativa de feminicídio,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2016,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2016,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2016,MT,Feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2016,MT,Tentativa de feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2016,MT,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2016,MT,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,PA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2016,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2016,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,PB,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,PB,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,PB,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2016,PB,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,PE,Tentativa de feminicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2016,PE,Tentativa de homicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2016,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,PR,Feminicídio,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,4800,4800,4800,0,0,0.0,0.0,0.0
+2016,PR,Tentativa de feminicídio,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,4800,4800,4800,0,0,0.0,0.0,0.0
+2016,PR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,PR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,RJ,Tentativa de feminicídio,93,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1116,1116,1116,0,0,0.0,0.0,0.0
+2016,RJ,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,RN,Tentativa de feminicídio,168,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2016,2016,2016,0,0,0.0,0.0,0.0
+2016,RO,Feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2016,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2016,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,RO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2016,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,RR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2016,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,RS,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,SE,Feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2016,SE,Mortes a esclarecer (sem indício de crime),76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2016,SE,Tentativa de feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2016,SE,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,TO,Feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2016,TO,Tentativa de feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2016,TO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2016,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2016,TO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2016,TO,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,TO,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2016,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,AC,Tentativa de feminicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2017,AC,Tentativa de homicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,277,277,277,0,0,0.0,0.0,0.0
+2017,AC,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,AC,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,AC,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,AC,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,AL,Mortes a esclarecer (sem indício de crime),103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1236,1236,1236,0,0,0.0,0.0,0.0
+2017,AL,Tentativa de feminicídio,103,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1236,1236,1236,0,0,0.0,0.0,0.0
+2017,AL,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,AL,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,AM,Tentativa de feminicídio,63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,756,756,756,0,0,0.0,0.0,0.0
+2017,AM,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2017,AP,Mortes a esclarecer (sem indício de crime),17,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,204,204,204,0,0,0.0,0.0,0.0
+2017,AP,Tentativa de feminicídio,17,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,204,204,204,0,0,0.0,0.0,0.0
+2017,AP,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,AP,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2017,BA,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2017,BA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,CE,Feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2017,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2017,CE,Tentativa de feminicídio,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2017,CE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2017,DF,Tentativa de feminicídio,2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2017,DF,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,ES,Mortes a esclarecer (sem indício de crime),79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2017,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2017,ES,Tentativa de homicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2017,ES,Estupro,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,ES,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,ES,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2017,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2017,MG,Tentativa de feminicídio,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2017,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2017,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,MT,Feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2017,MT,Tentativa de feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2017,MT,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2017,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2017,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2017,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,PB,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,PB,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,PE,Tentativa de feminicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2017,PE,Tentativa de homicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2017,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,RJ,Tentativa de feminicídio,93,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1116,1116,1116,0,0,0.0,0.0,0.0
+2017,RJ,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,RN,Tentativa de feminicídio,168,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2016,2016,2016,0,0,0.0,0.0,0.0
+2017,RN,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,RO,Feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2017,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2017,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,RO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2017,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2017,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,RR,Tentativa de feminicídio,16,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,192,192,192,0,0,0.0,0.0,0.0
+2017,RR,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2017,RS,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2017,SE,Mortes a esclarecer (sem indício de crime),76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2017,SE,Tentativa de feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2017,SE,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,TO,Feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2017,TO,Tentativa de feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2017,TO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2017,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2017,TO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2017,TO,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,TO,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2017,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,AC,Lesão corporal seguida de morte,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2018,AC,Tentativa de feminicídio,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2018,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,AC,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2018,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2018,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2018,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,AP,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2018,BA,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2018,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2018,CE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2018,DF,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2018,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,ES,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2018,GO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2018,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2018,MG,Tentativa de feminicídio,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2018,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2018,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,MS,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,MT,Feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2018,MT,Tentativa de feminicídio,142,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1704,1704,1704,0,0,0.0,0.0,0.0
+2018,MT,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2018,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2018,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2018,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,PB,Pessoa Desaparecida,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2018,PB,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2018,PE,Tentativa de feminicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2018,PE,Tentativa de homicídio,186,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2232,2232,2232,0,0,0.0,0.0,0.0
+2018,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,PI,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,RN,Tentativa de feminicídio,168,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2016,2016,2016,0,0,0.0,0.0,0.0
+2018,RO,Feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2018,RO,Lesão corporal seguida de morte,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2018,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2018,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2018,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,RO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2018,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2018,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2018,SE,Tentativa de feminicídio,76,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,912,912,912,0,0,0.0,0.0,0.0
+2018,SE,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2018,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2018,TO,Tentativa de feminicídio,140,"1,2,3,4,5,6,7,8,9",Estadual,1260,1260,1260,0,0,0.0,0.0,0.0
+2018,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2019,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2019,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2019,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,AM,Tentativa de feminicídio,63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,756,756,756,0,0,0.0,0.0,0.0
+2019,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2019,BA,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2019,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2019,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2019,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2019,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2019,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,ES,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2019,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10260,10260,10260,0,0,0.0,0.0,0.0
+2019,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2019,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,MS,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2019,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,PB,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,RN,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2019,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2019,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,RO,Morte por intervenção de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,36,36,36,0,0,0.0,0.0,0.0
+2019,RO,Pessoa Localizada,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,36,36,36,0,0,0.0,0.0,0.0
+2019,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2019,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2019,SC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2019,TO,Tentativa de feminicídio,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,1680,1680,0,0,0.0,0.0,0.0
+2020,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AM,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AP,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,AP,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2020,CE,Mandado de prisão cumprido,185,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2220,2220,2220,0,0,0.0,0.0,0.0
+2020,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2020,DF,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,DF,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2020,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2020,ES,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,GO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,MA,Tentativa de feminicídio,218,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2616,2616,2616,0,0,0.0,0.0,0.0
+2020,MA,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2020,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10260,10260,10260,0,0,0.0,0.0,0.0
+2020,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2020,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2020,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,MS,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,MT,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,PA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2020,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2020,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2020,PB,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,PE,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,11,11,0,1,0.0,0.0,0.0
+2020,PE,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,11,11,0,1,0.0,0.0,0.0
+2020,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2020,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2020,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,RR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2020,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2020,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2020,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,AL,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,BA,Tentativa de feminicídio,418,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,5016,5016,5016,0,0,0.0,0.0,0.0
+2021,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,409,409,409,0,0,0.0,0.0,0.0
+2021,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2021,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2021,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10260,10260,10260,0,0,0.0,0.0,0.0
+2021,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2021,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2021,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2021,RN,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2021,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2021,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2021,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2021,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2021,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,AC,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,AM,Mortes a esclarecer (sem indício de crime),63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,757,757,757,0,0,0.0,0.0,0.0
+2022,AM,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,11,11,0,13,0.0,0.0,0.0
+2022,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2022,ES,Tentativa de feminicídio,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,948,948,0,0,0.0,0.0,0.0
+2022,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2022,GO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2022,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2022,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2022,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,PA,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2022,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2022,PI,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,RO,Mortes a esclarecer (sem indício de crime),53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2022,RO,Suicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2022,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2022,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2022,RO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2022,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2022,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2022,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,AC,Lesão corporal seguida de morte,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,276,276,0,0,0.0,0.0,0.0
+2023,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,AM,Mortes a esclarecer (sem indício de crime),63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,761,761,761,0,0,0.0,0.0,0.0
+2023,AM,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,AP,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,408,408,408,0,0,0.0,0.0,0.0
+2023,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,ES,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,ES,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,ES,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,ES,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,ES,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,ES,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,ES,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,GO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2023,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2023,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,MT,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,PB,Mortes a esclarecer (sem indício de crime),224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2023,PB,Tentativa de feminicídio,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2688,2688,2688,0,0,0.0,0.0,0.0
+2023,PB,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,PE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,PI,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,PI,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,RO,Lesão corporal seguida de morte,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2023,RO,Tentativa de feminicídio,53,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,636,636,636,0,0,0.0,0.0,0.0
+2023,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2023,RO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,11,11,0,13,0.0,0.0,0.0
+2023,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,11,11,0,13,0.0,0.0,0.0
+2023,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,RR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2023,SC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2023,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2023,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2024,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,AM,Mortes a esclarecer (sem indício de crime),63,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,759,759,759,0,0,0.0,0.0,0.0
+2024,AM,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,AP,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2024,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,CE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,415,415,415,0,0,0.0,0.0,0.0
+2024,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,ES,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2024,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2024,MS,Tentativa de feminicídio,80,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,960,960,960,0,0,0.0,0.0,0.0
+2024,MS,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2024,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2024,MT,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,PA,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,PB,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,PE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,PI,Mortes a esclarecer (sem indício de crime),225,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2700,2700,2700,0,0,0.0,0.0,0.0
+2024,RO,Estupro de vulnerável,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,12,12,0,0,0.0,0.0,0.0
+2024,RO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2024,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2024,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2024,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2024,TO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,AP,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,BA,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,CE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,409,409,409,0,0,0.0,0.0,0.0
+2025,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,10248,10248,0,0,0.0,0.0,0.0
+2025,MS,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,10,10,0,14,0.0,0.0,0.0
+2025,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,10,10,0,14,0.0,0.0,0.0
+2025,PB,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,PR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,11,11,0,13,0.0,0.0,0.0
+2025,RO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,RS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,3552,3552,3552,0,0,0.0,0.0,0.0
+2025,SC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,SE,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal;Polícia Rodoviária Federal,108,108,108,0,0,0.0,0.0,0.0
+2025,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2025,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,12,12,0,12,0.0,0.0,0.0
+2026,AC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,AL,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,AM,Mortes a esclarecer (sem indício de crime),63,"1,2,3,4,5,6,7,8",Estadual,504,504,504,0,0,0.0,0.0,0.0
+2026,AM,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,AM,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,AP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,AP,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,BA,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,CE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,DF,Mortes a esclarecer (sem indício de crime),2,"1,2,3,4,5,6,7,8",Estadual,272,272,272,0,0,0.0,0.0,0.0
+2026,DF,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,DF,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,ES,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,GO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,MG,Mortes a esclarecer (sem indício de crime),854,"1,2,3,4,5,6,7,8",Estadual,6832,6832,6832,0,0,0.0,0.0,0.0
+2026,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,MT,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,PA,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,PB,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,PB,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,PE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,PI,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,RN,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,RO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,RO,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,RR,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,RR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,RR,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,RR,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,SC,Mortes a esclarecer (sem indício de crime),296,"1,2,3,4,5,6,7,8",Estadual,2368,2368,2368,0,0,0.0,0.0,0.0
+2026,SC,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,SE,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,SE,Suicídio de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,SP,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,TO,Morte de Agente do Estado,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal;Polícia Rodoviária Federal,69,69,69,0,0,0.0,0.0,0.0
+2026,TO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0
+2026,TO,Roubo de carga,1,"1,2,3,4,5,6,7,8",Estadual;Polícia Federal,16,8,8,0,8,0.0,0.0,0.0

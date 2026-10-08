@@ -1,0 +1,10 @@
+﻿Indicador,Grão observado SP/RS,Janela publicada,Viabilidade,Condição/limite
+Homicídio doloso,Municipal/mês; sexo,2015–2026,viável com limpeza/padronização,"SP 2023 exige investigar HD + feminicídio; RS não deve receber essa soma. Reconciliar versões, categorias e geografia."
+Estupros total,Estadual/mês; sexo,2015–2026,metodologicamente problemático,Total nacional = vítimas de estupro + vulnerável; monitor = ocorrências. Sem município em SP/RS.
+Roubos — outros,Ausente,—,inviável com os dados atuais,"Veículos, carga e instituições financeiras não reconstituem roubos — outros."
+Furtos — outros,Ausente,—,inviável com os dados atuais,Furto de veículo não substitui furtos — outros. Não resolve déficit de furtos 2022 no microdado RS.
+Armas apreendidas,Estadual/mês; espécie de arma,2015–2026,viável com limpeza/padronização,Viável para uma camada estadual; SP municipal não é substituível. Filtrar abrangência estadual e conferir PC/BM.
+Prisões efetuadas,Mandados municipal/mês; flagrantes ausentes,2015–2026,metodologicamente problemático,Mandados cumpridos não equivalem a flagrantes nem a prisões totais.
+Feminicídio e tentativa,Municipal/mês; sexo,2015–2026,viável com limpeza/padronização,Nova dimensão possível. A existência de grade não prova disponibilidade histórica em cada UF.
+Latrocínio/lesão seguida de morte,Municipal/mês; sexo,2015–2026,viável com limpeza/padronização,"Usar vítimas, conferir definições e alterações históricas; RS 2015–2017 tem divergências relevantes."
+Veículos e tráfico,Estadual/mês,2015–2026,viável com limpeza/padronização,"Boa reconciliação RS em muitos anos, mas sem localização municipal nesses XLSX."

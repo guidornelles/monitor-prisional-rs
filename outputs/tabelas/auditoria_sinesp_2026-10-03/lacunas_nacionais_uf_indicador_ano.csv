@@ -1,0 +1,354 @@
+﻿ano,uf,evento,municipios,meses,abrangencia,lines,valid,zeros,nonzero,missing,total,total_vitima,total_peso
+2015,AC,Mandado de prisão cumprido,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,552,0,0,0,552,0.0,0.0,0.0
+2015,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,AC,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,AC,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,BA,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,BA,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,BA,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,BA,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,BA,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,DF,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,DF,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,DF,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,DF,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,DF,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,ES,Mandado de prisão cumprido,79,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal,948,0,0,0,948,0.0,0.0,0.0
+2015,ES,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal,12,0,0,0,12,0.0,0.0,0.0
+2015,ES,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal,12,0,0,0,12,0.0,0.0,0.0
+2015,ES,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal,12,0,0,0,12,0.0,0.0,0.0
+2015,ES,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Polícia Federal,12,0,0,0,12,0.0,0.0,0.0
+2015,GO,Mandado de prisão cumprido,247,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,5928,0,0,0,5928,0.0,0.0,0.0
+2015,GO,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,GO,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,GO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,GO,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,MA,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,MA,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,MG,Mandado de prisão cumprido,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,20496,0,0,0,20496,0.0,0.0,0.0
+2015,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,PB,Mandado de prisão cumprido,224,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,5376,0,0,0,5376,0.0,0.0,0.0
+2015,PB,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PB,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PI,Mandado de prisão cumprido,225,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,5400,0,0,0,5400,0.0,0.0,0.0
+2015,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Mandado de prisão cumprido,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,9600,0,0,0,9600,0.0,0.0,0.0
+2015,PR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,PR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,PR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,PR,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,RN,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RN,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RN,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RN,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RN,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RS,Mandado de prisão cumprido,498,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,11952,0,0,0,11952,0.0,0.0,0.0
+2015,RS,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RS,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,RS,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,SE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,SE,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,SE,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,SE,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2015,TO,Mandado de prisão cumprido,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,3360,0,0,0,3360,0.0,0.0,0.0
+2015,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2015,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Mandado de prisão cumprido,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,525,0,0,0,525,0.0,0.0,0.0
+2016,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,AC,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,BA,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,BA,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,BA,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,BA,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,BA,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,DF,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,DF,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,DF,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,DF,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,DF,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,ES,Mandado de prisão cumprido,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,1918,0,0,0,1918,0.0,0.0,0.0
+2016,ES,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,ES,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,ES,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,ES,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,MG,Mandado de prisão cumprido,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,25058,0,0,0,25058,0.0,0.0,0.0
+2016,PB,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PB,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PI,Mandado de prisão cumprido,225,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,5617,0,0,0,5617,0.0,0.0,0.0
+2016,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Mandado de prisão cumprido,400,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,10839,0,0,0,10839,0.0,0.0,0.0
+2016,PR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,PR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,PR,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,PR,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,RN,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RN,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RN,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RN,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RN,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RS,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RS,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,RS,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,SE,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,SE,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,SE,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2016,TO,Mandado de prisão cumprido,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,3328,0,0,0,3328,0.0,0.0,0.0
+2016,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2016,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Mandado de prisão cumprido,23,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,276,0,0,0,276,0.0,0.0,0.0
+2017,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,AC,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,AC,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,AC,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,BA,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,BA,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,BA,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,BA,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,BA,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,DF,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,DF,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,ES,Mandado de prisão cumprido,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,0,0,0,948,0.0,0.0,0.0
+2017,ES,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,ES,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,ES,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,ES,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,MG,Mandado de prisão cumprido,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,0,0,0,10248,0.0,0.0,0.0
+2017,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,PB,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PB,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PI,Mandado de prisão cumprido,225,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,2700,0,0,0,2700,0.0,0.0,0.0
+2017,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,RN,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RN,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RN,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RN,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RN,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,RR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2017,TO,Mandado de prisão cumprido,140,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,1680,0,0,0,1680,0.0,0.0,0.0
+2017,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2017,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,AC,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,DF,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,DF,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,DF,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,DF,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,DF,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,ES,Mandado de prisão cumprido,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,0,0,0,948,0.0,0.0,0.0
+2018,MG,Mandado de prisão cumprido,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,0,0,0,10248,0.0,0.0,0.0
+2018,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,PB,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PB,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,PR,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,RR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2018,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2018,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,ES,Mandado de prisão cumprido,79,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,948,0,0,0,948,0.0,0.0,0.0
+2019,MG,Mandado de prisão cumprido,854,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,10248,0,0,0,10248,0.0,0.0,0.0
+2019,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2019,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2019,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2019,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RO,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2019,RR,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RR,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RR,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RR,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,RR,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2019,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2019,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,AC,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,AC,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,PI,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,PI,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,PI,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,PI,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,PI,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RN,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RN,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RN,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RN,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RN,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Furto de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2020,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,RO,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2020,RO,Roubo de veículo,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2020,SE,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2020,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2020,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,AC,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,AC,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,AC,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2021,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2022,TO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2022,TO,Busca e salvamento,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2022,TO,Combate a incêndios,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2022,TO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2022,TO,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2023,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2023,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2024,MS,Realização de vistorias,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual,12,0,0,0,12,0.0,0.0,0.0
+2024,MS,Roubo a instituição financeira,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2024,MS,Roubo de carga,1,"1,2,3,4,5,6,7,8,9,10,11,12",Estadual;Polícia Federal,24,0,0,0,24,0.0,0.0,0.0
+2026,PA,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,PA,Realização de vistorias,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,RO,Atendimento pré-hospitalar,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,RO,Busca e salvamento,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,RO,Combate a incêndios,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,RO,Emissão de Alvarás de licença,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0
+2026,RO,Realização de vistorias,1,"1,2,3,4,5,6,7,8",Estadual,8,0,0,0,8,0.0,0.0,0.0

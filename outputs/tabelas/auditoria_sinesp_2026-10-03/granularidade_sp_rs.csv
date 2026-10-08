@@ -1,0 +1,721 @@
+﻿uf,ano,evento,unidade_coluna,municipios_nomeados,linhas,linhas_numericas,linhas_sem_valor,meses_numericos,total,total_localizado,total_nao_localizado,dimensao_arma,dimensao_agente,dimensao_faixa_etaria
+RS,2015,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1366.138,,1366.138,False,False,False
+RS,2015,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14020.127999999997,,14020.127999999997,False,False,False
+RS,2015,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",13853.0,,13853.0,True,False,False
+RS,2015,Atendimento pré-hospitalar,total_peso,0,12,0,12,,,,,False,False,False
+RS,2015,Busca e salvamento,total_peso,0,12,0,12,,,,,False,False,False
+RS,2015,Combate a incêndios,total_peso,0,12,0,12,,,,,False,False,False
+RS,2015,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",27219.0,,27219.0,False,False,False
+RS,2015,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1797.0,,1797.0,False,False,False
+RS,2015,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2569.0,,2569.0,False,False,False
+RS,2015,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",99.0,99.0,0.0,False,False,False
+RS,2015,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",20420.0,,20420.0,False,False,False
+RS,2015,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2704.0,2704.0,0.0,False,False,False
+RS,2015,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",25.0,25.0,0.0,False,False,False
+RS,2015,Mandado de prisão cumprido,total_peso,497,5976,0,5976,,,,,False,False,False
+RS,2015,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",3.0,,3.0,False,True,False
+RS,2015,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1152.0,1152.0,0.0,False,False,False
+RS,2015,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",78.0,,78.0,False,False,False
+RS,2015,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",923.0,923.0,0.0,False,False,False
+RS,2015,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",10107.0,,10107.0,False,False,True
+RS,2015,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7644.0,,7644.0,False,False,True
+RS,2015,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",32278.0,,32278.0,False,False,False
+RS,2015,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",77.0,,77.0,False,False,False
+RS,2015,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",261.0,,261.0,False,False,False
+RS,2015,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18138.0,,18138.0,False,False,False
+RS,2015,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",112.0,112.0,0.0,False,False,False
+RS,2015,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",882.0,882.0,0.0,False,False,False
+RS,2015,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,,0.0,False,True,False
+RS,2015,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",311.0,311.0,0.0,False,False,False
+RS,2015,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",4823.0,4823.0,0.0,False,False,False
+RS,2015,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9176.0,,9176.0,False,False,False
+RS,2016,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1108.6129999999998,,1108.6129999999998,False,False,False
+RS,2016,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",12559.987000000001,,12559.987000000001,False,False,False
+RS,2016,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",13390.0,,13390.0,True,False,False
+RS,2016,Atendimento pré-hospitalar,total_peso,0,12,0,12,,,,,False,False,False
+RS,2016,Busca e salvamento,total_peso,0,12,0,12,,,,,False,False,False
+RS,2016,Combate a incêndios,total_peso,0,12,0,12,,,,,False,False,False
+RS,2016,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",85497.0,,85497.0,False,False,False
+RS,2016,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1721.0,,1721.0,False,False,False
+RS,2016,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2945.0,,2945.0,False,False,False
+RS,2016,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",99.0,99.0,0.0,False,False,False
+RS,2016,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",19541.0,,19541.0,False,False,False
+RS,2016,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2931.0,2931.0,0.0,False,False,False
+RS,2016,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",17.0,17.0,0.0,False,False,False
+RS,2016,Mandado de prisão cumprido,total,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",6032.0,6032.0,0.0,False,False,False
+RS,2016,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",2.0,,2.0,False,True,False
+RS,2016,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1185.0,1185.0,0.0,False,False,False
+RS,2016,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",130.0,,130.0,False,False,False
+RS,2016,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",856.0,856.0,0.0,False,False,False
+RS,2016,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",9533.0,,9533.0,False,False,True
+RS,2016,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7622.0,,7622.0,False,False,True
+RS,2016,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",76385.0,,76385.0,False,False,False
+RS,2016,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",75.0,,75.0,False,False,False
+RS,2016,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",330.0,,330.0,False,False,False
+RS,2016,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",17614.0,,17614.0,False,False,False
+RS,2016,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",126.0,126.0,0.0,False,False,False
+RS,2016,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",948.0,948.0,0.0,False,False,False
+RS,2016,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,,0.0,False,True,False
+RS,2016,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",263.0,263.0,0.0,False,False,False
+RS,2016,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",4783.0,4783.0,0.0,False,False,False
+RS,2016,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8914.0,,8914.0,False,False,False
+RS,2017,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1092.4560000000001,,1092.4560000000001,False,False,False
+RS,2017,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21604.674,,21604.674,False,False,False
+RS,2017,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9564.0,,9564.0,True,False,False
+RS,2017,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8738.0,,8738.0,False,False,False
+RS,2017,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4594.0,,4594.0,False,False,False
+RS,2017,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11909.0,,11909.0,False,False,False
+RS,2017,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",65044.0,,65044.0,False,False,False
+RS,2017,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1800.0,,1800.0,False,False,False
+RS,2017,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3360.0,,3360.0,False,False,False
+RS,2017,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",83.0,83.0,0.0,False,False,False
+RS,2017,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16893.0,,16893.0,False,False,False
+RS,2017,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",3025.0,3025.0,0.0,False,False,False
+RS,2017,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",24.0,24.0,0.0,False,False,False
+RS,2017,Mandado de prisão cumprido,total,497,5976,3893,2083,"1,2,3,4,5,6,7,8,9,10,11,12",6965.0,6965.0,0.0,False,False,False
+RS,2017,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",1.0,,1.0,False,True,False
+RS,2017,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1238.0,1238.0,0.0,False,False,False
+RS,2017,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",110.0,,110.0,False,False,False
+RS,2017,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",836.0,836.0,0.0,False,False,False
+RS,2017,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8999.0,,8999.0,False,False,True
+RS,2017,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8074.0,,8074.0,False,False,True
+RS,2017,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",35024.0,,35024.0,False,False,False
+RS,2017,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",215.0,,215.0,False,False,False
+RS,2017,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",414.0,,414.0,False,False,False
+RS,2017,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",17859.0,,17859.0,False,False,False
+RS,2017,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",96.0,96.0,0.0,False,False,False
+RS,2017,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1040.0,1040.0,0.0,False,False,False
+RS,2017,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,,0.0,False,True,False
+RS,2017,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",322.0,322.0,0.0,False,False,False
+RS,2017,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",4458.0,4458.0,0.0,False,False,False
+RS,2017,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9458.0,,9458.0,False,False,False
+RS,2018,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1702.13,,1702.13,False,False,False
+RS,2018,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14385.6,,14385.6,False,False,False
+RS,2018,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",10105.0,,10105.0,True,False,False
+RS,2018,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18192.0,,18192.0,False,False,False
+RS,2018,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6517.0,,6517.0,False,False,False
+RS,2018,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16730.0,,16730.0,False,False,False
+RS,2018,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",90868.0,,90868.0,False,False,False
+RS,2018,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2114.0,,2114.0,False,False,False
+RS,2018,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3216.0,,3216.0,False,False,False
+RS,2018,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",116.0,116.0,0.0,False,False,False
+RS,2018,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14405.0,,14405.0,False,False,False
+RS,2018,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2410.0,2410.0,0.0,False,False,False
+RS,2018,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,29.0,0.0,False,False,False
+RS,2018,Mandado de prisão cumprido,total,497,5976,3900,2076,"1,2,3,4,5,6,7,8,9,10,11,12",6403.0,6403.0,0.0,False,False,False
+RS,2018,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",1.0,,1.0,False,True,False
+RS,2018,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1247.0,1247.0,0.0,False,False,False
+RS,2018,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",130.0,,130.0,False,False,False
+RS,2018,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",781.0,781.0,0.0,False,False,False
+RS,2018,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",9082.0,,9082.0,False,False,True
+RS,2018,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",10448.0,,10448.0,False,False,True
+RS,2018,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14812.0,,14812.0,False,False,False
+RS,2018,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",81.0,,81.0,False,False,False
+RS,2018,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",396.0,,396.0,False,False,False
+RS,2018,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16121.0,,16121.0,False,False,False
+RS,2018,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",95.0,95.0,0.0,False,False,False
+RS,2018,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",987.0,987.0,0.0,False,False,False
+RS,2018,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",1.0,,1.0,False,True,False
+RS,2018,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",355.0,355.0,0.0,False,False,False
+RS,2018,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",3631.0,3631.0,0.0,False,False,False
+RS,2018,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11782.0,,11782.0,False,False,False
+RS,2019,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1490.93,,1490.93,False,False,False
+RS,2019,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15958.869999999999,,15958.869999999999,False,False,False
+RS,2019,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9476.0,,9476.0,True,False,False
+RS,2019,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",19134.0,,19134.0,False,False,False
+RS,2019,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",7835.0,,7835.0,False,False,False
+RS,2019,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",19629.0,,19629.0,False,False,False
+RS,2019,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",83569.0,,83569.0,False,False,False
+RS,2019,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1502.0,,1502.0,False,False,False
+RS,2019,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3794.0,,3794.0,False,False,False
+RS,2019,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",97.0,97.0,0.0,False,False,False
+RS,2019,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",13093.0,,13093.0,False,False,False
+RS,2019,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1860.0,1860.0,0.0,False,False,False
+RS,2019,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,29.0,0.0,False,False,False
+RS,2019,Mandado de prisão cumprido,total,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",6008.0,6008.0,0.0,False,False,False
+RS,2019,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",6.0,,6.0,False,True,False
+RS,2019,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1228.0,1228.0,0.0,False,False,False
+RS,2019,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",99.0,,99.0,False,False,False
+RS,2019,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",902.0,902.0,0.0,False,False,False
+RS,2019,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8821.0,,8821.0,False,False,True
+RS,2019,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8829.0,,8829.0,False,False,True
+RS,2019,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15614.0,,15614.0,False,False,False
+RS,2019,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",52.0,,52.0,False,False,False
+RS,2019,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",307.0,,307.0,False,False,False
+RS,2019,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11127.0,,11127.0,False,False,False
+RS,2019,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",73.0,73.0,0.0,False,False,False
+RS,2019,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1240.0,1240.0,0.0,False,False,False
+RS,2019,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",4.0,,4.0,False,True,False
+RS,2019,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",359.0,359.0,0.0,False,False,False
+RS,2019,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",3276.0,3276.0,0.0,False,False,False
+RS,2019,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",12722.0,,12722.0,False,False,False
+RS,2020,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2687.5800000000004,,2687.5800000000004,False,False,False
+RS,2020,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18137.78,,18137.78,False,False,False
+RS,2020,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9471.0,,9471.0,True,False,False
+RS,2020,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18976.0,,18976.0,False,False,False
+RS,2020,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8964.0,,8964.0,False,False,False
+RS,2020,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",26521.0,,26521.0,False,False,False
+RS,2020,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",59813.0,,59813.0,False,False,False
+RS,2020,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1150.0,,1150.0,False,False,False
+RS,2020,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3552.0,,3552.0,False,False,False
+RS,2020,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",80.0,80.0,0.0,False,False,False
+RS,2020,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9411.0,,9411.0,False,False,False
+RS,2020,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1833.0,1833.0,0.0,False,False,False
+RS,2020,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",28.0,28.0,0.0,False,False,False
+RS,2020,Mandado de prisão cumprido,total,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",5873.0,5873.0,0.0,False,False,False
+RS,2020,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",1.0,,1.0,False,True,False
+RS,2020,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1133.0,1133.0,0.0,False,False,False
+RS,2020,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",147.0,,147.0,False,False,False
+RS,2020,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",836.0,836.0,0.0,False,False,False
+RS,2020,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",6439.0,,6439.0,False,False,True
+RS,2020,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",6050.0,,6050.0,False,False,True
+RS,2020,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16886.0,,16886.0,False,False,False
+RS,2020,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",13.0,,13.0,False,False,False
+RS,2020,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",204.0,,204.0,False,False,False
+RS,2020,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",7887.0,,7887.0,False,False,False
+RS,2020,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",75.0,75.0,0.0,False,False,False
+RS,2020,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1408.0,1408.0,0.0,False,False,False
+RS,2020,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",4.0,,4.0,False,True,False
+RS,2020,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",318.0,318.0,0.0,False,False,False
+RS,2020,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2711.0,2711.0,0.0,False,False,False
+RS,2020,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15739.0,,15739.0,False,False,False
+RS,2021,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3099.96,,3099.96,False,False,False
+RS,2021,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",22599.93,,22599.93,False,False,False
+RS,2021,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9542.0,,9542.0,True,False,False
+RS,2021,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",23935.0,,23935.0,False,False,False
+RS,2021,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11005.0,,11005.0,False,False,False
+RS,2021,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21557.0,,21557.0,False,False,False
+RS,2021,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",52958.0,,52958.0,False,False,False
+RS,2021,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1167.0,,1167.0,False,False,False
+RS,2021,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3898.0,,3898.0,False,False,False
+RS,2021,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",96.0,96.0,0.0,False,False,False
+RS,2021,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8916.0,,8916.0,False,False,False
+RS,2021,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1639.0,1639.0,0.0,False,False,False
+RS,2021,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",35.0,35.0,0.0,False,False,False
+RS,2021,Mandado de prisão cumprido,total,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",6430.0,6430.0,0.0,False,False,False
+RS,2021,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",7.0,,7.0,False,True,False
+RS,2021,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1339.0,1339.0,0.0,False,False,False
+RS,2021,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",124.0,,124.0,False,False,False
+RS,2021,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",36.0,36.0,0.0,False,False,False
+RS,2021,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",6672.0,,6672.0,False,False,True
+RS,2021,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",6497.0,,6497.0,False,False,True
+RS,2021,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14767.0,,14767.0,False,False,False
+RS,2021,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",13.0,,13.0,False,False,False
+RS,2021,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",172.0,,172.0,False,False,False
+RS,2021,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4942.0,,4942.0,False,False,False
+RS,2021,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",67.0,67.0,0.0,False,False,False
+RS,2021,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1590.0,1590.0,0.0,False,False,False
+RS,2021,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",7.0,,7.0,False,True,False
+RS,2021,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",255.0,255.0,0.0,False,False,False
+RS,2021,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2472.0,2472.0,0.0,False,False,False
+RS,2021,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16892.0,,16892.0,False,False,False
+RS,2022,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3071.3999999999996,,3071.3999999999996,False,False,False
+RS,2022,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21590.909999999996,,21590.909999999996,False,False,False
+RS,2022,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9856.0,,9856.0,True,False,False
+RS,2022,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",31599.0,,31599.0,False,False,False
+RS,2022,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",13503.0,,13503.0,False,False,False
+RS,2022,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",22942.0,,22942.0,False,False,False
+RS,2022,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",66328.0,,66328.0,False,False,False
+RS,2022,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1179.0,,1179.0,False,False,False
+RS,2022,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4576.0,,4576.0,False,False,False
+RS,2022,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",111.0,111.0,0.0,False,False,False
+RS,2022,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8953.0,,8953.0,False,False,False
+RS,2022,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1761.0,1761.0,0.0,False,False,False
+RS,2022,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",36.0,36.0,0.0,False,False,False
+RS,2022,Mandado de prisão cumprido,total,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",6966.0,6966.0,0.0,False,False,False
+RS,2022,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",4.0,,4.0,False,True,False
+RS,2022,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1476.0,1476.0,0.0,False,False,False
+RS,2022,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",91.0,,91.0,False,False,False
+RS,2022,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",95.0,95.0,0.0,False,False,False
+RS,2022,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7140.0,,7140.0,False,False,True
+RS,2022,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7607.0,,7607.0,False,False,True
+RS,2022,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15240.0,,15240.0,False,False,False
+RS,2022,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3.0,,3.0,False,False,False
+RS,2022,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",122.0,,122.0,False,False,False
+RS,2022,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4406.0,,4406.0,False,False,False
+RS,2022,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",53.0,53.0,0.0,False,False,False
+RS,2022,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1608.0,1608.0,0.0,False,False,False
+RS,2022,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",8.0,,8.0,False,True,False
+RS,2022,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",263.0,263.0,0.0,False,False,False
+RS,2022,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2545.0,2545.0,0.0,False,False,False
+RS,2022,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16290.0,,16290.0,False,False,False
+RS,2023,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4937.4929999999995,,4937.4929999999995,False,False,False
+RS,2023,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",31063.526000000005,,31063.526000000005,False,False,False
+RS,2023,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9498.0,,9498.0,True,False,False
+RS,2023,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",35615.0,,35615.0,False,False,False
+RS,2023,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15690.0,,15690.0,False,False,False
+RS,2023,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21496.0,,21496.0,False,False,False
+RS,2023,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",39022.0,,39022.0,False,False,False
+RS,2023,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1231.0,,1231.0,False,False,False
+RS,2023,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4549.0,,4549.0,False,False,False
+RS,2023,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",85.0,85.0,0.0,False,False,False
+RS,2023,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8556.0,,8556.0,False,False,False
+RS,2023,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1672.0,1672.0,0.0,False,False,False
+RS,2023,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,29.0,0.0,False,False,False
+RS,2023,Mandado de prisão cumprido,total,497,5976,3864,2112,"1,2,3,4,5,6,7,8,9,10,11,12",8464.0,8464.0,0.0,False,False,False
+RS,2023,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",7.0,,7.0,False,True,False
+RS,2023,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1334.0,1334.0,0.0,False,False,False
+RS,2023,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",141.0,,141.0,False,False,False
+RS,2023,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",72.0,72.0,0.0,False,False,False
+RS,2023,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7533.0,,7533.0,False,False,True
+RS,2023,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7344.0,,7344.0,False,False,True
+RS,2023,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",34513.0,,34513.0,False,False,False
+RS,2023,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3.0,,3.0,False,False,False
+RS,2023,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",86.0,,86.0,False,False,False
+RS,2023,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3595.0,,3595.0,False,False,False
+RS,2023,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",42.0,42.0,0.0,False,False,False
+RS,2023,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1608.0,1608.0,0.0,False,False,False
+RS,2023,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",12.0,,12.0,False,True,False
+RS,2023,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",237.0,237.0,0.0,False,False,False
+RS,2023,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2503.0,2503.0,0.0,False,False,False
+RS,2023,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16090.0,,16090.0,False,False,False
+RS,2024,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4630.406,,4630.406,False,False,False
+RS,2024,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",25020.031,,25020.031,False,False,False
+RS,2024,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",9279.0,,9279.0,True,False,False
+RS,2024,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",32913.0,,32913.0,False,False,False
+RS,2024,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",15989.0,,15989.0,False,False,False
+RS,2024,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21913.0,,21913.0,False,False,False
+RS,2024,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",27210.0,,27210.0,False,False,False
+RS,2024,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1166.0,,1166.0,False,False,False
+RS,2024,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4415.0,,4415.0,False,False,False
+RS,2024,Feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",73.0,73.0,0.0,False,False,False
+RS,2024,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6639.0,,6639.0,False,False,False
+RS,2024,Homicídio doloso,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1418.0,1418.0,0.0,False,False,False
+RS,2024,Lesão corporal seguida de morte,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",35.0,35.0,0.0,False,False,False
+RS,2024,Mandado de prisão cumprido,total,497,5976,3864,2112,"1,2,3,4,5,6,7,8,9,10,11,12",8579.0,8577.0,2.0,False,False,False
+RS,2024,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",6.0,,6.0,False,True,False
+RS,2024,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1373.0,1373.0,0.0,False,False,False
+RS,2024,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",141.0,,141.0,False,False,False
+RS,2024,Mortes a esclarecer (sem indício de crime),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",309.0,309.0,0.0,False,False,False
+RS,2024,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8156.0,,8156.0,False,False,True
+RS,2024,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8039.0,,8039.0,False,False,True
+RS,2024,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16710.0,,16710.0,False,False,False
+RS,2024,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3.0,,3.0,False,False,False
+RS,2024,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",38.0,,38.0,False,False,False
+RS,2024,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2299.0,,2299.0,False,False,False
+RS,2024,Roubo seguido de morte (latrocínio),total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",31.0,31.0,0.0,False,False,False
+RS,2024,Suicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",1516.0,1516.0,0.0,False,False,False
+RS,2024,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",16.0,,16.0,False,True,False
+RS,2024,Tentativa de feminicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",236.0,236.0,0.0,False,False,False
+RS,2024,Tentativa de homicídio,total_vitima,497,5976,5976,0,"1,2,3,4,5,6,7,8,9,10,11,12",2130.0,2130.0,0.0,False,False,False
+RS,2024,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16736.0,,16736.0,False,False,False
+RS,2025,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3068.352,,3068.352,False,False,False
+RS,2025,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",53953.936,,53953.936,False,False,False
+RS,2025,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",8866.0,,8866.0,True,False,False
+RS,2025,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",30648.0,,30648.0,False,False,False
+RS,2025,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14576.0,,14576.0,False,False,False
+RS,2025,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",24063.0,,24063.0,False,False,False
+RS,2025,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",44491.0,,44491.0,False,False,False
+RS,2025,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1035.0,,1035.0,False,False,False
+RS,2025,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4047.0,,4047.0,False,False,False
+RS,2025,Feminicídio,total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",80.0,80.0,0.0,False,False,False
+RS,2025,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6295.0,,6295.0,False,False,False
+RS,2025,Homicídio doloso,total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",1051.0,1051.0,0.0,False,False,False
+RS,2025,Lesão corporal seguida de morte,total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",46.0,46.0,0.0,False,False,False
+RS,2025,Mandado de prisão cumprido,total,497,5976,3861,2115,"1,2,3,4,5,6,7,8,9,10,11,12",10754.0,10754.0,0.0,False,False,False
+RS,2025,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",11.0,,11.0,False,True,False
+RS,2025,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",1262.0,1262.0,0.0,False,False,False
+RS,2025,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",80.0,,80.0,False,False,False
+RS,2025,Mortes a esclarecer (sem indício de crime),total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",1057.0,1057.0,0.0,False,False,False
+RS,2025,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7611.0,,7611.0,False,False,True
+RS,2025,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",7661.0,,7661.0,False,False,True
+RS,2025,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",30530.0,,30530.0,False,False,False
+RS,2025,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,,0.0,False,False,False
+RS,2025,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",42.0,,42.0,False,False,False
+RS,2025,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",1869.0,,1869.0,False,False,False
+RS,2025,Roubo seguido de morte (latrocínio),total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",32.0,32.0,0.0,False,False,False
+RS,2025,Suicídio,total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",1448.0,1448.0,0.0,False,False,False
+RS,2025,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",16.0,,16.0,False,True,False
+RS,2025,Tentativa de feminicídio,total_vitima,497,5977,5977,0,"1,2,3,4,5,6,7,8,9,10,11,12",263.0,263.0,0.0,False,False,False
+RS,2025,Tentativa de homicídio,total_vitima,497,5978,5978,0,"1,2,3,4,5,6,7,8,9,10,11,12",1906.0,1906.0,0.0,False,False,False
+RS,2025,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18189.0,,18189.0,False,False,False
+RS,2026,Apreensão de Cocaína,total_peso,0,8,8,0,"1,2,3,4,5,6,7,8",3418.395,,3418.395,False,False,False
+RS,2026,Apreensão de Maconha,total_peso,0,8,8,0,"1,2,3,4,5,6,7,8",32565.877,,32565.877,False,False,False
+RS,2026,Arma de Fogo Apreendida,total,0,72,72,0,"1,2,3,4,5,6,7,8",5281.0,,5281.0,True,False,False
+RS,2026,Atendimento pré-hospitalar,total,0,8,8,0,"1,2,3,4,5,6,7,8",20757.0,,20757.0,False,False,False
+RS,2026,Busca e salvamento,total,0,8,8,0,"1,2,3,4,5,6,7,8",9140.0,,9140.0,False,False,False
+RS,2026,Combate a incêndios,total,0,8,8,0,"1,2,3,4,5,6,7,8",14070.0,,14070.0,False,False,False
+RS,2026,Emissão de Alvarás de licença,total,0,8,8,0,"1,2,3,4,5,6,7,8",26254.0,,26254.0,False,False,False
+RS,2026,Estupro,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",704.0,,704.0,False,False,False
+RS,2026,Estupro de vulnerável,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",2611.0,,2611.0,False,False,False
+RS,2026,Feminicídio,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",54.0,54.0,0.0,False,False,False
+RS,2026,Furto de veículo,total,0,8,8,0,"1,2,3,4,5,6,7,8",3730.0,,3730.0,False,False,False
+RS,2026,Homicídio doloso,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",630.0,630.0,0.0,False,False,False
+RS,2026,Lesão corporal seguida de morte,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",27.0,27.0,0.0,False,False,False
+RS,2026,Mandado de prisão cumprido,total,497,3984,2927,1057,"1,2,3,4,5,6,7,8",6815.0,6815.0,0.0,False,False,False
+RS,2026,Morte de Agente do Estado,total_vitima,0,56,56,0,"1,2,3,4,5,6,7,8",0.0,,0.0,False,True,False
+RS,2026,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",793.0,793.0,0.0,False,False,False
+RS,2026,Morte por intervenção de Agente do Estado,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",62.0,,62.0,False,False,False
+RS,2026,Mortes a esclarecer (sem indício de crime),total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",777.0,777.0,0.0,False,False,False
+RS,2026,Pessoa Desaparecida,total_vitima,0,24,24,0,"1,2,3,4,5,6,7,8",5327.0,,5327.0,False,False,True
+RS,2026,Pessoa Localizada,total_vitima,0,24,24,0,"1,2,3,4,5,6,7,8",5287.0,,5287.0,False,False,True
+RS,2026,Realização de vistorias,total,0,8,8,0,"1,2,3,4,5,6,7,8",17095.0,,17095.0,False,False,False
+RS,2026,Roubo a instituição financeira,total,0,8,8,0,"1,2,3,4,5,6,7,8",1.0,,1.0,False,False,False
+RS,2026,Roubo de carga,total,0,8,8,0,"1,2,3,4,5,6,7,8",18.0,,18.0,False,False,False
+RS,2026,Roubo de veículo,total,0,8,8,0,"1,2,3,4,5,6,7,8",969.0,,969.0,False,False,False
+RS,2026,Roubo seguido de morte (latrocínio),total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",24.0,24.0,0.0,False,False,False
+RS,2026,Suicídio,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",928.0,928.0,0.0,False,False,False
+RS,2026,Suicídio de Agente do Estado,total_vitima,0,56,56,0,"1,2,3,4,5,6,7,8",6.0,,6.0,False,True,False
+RS,2026,Tentativa de feminicídio,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",159.0,159.0,0.0,False,False,False
+RS,2026,Tentativa de homicídio,total_vitima,497,3984,3984,0,"1,2,3,4,5,6,7,8",1092.0,1092.0,0.0,False,False,False
+RS,2026,Tráfico de drogas,total,0,8,8,0,"1,2,3,4,5,6,7,8",11499.0,,11499.0,False,False,False
+SP,2015,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",13355.817,,13355.817,False,False,False
+SP,2015,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",102924.79800000001,,102924.79800000001,False,False,False
+SP,2015,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",17250.0,,17250.0,True,False,False
+SP,2015,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",277310.0,,277310.0,False,False,False
+SP,2015,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",64283.0,,64283.0,False,False,False
+SP,2015,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",52285.0,,52285.0,False,False,False
+SP,2015,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",147142.0,,147142.0,False,False,False
+SP,2015,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11931.0,,11931.0,False,False,False
+SP,2015,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,,0.0,False,False,False
+SP,2015,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",41.0,41.0,0.0,False,False,False
+SP,2015,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",110690.0,,110690.0,False,False,False
+SP,2015,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3925.0,3925.0,0.0,False,False,False
+SP,2015,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",0.0,0.0,0.0,False,False,False
+SP,2015,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",63933.0,63933.0,,False,False,False
+SP,2015,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",62.0,,62.0,False,True,False
+SP,2015,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5364.0,5364.0,0.0,False,False,False
+SP,2015,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",798.0,,798.0,False,False,False
+SP,2015,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2574.0,2574.0,0.0,False,False,False
+SP,2015,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",27905.0,,27905.0,False,False,True
+SP,2015,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",13535.0,,13535.0,False,False,True
+SP,2015,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",90296.0,,90296.0,False,False,False
+SP,2015,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",159.0,,159.0,False,False,False
+SP,2015,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8490.0,,8490.0,False,False,False
+SP,2015,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",78659.0,,78659.0,False,False,False
+SP,2015,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",356.0,356.0,0.0,False,False,False
+SP,2015,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2114.0,2114.0,0.0,False,False,False
+SP,2015,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",16.0,,16.0,False,True,False
+SP,2015,Tentativa de feminicídio,total_vitima,645,6460,6460,0,"1,2,3,4,5,6,7,8,9,10",57.0,57.0,0.0,False,False,False
+SP,2015,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",7641.0,7641.0,0.0,False,False,False
+SP,2015,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",44364.0,,44364.0,False,False,False
+SP,2016,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",14403.130000000001,,14403.130000000001,False,False,False
+SP,2016,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",148142.67,,148142.67,False,False,False
+SP,2016,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",16398.0,,16398.0,True,False,False
+SP,2016,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",276657.0,,276657.0,False,False,False
+SP,2016,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",68028.0,,68028.0,False,False,False
+SP,2016,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",69789.0,,69789.0,False,False,False
+SP,2016,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",190962.0,,190962.0,False,False,False
+SP,2016,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9901.0,,9901.0,False,False,False
+SP,2016,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2957.0,,2957.0,False,False,False
+SP,2016,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",63.0,63.0,0.0,False,False,False
+SP,2016,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",110932.0,,110932.0,False,False,False
+SP,2016,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3611.0,3611.0,0.0,False,False,False
+SP,2016,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",12.0,12.0,0.0,False,False,False
+SP,2016,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",71855.0,71855.0,,False,False,False
+SP,2016,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",76.0,,76.0,False,True,False
+SP,2016,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5468.0,5468.0,0.0,False,False,False
+SP,2016,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",857.0,,857.0,False,False,False
+SP,2016,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2786.0,2786.0,0.0,False,False,False
+SP,2016,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",25168.0,,25168.0,False,False,True
+SP,2016,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",10650.0,,10650.0,False,False,True
+SP,2016,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",144925.0,,144925.0,False,False,False
+SP,2016,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",137.0,,137.0,False,False,False
+SP,2016,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9943.0,,9943.0,False,False,False
+SP,2016,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",77949.0,,77949.0,False,False,False
+SP,2016,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",361.0,361.0,0.0,False,False,False
+SP,2016,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2444.0,2444.0,0.0,False,False,False
+SP,2016,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",18.0,,18.0,False,True,False
+SP,2016,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",141.0,141.0,0.0,False,False,False
+SP,2016,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",6870.0,6870.0,0.0,False,False,False
+SP,2016,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",45549.0,,45549.0,False,False,False
+SP,2017,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",20147.416999999998,,20147.416999999998,False,False,False
+SP,2017,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",187434.40899999999,,187434.40899999999,False,False,False
+SP,2017,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",15187.0,,15187.0,True,False,False
+SP,2017,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",235658.0,,235658.0,False,False,False
+SP,2017,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",63895.0,,63895.0,False,False,False
+SP,2017,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",54246.0,,54246.0,False,False,False
+SP,2017,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",152670.0,,152670.0,False,False,False
+SP,2017,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3825.0,,3825.0,False,False,False
+SP,2017,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9428.0,,9428.0,False,False,False
+SP,2017,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",121.0,121.0,0.0,False,False,False
+SP,2017,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",104829.0,,104829.0,False,False,False
+SP,2017,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3383.0,3383.0,0.0,False,False,False
+SP,2017,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",49.0,49.0,0.0,False,False,False
+SP,2017,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",79415.0,79415.0,,False,False,False
+SP,2017,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",60.0,,60.0,False,True,False
+SP,2017,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5270.0,5270.0,0.0,False,False,False
+SP,2017,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",941.0,,941.0,False,False,False
+SP,2017,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2941.0,2941.0,0.0,False,False,False
+SP,2017,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",24619.0,,24619.0,False,False,True
+SP,2017,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",10853.0,,10853.0,False,False,True
+SP,2017,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",147279.0,,147279.0,False,False,False
+SP,2017,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",97.0,,97.0,False,False,False
+SP,2017,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",10584.0,,10584.0,False,False,False
+SP,2017,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",67964.0,,67964.0,False,False,False
+SP,2017,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",338.0,338.0,0.0,False,False,False
+SP,2017,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2234.0,2234.0,0.0,False,False,False
+SP,2017,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",28.0,,28.0,False,True,False
+SP,2017,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",185.0,185.0,0.0,False,False,False
+SP,2017,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",6476.0,6476.0,0.0,False,False,False
+SP,2017,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",49346.0,,49346.0,False,False,False
+SP,2018,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3491.798,,3491.798,False,False,False
+SP,2018,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6668.4,,6668.4,False,False,False
+SP,2018,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",12884.0,,12884.0,True,False,False
+SP,2018,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",235982.0,,235982.0,False,False,False
+SP,2018,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",65957.0,,65957.0,False,False,False
+SP,2018,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",54954.0,,54954.0,False,False,False
+SP,2018,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",154194.0,,154194.0,False,False,False
+SP,2018,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3596.0,,3596.0,False,False,False
+SP,2018,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9923.0,,9923.0,False,False,False
+SP,2018,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",136.0,136.0,0.0,False,False,False
+SP,2018,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",99346.0,,99346.0,False,False,False
+SP,2018,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2970.0,2970.0,0.0,False,False,False
+SP,2018,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",80.0,80.0,0.0,False,False,False
+SP,2018,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",84504.0,84504.0,,False,False,False
+SP,2018,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",60.0,,60.0,False,True,False
+SP,2018,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4894.0,4894.0,0.0,False,False,False
+SP,2018,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",851.0,,851.0,False,False,False
+SP,2018,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3512.0,3512.0,0.0,False,False,False
+SP,2018,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",23999.0,,23999.0,False,False,True
+SP,2018,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",11319.0,,11319.0,False,False,True
+SP,2018,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",145260.0,,145260.0,False,False,False
+SP,2018,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",54.0,,54.0,False,False,False
+SP,2018,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",8738.0,,8738.0,False,False,False
+SP,2018,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",58970.0,,58970.0,False,False,False
+SP,2018,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",278.0,278.0,0.0,False,False,False
+SP,2018,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2356.0,2356.0,0.0,False,False,False
+SP,2018,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",46.0,,46.0,False,True,False
+SP,2018,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",272.0,272.0,0.0,False,False,False
+SP,2018,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5829.0,5829.0,0.0,False,False,False
+SP,2018,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",48322.0,,48322.0,False,False,False
+SP,2019,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",39038.80900000001,,39038.80900000001,False,False,False
+SP,2019,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",126609.74,,126609.74,False,False,False
+SP,2019,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",12525.0,,12525.0,True,False,False
+SP,2019,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",236897.0,,236897.0,False,False,False
+SP,2019,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",69690.0,,69690.0,False,False,False
+SP,2019,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",51458.0,,51458.0,False,False,False
+SP,2019,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",173385.0,,173385.0,False,False,False
+SP,2019,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3447.0,,3447.0,False,False,False
+SP,2019,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",10676.0,,10676.0,False,False,False
+SP,2019,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",184.0,184.0,0.0,False,False,False
+SP,2019,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",90652.0,,90652.0,False,False,False
+SP,2019,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2722.0,2722.0,0.0,False,False,False
+SP,2019,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",104.0,104.0,0.0,False,False,False
+SP,2019,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",91210.0,91210.0,,False,False,False
+SP,2019,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",34.0,,34.0,False,True,False
+SP,2019,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5005.0,5005.0,0.0,False,False,False
+SP,2019,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",867.0,,867.0,False,False,False
+SP,2019,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3489.0,3489.0,0.0,False,False,False
+SP,2019,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",25145.0,,25145.0,False,False,True
+SP,2019,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",12167.0,,12167.0,False,False,True
+SP,2019,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",153456.0,,153456.0,False,False,False
+SP,2019,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",21.0,,21.0,False,False,False
+SP,2019,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",7325.0,,7325.0,False,False,False
+SP,2019,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",46517.0,,46517.0,False,False,False
+SP,2019,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",199.0,199.0,0.0,False,False,False
+SP,2019,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2621.0,2621.0,0.0,False,False,False
+SP,2019,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",25.0,,25.0,False,True,False
+SP,2019,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",395.0,395.0,0.0,False,False,False
+SP,2019,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5667.0,5667.0,0.0,False,False,False
+SP,2019,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",47483.0,,47483.0,False,False,False
+SP,2020,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",17065.595,,17065.595,False,False,False
+SP,2020,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",114084.251,,114084.251,False,False,False
+SP,2020,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",11026.0,,11026.0,True,False,False
+SP,2020,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",205690.0,,205690.0,False,False,False
+SP,2020,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",66105.0,,66105.0,False,False,False
+SP,2020,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",55962.0,,55962.0,False,False,False
+SP,2020,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",146693.0,,146693.0,False,False,False
+SP,2020,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2932.0,,2932.0,False,False,False
+SP,2020,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9697.0,,9697.0,False,False,False
+SP,2020,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",180.0,180.0,0.0,False,False,False
+SP,2020,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",65724.0,,65724.0,False,False,False
+SP,2020,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2858.0,2858.0,0.0,False,False,False
+SP,2020,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",122.0,122.0,0.0,False,False,False
+SP,2020,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",56923.0,56923.0,,False,False,False
+SP,2020,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",49.0,,49.0,False,True,False
+SP,2020,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4730.0,4730.0,0.0,False,False,False
+SP,2020,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",814.0,,814.0,False,False,False
+SP,2020,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3522.0,3522.0,0.0,False,False,False
+SP,2020,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",18834.0,,18834.0,False,False,True
+SP,2020,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",9379.0,,9379.0,False,False,True
+SP,2020,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",120084.0,,120084.0,False,False,False
+SP,2020,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,,29.0,False,False,False
+SP,2020,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",5918.0,,5918.0,False,False,False
+SP,2020,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",31891.0,,31891.0,False,False,False
+SP,2020,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",183.0,183.0,0.0,False,False,False
+SP,2020,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2561.0,2561.0,0.0,False,False,False
+SP,2020,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",31.0,,31.0,False,True,False
+SP,2020,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",303.0,303.0,0.0,False,False,False
+SP,2020,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",5177.0,5177.0,0.0,False,False,False
+SP,2020,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",41560.0,,41560.0,False,False,False
+SP,2021,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",30595.184,,30595.184,False,False,False
+SP,2021,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",246846.72300000003,,246846.72300000003,False,False,False
+SP,2021,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",11272.0,,11272.0,True,False,False
+SP,2021,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",211953.0,,211953.0,False,False,False
+SP,2021,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",72037.0,,72037.0,False,False,False
+SP,2021,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",55968.0,,55968.0,False,False,False
+SP,2021,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",167256.0,,167256.0,False,False,False
+SP,2021,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2706.0,,2706.0,False,False,False
+SP,2021,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",9802.0,,9802.0,False,False,False
+SP,2021,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",147.0,147.0,0.0,False,False,False
+SP,2021,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",79670.0,,79670.0,False,False,False
+SP,2021,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2701.0,2701.0,0.0,False,False,False
+SP,2021,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",76.0,76.0,0.0,False,False,False
+SP,2021,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",57811.0,57811.0,,False,False,False
+SP,2021,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",25.0,,25.0,False,True,False
+SP,2021,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4616.0,4616.0,0.0,False,False,False
+SP,2021,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",578.0,,578.0,False,False,False
+SP,2021,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3470.0,3470.0,0.0,False,False,False
+SP,2021,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",18399.0,,18399.0,False,False,True
+SP,2021,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",8829.0,,8829.0,False,False,True
+SP,2021,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",125707.0,,125707.0,False,False,False
+SP,2021,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",18.0,,18.0,False,False,False
+SP,2021,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6529.0,,6529.0,False,False,False
+SP,2021,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",33041.0,,33041.0,False,False,False
+SP,2021,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",173.0,173.0,0.0,False,False,False
+SP,2021,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2727.0,2727.0,0.0,False,False,False
+SP,2021,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",34.0,,34.0,False,True,False
+SP,2021,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",339.0,339.0,0.0,False,False,False
+SP,2021,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4870.0,4870.0,0.0,False,False,False
+SP,2021,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",38619.0,,38619.0,False,False,False
+SP,2022,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",35346.668,,35346.668,False,False,False
+SP,2022,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",199167.09900000002,,199167.09900000002,False,False,False
+SP,2022,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",10414.0,,10414.0,True,False,False
+SP,2022,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",235146.0,,235146.0,False,False,False
+SP,2022,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",71449.0,,71449.0,False,False,False
+SP,2022,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",43724.0,,43724.0,False,False,False
+SP,2022,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",203846.0,,203846.0,False,False,False
+SP,2022,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3176.0,,3176.0,False,False,False
+SP,2022,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",11274.0,,11274.0,False,False,False
+SP,2022,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",195.0,195.0,0.0,False,False,False
+SP,2022,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",96662.0,,96662.0,False,False,False
+SP,2022,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2849.0,2849.0,0.0,False,False,False
+SP,2022,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",94.0,94.0,0.0,False,False,False
+SP,2022,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",62542.0,62542.0,,False,False,False
+SP,2022,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",36.0,,36.0,False,True,False
+SP,2022,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4605.0,4605.0,0.0,False,False,False
+SP,2022,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",421.0,,421.0,False,False,False
+SP,2022,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",1660.0,1660.0,0.0,False,False,False
+SP,2022,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",20906.0,,20906.0,False,False,True
+SP,2022,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",11506.0,,11506.0,False,False,True
+SP,2022,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",89644.0,,89644.0,False,False,False
+SP,2022,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",16.0,,16.0,False,False,False
+SP,2022,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6331.0,,6331.0,False,False,False
+SP,2022,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",41721.0,,41721.0,False,False,False
+SP,2022,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",178.0,178.0,0.0,False,False,False
+SP,2022,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3020.0,3020.0,0.0,False,False,False
+SP,2022,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",27.0,,27.0,False,True,False
+SP,2022,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",462.0,462.0,0.0,False,False,False
+SP,2022,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4830.0,4830.0,0.0,False,False,False
+SP,2022,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",32392.0,,32392.0,False,False,False
+SP,2023,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",41935.58399999999,,41935.58399999999,False,False,False
+SP,2023,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",214399.50100000002,,214399.50100000002,False,False,False
+SP,2023,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",11470.0,,11470.0,True,False,False
+SP,2023,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",237061.0,,237061.0,False,False,False
+SP,2023,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",78357.0,,78357.0,False,False,False
+SP,2023,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",45812.0,,45812.0,False,False,False
+SP,2023,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",204976.0,,204976.0,False,False,False
+SP,2023,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3430.0,,3430.0,False,False,False
+SP,2023,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",12123.0,,12123.0,False,False,False
+SP,2023,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",221.0,221.0,0.0,False,False,False
+SP,2023,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",94258.0,,94258.0,False,False,False
+SP,2023,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2507.0,2507.0,0.0,False,False,False
+SP,2023,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",82.0,82.0,0.0,False,False,False
+SP,2023,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",69440.0,69440.0,,False,False,False
+SP,2023,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,,29.0,False,True,False
+SP,2023,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4188.0,4188.0,0.0,False,False,False
+SP,2023,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",504.0,,504.0,False,False,False
+SP,2023,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4624.0,4624.0,0.0,False,False,False
+SP,2023,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",18421.0,,18421.0,False,False,True
+SP,2023,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",16412.0,,16412.0,False,False,True
+SP,2023,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",131655.0,,131655.0,False,False,False
+SP,2023,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",10.0,,10.0,False,False,False
+SP,2023,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",6063.0,,6063.0,False,False,False
+SP,2023,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",37471.0,,37471.0,False,False,False
+SP,2023,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",166.0,166.0,0.0,False,False,False
+SP,2023,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3148.0,3148.0,0.0,False,False,False
+SP,2023,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",40.0,,40.0,False,True,False
+SP,2023,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",425.0,425.0,0.0,False,False,False
+SP,2023,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4230.0,4230.0,0.0,False,False,False
+SP,2023,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",35784.0,,35784.0,False,False,False
+SP,2024,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",47925.526000000005,,47925.526000000005,False,False,False
+SP,2024,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",147242.63900000002,,147242.63900000002,False,False,False
+SP,2024,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",14220.0,,14220.0,True,False,False
+SP,2024,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",228127.0,,228127.0,False,False,False
+SP,2024,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",68375.0,,68375.0,False,False,False
+SP,2024,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",67791.0,,67791.0,False,False,False
+SP,2024,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",215356.0,,215356.0,False,False,False
+SP,2024,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3537.0,,3537.0,False,False,False
+SP,2024,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",12452.0,,12452.0,False,False,False
+SP,2024,Feminicídio,total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",253.0,253.0,0.0,False,False,False
+SP,2024,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",93996.0,,93996.0,False,False,False
+SP,2024,Homicídio doloso,total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",2377.0,2377.0,0.0,False,False,False
+SP,2024,Lesão corporal seguida de morte,total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",138.0,138.0,0.0,False,False,False
+SP,2024,Mandado de prisão cumprido,total,645,7752,7740,12,"1,2,3,4,5,6,7,8,9,10,11,12",80066.0,80066.0,,False,False,False
+SP,2024,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",32.0,,32.0,False,True,False
+SP,2024,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",4471.0,4471.0,0.0,False,False,False
+SP,2024,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",813.0,,813.0,False,False,False
+SP,2024,Mortes a esclarecer (sem indício de crime),total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",5047.0,5047.0,0.0,False,False,False
+SP,2024,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",19966.0,,19966.0,False,False,True
+SP,2024,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",15969.0,,15969.0,False,False,True
+SP,2024,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",134701.0,,134701.0,False,False,False
+SP,2024,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2.0,,2.0,False,False,False
+SP,2024,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",4711.0,,4711.0,False,False,False
+SP,2024,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",31696.0,,31696.0,False,False,False
+SP,2024,Roubo seguido de morte (latrocínio),total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",170.0,170.0,0.0,False,False,False
+SP,2024,Suicídio,total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",2921.0,2921.0,0.0,False,False,False
+SP,2024,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",17.0,,17.0,False,True,False
+SP,2024,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",647.0,647.0,0.0,False,False,False
+SP,2024,Tentativa de homicídio,total_vitima,645,7753,7753,0,"1,2,3,4,5,6,7,8,9,10,11,12",3784.0,3784.0,0.0,False,False,False
+SP,2024,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",37753.0,,37753.0,False,False,False
+SP,2025,Apreensão de Cocaína,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",36628.036,,36628.036,False,False,False
+SP,2025,Apreensão de Maconha,total_peso,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",150840.603,,150840.603,False,False,False
+SP,2025,Arma de Fogo Apreendida,total,0,108,108,0,"1,2,3,4,5,6,7,8,9,10,11,12",14023.0,,14023.0,True,False,False
+SP,2025,Atendimento pré-hospitalar,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",219677.0,,219677.0,False,False,False
+SP,2025,Busca e salvamento,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",72379.0,,72379.0,False,False,False
+SP,2025,Combate a incêndios,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",53668.0,,53668.0,False,False,False
+SP,2025,Emissão de Alvarás de licença,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",252913.0,,252913.0,False,False,False
+SP,2025,Estupro,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3491.0,,3491.0,False,False,False
+SP,2025,Estupro de vulnerável,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",12239.0,,12239.0,False,False,False
+SP,2025,Feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",270.0,270.0,0.0,False,False,False
+SP,2025,Furto de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",87334.0,,87334.0,False,False,False
+SP,2025,Homicídio doloso,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2257.0,2257.0,0.0,False,False,False
+SP,2025,Lesão corporal seguida de morte,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",122.0,122.0,0.0,False,False,False
+SP,2025,Mandado de prisão cumprido,total,645,7752,7743,9,"1,2,3,4,5,6,7,8,9,10,11,12",83434.0,83434.0,0.0,False,False,False
+SP,2025,Morte de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",30.0,,30.0,False,True,False
+SP,2025,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",4132.0,4132.0,0.0,False,False,False
+SP,2025,Morte por intervenção de Agente do Estado,total_vitima,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",835.0,,835.0,False,False,False
+SP,2025,Mortes a esclarecer (sem indício de crime),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3283.0,3283.0,0.0,False,False,False
+SP,2025,Pessoa Desaparecida,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",20546.0,,20546.0,False,False,True
+SP,2025,Pessoa Localizada,total_vitima,0,36,36,0,"1,2,3,4,5,6,7,8,9,10,11,12",15190.0,,15190.0,False,False,True
+SP,2025,Realização de vistorias,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",115986.0,,115986.0,False,False,False
+SP,2025,Roubo a instituição financeira,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",2.0,,2.0,False,False,False
+SP,2025,Roubo de carga,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",3470.0,,3470.0,False,False,False
+SP,2025,Roubo de veículo,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",25024.0,,25024.0,False,False,False
+SP,2025,Roubo seguido de morte (latrocínio),total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",131.0,131.0,0.0,False,False,False
+SP,2025,Suicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",2995.0,2995.0,0.0,False,False,False
+SP,2025,Suicídio de Agente do Estado,total_vitima,0,84,84,0,"1,2,3,4,5,6,7,8,9,10,11,12",29.0,,29.0,False,True,False
+SP,2025,Tentativa de feminicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",757.0,757.0,0.0,False,False,False
+SP,2025,Tentativa de homicídio,total_vitima,645,7752,7752,0,"1,2,3,4,5,6,7,8,9,10,11,12",3843.0,3843.0,0.0,False,False,False
+SP,2025,Tráfico de drogas,total,0,12,12,0,"1,2,3,4,5,6,7,8,9,10,11,12",45507.0,,45507.0,False,False,False
+SP,2026,Apreensão de Cocaína,total_peso,0,8,8,0,"1,2,3,4,5,6,7,8",25724.476,,25724.476,False,False,False
+SP,2026,Apreensão de Maconha,total_peso,0,8,8,0,"1,2,3,4,5,6,7,8",86045.299,,86045.299,False,False,False
+SP,2026,Arma de Fogo Apreendida,total,0,72,72,0,"1,2,3,4,5,6,7,8",8574.0,,8574.0,True,False,False
+SP,2026,Atendimento pré-hospitalar,total,0,8,8,0,"1,2,3,4,5,6,7,8",141370.0,,141370.0,False,False,False
+SP,2026,Busca e salvamento,total,0,8,8,0,"1,2,3,4,5,6,7,8",47042.0,,47042.0,False,False,False
+SP,2026,Combate a incêndios,total,0,8,8,0,"1,2,3,4,5,6,7,8",26259.0,,26259.0,False,False,False
+SP,2026,Emissão de Alvarás de licença,total,0,8,8,0,"1,2,3,4,5,6,7,8",164196.0,,164196.0,False,False,False
+SP,2026,Estupro,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",2389.0,,2389.0,False,False,False
+SP,2026,Estupro de vulnerável,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",8674.0,,8674.0,False,False,False
+SP,2026,Feminicídio,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",170.0,170.0,0.0,False,False,False
+SP,2026,Furto de veículo,total,0,8,8,0,"1,2,3,4,5,6,7,8",53536.0,,53536.0,False,False,False
+SP,2026,Homicídio doloso,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",1379.0,1379.0,0.0,False,False,False
+SP,2026,Lesão corporal seguida de morte,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",62.0,62.0,0.0,False,False,False
+SP,2026,Mandado de prisão cumprido,total,645,5168,5165,3,"1,2,3,4,5,6,7,8",54588.0,54588.0,0.0,False,False,False
+SP,2026,Morte de Agente do Estado,total_vitima,0,56,56,0,"1,2,3,4,5,6,7,8",12.0,,12.0,False,True,False
+SP,2026,Morte no trânsito ou em decorrência dele (exceto homicídio doloso),total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",2659.0,2659.0,0.0,False,False,False
+SP,2026,Morte por intervenção de Agente do Estado,total_vitima,0,8,8,0,"1,2,3,4,5,6,7,8",478.0,,478.0,False,False,False
+SP,2026,Mortes a esclarecer (sem indício de crime),total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",2555.0,2555.0,0.0,False,False,False
+SP,2026,Pessoa Desaparecida,total_vitima,0,24,24,0,"1,2,3,4,5,6,7,8",14128.0,,14128.0,False,False,True
+SP,2026,Pessoa Localizada,total_vitima,0,24,24,0,"1,2,3,4,5,6,7,8",10171.0,,10171.0,False,False,True
+SP,2026,Realização de vistorias,total,0,8,8,0,"1,2,3,4,5,6,7,8",82835.0,,82835.0,False,False,False
+SP,2026,Roubo a instituição financeira,total,0,8,8,0,"1,2,3,4,5,6,7,8",0.0,,0.0,False,False,False
+SP,2026,Roubo de carga,total,0,8,8,0,"1,2,3,4,5,6,7,8",1638.0,,1638.0,False,False,False
+SP,2026,Roubo de veículo,total,0,8,8,0,"1,2,3,4,5,6,7,8",11346.0,,11346.0,False,False,False
+SP,2026,Roubo seguido de morte (latrocínio),total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",59.0,59.0,0.0,False,False,False
+SP,2026,Suicídio,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",1809.0,1809.0,0.0,False,False,False
+SP,2026,Suicídio de Agente do Estado,total_vitima,0,56,56,0,"1,2,3,4,5,6,7,8",12.0,,12.0,False,True,False
+SP,2026,Tentativa de feminicídio,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",537.0,537.0,0.0,False,False,False
+SP,2026,Tentativa de homicídio,total_vitima,645,5168,5168,0,"1,2,3,4,5,6,7,8",2534.0,2534.0,0.0,False,False,False
+SP,2026,Tráfico de drogas,total,0,8,8,0,"1,2,3,4,5,6,7,8",32630.0,,32630.0,False,False,False
