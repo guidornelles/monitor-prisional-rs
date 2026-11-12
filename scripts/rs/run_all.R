@@ -1,11 +1,13 @@
 # =============================================================================
-# run_all.R — Orquestrador do pipeline da PoC do Monitor Prisional RS
+# run_all.R — Orquestrador do Monitor Prisional RS
 # -----------------------------------------------------------------------------
 # Roda as etapas na ordem correta. Substitui o acoplamento por sessão do Monitor SP:
 # cada etapa lê de arquivos e escreve em arquivos; este script só define a ORDEM.
 #
 # Pré-requisitos (uma vez): renv::restore()  (instala os pacotes do renv.lock)
-# Aquisição (uma vez, com internet): rodar 01a e 01 antes do processamento.
+# Aquisição: rodar 01a/01/01b conforme necessário e preservar snapshots.
+# Mandados requerem o snapshot Sinesp indicado em cfg$sinesp_dir.
+# Para uma candidata isolada, defina MONITOR_RS_RUN_DIR antes de executar.
 #
 # Uso:  source("scripts/rs/run_all.R")
 # =============================================================================
@@ -20,9 +22,10 @@ t0 <- Sys.time(); etapa <- function(f) { message("\n==== ", f, " ===="); source(
 # etapa("01c_download_datasus.R")  # [opcional/alternativo] Saúde MORTALIDADE via microdatasus. Canônico = TABNET (04b)
 
 # ---- 1. Processamento por módulo (lê data/raw -> escreve data/processed) ------
-etapa("02_criminal.R")             # ✅ pronto e validado (2022–2025); auditoria automática
-etapa("02b_atividade.R")           # ✅ prisões em flagrante (PC) por município×ano (Lei 15.610 Art.6 IX)
-etapa("03_prisional.R")            # ✅ Base Única SISDEPEN -> base prisional (padrão Base_Sisdepen); cela física; Endereço p/ mapa
+etapa("02_criminal.R")             # SSP-RS criminal 2022–2025; reconciliação municipal e estadual
+etapa("02b_atividade.R")           # flagrantes da PC por município e ano
+etapa("02c_mandados_sinesp.R")     # mandados cumpridos; série própria, sem somar aos flagrantes
+etapa("03_prisional.R")            # Base Única SISDEPEN, cela física 2017–2025; estoque do primeiro semestre
 etapa("03b_prisional_derivadas.R") # ✅ derivadas: regime, pena (binning SP), filhos, tipo_penal CORRIGIDO, continentes, óbitos ANUAIS (1º+2º), atendimento/gestantes/lactantes
 # 03c_mortalidade.R — DESCONTINUADO (mesclado no 03b; mortalidade agora é anual 1º+2º sem)
 etapa("04_contexto.R")             # ✅ região intermediária + população + PIB + distorção idade-série (denominadores)

@@ -70,7 +70,7 @@ baixar_obitos_ano <- function(ano) {
   }, error = function(e) { message("⚠ SIM ", ano, " indisponível/erro: ", conditionMessage(e)); NULL })
 }
 
-obitos <- purrr::map_dfr(cfg$anos, function(a) { message("SIM-DO ", a, " ..."); baixar_obitos_ano(a) })
+obitos <- purrr::map_dfr(cfg$saude_anos, function(a) { message("SIM-DO ", a, " ..."); baixar_obitos_ano(a) })
 
 if (nrow(obitos) == 0) stop("Nenhum óbito recuperado — verificar microdatasus/conexão.")
 

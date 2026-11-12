@@ -1,15 +1,14 @@
 # =============================================================================
 # 02b_atividade.R — Prisões em flagrante (PC) por município × ano
 # -----------------------------------------------------------------------------
-# Variável `prisoes` do Monitor SP. Fonte RS: dados abertos Lei 15.610/2021,
+# Flagrantes da PC, sem equivalência ao total paulista. Fonte: Lei 15.610/2021,
 # Art. 6º Inc. IX — "Prisões em Flagrante pela PC por Fato e Município" (um arquivo
 # por semestre). É microdado: 1 linha por prisão em flagrante -> contamos por município.
 #
 # RECORTE / LIMITES (decisões consolidadas; ver docs/decisoes_metodologicas.md):
-#   - `prisoes` = SOMENTE FLAGRANTES da Polícia Civil. Mandados de prisão existem apenas
-#     em nível ESTADUAL no RS, não municipal — por isso NÃO entram (divergência de SP a documentar).
-#   - `ap_armas` (armas apreendidas) NÃO é municipalizável no RS (só dado estadual) -> fica
-#     fora da tabela municipal; não se reparte total estadual entre municípios (seria invenção).
+#   - `prisoes` preserva o nome interno legado e conta registros de flagrantes.
+#     Mandados do Sinesp entram como série própria no 02c; não somar as duas fontes.
+#   - Armas ficam no agregado estadual: os anexos municipais não dão série 2022–2025.
 #
 # Entrada : data/raw/ssp_rs/semestrais/AAAA_Nsem/.../*Prisoes em Flagrante*Municipio*.csv
 # Saída   : data/processed/prisoes_rs_municipio_ano.csv  (municipio_key, nom_mun, ano, prisoes)
@@ -44,10 +43,12 @@ mapa <- tibble::tibble(
   ano = as.integer(stringr::str_extract(arq, "(\\d{4})(?=_\\dsem)")),
   sem = as.integer(stringr::str_extract(arq, "(?<=\\d{4}_)\\d(?=sem)"))
 ) |>
-  dplyr::filter(ano %in% cfg$anos) |>
+  dplyr::filter(ano %in% cfg$anos_criminal) |>
   dplyr::arrange(ano, sem)
 
-stopifnot(nrow(mapa) > 0)
+stopifnot(!anyDuplicated(mapa[c("ano", "sem")]),
+          nrow(mapa) == 2L * length(cfg$anos_criminal),
+          all(mapa$sem %in% 1:2))
 
 ler_flagrantes <- function(arq, ano) {
   raw <- readBin(arq, "raw", n = file.info(arq)$size)

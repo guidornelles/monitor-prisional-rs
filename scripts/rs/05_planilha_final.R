@@ -6,7 +6,8 @@
 # Espelha o modelo de SP (fontes separadas blendadas no Looker pela chave municipal):
 #
 #   1) painel_criminal_municipio_ano.csv  — grão MUNICÍPIO × ANO
-#        nomes de SP: hd_vitima, tot_estupro, roubo_outros, furto_outros, prisoes
+#        hd_vitima, tot_estupro, roubo_outros, furto_outros, prisoes (só flagrantes PC),
+#        mandados_cumpridos (VDE, série própria) e controles de cobertura
 #        + hd_ocorrencias (extra RS) + contexto (populacao, pib, distorcao) + *_taxa_100k
 #   2) painel_prisional_estabelecimento.csv — grão ESTABELECIMENTO × ANO (camada SISDEPEN)
 #        prisional_rs enriquecido com nome_regiao_intermediaria (via Código IBGE)
@@ -63,8 +64,15 @@ chave_municipio <- function(x) {
 contexto  <- readr::read_csv(file.path(paths$processed, "contexto_rs_municipio.csv"), show_col_types = FALSE)
 criminal  <- readr::read_csv(file.path(paths$processed, "criminal_rs_municipio_ano.csv"), show_col_types = FALSE)
 prisoes   <- readr::read_csv(file.path(paths$processed, "prisoes_rs_municipio_ano.csv"), show_col_types = FALSE)
+mandados  <- readr::read_csv(file.path(paths$processed, "mandados_rs_municipio_ano.csv"),
+                            show_col_types = FALSE)
 
 contexto  <- dplyr::mutate(contexto, chave = norm_join(nome))
+stopifnot(nrow(contexto) == cfg$n_municipios, !anyDuplicated(contexto$id_municipio),
+          !anyDuplicated(contexto$chave), !anyDuplicated(mandados[c("id_municipio", "ano")]),
+          nrow(mandados) == cfg$n_municipios * length(cfg$anos_criminal),
+          all(mandados$id_municipio %in% contexto$id_municipio),
+          all(mandados$ano %in% cfg$anos_criminal))
 
 # ---- Auditoria de pareamento de nomes (antes de juntar) ----------------------
 chaves_ibge <- unique(contexto$chave)
@@ -87,31 +95,36 @@ crim <- criminal |>
   dplyr::mutate(chave = chave_municipio(nom_mun)) |>
   dplyr::group_by(chave, ano) |>
   dplyr::summarise(dplyr::across(c(hd_vitima, hd_ocorrencias, tot_estupro, roubo_outros, furto_outros),
-                                 ~ sum(.x, na.rm = TRUE)), .groups = "drop")
+                                 ~ if (all(is.na(.x))) NA_real_ else sum(.x, na.rm = TRUE)),
+                   .groups = "drop")
 pris <- prisoes |>
   dplyr::mutate(chave = chave_municipio(nom_mun)) |>
   dplyr::group_by(chave, ano) |>
   dplyr::summarise(prisoes = sum(prisoes, na.rm = TRUE), .groups = "drop")
 
-# grade completa município (IBGE) × ano -> ausência de registro = 0 ocorrências
-grade <- tidyr::expand_grid(id_municipio = contexto$id_municipio, ano = cfg$anos) |>
+# A grade facilita filtros, mas uma junção sem registro não demonstra zero.
+grade <- tidyr::expand_grid(id_municipio = contexto$id_municipio, ano = cfg$anos_criminal) |>
   dplyr::left_join(dplyr::select(contexto, id_municipio, nom_mun = nome,
                                  nome_regiao_intermediaria, chave, populacao, pib,
                                  distorcao_idade_serie_fund), by = "id_municipio")
 
-vars_cont <- c("hd_vitima","hd_ocorrencias","tot_estupro","roubo_outros","furto_outros","prisoes")
+vars_cont <- c("hd_vitima","hd_ocorrencias","tot_estupro","roubo_outros","furto_outros","prisoes",
+               "mandados_cumpridos")
 painel_criminal <- grade |>
   dplyr::left_join(crim, by = c("chave","ano")) |>
   dplyr::left_join(pris, by = c("chave","ano")) |>
-  dplyr::mutate(dplyr::across(dplyr::all_of(vars_cont), ~ tidyr::replace_na(., 0))) |>
+  dplyr::left_join(mandados, by = c("id_municipio", "ano"), relationship = "one-to-one") |>
   # taxas por 100 mil habitantes (denominador: população Censo 2022)
   dplyr::mutate(dplyr::across(dplyr::all_of(vars_cont),
                               ~ ifelse(populacao > 0, .x / populacao * 1e5, NA_real_),
                               .names = "{.col}_taxa_100k")) |>
   dplyr::select(id_municipio, nom_mun, nome_regiao_intermediaria, ano,
                 dplyr::all_of(vars_cont), populacao, pib, distorcao_idade_serie_fund,
+                mandados_observados, meses_informados,
                 dplyr::ends_with("_taxa_100k")) |>
   dplyr::arrange(nom_mun, ano)
+stopifnot(nrow(painel_criminal) == cfg$n_municipios * length(cfg$anos_criminal),
+          !anyDuplicated(painel_criminal[c("id_municipio", "ano")]))
 readr::write_csv(painel_criminal, file.path(paths$out_tab, "painel_criminal_municipio_ano.csv"),
                  na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
@@ -131,9 +144,11 @@ if (!is.na(col_ibge)) {
 arq_der <- file.path(paths$processed, "prisional_derivadas_rs.csv")
 if (file.exists(arq_der)) {
   der <- readr::read_csv(arq_der, show_col_types = FALSE) |> dplyr::select(-dplyr::any_of("periodo"))
-  painel_prisional <- dplyr::left_join(painel_prisional, der, by = "id")
+  painel_prisional <- dplyr::left_join(painel_prisional, der, by = "id", relationship = "one-to-one")
   message("  + ", ncol(der)-1, " colunas derivadas (incl. óbitos anuais e continentes) juntadas ao painel prisional.")
 }
+stopifnot(!anyDuplicated(painel_prisional$id),
+          setequal(painel_prisional$ano, cfg$anos_prisional))
 readr::write_csv(painel_prisional, file.path(paths$out_tab, "painel_prisional_estabelecimento.csv"),
                  na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
@@ -143,7 +158,7 @@ readr::write_csv(dplyr::select(contexto, -chave),
                  na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 
 # ---- 4) Painel de saúde município × ano (se 04b/01c já gerou) -----------------
-# Período próprio (ex.: 2018–2025, como SP) — não restrito a cfg$anos. Junta por código
+# Período próprio (2018–2025). Junta por código
 # IBGE de 6 dígitos (TABNET/SIM) -> id_municipio (7 díg.). Taxas por 100 mil (pop. Censo 2022).
 arq_saude <- file.path(paths$processed, "saude_rs_municipio_ano.csv")
 if (file.exists(arq_saude)) {

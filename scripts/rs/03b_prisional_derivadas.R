@@ -6,7 +6,7 @@
 # arquivo, com a coluna Referência "AAAA/S"), os dois semestres são apenas um
 # FILTRO sobre o mesmo arquivo — então fazemos tudo numa leitura só.
 #
-# Fonte: Base Única SISDEPEN, RS, cela física (mesmo recorte do 03).
+# Fonte: Base Única SISDEPEN, RS, cela física, 2017–2025 (mesmo recorte do 03).
 #   1º semestre (perfil/capacidade), como depen.R:
 #     - Regime (4.1): provisorios/sentenciado_{fechado,semiaberto,aberto}/internacao/tratamento × M/F
 #                     = soma Justiça Estadual + Federal + Outros (fiel a SP).
@@ -16,16 +16,17 @@
 #     - Tipo penal (5.14): 6 grupos × M/F/Total (CORRIGIDO — ver nota abaixo).
 #     - Continentes (5.8): continente_{america,asia,africa,europa,oceania}
 #                          = rowSums das colunas 5.8 do continente × (M|F) (fiel a depen.R::nacionalidade).
-#   2º semestre, como dados_sem2.R:
-#     - Mortalidade (6.8): obitos_{saude,criminais,suicidio,acidentais,desconhecida}_{m,f,total}
-#       = óbitos do 1º sem + óbitos do 2º sem  (ANUAL — era o erro: a versão antiga pegava só o 2º).
+#   Dois semestres (fluxo):
+#     - Mortalidade (6.8): a soma anual por categoria só aparece quando os dois
+#       semestres têm valor, ligados por ID nativo + ano. A soma dos registros
+#       disponíveis fica separada; unidades só no 2º semestre ficam na auditoria.
+#   2º semestre:
 #     - Atendimento (6.6): atendimento_estabelecimento/externo/odonto (Consultas|Total).
 #     - cela_gestantes (2.1, texto Sim/Não) e quantidade_lactantes (5.9).
 #
-# ⚠ Tipo penal: a PoC DIVERGE de propósito do depen.R de SP, que tem bugs
-#   (contra_pessoa_total soma por engano um termo de patrimônio; desarmamento é
-#   dupla-contado dentro de "outros"). Mantemos a versão CORRIGIDA (outros = residual)
-#   e levaremos o ponto à equipe de SP. Ver docs/auditoria_tipo_penal_sp.md.
+# Tipo penal: RS mantém "outros" residual e as demais regras já adotadas.
+# Os nomes de saída são compatíveis com a apresentação SP, mas a comparação
+# dos grupos ainda depende de reconciliar as regras (docs/auditoria_tipo_penal_sp.md).
 #
 # Saída: data/processed/prisional_derivadas_rs.csv  (id, periodo, <derivadas + obitos + sem2>)
 # Substitui o antigo par 03b (derivadas 1º sem) + 03c (mortalidade 2º sem).
@@ -33,6 +34,9 @@
 
 source(here::here("scripts/rs/00_config.R"))
 norm_txt <- function(x) stringi::stri_trans_general(stringr::str_squish(stringr::str_to_lower(x)), "Latin-ASCII")
+if (!isTRUE(cfg$escolhas$prisional_semestre == 1L)) {
+  stop("A camada prisional requer estoque do 1º semestre para casar as derivadas.")
+}
 
 # ---- leitura única da Base Única ---------------------------------------------
 arq <- arquivo_baseunica()
@@ -42,29 +46,39 @@ message("Base Única: ", basename(arq))
 # com guess_max baixo o readxl as adivinha como LÓGICAS e os valores reais (RS) viram NA —
 # zerando os continentes. Um guess_max grande (readxl limita ao nº real de linhas) garante
 # o tipo numérico correto. Evitamos Inf (algumas versões do readxl avisam).
-df_full <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 1000000L))
+df_full <- readxl::read_excel(arq, sheet = 1, guess_max = 1000000L)
 
 # filtra UF + recorte cela física + anos, para UM semestre (mesmo recorte do 03)
 prep_sem <- function(s) {
-  ref_alvo <- paste0(cfg$anos, "/", s)
+  ref_alvo <- paste0(cfg$anos_prisional, "/", s)
   d <- df_full |>
     dplyr::mutate(UF = toupper(.data[["UF"]]), ref = as.character(.data[["Referência"]])) |>
     dplyr::filter(UF == cfg$uf, ref %in% ref_alvo)
-  if (identical(cfg$escolhas$prisional_recorte, "cela_fisica") &&
-      "Tipo de Recolhimento" %in% names(d)) {
+  if (identical(cfg$escolhas$prisional_recorte, "cela_fisica")) {
     nome_norm <- norm_txt(d[["Nome do Estabelecimento"]])
     d <- dplyr::filter(d,
       norm_txt(.data[["Tipo de Recolhimento"]]) == "cela fisica",
       !stringr::str_detect(nome_norm, "domiciliar|monitoramento eletronico|monitoracao eletronica"))
   }
+  if (length(setdiff(ref_alvo, d$ref))) {
+    stop("Ciclo sem registros no recorte: ", paste(setdiff(ref_alvo, d$ref), collapse = ", "))
+  }
+  if (any(is.na(d$ID) | trimws(as.character(d$ID)) == "") ||
+      anyDuplicated(d[c("ID", "ref")])) {
+    stop("ID SISDEPEN ausente ou repetido dentro do ciclo.")
+  }
   d |> dplyr::mutate(
     ano = as.integer(stringr::str_extract(ref, "^\\d{4}")),
     periodo = as.character(ano),
     id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-"),
-    dplyr::across(where(is.numeric), ~ ifelse(is.na(.), 0, .)))
+    chave_ciclo = paste(UF, ID, ano, sep = "-"))
 }
-df1 <- prep_sem(1L)   # perfil/capacidade/estrutura (universo da camada, como depen.R)
-df2 <- prep_sem(2L)   # 2º sem: mortalidade, atendimento, gestantes, lactantes
+df1_bruto <- prep_sem(1L)  # universo de estoque
+df2 <- prep_sem(2L)
+# Preserva o tratamento anterior somente nas derivadas de estoque de múltiplos
+# campos. Mortalidade, consultas e campos brutos mantêm os vazios da fonte.
+df1 <- df1_bruto |>
+  dplyr::mutate(dplyr::across(where(is.numeric), ~ tidyr::replace_na(.x, 0)))
 
 # ---- helpers de soma por PADRÃO de nome (sobre um data frame) -----------------
 # fábrica: devolve uma 'soma_cols' ligada a um data frame específico (df1 ou df2)
@@ -203,12 +217,12 @@ der$continente_oceania <- cont_sum(df1, "Oceania")
 # dos continente_*. ("Brasileiro nato" não casa com "naturalizado"; só há M e F, sem | Total.)
 der$brasileiro_nato <- s1(c("5.8", "Brasileiro nato"), mínimo = 2L)
 
-# ---- Mortalidade ANUAL (6.8) = 1º sem + 2º sem (como dados_sem2.R) ------------
+# ---- Mortalidade registrada (6.8): agrega os dois semestres por ID SISDEPEN ---
 tipos_ob <- list(saude = "Óbitos naturais", criminais = "Óbitos criminais",
                  suicidio = "Óbitos suicídios", acidentais = "Óbitos acidentais",
                  desconhecida = "Óbitos com causa desconhecida")
 obitos_frame <- function(d) {
-  nm <- names(d); out <- tibble::tibble(id = d$id)
+  nm <- names(d); out <- tibble::tibble(chave_ciclo = d$chave_ciclo)
   for (tk in names(tipos_ob)) for (sx in c("masculino","feminino","total")) {
     Sx <- c(masculino="Masculino", feminino="Feminino", total="Total")[[sx]]
     col <- nm[grepl("6.8 Mortalidade", nm, fixed = TRUE) &
@@ -218,19 +232,41 @@ obitos_frame <- function(d) {
   }
   out
 }
-m1 <- obitos_frame(df1)                                   # óbitos do 1º sem
-m2 <- obitos_frame(df2) |> dplyr::rename_with(~paste0(.x, "_s2"), -id)  # óbitos do 2º sem
-ob_cols <- setdiff(names(m1), "id")
-mort <- dplyr::left_join(m1, m2, by = "id")
-for (c in ob_cols) mort[[c]] <- mort[[c]] + tidyr::replace_na(mort[[paste0(c, "_s2")]], 0)
-mort <- dplyr::select(mort, id, dplyr::all_of(ob_cols))
+soma_registrada <- function(a, b) {
+  ifelse(is.na(a) & is.na(b), NA_real_,
+         tidyr::replace_na(a, 0) + tidyr::replace_na(b, 0))
+}
+m1 <- obitos_frame(df1_bruto)
+m2 <- obitos_frame(df2)
+ob_cols <- setdiff(names(m1), "chave_ciclo")
+ob_tot_cols <- grep("_total$", ob_cols, value = TRUE)
+informado <- function(m) rowSums(!is.na(m[ob_tot_cols])) > 0L
+completo <- function(m) rowSums(!is.na(m[ob_tot_cols])) == length(ob_tot_cols)
+m1$mortalidade_sem1_informada <- informado(m1)
+m1$mortalidade_sem1_campos_completos <- completo(m1)
+m2$mortalidade_sem2_informada <- informado(m2)
+m2$mortalidade_sem2_campos_completos <- completo(m2)
+m2$sem2_registro <- TRUE
+mort <- dplyr::left_join(m1, dplyr::rename_with(m2, ~paste0(.x, "_s2"), dplyr::all_of(ob_cols)),
+                         by = "chave_ciclo", relationship = "one-to-one")
+reg <- lapply(ob_tot_cols, function(c)
+  soma_registrada(mort[[c]], mort[[paste0(c, "_s2")]]))
+reg <- do.call(cbind, reg)
+mort$obitos_registrados <- ifelse(rowSums(!is.na(reg)) > 0L, rowSums(reg, na.rm = TRUE), NA_real_)
+# A soma convencional propaga NA se faltar a categoria em um dos semestres.
+for (c in ob_cols) mort[[c]] <- mort[[c]] + mort[[paste0(c, "_s2")]]
+mort <- mort |>
+  dplyr::select(chave_ciclo, dplyr::all_of(ob_cols), obitos_registrados, sem2_registro,
+                dplyr::starts_with("mortalidade_sem")) |>
+  dplyr::mutate(dplyr::across(c(sem2_registro, dplyr::starts_with("mortalidade_sem")),
+                             ~ tidyr::replace_na(.x, FALSE)))
 
 # ---- Colunas do 2º semestre: atendimento (6.6), gestantes (2.1), lactantes (5.9)
 # 6.6 — Informações da área de saúde (total do período): 4 tipos de consulta (| Total).
 # atendimento_estabelecimento/externo = consultas médicas; atendimento_psicologico;
 # atendimento_odonto = consultas odontológicas. (SP só trazia médicas+odonto; incluímos psicológicas.)
 sem2 <- tibble::tibble(
-  id = df2$id,
+  chave_ciclo = df2$chave_ciclo,
   atendimento_estabelecimento = col_unica(df2, c("6.6", "Consultas médicas realizadas no estabelecimento", "| Total")),
   atendimento_externo         = col_unica(df2, c("6.6", "Consultas médicas realizadas externamente", "| Total")),
   atendimento_psicologico     = col_unica(df2, c("6.6", "Consultas psicológicas", "| Total")),
@@ -239,22 +275,43 @@ sem2 <- tibble::tibble(
   quantidade_lactantes        = col_unica(df2, c("5.9", "Quantidade de lactantes"))
 )
 
-# ---- Junta tudo no universo do 1º semestre (id) ------------------------------
+# ---- Junta no universo de estoque (1º semestre), sem depender do nome --------
+der$chave_ciclo <- df1$chave_ciclo
 der <- der |>
-  dplyr::left_join(mort, by = "id") |>
-  dplyr::left_join(sem2, by = "id")
-# zera NA nas numéricas vindas do 2º sem (estab. sem linha no 2º sem); cela_gestantes (texto) fica NA
-num_2sem <- c(ob_cols, "atendimento_estabelecimento", "atendimento_externo", "atendimento_psicologico", "atendimento_odonto", "quantidade_lactantes")
-der <- der |> dplyr::mutate(dplyr::across(dplyr::any_of(num_2sem), ~ tidyr::replace_na(., 0)))
+  dplyr::left_join(mort, by = "chave_ciclo", relationship = "one-to-one") |>
+  dplyr::left_join(sem2, by = "chave_ciclo", relationship = "one-to-one") |>
+  dplyr::select(-chave_ciclo)
 
 readr::write_csv(der, file.path(paths$processed, "prisional_derivadas_rs.csv"), na = "")
 message("OK — prisional_derivadas_rs.csv (", nrow(der), " linhas, ", ncol(der)-2, " derivadas; ",
-        "óbitos ANUAIS 1º+2º sem; continentes; atendimento/gestantes/lactantes do 2º sem).")
-# auditoria rápida de óbitos (deve subir vs. a versão antiga só-2º-sem)
-aud <- der |> dplyr::group_by(periodo) |>
-  dplyr::summarise(estab = dplyr::n(),
-                   obitos_total = sum(obitos_saude_total + obitos_criminais_total +
-                                      obitos_suicidio_total + obitos_acidentais_total +
-                                      obitos_desconhecida_total), .groups = "drop")
+        "óbitos anuais quando observados ambos os ciclos; registros parciais separados).")
+# Cobertura por ciclo, incluindo unidades que não entram no estoque anual.
+aud <- dplyr::bind_rows(lapply(cfg$anos_prisional, function(a) {
+  i1 <- df1$ano == a
+  i2 <- df2$ano == a
+  so2 <- i2 & !df2$chave_ciclo %in% df1$chave_ciclo
+  no_painel <- der$periodo == as.character(a)
+  tibble::tibble(
+    periodo = a,
+    estab = sum(i1),
+    estab_sem2 = sum(i2),
+    estab_so_sem1 = sum(i1 & !df1$chave_ciclo %in% df2$chave_ciclo),
+    estab_so_sem2 = sum(so2),
+    estab_sem1_mortalidade_informada = sum(i1 & m1$mortalidade_sem1_informada),
+    estab_sem2_mortalidade_informada = sum(i2 & m2$mortalidade_sem2_informada),
+    estab_sem1_mortalidade_campos_completos = sum(i1 & m1$mortalidade_sem1_campos_completos),
+    estab_sem2_mortalidade_campos_completos = sum(i2 & m2$mortalidade_sem2_campos_completos),
+    estab_mortalidade_anual_campos_completos = sum(no_painel &
+      der$mortalidade_sem1_campos_completos & der$mortalidade_sem2_campos_completos),
+    obitos_total = {
+      x <- as.matrix(der[no_painel, ob_tot_cols])
+      if (all(is.na(x))) NA_real_ else sum(x, na.rm = TRUE)
+    },
+    obitos_registrados_no_painel = sum(der$obitos_registrados[no_painel], na.rm = TRUE),
+    obitos_sem1_registrados = sum(as.matrix(m1[i1, ob_tot_cols]), na.rm = TRUE),
+    obitos_sem2_registrados = sum(as.matrix(m2[i2, ob_tot_cols]), na.rm = TRUE),
+    obitos_registrados_fora_do_painel = sum(as.matrix(m2[so2, ob_tot_cols]), na.rm = TRUE)
+  )
+}))
 readr::write_csv(aud, file.path(paths$out_aud, "prisional_mortalidade_cobertura.csv"))
 print(aud)

@@ -63,9 +63,9 @@ contexto <- regioes |>
 
 # ---- 5b) munic_ep: o município TEM estabelecimento penal? (SISDEPEN, recorte da PoC) ----
 # SP carrega essa flag (munic_ep_*) na base de contexto do DataStudio (e tem_EP/Tem_prisão
-# nas camadas criminal/saúde). Aqui é a presença ATUAL (não há série histórica de presídios):
-# 1 se o município aparece na camada prisional (prisional_rs.csv, cela física), senão 0.
-# Depende do 03 (roda antes do 04 no run_all). Alimenta também o export formato-SP (06).
+# nas camadas criminal/saúde). É presença em pelo menos um dos ciclos da janela
+# prisional, não um retrato atual ou uma série anual de abertura/fechamento.
+# Depende do 03 (roda antes do 04 no run_all). Alimenta o export formato-SP (05b).
 arq_pris <- file.path(paths$processed, "prisional_rs.csv")
 if (file.exists(arq_pris)) {
   pris <- readr::read_csv(arq_pris, show_col_types = FALSE)

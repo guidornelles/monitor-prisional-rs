@@ -19,7 +19,8 @@
 #   - tem_EP (criminal) = ano de inauguração do presídio do município (= o que SP faz: 97/97 conferem).
 #   - Tem_prisão (saúde) = Sim/Não.
 #   - Armas de fogo NÃO entra no criminal municipal (no RS é só estadual: armas_rs_estadual_ano.csv).
-#   - hd_ocorrencias (extra RS) NÃO entra; "Homicídio doloso" usa hd_vitima.
+#   - Homicídio usa vítimas; flagrantes da PC e mandados VDE têm rótulos próprios.
+#   - O total estadual VDE é exportado em arquivo próprio; não é a soma dos municípios completos.
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
@@ -62,11 +63,12 @@ if (file.exists(arq_cri)) {
   # de-para indicador (largo) -> valor de Crime (SP). Exclui hd_ocorrencias e armas.
   mapa_crime <- tibble::tribble(
     ~col,           ~Crime,
-    "hd_vitima",    "Homicídio doloso",
+    "hd_vitima",    "Vítimas de homicídio doloso",
     "tot_estupro",  "Estupros - total",
     "roubo_outros", "Total de roubo - outros",
     "furto_outros", "Total de furto - outros",
-    "prisoes",      "Prisões efetuadas")
+    "prisoes",      "Flagrantes da Polícia Civil",
+    "mandados_cumpridos", "Mandados de prisão cumpridos")
   criminal_sp <- purrr::map_dfr(seq_len(nrow(mapa_crime)), function(i) {
     cc <- mapa_crime$col[i]; nm <- mapa_crime$Crime[i]; tx <- paste0(cc, "_taxa_100k")
     cri |> dplyr::transmute(
@@ -83,6 +85,9 @@ if (file.exists(arq_cri)) {
   }) |>
     dplyr::arrange(`Município (IBGE)`, `Crime`, `Ano`)
   readr::write_csv(criminal_sp, file.path(dir_out, "dinamica_criminal.csv"), na = "")
+  mandados_uf <- readr::read_csv(file.path(paths$processed, "mandados_rs_estadual_ano.csv"),
+                                show_col_types = FALSE)
+  readr::write_csv(mandados_uf, file.path(dir_out, "mandados_estadual.csv"), na = "")
   message("OK — formato_sp/dinamica_criminal.csv (", nrow(criminal_sp), " linhas; ",
           dplyr::n_distinct(criminal_sp$Crime), " crimes).")
 } else message("(criminal) ", basename(arq_cri), " ausente — pulado (rode 02_criminal + 05).")

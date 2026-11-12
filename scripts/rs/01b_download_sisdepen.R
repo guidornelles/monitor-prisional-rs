@@ -88,8 +88,8 @@ if (!is.null(destino_bu) && file.exists(destino_bu)) {
 # ---- 2) Arquivos por ciclo (validação/fallback; opcional) --------------------
 if (baixar_ciclos) {
   fontes <- readr::read_csv(here::here("data/raw/sisdepen_fontes.csv"), show_col_types = FALSE) |>
-    dplyr::filter(ano %in% cfg$anos)
-  message("SISDEPEN por ciclo: ", nrow(fontes), " ciclos (anos ", paste(range(cfg$anos), collapse="-"), ")")
+    dplyr::filter(ano %in% cfg$anos_prisional)
+  message("SISDEPEN por ciclo: ", nrow(fontes), " ciclos (anos ", paste(range(cfg$anos_prisional), collapse="-"), ")")
   manifesto <- vector("list", nrow(fontes))
   for (i in seq_len(nrow(fontes))) {
     f <- fontes[i, ]

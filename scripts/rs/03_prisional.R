@@ -13,18 +13,18 @@
 #   - Traz `ID` de estabelecimento ESTÁVEL entre ciclos (protege contra mudança de
 #     nomenclatura) e `ciclo`/`Ano`/`Referência` (empilhamento longitudinal embutido).
 #   - Esquema único (1.782 colunas) — sem a heterogeneidade entre ciclos.
-#   Aquisição: download MANUAL do SharePoint da SENAPPEN -> data/raw/sisdepen/
-#   (ver 00_config.R::arquivo_baseunica e docs/decisoes_metodologicas.md).
+#   Aquisição: 01b_download_sisdepen.R ou cópia oficial identificada em data/raw/sisdepen/.
+#   A versão de entrada é selecionada por 00_config.R::arquivo_baseunica.
 #
 # RECORTE (cfg$escolhas$prisional_recorte = "cela_fisica"):
 #   - UF == "RS"
 #   - Tipo de Recolhimento == "Cela física"  (exclui domiciliar / monitoração eletrônica)
-#   - + salvaguarda por NOME: exclui registros tipados "cela física" mas nomeados como
-#     domiciliar/monitoração (corrige o erro de SP: estabelecimentos triplicados em 2021
-#     — cela física + domiciliar + domiciliar c/ monit. eletrônica — inflando contagens).
+#   - Salvaguarda por nome: exclui registros tipados "cela física" que identificam
+#     explicitamente domiciliar ou monitoração. A janela prisional é 2017–2025
+#     (cfg$anos_prisional), independente da janela criminal.
 #   - Semestre = cfg$escolhas$prisional_semestre (1 = perfil/capacidade/estrutura, como SP).
 #
-# Entrada : data/raw/sisdepen/*baseunica*.xlsx   (Base Única, manual)
+# Entrada : data/raw/sisdepen/*baseunica*.xlsx   (Base Única oficial)
 #           data/raw/sp_schema_prisional.csv     (444 colunas; regenerado do header da base do DataStudio ∩ Base Única)
 # Saída   : data/processed/prisional_rs.csv
 # Auditoria: outputs/auditoria/prisional_cobertura.csv (estab. por ano × recorte)
@@ -59,30 +59,37 @@ aplicar_recorte <- function(df) {
 ler_base_unica <- function() {
   arq <- arquivo_baseunica()
   message("Base Única: ", basename(arq))
-  # suppressWarnings: o readxl adivinha algumas colunas Sim/Não como lógicas (vazias nos
-  # ~15k primeiros registros nacionais, texto depois) e emite "Expecting logical ... got
-  # 'Sim'/'Não'". São avisos benignos: filtramos UF==RS + 1º sem e selecionamos o esquema
-  # adiante; não afetam os números (a auditoria confere 104/103/104/103).
-  df <- suppressWarnings(readxl::read_excel(arq, sheet = 1, guess_max = 10000))
+  # Adivinhação com toda a planilha: campos esparsos não devem virar lógicos
+  # só porque as primeiras observações nacionais são vazias.
+  df <- readxl::read_excel(arq, sheet = 1, guess_max = 1000000L)
 
-  # filtra UF + semestre alvo (via Referência "AAAA/S") + anos da PoC
+  # Filtra UF, semestre do estoque e janela prisional (Referência "AAAA/S").
   sem <- cfg$escolhas$prisional_semestre
-  ref_alvo <- paste0(cfg$anos, "/", sem)            # ex.: 2022/1, 2023/1, ...
+  ref_alvo <- paste0(cfg$anos_prisional, "/", sem)
   df <- df |>
     dplyr::mutate(UF = toupper(.data[["UF"]]),
                   ref = as.character(.data[["Referência"]])) |>
     dplyr::filter(UF == cfg$uf, ref %in% ref_alvo)
 
   df <- aplicar_recorte(df)
+  if (length(setdiff(ref_alvo, df$ref))) {
+    stop("Ciclo de estoque sem registros no recorte: ",
+         paste(setdiff(ref_alvo, df$ref), collapse = ", "))
+  }
+  if (any(is.na(df$ID) | trimws(as.character(df$ID)) == "") ||
+      anyDuplicated(df[c("ID", "ref")])) {
+    stop("ID SISDEPEN ausente ou repetido dentro do ciclo de estoque.")
+  }
 
-  # ano a partir da Referência; zera NA numérico (como SP); id no padrão de SP
+  # ID nativo para auditoria; id de apresentação para o painel existente.
+  # Campos não informados no formulário permanecem vazios no export.
   df <- df |>
     dplyr::mutate(
       ano = as.integer(stringr::str_extract(ref, "^\\d{4}")),
       periodo = as.character(ano),
-      id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-"),
-      dplyr::across(where(is.numeric), ~ ifelse(is.na(.), 0, .))
+      id = paste(`Nome do Estabelecimento`, UF, ano, sep = "-")
     )
+  if (anyDuplicated(df$id)) stop("Chave id de apresentação repetida no estoque prisional.")
 
   # 2.13 "cela(s)-seguro": a Base Única traz a coluna ORIGINAL (com o dado Sim/Não) e uma
   # VARIANTE de aspas trocadas que vem VAZIA (artefato da consolidação). O sp_schema espera
@@ -125,18 +132,22 @@ if (all(c("Endereço", "Município") %in% names(prisional))) {
 }
 
 # ---- ano_inauguracao: ano do "1.6 Data de inauguração..." (p/ filtro do mapa) -
-# SP filtra o Mapa de Estabelecimentos pelo ano de inauguração. O campo bruto é texto
-# dd/mm/aaaa (e em SP vem com formatos inconsistentes); extraímos um ANO inteiro robusto
-# (\\b(19|20)\\d{2}\\b) para o filtro não depender do Looker interpretar texto-data.
+# O campo mistura texto de data e seriais do Excel (sobretudo em 2019–2020).
+# Não interpretar o serial como ano nem inventar ano para datas inválidas.
 col_inaug <- intersect("1.6 Data de inauguração do estabelecimento", names(prisional))[1]
 if (!is.na(col_inaug)) {
-  prisional$ano_inauguracao <- suppressWarnings(as.integer(stringr::str_extract(
-    as.character(prisional[[col_inaug]]), "\\b(19|20)\\d{2}\\b")))
+  texto <- stringr::str_trim(as.character(prisional[[col_inaug]]))
+  ano_inaug <- suppressWarnings(as.integer(stringr::str_extract(texto, "\\b(18|19|20)\\d{2}\\b")))
+  serial <- !is.na(texto) & is.na(ano_inaug) & stringr::str_detect(texto, "^-?\\d+(?:\\.\\d+)?$")
+  ano_inaug[serial] <- as.integer(format(
+    as.Date(as.numeric(texto[serial]), origin = "1899-12-30"), "%Y"))
+  prisional$ano_inauguracao <- dplyr::if_else(
+    ano_inaug >= 1800L & ano_inaug <= prisional$ano, ano_inaug, NA_integer_)
   message("  ano_inauguracao derivado (", sum(!is.na(prisional$ano_inauguracao)), "/",
           nrow(prisional), " com ano).")
 }
 
-readr::write_csv(prisional, file.path(paths$processed, "prisional_rs.csv"))
+readr::write_csv(prisional, file.path(paths$processed, "prisional_rs.csv"), na = "")
 
 # ---- Auditoria: cobertura por ano --------------------------------------------
 auditoria <- base |>

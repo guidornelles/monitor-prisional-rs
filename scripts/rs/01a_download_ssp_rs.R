@@ -27,7 +27,14 @@ dir.create(dir_ssp, recursive = TRUE, showWarnings = FALSE)
 
 hosts <- c("https://www.ssp.rs.gov.br", "https://admin.ssp.rs.gov.br")
 
-fontes <- readr::read_csv(here::here("data/raw/ssp_rs_fontes.csv"), show_col_types = FALSE)
+fontes <- catalogo_ssp()
+# Opcional: aquisição seletiva sem reextrair as fontes semestrais já preservadas.
+categorias <- Sys.getenv("MONITOR_RS_SSP_CATEGORIAS")
+if (nzchar(categorias)) {
+  categorias <- trimws(strsplit(categorias, ",", fixed = TRUE)[[1]])
+  if (!all(categorias %in% fontes$categoria)) stop("Categoria SSP desconhecida")
+  fontes <- dplyr::filter(fontes, categoria %in% categorias)
+}
 
 # Resolve um URL: se já for absoluto (http...), usa direto; senão tenta cada host.
 urls_candidatos <- function(url) if (grepl("^https?://", url)) url else paste0(hosts, url)
@@ -78,10 +85,17 @@ for (i in seq_len(nrow(fontes))) {
   message("[", f$categoria, " / ", f$chave, "]")
   baixar(f$url, arq_baixado)
 
-  # descompacta zip (idempotente: extrai sempre para a subpasta da chave)
+  # Cada revisão mensal fica em sua própria pasta, sem alterar o CSV anterior.
   if (tolower(f$tipo) == "zip") {
-    metodo <- descompactar(arq_baixado, dir_cat)
-    if (!is.na(metodo)) message("  descompactado (", metodo, "): ", basename(arq_baixado))
+    exdir <- if (f$categoria == "mensais") tools::file_path_sans_ext(arq_baixado) else dir_cat
+    dir.create(exdir, recursive = TRUE, showWarnings = FALSE)
+    ja_extraido <- f$categoria == "mensais" &&
+      length(list.files(exdir, pattern = "\\.csv$", recursive = TRUE, ignore.case = TRUE)) == 1L
+    if (!ja_extraido) {
+      metodo <- descompactar(arq_baixado, exdir)
+      if (is.na(metodo)) stop("Não foi possível extrair ", arq_baixado)
+      message("  descompactado (", metodo, "): ", basename(arq_baixado))
+    }
   }
 
   manifesto[[i]] <- tibble::tibble(
@@ -92,7 +106,23 @@ for (i in seq_len(nrow(fontes))) {
 }
 
 man <- dplyr::bind_rows(manifesto)
-readr::write_csv(man, file.path(dir_ssp, "MANIFEST_ssp_rs.csv"))
+arq_man <- file.path(dir_ssp, "MANIFEST_ssp_rs.csv")
+if (file.exists(arq_man)) {
+  anterior <- readr::read_csv(arq_man, show_col_types = FALSE,
+                              col_types = readr::cols(data_download = readr::col_character()))
+  # Mantém a data original da aquisição quando se trata do mesmo arquivo no cache.
+  data_anterior <- anterior |>
+    dplyr::group_by(categoria, chave, url, md5) |>
+    dplyr::summarise(data_original = min(data_download), .groups = "drop")
+  man <- man |>
+    dplyr::left_join(data_anterior, by = c("categoria", "chave", "url", "md5")) |>
+    dplyr::mutate(data_download = dplyr::coalesce(data_original, data_download)) |>
+    dplyr::select(-data_original)
+  # Preserva as versões anteriores e as categorias não executadas.
+  man <- dplyr::bind_rows(man, anterior) |>
+    dplyr::distinct(categoria, chave, url, md5, .keep_all = TRUE)
+}
+readr::write_csv(man, arq_man)
 message("\nOK — ", nrow(man), " fontes processadas. Manifesto: data/raw/ssp_rs/MANIFEST_ssp_rs.csv")
 print(man[, c("categoria","chave","bytes","md5")], n = nrow(man))
 
