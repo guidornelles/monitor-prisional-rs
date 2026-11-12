@@ -1,34 +1,48 @@
-# Decisões metodológicas — PoC do Monitor Prisional RS
+# Decisões metodológicas do Monitor Prisional RS
 
-> Log das escolhas que parametrizam o pipeline (`scripts/rs/00_config.R` → `cfg$escolhas`).
-> Mudar uma decisão = mudar o parâmetro, sem reescrever o código. Marcadores: 🟩 verificado · ⏳ a decidir/confirmar com a equipe. Criado 2026-06-10; atualizado 2026-06-22 (correções prisionais, schema 444, export formato-SP).
+> Registro criado em 10/06/2026 e atualizado para a versão candidata em 12/11/2026. A configuração está em [`00_config.R`](../scripts/rs/00_config.R). Os resultados da PoC e da auditoria do Sinesp são referências datadas; para a nova execução, consultar seus arquivos de auditoria e manifesto.
 
-## Reprodutibilidade (corrige os problemas do Monitor SP)
-- **Scripts numerados + `run_all.R` + `renv`** (decidido) — sem branches, sem acoplamento em memória, com lockfile de pacotes.
+## Encaminhamentos e escopo
+
+- **26 de junho:** a reunião encaminhou o uso de vítimas de homicídio, fontes oficiais estaduais, a janela comum a partir de 2022 e as regiões intermediárias do IBGE na dinâmica criminal. A proposta de comparar apenas flagrantes respondia à falta, à época, de mandados municipalizados no RS. Os painéis por estado podem preservar séries que não passem no filtro comparativo.
+- **Outubro:** não houve novos encaminhamentos para o Monitor RS na reunião. A resposta à LAI 52872 distinguiu o recorte de violência doméstica contra mulheres da base geral de estupro e explicou a diferença entre as datas de extração dos registros de 2022. A SSP-RS publicou a revisão. O [levantamento do Sinesp VDE](auditoria_sinesp_vde_2026-10-03.md) identificou mandados por município e mês e reconciliou os agregados estaduais de 2022 a 2025. Isso permite acrescentar a série sem substituir a SSP-RS.
+- **12 de novembro:** a candidata do RS terá dinâmica criminal **2022–2025** e dados prisionais **2017–2025**, em `cfg$anos_criminal` e `cfg$anos_prisional`. Mandados cumpridos do Sinesp entram como série própria. Armas permanecem estaduais. A PoC comparativa é a próxima etapa, começa em **2022** e depende de base paulista e harmonização por indicador. A seleção de anos mostrada no painel paulista não define a disponibilidade na fonte. A inclusão de 2026 na camada prisional fica para o próximo ciclo anual.
+- **Escopo separado:** o indicador de serviços penais a partir do módulo LEP da tese não condiciona a candidata. A publicação oficial é uma etapa distinta da [cópia de revisão no Data Studio](looker_studio_guia.md).
+
+## Reprodutibilidade
+- **Scripts numerados, `run_all.R` e `renv`:** cada etapa lê e escreve arquivos. Os insumos, as saídas e o passo a passo estão no [README do pipeline](../scripts/rs/README.md).
 - Cada etapa **lê/escreve arquivos** em `data/{raw,intermediate,processed}`; nenhuma depende de objeto em memória de outra.
 - Caminhos e parâmetros **centralizados** em `00_config.R` (nada hardcoded espalhado).
-- **Dados nacionais baixados por script** (não manual) — segue as Notas Metodológicas de SP.
-- **Arquivos de auditoria** gerados a cada etapa (`outputs/auditoria/`) para conferência.
+- **Entradas fixadas por versão:** preservar brutos com arquivo, data de extração, origem e hash. Revisões retroativas devem ser comparadas contra a versão anterior.
+- **Saídas isoladas:** `MONITOR_RS_RUN_DIR` define a pasta de execução da candidata, com `processed/`, `tabelas/` e `auditoria/`. Registrar fonte e período no gráfico e evitar que a cópia do painel reutilize conexões da PoC.
 
 ## Escolhas por indicador
-| Indicador | Decisão | Status |
+| Indicador | Candidata RS | Condição para comparação |
 |---|---|---|
-| Estupro | **Microdado total** (Estupro + Vulnerável, ambos os sexos) — comparável a SP | 🟩 |
-| Roubo/Furto "outros" | **Reconstrução estrita via microdado** (exclui veículo + banco/comércio/carga) | 🟩 / ⏳ ver nota |
-| Homicídio | **Duas variáveis**: `hd_vitima` (agregado oficial "Total de vítimas de HD") + `hd_ocorrencias` (microdado) | ⏳ levar à equipe SP |
-| Armas / Prisões | Só PC, conforme SP (Res. 160/2001); armas estadual, prisões = flagrante municipal + mandados estadual | 🟩 / ⏳ confirmar com SP |
-| Período | **2022–2025** (era dos microdados) | 🟩 |
-| Taxas | Absolutos **+ por 100 mil** (população a integrar no módulo de contexto) | 🟩 |
+| Homicídio doloso | **Vítimas** (`hd_vitima`, agregado oficial); `hd_ocorrencias` fica para controle. | Conferir unidade e cobertura de SP por ano. A soma homicídio + feminicídio reproduziu o total de SP em 2023 no teste com o VDE; isso não autoriza repetir a soma no RS ou em outro ano. |
+| Estupro | **Ocorrências consumadas** de estupro e estupro de vulnerável, ambos os sexos, nos microdados. | Confirmar unidade e rubricas em SP; não emendar a série de violência doméstica na série total. |
+| Roubo e furto “outros” | Reconstrução estrita via microdado, excluindo as rubricas documentadas. | Validar a correspondência das rubricas com SP. Para reconciliar com o agregado oficial, reconstituir seu universo; não usar o valor de “outros”. |
+| Flagrantes da Polícia Civil | Registros de flagrantes da SSP-RS por município × ano. | Usar o componente paulista correspondente se unidade, competência e cobertura coincidirem. |
+| Mandados de prisão cumpridos | Série própria do **Sinesp VDE**, abrangência estadual, por município × ano. | Conferir unidade, órgão e referência territorial antes de comparar ou somar. |
+| Armas apreendidas | Série estadual separada, sem rateio territorial. | Confirmar abrangência institucional. Os anexos da LAI não reconstituem a série municipal 2022–2025. |
+| Taxas | Absolutos e taxas por 100 mil, com denominador fixo do Censo 2022 no RS. | Harmonizar o denominador antes do comparativo. Recalcular taxas regionais ou estaduais pela razão dos totais. |
 
 ## Recorte territorial e regional
 🟩 **Unidade base:** município. **Região:** o Monitor de SP usa as **regiões geográficas intermediárias do IBGE** (verificado: a coluna `nome_regiao_intermediaria` consta na `populacao_municipios_sp.xlsx`, e as regiões exibidas no painel batem com as regiões intermediárias do IBGE para SP). **Decisão:** adotar o **mesmo conceito para o RS** — regiões geográficas intermediárias do IBGE (RS tem 8). O mapeamento município→região vem do **diretório de municípios do IBGE** (mesma fonte que SP usou via basedosdados); no módulo de contexto, obteremos `cod_ibge → nome_regiao_intermediaria` de fonte IBGE reprodutível (divisão regional 2017 / pacote `geobr` ou SIDRA), sem depender de billing GCP.
 
-### Notas e perguntas para a equipe SP / SSP-RS
-- **`hd_vitima` vs `hd_ocorrencias`:** o nome de SP é `hd_vitima` (vítimas). O campo "Quantidade Vítimas" do microdado RS superconta vítimas (~+15%) vs. o agregado oficial; por isso `hd_vitima` usa o **agregado oficial** e mantemos `hd_ocorrencias` do microdado. **Perguntar a SP** qual exatamente alimenta o monitor.
+Nos dados prisionais, município é a localização do estabelecimento, não sua área de captação de presos. O painel usa estabelecimento e município. Regionalizações penitenciárias podem ser acrescentadas em etapa própria.
+
+### Notas sobre unidade e composição
+- **`hd_vitima` e `hd_ocorrencias`:** a reunião confirmou que a intenção é exibir vítimas. No RS, somar o campo “Quantidade Vítimas” do microdado de referência não reproduziu o agregado oficial, por isso a série principal vem desse agregado. A inspeção dos scripts de SP encontrou contagem de registros e período parcial para a extração de 2025; o acordo sobre a unidade não resolve a implementação em todos os anos.
 - **Composição de "roubo/furto outros":** SP exclui veículo, banco, carga "e outras variações". A reconstrução estrita exclui veículo + banco/comércio/carga/transporte (e abigeato no furto). **Confirmar com SP** a lista exata de subtipos do "outros".
 
-## Validação (auditoria automática — `outputs/auditoria/criminal_reconciliacao.csv`)
-Reconciliação dos **totais** reconstruídos do microdado vs. a coluna oficial dos Indicadores Criminais:
+## Validação criminal e revisão de 2022
+
+Na candidata, usar o microdado revisado da [SSP-RS](https://www.ssp.rs.gov.br/dados-abertos), com data de extração de **23/06/2026**. No teste de outubro, a revisão gerou **128.244 furtos** na reconstrução do agregado, contra **128.047** na tabela oficial então guardada (**+0,15%**), e **36.882 roubos** contra **36.950** (**−0,18%**). Na composição estrita, o teste produziu 119.345 furtos “outros”, 33.933 roubos “outros” e 5.862 ocorrências de estupro. São resultados da versão testada, não uma garantia de coincidência por município ou mês. A execução candidata precisa registrar as versões usadas e repetir a reconciliação, inclusive para a atualização de 2025.
+
+### Referência histórica da PoC de junho
+
+Reconciliação dos **totais** reconstruídos do microdado então usado vs. a coluna oficial dos Indicadores Criminais:
 
 | Ano | Δ homicídio | Δ furtos | Δ roubos | Veredito |
 |---|---:|---:|---:|---|
@@ -37,16 +51,16 @@ Reconciliação dos **totais** reconstruídos do microdado vs. a coluna oficial 
 | 2025 | −0,21% | −1,96% | −1,30% | 🟨 desvio leve (revisão recente?) |
 | 2022 | −0,25% | **−24,4%** | −4,3% | 🟥 **anomalia — investigar** |
 
-🟥 **Achado 2022 — aprofundado (ver `docs/problemas_dados.md`):** déficit de furtos isolado em 2022. Confirmado:
+**Achado da versão antiga de 2022** (ver [problemas dos dados](problemas_dados.md)):
 - Oficial 2022 **"Furto" = 128.047** (coluna isolada; "Abigeato"=4.881 e "Furto de Veículo"=8.953 são colunas à parte — não é total agregado).
 - Microdado 2022: **todos** os enquadramentos com "FURTO" = **104.449**; o subconjunto comparável (exclui furto de veículo e abigeato) = **92.793**; nosso `furtos_total` = 96.768. Mesmo a soma de TODOS os furtos do microdado fica abaixo do "Furto" oficial.
 - Déficit **uniforme nos 12 meses** (~7–8 mil/mês) → não é mês faltante, é descompasso sistemático.
 - Roubos 2022 também levemente baixos (−4,3%); homicídio bate. 2023–2025 reconciliam.
-- **Leitura:** o microdado aberto de 2022 parece **sub-registrar crimes patrimoniais** (sobretudo furtos), não explicável por classificação. **Pendência:** confirmar com a SSP-RS se o microdado aberto de 2022 saiu incompleto para furtos, ou se o "Furto" oficial de 2022 usa mapeamento de enquadramentos/fonte diferente. Até lá, **tratar 2022 com cautela** (sinalizar nos painéis criminais).
+- **Situação:** a resposta à LAI explicou a diferença de datas de extração e anunciou atualização. O déficit estadual medido nessa versão não caracteriza a extração revisada; permanece como evidência da mudança de versão.
 
 O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comércio/carga) — por construção, e por isso **não** se compara diretamente com a coluna oficial "Roubos".
 
-## Panorama de Saúde — `01c_download_datasus.R` (mortalidade) + `04b_saude_casos.R` (casos)
+## Panorama de Saúde — `04b_saude.R`
 🟩 **Espelha SP** (Notas Metodológicas): por município×ano, **casos notificados e mortes** por tuberculose, hepatite e HIV (DATASUS). SP compila isso **manualmente do TABNET**.
 🟩 **Decisão: TABNET para tudo (canônico), em `04b_saude.R`.** Como os CASOS notificados (TB/hepatite/HIV) só existem via TABNET (o `microdatasus` não cobre esses SINAN — verificado na doc oficial: só dengue/chikungunya/zika/malária/chagas/leishmaniose/leptospirose), optou-se por fazer **também a mortalidade pelo TABNET (SIM/CID-10)**, unificando o fluxo, evitando a dependência do `microdatasus` (install_github, read.dbc no Windows, FTP instável) e espelhando o método de SP. São ~6 exportações (linha=Município residência, coluna=Ano, filtro UF=RS): casos TB (`tubercbr.def`), hepatite (`hepabr.def`), HIV (aids.gov.br); óbitos TB/hepatite/HIV (SIM, filtrando CID-10 A15–A19 / B15–B19 / B20–B24).
 - **Alternativa opcional:** `01c_download_datasus.R` faz só a mortalidade via `microdatasus` (SIM-DO), para quem preferir automatizar essa parte.
@@ -59,7 +73,7 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 
 ## Planilha final / crosswalk municipal — `05_planilha_final.R`
 🟩 **Saída espelhando o Looker de SP** (tabelas separadas, blendadas pela chave municipal):
-- `outputs/tabelas/painel_criminal_municipio_ano.csv` — grão município×ano: `hd_vitima, tot_estupro, roubo_outros, furto_outros, prisoes` (nomes de SP) + `hd_ocorrencias` (extra RS) + `populacao, pib, distorcao_idade_serie_fund` + `*_taxa_100k`. Grade completa **497×4** (ausência de registro = 0 ocorrências). Validado: 1.988 linhas, sem duplicatas.
+- `painel_criminal_municipio_ano.csv` — grão município × ano; inclui `hd_vitima`, `hd_ocorrencias`, `tot_estupro`, `roubo_outros`, `furto_outros`, flagrantes da PC, `mandados_cumpridos` e campos de contexto e taxas. Grade esperada **497 × 4**, com 1.988 linhas sem duplicatas; ausência de informação não é zero observado.
 - `painel_prisional_estabelecimento.csv` — camada SISDEPEN por estabelecimento (≈544 col), enriquecida com `nome_regiao_intermediaria` via `Código IBGE`. É a base prisional que vai ao DataStudio (não há export prisional separado — foi corrigida no lugar).
 - `painel_contexto_municipio.csv` — denominadores/panoramas + `munic_ep` (município tem presídio? do SISDEPEN) e `ano_ep` (menor ano de inauguração do presídio do município → vira `tem_EP` no criminal).
 
@@ -69,10 +83,12 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 
 🟩 **Crosswalk de nome de município (SSP→IBGE):** chave = nome normalizado (maiúsculas, sem acento; apóstrofo deletado, hífen→espaço). Resolve "Sant'Ana"↔"Santana", "Entre-Ijuís", "Xangri-lá", "Não-Me-Toque". Mais um **mapa de aliases explícito** (15 entradas) para divergências de grafia e **erros de digitação na fonte** ("Aceguaá"=Aceguá, "São Josedo Ouro"=São José do Ouro, "Estância Velhas"=Estância Velha, "DR"=Doutor, "Pinto Bandeira (Bento Gonç)"=Pinto Bandeira). Preferiu-se mapa explícito a fuzzy às cegas (auditável). Resultado: **495/497** municípios com flagrantes pareados; residual não-pareado = ~13 registros (0,04% das prisões), todos de **outras UFs** (SC/RJ/SP/MG/PR), corretamente descartados. Auditoria em `outputs/auditoria/match_municipios.csv`.
 
-## Prisões e armas — `02b_atividade.R`
-🟩 **`prisoes` = flagrantes da PC por município** (fonte: dados abertos Lei 15.610/2021, Art. 6º Inc. IX — "Prisões em Flagrante pela PC por Fato e Município", 1 arquivo/semestre, microdado). Contagem de linhas por município×ano (soma dos dois semestres). Cobertura RS (totais): 2022≈28.373 · 2023≈30.432 · 2024≈28.901 · 2025≈31.680; municípios com ≥1 flagrante por ano: 438/452/477/471.
-- ⚠️ **Limite (divergência de SP a documentar):** inclui **somente flagrantes**. Mandados de prisão só existem em nível **estadual** no RS — não municipalizáveis —, então ficam de fora. A composição de `prisoes` no RS pode diferir da de SP.
-- 🟥 **`ap_armas` NÃO entra na tabela municipal:** no RS as apreensões de armas só existem em **nível estadual**. Não se reparte total estadual entre municípios (seria invenção). SP tem armas por município porque a SSP-SP publica assim. Opção: tabela estadual separada (`armas_rs_estadual_ano`), grão estado×ano — fora do mapa municipal.
+## Flagrantes, mandados e armas
+
+- **Flagrantes da Polícia Civil — `02b_atividade.R`:** contagem de registros da SSP-RS (Lei nº 15.610/2021, art. 6º, IX) por município × ano, somando os arquivos semestrais. Na PoC de junho, o campo `prisoes` continha apenas flagrantes e o painel o chamava de “Prisões efetuadas”. A candidata identifica a série como **Flagrantes da Polícia Civil**.
+- **Mandados de prisão cumpridos — `02c_mandados_sinesp.R`:** série própria do VDE, abrangência estadual. A auditoria de outubro reconciliou 6.966, 8.464, 8.579 e 10.754 mandados no RS, respectivamente de 2022 a 2025. A reconciliação é estadual: há municípios sem valores e municípios com meses parciais. O total municipal só é exibido com 12 meses informados. O agregado estadual é auditado separadamente e não deve ser inferido pela soma dos municípios exibidos.
+- **Diferença para SP:** a [SSP-SP](https://www.ssp.sp.gov.br/assets/estatistica/trimestral/arquivos/2022-04.htm) inclui flagrantes e prisões por mandado em “Prisões efetuadas”, separando esse indicador de pessoas presas. A fonte gaúcha de flagrantes conta registros; a unidade e o território de referência do VDE gaúcho ainda precisam ser confirmados antes de somar os componentes para comparação. Os dois componentes permanecem separados na candidata.
+- **Armas apreendidas:** série separada em nível estadual, fora do mapa municipal e dos filtros de município e região. A LAI trouxe dados localizados, mas sem série comparável para 2022–2025. Não ratear o agregado estadual entre municípios.
 - ⚠️ **Encoding (problema de dados):** os CSVs de flagrante variam entre **UTF-8 e CP850 (DOS)**. Ler CP850 como latin1 gera mojibake ("SÆO LEOPOLDO") que vira chave duplicada de município (inflou 2022 de 438 para 558). `02b` escolhe o encoding por bytes (menos caracteres suspeitos) e normaliza nome (maiúsculas + sem acento) para casar com o IBGE. Também há **bloco de título** antes do cabeçalho (detectado dinamicamente) e **rodapé** ("Fonte:"/"Extração:") descartado pelo filtro de município vazio.
 - ⏳ **Match município→IBGE:** ~522 chaves distintas (2022–2025) vs 497 do IBGE — excesso são municípios de outros estados/variantes; o join no `05` casa por nome normalizado e **audita os não-pareados** (para não perder município real do RS por divergência de grafia).
 
@@ -85,7 +101,7 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 - **Filhos (5.10):** `mulheres/homens_presos_com_filhos_as` = soma de 1..10 e "11 ou mais".
 - **Tipo penal (5.14) — CORRIGIDO** (decisões do pesquisador; ver `docs/auditoria_tipo_penal_sp.md`): `desarmamento` = soma dos 5 tipos; `contra_patrimonio` AMPLO (13 subtipos); `outros` = RESIDUAL (total 5.14 − 5 grupos, sem dupla contagem). ⚠️ Diverge do output de SP de propósito (SP tem bug); levar à equipe de SP.
 - **Continentes (5.8):** `continente_{america,asia,africa,europa,oceania}` = `rowSums` das colunas 5.8 que contêm o nome do continente × M/F (origem dos estrangeiros). Brasileiros ficam em `brasileiro_nato` (= "Brasileiro nato" M+F) e nas colunas raw; "Sem informação" não entra em continente. Fiel a `depen.R::nacionalidade`.
-- **Mortalidade (6.8) — ANUAL = 1º sem + 2º sem** (corrigido; era só 2º sem, subcontava): `obitos_{saude,criminais,suicidio,acidentais,desconhecida}_{m,f,total}` (nomes de SP — `saude` não `naturais`, `suicidio` singular). Validado RS: 152/102/131/140 (2022–2025).
+- **Mortalidade (6.8):** `obitos_{saude,criminais,suicidio,acidentais,desconhecida}_{m,f,total}` soma os dois semestres quando ambos os valores existem. `obitos_registrados` conserva a soma disponível separadamente. Um campo ausente não vira zero. A cobertura é parcial de 2017 a 2022. Em 2018, 10 de 102 estabelecimentos informaram algum valor do bloco no primeiro semestre e 58 de 102 no segundo; 8 tinham todos os campos nos dois ciclos. O resultado observado não representa o total estadual anual. Os valores 152/102/131/140 da PoC são referências de 2022–2025 sob as regras anteriores.
 - **2º semestre (como `dados_sem2.R`):** `atendimento_{estabelecimento,externo,psicologico,odonto}` (6.6 consultas), `cela_gestantes` (2.1), `quantidade_lactantes` (5.9).
 - **Outras variáveis pedidas:** `populacao_total` (4.1 | Total), `capacidade_total` (1.3 M+F Total), `total_medicos` (4 categorias de médico do 3.1), `brasileiro_nato`. Agravos transmissíveis (6.7: HIV/Sífilis/Tuberculose/Hepatite/Outros) ficam nas colunas raw por sexo.
 
@@ -106,7 +122,7 @@ O "outros estrito" fica ~7% abaixo do total de roubos (a exclusão banco/comérc
 
 🟩 **Esquema REGENERADO (2026-06) — `data/raw/sp_schema_prisional.csv` (444 colunas):** o esquema antigo (377) era um recorte **incompleto** que deixava seções inteiras de fora (6.1–6.7, 7.3/7.5, 2.14–2.18, subtipos de 5.5). Regeneramos o esquema a partir do que SP **de fato mantém** — header da base do DataStudio (`base_sisdepen`) ∩ Base Única — preservando a ordem de colunas de SP. Resultado: **444/444** colunas casam (painel ≈ 544 col com as derivadas, espelhando as 530 de SP). As variáveis DERIVADAS por SP (regime, pena, óbitos, continentes, atendimento…) NÃO entram no esquema — são computadas no `03b`.
 
-**Cobertura RS (cela física, 1º sem):** 2022=104 · 2023=103 · 2024=104 · 2025=103 (auditoria: `outputs/auditoria/prisional_cobertura.csv`). **Validação cruzada:** a aproximação por ciclo de 2022 dava 107 — a Base Única (campo nativo) dá 104, mostrando que a aproximação **supercontava 3 unidades**. Mais um argumento pela Base Única.
+**Cobertura RS (cela física, 1º sem):** a extração candidata soma 927 registros de estabelecimento e ano. De 2017 a 2025, a cobertura foi 99/102/104/104/104/104/103/104/103. Use `prisional_cobertura.csv` e `prisional_mortalidade_cobertura.csv` da execução para verificar os nove anos e a cobertura dos fluxos. Na validação antiga, a aproximação por ciclo de 2022 dava 107 registros e a Base Única com o campo nativo retornava 104.
 
 🟩 **Reprodutibilidade — resolvida (era o único trade-off):** a Base Única é baixada de forma **scriptável** direto do SharePoint, anexando `&download=1` ao link de compartilhamento (testado: download estável, mesmo md5 em repetições). `01b_download_sisdepen.R` faz o download (URL em `cfg$sisdepen_baseunica_url`), confere **md5** (`cfg$sisdepen_baseunica_md5 = a4ab2749887c49879b47b10fc72d86b4`, 70.983.784 bytes — o que `download.file` produz) e grava manifesto. Fallback: se o SharePoint devolver HTML de interstício, o script avisa e o download manual cobre. Os arquivos **por ciclo** (gov.br, `baixar_ciclos = TRUE`) ficam como validação independente. Arquivo localizado por `00_config.R::arquivo_baseunica` (padrão `*baseunica*.xlsx`).
 - **Nome de arquivo versionado:** o `01b` salva com o nome que o SharePoint informa no `Content-Disposition` (via `httr2`), que embute o **timestamp do release** (ex.: `sisdepen_baseunica_2025-2_25032026-163420.xlsx` = 25/03/2026 16:34:20). Assim cada versão é autoidentificável e não sobrescreve outra — alinhado ao tratamento de *mutability of administrative data*. `arquivo_baseunica()` localiza por `*baseunica*.xlsx` e usa o mais recente.

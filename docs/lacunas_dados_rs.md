@@ -1,5 +1,7 @@
 # Lacunas e matriz de comparabilidade SP ↔ RS
 
+> **Versão candidata de 12/11/2026:** o Sinesp VDE oferece uma série municipal de mandados cumpridos, com cobertura variável; a série entra separada de flagrantes. A SSP-SP confirmou a composição de “Prisões efetuadas”, mas distingue prisões de pessoas presas. O microdado gaúcho de 2022 foi revisado. Consultar as [decisões atuais](decisoes_metodologicas.md); a matriz abaixo preserva o estado da investigação nas datas indicadas.
+
 > Este documento responde a duas perguntas, lado a lado, para cada variável do Monitor:
 > 1. **Categoria** — o dado do RS é comparável ao de SP? Que **agregação/desagregação** é necessária?
 > 2. **Período** — em que **janela temporal** a comparação é válida?

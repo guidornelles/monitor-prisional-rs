@@ -1,5 +1,7 @@
 # Diagnóstico de viabilidade — adaptação do Monitor do Sistema Prisional (SP → RS)
 
+> **Versão candidata de 12/11/2026:** as [decisões atuais](decisoes_metodologicas.md) substituem o diagnóstico antigo no que se refere à revisão do microdado de 2022, às janelas de exibição e à disponibilidade municipal de mandados. O conteúdo datado abaixo permanece como evidência histórica.
+
 > **Diagnóstico complementar de 03/10/2026 — expansão nacional:** [auditoria Sinesp VDE](auditoria_sinesp_vde_2026-10-03.md), com downloads 2015–2026, comparação SP/RS, cobertura, desagregação e matriz por indicador. Parecer: viável com harmonização para uma camada nacional seletiva; a fonte não substitui integralmente a camada criminal municipal vigente. No RS, vários indicadores coincidem, mas existem resíduos históricos e de versões; em SP 2023, a soma experimental homicídio + feminicídio reconcilia o total e 639/645 municípios. A adoção depende de ratificação, sem alteração de indicadores nesta auditoria. As conclusões abaixo mantêm as datas do diagnóstico anterior.
 
 > Documento-síntese, base para apresentação ao grupo do projeto. Consolida `inventario_repositorio_sp.md`, `fontes_dados_rs.md`, `lacunas_dados_rs.md`, `poc_reconciliacao.md` e `auditoria.md`.
