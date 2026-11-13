@@ -12,7 +12,8 @@
 # Arquivos esperados em data/raw/nacional/saude/ (qualquer nome; o indicador é
 # inferido do nome): *tubercul*/*hepat*/*hiv|aids* × *casos*/*obito|mortal*.
 #   ex.: tabnet_tuberculose_casos_rs.csv, tabnet_hiv_obitos_rs.csv
-# Ingere apenas os que existirem (roda já só com tuberculose; demais somam depois).
+# A extração fixada de TB é ingerida à parte para a competência de 2025.
+# Ela inclui linhas zeradas explicitamente e preserva as exportações anteriores.
 #
 # Saída    : data/processed/saude_rs_municipio_ano.csv  (cod_mun6, ano, casos_*, obitos_*)
 # Auditoria: outputs/auditoria/saude_cobertura.csv
@@ -65,11 +66,14 @@ ler_tabnet <- function(arq) {
     dplyr::select(cod_mun6, dplyr::all_of(anos_cols)) |>
     tidyr::pivot_longer(dplyr::all_of(anos_cols), names_to = "ano", values_to = "valor") |>
     dplyr::mutate(ano = as.integer(ano),
-                  valor = suppressWarnings(as.integer(dplyr::na_if(stringr::str_squish(valor), "-"))),
-                  valor = tidyr::replace_na(valor, 0L))
+                  valor = dplyr::na_if(stringr::str_squish(as.character(valor)), ""),
+                  valor = dplyr::if_else(valor == "-", "0", valor)) |>
+    dplyr::mutate(valor = suppressWarnings(as.integer(valor)))
 }
 
 arqs <- list.files(dir_saude, pattern = "\\.csv$", full.names = TRUE)
+arq_tb <- file.path(dir_saude, cfg$saude_tb_arquivo)
+arqs <- setdiff(arqs, arq_tb)
 arqs <- arqs[!is.na(vapply(arqs, indicador_de, character(1)))]
 if (length(arqs) == 0) stop("Nenhum CSV de saúde reconhecido em ", dir_saude,
                             " (esperado *tubercul*/*hepat*/*hiv* × *casos*/*obito*).")
@@ -79,10 +83,30 @@ saude_long <- purrr::map_dfr(arqs, function(a) {
   ler_tabnet(a) |> dplyr::mutate(indicador = ind)
 })
 
+saude_long <- saude_long |> dplyr::filter(ano %in% cfg$saude_anos)
+if (anyDuplicated(saude_long[c("cod_mun6", "ano", "indicador")])) {
+  stop("Exportações TabNet sobrepostas. Mantenha uma única edição ativa por indicador, município e ano.")
+}
+
+# A edição consultada em maio/2026 informa a série municipal completa para TB.
+# Substitui só TB no último ano e controla o universo de municípios da expansão.
+ano_tb <- cfg$saude_ano_max$casos_tuberculose
+if (!file.exists(arq_tb)) stop("Tabulação de tuberculose fixada não encontrada: ", arq_tb)
+texto_tb <- gsub("\r\n", "\n", readr::read_file(arq_tb), fixed = TRUE)
+stopifnot(digest::digest(texto_tb, algo = "md5", serialize = FALSE) == cfg$saude_tb_md5)
+tb <- ler_tabnet(arq_tb) |>
+  dplyr::filter(ano == ano_tb) |>
+  dplyr::mutate(indicador = "casos_tuberculose")
+stopifnot(nrow(tb) == cfg$n_municipios, !anyDuplicated(tb$cod_mun6), !anyNA(tb$valor),
+          sum(tb$valor) == cfg$saude_tb_total_rs)
+chaves_anteriores <- dplyr::distinct(saude_long, cod_mun6, ano)
+tb_complementar <- tb |>
+  dplyr::anti_join(chaves_anteriores, by = c("cod_mun6", "ano")) |>
+  dplyr::transmute(cod_mun6, ano, tb_2025_complementar = TRUE)
+
 saude <- saude_long |>
-  dplyr::filter(ano %in% cfg$saude_anos) |>   # recorta a janela (o TABNET às vezes traz anos extras)
-  dplyr::group_by(cod_mun6, ano, indicador) |>
-  dplyr::summarise(valor = sum(valor, na.rm = TRUE), .groups = "drop") |>
+  dplyr::anti_join(tb, by = c("cod_mun6", "ano", "indicador")) |>
+  dplyr::bind_rows(tb) |>
   # values_fill = NA: ano sem dado para um indicador = NÃO DISPONÍVEL (≠ zero real, que vem de "-").
   # Cada indicador tem cobertura temporal própria (ex.: hepatite consolidada só até 2023).
   tidyr::pivot_wider(names_from = indicador, values_from = valor, values_fill = NA) |>
@@ -90,7 +114,7 @@ saude <- saude_long |>
 
 ind_cols <- setdiff(names(saude), c("cod_mun6", "ano"))
 
-# Corte por último ano consolidado de cada indicador: valores além viram NA (provisório).
+# Corte por última competência anual validada. Anos posteriores ficam sem valor.
 ano_max_ind <- function(ind) {
   m <- cfg$saude_ano_max[[ind]]
   if (is.null(m)) cfg$saude_ano_max_default else m
@@ -98,6 +122,9 @@ ano_max_ind <- function(ind) {
 for (ind in ind_cols) {
   saude[[ind]][saude$ano > ano_max_ind(ind)] <- NA_integer_
 }
+saude <- saude |>
+  dplyr::left_join(tb_complementar, by = c("cod_mun6", "ano")) |>
+  dplyr::mutate(tb_2025_complementar = dplyr::coalesce(tb_2025_complementar, FALSE))
 
 readr::write_csv(saude, file.path(paths$processed, "saude_rs_municipio_ano.csv"))
 

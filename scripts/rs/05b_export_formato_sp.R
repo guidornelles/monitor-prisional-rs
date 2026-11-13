@@ -97,6 +97,9 @@ arq_sau <- file.path(paths$out_tab, "painel_saude_municipio_ano.csv")
 if (file.exists(arq_sau)) {
   sau <- readr::read_csv(arq_sau, show_col_types = FALSE) |>
     dplyr::left_join(dplyr::select(ctx, id_municipio, munic_ep), by = "id_municipio")
+  # A expansão da cobertura em 2025 é exclusiva de TB. Anexa seus novos registros
+  # ao final para permitir a atualização da fonte conectada sem reordenar linhas.
+  if (!"tb_2025_complementar" %in% names(sau)) sau$tb_2025_complementar <- FALSE
   mapa_tipo <- tibble::tribble(
     ~col,                 ~Tipo,
     "casos_hiv",          "Casos_HIV",
@@ -107,7 +110,9 @@ if (file.exists(arq_sau)) {
     "obitos_hepatite",    "morte_Hepatite")
   saude_sp <- purrr::map_dfr(seq_len(nrow(mapa_tipo)), function(i) {
     cc <- mapa_tipo$col[i]; tp <- mapa_tipo$Tipo[i]
-    sau |> dplyr::transmute(
+    sau |>
+      dplyr::filter(!tb_2025_complementar | tp == "Casos_tub") |>
+      dplyr::transmute(
       `Município`         = paste0(nom_mun, " (RS)"),
       `Município (IBGE)`  = nom_mun,
       `ID Município`      = id_municipio,
@@ -115,9 +120,11 @@ if (file.exists(arq_sau)) {
       `Ano`               = ano,
       `Tipo`              = tp,
       `quantidade`        = .data[[cc]],                  # NA (vazio) = ano não consolidado p/ o indicador
-      `Tem_prisão`        = sim_nao(munic_ep))
+      `Tem_prisão`        = sim_nao(munic_ep),
+      tb_2025_complementar)
   }) |>
-    dplyr::arrange(`Município (IBGE)`, `Tipo`, `Ano`)
+    dplyr::arrange(tb_2025_complementar, `Município (IBGE)`, `Tipo`, `Ano`) |>
+    dplyr::select(-tb_2025_complementar)
   # SP não tem população/taxa na saúde (só quantidade + Tem_prisão) — espelhado aqui.
   readr::write_csv(saude_sp, file.path(dir_out, "dados_saude.csv"), na = "")
   message("OK — formato_sp/dados_saude.csv (", nrow(saude_sp), " linhas; ",

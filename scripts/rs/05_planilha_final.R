@@ -87,7 +87,7 @@ nao_pareados <- dplyr::bind_rows(
 readr::write_csv(nao_pareados, file.path(paths$out_aud, "match_municipios.csv"))
 if (nrow(nao_pareados))
   message("⚠ ", nrow(nao_pareados), " nome(s) de município sem correspondência no IBGE ",
-          "(ver outputs/auditoria/match_municipios.csv) — provavelmente outras UFs/variantes.")
+          "— confira ", file.path(paths$out_aud, "match_municipios.csv"), ".")
 
 # ---- 1) Painel criminal município × ano --------------------------------------
 # agrega por (chave, ano): aliases podem colapsar dois nomes-fonte na mesma chave -> evita duplicar no join
@@ -164,7 +164,7 @@ arq_saude <- file.path(paths$processed, "saude_rs_municipio_ano.csv")
 if (file.exists(arq_saude)) {
   saude <- readr::read_csv(arq_saude, show_col_types = FALSE) |>
     dplyr::mutate(cod_mun6 = as.character(cod_mun6))
-  ind_saude <- setdiff(names(saude), c("cod_mun6", "ano"))
+  ind_saude <- grep("^(casos|obitos)_", names(saude), value = TRUE)
   ctx6 <- contexto |>
     dplyr::mutate(cod_mun6 = substr(as.character(id_municipio), 1, 6)) |>
     dplyr::select(cod_mun6, id_municipio, nom_mun = nome, nome_regiao_intermediaria, populacao)
@@ -197,5 +197,5 @@ auditoria <- tibble::tibble(
 )
 readr::write_csv(auditoria, file.path(paths$out_aud, "planilha_final_cobertura.csv"))
 
-message("OK — painéis finais gravados em outputs/tabelas/ (criminal, prisional, contexto).")
+message("OK — painéis finais gravados em ", paths$out_tab, ".")
 print(auditoria)

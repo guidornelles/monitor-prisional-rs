@@ -1,10 +1,8 @@
 # =============================================================================
-# 00_config.R — Configuração central da PoC do Monitor Prisional RS
+# 00_config.R — Configuração da versão candidata do Monitor Prisional RS
 # -----------------------------------------------------------------------------
-# Centraliza TODOS os parâmetros e caminhos. Nenhum outro script deve conter
-# caminhos absolutos ou escolhas metodológicas "hardcoded" — tudo vem daqui.
-# Isso resolve um dos problemas de reprodutibilidade do Monitor SP (parâmetros
-# e filtros espalhados pelo código).
+# Define os períodos, versões fixadas das fontes e diretórios de processamento.
+# As regras de cada indicador são implementadas nas respectivas etapas.
 #
 # Uso: todo script do pipeline começa com `source(here::here("scripts/rs/00_config.R"))`.
 # =============================================================================
@@ -24,10 +22,13 @@ cfg <- list(
   anos_prisional = 2017:2025,        # janela candidata da Base Única SISDEPEN
   sinesp_dir    = here("data/raw/sinesp_vde/2026-10-03"), # extração com reconciliação auditada
   saude_anos    = 2018:2025,          # janela do Panorama de Saúde (como SP, desde 2018)
-  # Último ano CONSOLIDADO por indicador de saúde (valores além viram NA = provisório/não publicado).
-  # Ajustar conforme as notas de atualização de cada fonte (TABNET/SIM).
-  saude_ano_max_default = 2024L,      # SINAN casos e SIM óbitos: 2025 ainda provisório (jun/2026)
-  saude_ano_max         = list(casos_hepatite = 2023L),  # hepatites virais consolidadas só até 2023
+  # Última competência anual disponível e validada para o painel, por indicador.
+  # TB 2025 cobre jan–dez na mesma edição homologada de 2024, sujeita a revisão.
+  saude_ano_max_default = 2024L,      # casos de aids e óbitos do SIM em 2025 são parciais/preliminares
+  saude_ano_max         = list(casos_hepatite = 2023L, casos_tuberculose = 2025L),
+  saude_tb_arquivo      = "tabnet_tuberculose_casos_rs_2024_2025_2026-05.csv",
+  saude_tb_md5          = "c7607b8bccc58f9451e88bb9a9e3b841",  # UTF-8 e quebras LF
+  saude_tb_total_rs     = 7846L,
   n_municipios  = 497,                # municípios do RS (para auditoria de cobertura)
 
   # --- Parâmetros efetivamente consumidos pelas rotinas -----------------------
@@ -39,7 +40,7 @@ cfg <- list(
     # --- Prisional (SISDEPEN) ---
     sisdepen_fonte   = "base_unica",    # ciclos avulsos são insumo de conferência, não opção de 03
     prisional_recorte = "cela_fisica",  # "cela_fisica" (exclui domiciliar/monit. eletrônica) | "todos"
-    prisional_semestre = 1L             # semestre da base BRUTA (03): 1 = perfil/capacidade (como SP).
+    prisional_semestre = 1L             # referência do estoque bruto (03): perfil e capacidade.
                                         # 03b requer esse estoque e apura a cobertura dos dois semestres.
   ),
 

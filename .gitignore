@@ -3,6 +3,7 @@
 .Rproj.user/
 .DS_Store
 Thumbs.db
+__pycache__/
 
 # Dados brutos grandes NÃO vão para o Git; versionar só manifestos/dicionários/esquemas pequenos.
 # (padrão "ignora tudo + reinclui pastas + arquivos específicos" — necessário p/ reincluir em subpasta)
@@ -13,6 +14,8 @@ data/raw/**
 !data/raw/ssp_rs_fontes.csv
 !data/raw/sisdepen_fontes.csv
 !data/raw/**/MANIFEST_*.csv
+# Tabulação municipal agregada e versionada da tuberculose (14 KB).
+!data/raw/nacional/saude/tabnet_tuberculose_casos_rs_2024_2025_2026-05.csv
 
 # microdados criminais brutos da SSP-RS, colocados manualmente (~1 GB) — NÃO versionar
 data/EstatisticasCriminaisRS/

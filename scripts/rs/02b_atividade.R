@@ -3,7 +3,8 @@
 # -----------------------------------------------------------------------------
 # Flagrantes da PC, sem equivalência ao total paulista. Fonte: Lei 15.610/2021,
 # Art. 6º Inc. IX — "Prisões em Flagrante pela PC por Fato e Município" (um arquivo
-# por semestre). É microdado: 1 linha por prisão em flagrante -> contamos por município.
+# por semestre). O arquivo registra fatos com flagrante, sem quantidade de
+# pessoas. A série conta linhas por município do fato e ano de referência.
 #
 # RECORTE / LIMITES (decisões consolidadas; ver docs/decisoes_metodologicas.md):
 #   - `prisoes` preserva o nome interno legado e conta registros de flagrantes.

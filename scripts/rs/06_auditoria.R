@@ -86,7 +86,7 @@ rel <- c(
   secao("Prisional (SISDEPEN Base Única) — cobertura cela física", "prisional_cobertura.csv"),
   secao("Contexto — cobertura município/região/denominadores", "contexto_cobertura.csv"),
   secao("Saúde (DATASUS/TABNET) — cobertura por indicador e ano", "saude_cobertura.csv",
-        "NA = provisório/não consolidado (hepatite só até 2023; 2025 ainda provisório)."),
+        "NA = sem valor publicado para o recorte. Casos de hepatite até 2023; aids e óbitos até 2024; casos de tuberculose até 2025 na extração de maio de 2026."),
   secao("Planilha final — cobertura e pareamento", "planilha_final_cobertura.csv",
         "`nomes_sem_match` = nomes da SSP sem correspondência no IBGE (esperado: municípios de outras UFs)."),
   "## Municípios sem pareamento (SSP → IBGE)",
@@ -94,7 +94,7 @@ rel <- c(
   "", df_md(ler_aud("match_municipios.csv")), "",
   "## Qualidade dos painéis (NAs e zeros por coluna)",
   "", "Fonte: [qualidade_paineis.csv](qualidade_paineis.csv).",
-  "NAs na saúde refletem a decisão de marcar anos provisórios como NA (não 0).",
+  "Na saúde, NA indica valor não disponível; zero exige informação da fonte.",
   "", df_md(qualidade), "",
   "## Ressalvas conhecidas (ver docs/decisoes_metodologicas.md)",
   "",
@@ -102,8 +102,8 @@ rel <- c(
   "- **`prisoes` = flagrantes da PC.** Mandados do VDE são série separada, sem soma com flagrantes.",
   "- **Armas:** agregado estadual; a série municipal 2022–2025 ainda não está disponível.",
   "- **Prisional:** 2017–2025 em cela física; estoque do 1º semestre e óbitos anuais quando informados. Ver a cobertura em validacao_prisional.md.",
-  "- **Saúde:** cobertura temporal heterogênea (hepatite até 2023; demais até 2024; 2025 provisório = NA).",
-  "- **Taxas por 100 mil:** denominador = população Censo 2022 (mesma para todos os anos — simplificação da PoC)."
+  "- **Saúde:** cobertura específica por indicador; confira a extração e os cortes da execução.",
+  "- **Taxas por 100 mil:** população definitiva do Censo 2022 como denominador fixo; a taxa não incorpora mudanças populacionais ano a ano."
 )
 saida <- file.path(dir_aud, "RELATORIO_AUDITORIA.md")
 readr::write_lines(rel, saida)

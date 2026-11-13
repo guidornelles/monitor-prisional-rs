@@ -91,15 +91,23 @@ ler_base_unica <- function() {
     )
   if (anyDuplicated(df$id)) stop("Chave id de apresentação repetida no estoque prisional.")
 
-  # 2.13 "cela(s)-seguro": a Base Única traz a coluna ORIGINAL (com o dado Sim/Não) e uma
-  # VARIANTE de aspas trocadas que vem VAZIA (artefato da consolidação). O sp_schema espera
-  # a variante (SP renomeia a original p/ ela em depen.R). Replicamos: descartamos a variante
-  # vazia e renomeamos a original para o nome do schema, levando o dado adiante.
+  # O SISDEPEN mudou as aspas do campo 2.13 em 2021. A Base Única mantém as duas
+  # grafias, preenchidas em ciclos diferentes. Preserve o nome esperado pelo painel
+  # e recupere a resposta da outra grafia quando necessário.
   c213_orig <- '2.13 Há "cela(s)-seguro"?'
   c213_var  <- '2.13 Há cela(s)-seguro"?"'
   if (c213_orig %in% names(df)) {
-    if (c213_var %in% names(df)) df[[c213_var]] <- NULL
-    names(df)[names(df) == c213_orig] <- c213_var
+    resposta_orig <- dplyr::na_if(trimws(df[[c213_orig]]), "")
+    if (c213_var %in% names(df)) {
+      resposta_var <- dplyr::na_if(trimws(df[[c213_var]]), "")
+      if (any(resposta_orig != resposta_var, na.rm = TRUE)) {
+        stop("Respostas divergentes nas duas grafias do item 2.13 (cela-seguro).")
+      }
+      df[[c213_var]] <- dplyr::coalesce(resposta_var, resposta_orig)
+    } else {
+      df[[c213_var]] <- resposta_orig
+    }
+    df[[c213_orig]] <- NULL
   }
   df
 }
