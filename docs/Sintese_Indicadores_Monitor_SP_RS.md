@@ -1,5 +1,7 @@
 # Monitor do Sistema Prisional — síntese de indicadores e fontes equivalentes no RS
 
+> **Revisão de 13/11/2026:** as correspondências desta síntese são históricas. Para decidir o que pode ser comparado, use [a auditoria das notas, scripts e tabelas](auditoria_metodologica_sp_rs.md).
+
 *Documento de trabalho — junho/2026.*
 
 | Indicador (Monitor SP) | Fonte (Monitor SP) | Período (SP) | Fonte(s) possível(is) no RS | Abrangência territorial (RS) | Cobertura e granularidade temporal (RS) | Link — SSP-RS |
@@ -13,18 +15,18 @@
 | **Roubo (categoria "outros": exclui veículo, banco, carga)** | SSP-SP — ocorrências | Anual, desde 2001 | <br>• Indicadores Criminais — "Roubos" (já exclui veículo; inclui banco/comércio)<br>• Microdados Mensais — reconstrução estrita do "outros" | <br>• Municipal<br>• Municipal | <br>• Desde 2002 · anual (mensal desde 2011)<br>• Desde 2022 · diário | <br>• [ssp.rs.gov.br/indicadores-criminais](https://www.ssp.rs.gov.br/indicadores-criminais)<br>• [ssp.rs.gov.br/dados-abertos](https://www.ssp.rs.gov.br/dados-abertos) |
 | **Furto (categoria "outros": exclui veículo, banco)** | SSP-SP — ocorrências | Anual, desde 2001 | <br>• Indicadores Criminais — "Furtos" (exclui veículo; inclui abigeato e banco/comércio)<br>• Microdados Mensais — reconstrução estrita do "outros" | <br>• Municipal<br>• Municipal | <br>• Desde 2002 · anual (mensal desde 2011)<br>• Desde 2022 · diário | <br>• [ssp.rs.gov.br/indicadores-criminais](https://www.ssp.rs.gov.br/indicadores-criminais)<br>• [ssp.rs.gov.br/dados-abertos](https://www.ssp.rs.gov.br/dados-abertos) |
 | **Armas de fogo apreendidas** | SSP-SP — Dados de Produtividade | Anual, desde 2001 | <br>• Indicadores de Atividade (PC + BM)<br>• Dados Abertos — Lei 15.610, Art. 6º, Inc. VII | <br>• Estadual<br>• Estadual | <br>• Desde 2007 · mensal (soma PC+BM consistente a partir de 2017)<br>• Desde 2021 · diário (registros com data) | <br>• [ssp.rs.gov.br/indicadores-de-atividade](https://www.ssp.rs.gov.br/indicadores-de-atividade)<br>• [ssp.rs.gov.br/dados-abertos](https://www.ssp.rs.gov.br/dados-abertos) |
-| **Prisões efetuadas (Polícia Civil: flagrantes lavrados + mandados cumpridos)** | SSP-SP — Dados de Produtividade | Anual, desde 2001 | <br>• Dados Abertos — Lei 15.610, Inc. IX (flagrantes lavrados pela PC)<br>• Indicadores de Atividade (flagrantes + presos por mandados, PC) | <br>• Municipal<br>• Estadual | <br>• Desde 2021 · diário (registros com data)<br>• Desde 2007 · mensal (consistente a partir de 2017) | <br>• [ssp.rs.gov.br/dados-abertos](https://www.ssp.rs.gov.br/dados-abertos)<br>• [ssp.rs.gov.br/indicadores-de-atividade](https://www.ssp.rs.gov.br/indicadores-de-atividade) |
+| **Prisões efetuadas** | SSP-SP — atos de prisão em flagrante e por mandado | Anual | RS: registros de flagrante (SSP-RS) e pessoas com mandado cumprido (Sinesp VDE) em séries separadas | Municipal, com cobertura variável para mandados | 2022–2025 na candidata RS | [Definições e confronto](auditoria_metodologica_sp_rs.md#dinâmica-criminal) |
 | **Dados Prisionais (SISDEPEN: capacidade/lotação, perfil, saúde, educação, trabalho, morbidade/mortalidade, etc.)** | SISDEPEN / SENAPPEN | Semestral, desde 2017 | SISDEPEN / SENAPPEN (fonte nacional) | Município + estabelecimento | Desde 2017 · semestral | [gov.br/senappen](https://www.gov.br/senappen) |
 
 ## Decisões e perguntas para o grupo
 
 1. Estupro — qual fonte no comparativo SP↔RS? O microdado Mensal traz o estupro total (ambos os sexos), comparável à definição de SP, mas só desde 2022. A série da Violência Contra a Mulher é mais longa (desde 2012), porém — conforme o Observatório da Violência Contra a Mulher (SSP-RS) — cobre o recorte da Lei Maria da Penha (relações familiares/íntimas), correspondendo a ~metade do total (correlação municipal 0,99 com o microdado). A confirmar na fonte primária do Observatório.
 
-2. Prisões no mapa. Exibir no mapa apenas o componente de flagrante (municipalizado, Inc. IX), mantendo o total estadual completo (flagrantes + mandados)? Ou solicitar à SSP-RS o componente de mandados com município?
+2. Flagrantes e mandados: preservar a unidade de cada série. Validar competência, localização e cobertura das corporações antes da comparação.
 
 3. Roubo/furto "outros". Usar a aproximação via tabela agregada (série desde 2002, mas inclui banco/comércio) ou a reconstrução estrita via microdado (idêntica à definição de SP, porém só desde 2022)?
 
-4. Confirmar com a equipe de SP a definição de "prisões efetuadas" (Polícia Civil: flagrantes lavrados + mandados cumpridos), conforme levantamento documental (Res. SSP-SP nº 160/2001).
+4. Confirmar com a equipe de SP a edição dos dados de produtividade e os filtros aplicados à série conectada.
 
 5. Recorte regional. Embora a Nota Metodológica do Monitor de SP fale em macrorregiões administrativas, as regiões exibidas no painel correspondem às 11 regiões geográficas intermediárias do estado de São Paulo, conforme o IBGE. O RS tem recortes próprios (RISP/COREDEs), não equivalentes. Definir se a comparação será municipal/estadual, tratando "região" à parte.
 

@@ -1,0 +1,138 @@
+{
+  "auditoria": {
+    "populacao_historica": {
+      "municipios_por_ano": {
+        "1970": 232,
+        "1980": 232,
+        "1991": 333,
+        "2000": 467,
+        "2010": 496,
+        "2022": 497
+      },
+      "total_oficial_rs": {
+        "1970": 6664841,
+        "1980": 7773849,
+        "1991": 9138670,
+        "2000": 10187798,
+        "2010": 10693929,
+        "2022": 10882965
+      },
+      "soma_municipal": {
+        "1970": 6664841,
+        "1980": 7773849,
+        "1991": 9138670,
+        "2000": 10187798,
+        "2010": 10693929,
+        "2022": 10882965
+      },
+      "porto_alegre": {
+        "1970": 885545,
+        "1980": 1125478,
+        "1991": 1263403,
+        "2000": 1360590,
+        "2010": 1409351,
+        "2022": 1332845
+      }
+    },
+    "pib_historico": {
+      "municipios_por_ano": {
+        "2010": 496,
+        "2011": 496,
+        "2012": 496,
+        "2013": 497,
+        "2014": 497,
+        "2015": 497,
+        "2016": 497,
+        "2017": 497,
+        "2018": 497,
+        "2019": 497,
+        "2020": 497,
+        "2021": 497,
+        "2022": 497,
+        "2023": 497
+      },
+      "total_oficial_rs": {
+        "2010": 241249164,
+        "2011": 265056416,
+        "2012": 287587019,
+        "2013": 332292726,
+        "2014": 357816424,
+        "2015": 381992601,
+        "2016": 408789528,
+        "2017": 423270047,
+        "2018": 457293958,
+        "2019": 482464177,
+        "2020": 470941846,
+        "2021": 581283677,
+        "2022": 593633656,
+        "2023": 650107022
+      },
+      "soma_municipal": {
+        "2010": 241249165,
+        "2011": 265056420,
+        "2012": 287587015,
+        "2013": 332292721,
+        "2014": 357816431,
+        "2015": 381992590,
+        "2016": 408789531,
+        "2017": 423270044,
+        "2018": 457293960,
+        "2019": 482464181,
+        "2020": 470941851,
+        "2021": 581283674,
+        "2022": 593633654,
+        "2023": 650107019
+      },
+      "porto_alegre": {
+        "2010": 42724992,
+        "2011": 48288171,
+        "2012": 54204832,
+        "2013": 57920358,
+        "2014": 63989576,
+        "2015": 68132502,
+        "2016": 72734881,
+        "2017": 73314029,
+        "2018": 77181703,
+        "2019": 82320598,
+        "2020": 75976656,
+        "2021": 81563063,
+        "2022": 90214952,
+        "2023": 104743272
+      }
+    },
+    "tdi_2025": {
+      "municipios_por_ano": {
+        "2025": 497
+      },
+      "total_oficial_rs": {
+        "2025": 11.4
+      },
+      "soma_municipal": null,
+      "porto_alegre": {
+        "2025": 13.8
+      }
+    }
+  },
+  "fontes_oficiais": {
+    "pop_202_mun.json": "https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N6%5BN3%5B43%5D%5D&classificacao=1%5B0%5D%7C2%5B0%5D",
+    "pib_5938_mun.json": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37?localidades=N6%5BN3%5B43%5D%5D",
+    "pop_202_uf.json": "https://servicodados.ibge.gov.br/api/v3/agregados/202/periodos/1970%7C1980%7C1991%7C2000%7C2010/variaveis/93?localidades=N3%5B43%5D&classificacao=1%5B0%5D%7C2%5B0%5D",
+    "pib_5938_uf.json": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2010%7C2011%7C2012%7C2013%7C2014%7C2015%7C2016%7C2017%7C2018%7C2019%7C2020%7C2021%7C2022%7C2023/variaveis/37?localidades=N3%5B43%5D",
+    "pop_4709_uf.json": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/periodos/2022/variaveis/93?localidades=N3%5B43%5D",
+    "TDI_2025_MUNICIPIOS.zip": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_MUNICIPIOS.zip",
+    "TDI_2025_BRASIL_REGIOES_UFS.zip": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_BRASIL_REGIOES_UFS.zip",
+    "ibge_populacao_municipios_rs_2022.csv": "https://servicodados.ibge.gov.br/api/v3/agregados/4709/periodos/2022/variaveis/93?localidades=N6%5BN3%5B43%5D%5D",
+    "ibge_municipios_regioes_rs.csv": "https://servicodados.ibge.gov.br/api/v1/localidades/estados/43/municipios"
+  },
+  "sha256_entradas": {
+    "pop_202_mun.json": "7da52f980f717edf8ab9eb115bd22d75285519985cd6f4f12612cf77c278eca2",
+    "pib_5938_mun.json": "b1a499b2c11a47fb2a898e8f6415ea4f360825ebceccb2d6e9254efee0f8bfa7",
+    "pop_202_uf.json": "0552c2789112386834b8533e5c69d9302086d84603c86304bdd477e0f5c32a35",
+    "pib_5938_uf.json": "15b4f314ec389dd05812084780d60fa3103455ccf22dc3194deeb282ca84d8ff",
+    "pop_4709_uf.json": "c5ba2a57af614ca0b7ef1d580a9fa495ed18741223f624f67031cf0565a09510",
+    "TDI_2025_MUNICIPIOS.zip": "91f8f4c9f3609c7c3c9d4af9318371d6ab9c91c13e8dadeaef3e56e7a5c38a9b",
+    "TDI_2025_BRASIL_REGIOES_UFS.zip": "4c81792fccfaea4ee858b4651d651af2405fc8c18793f625c01a92639a86b0c9",
+    "ibge_populacao_municipios_rs_2022.csv": "022c5d9c7411329c5ec119fc446764fdfa8859cd2701aa9714a8382c9fdcbef1",
+    "ibge_municipios_regioes_rs.csv": "f229b9202af692ec95dc8ed2d34eb40f9d0f74e7d072de3e9eab60b11f9070ed"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data_execucao": "2026-11-13",
+  "finalidade": "Reprodução local da versão candidata. Não é um manifesto das conexões ao vivo do Data Studio.",
+  "sha256_saidas": {
+    "tabelas/painel_criminal_municipio_ano.csv": "c2a1c3a2cd3f66544e28b45250ee2aa225fdd2576553db5624a7c46b395c7853",
+    "tabelas/painel_prisional_estabelecimento.csv": "b983bbbb2262373055f19fb5b9b0259633f1f8e9682cbf4a064e0fdbd7b53645",
+    "tabelas/formato_sp/dinamica_criminal.csv": "ea7afecc56e9ce782e2e250c9bc60aba0e142a477d671499edc866f0fac714c2",
+    "tabelas/formato_sp/dados_saude.csv": "b47de2ac35e637365f9b7450f030235ab5973d5686747e9348ec9f7920605bf5",
+    "tabelas/formato_sp/mandados_estadual.csv": "563b7f6b2f1642108ea9d9f8da9a2d46c15151a534ae657b0e03073d75076774",
+    "panoramas_historicos/populacao_historica.csv": "17243722c80612e5631df8a0ccaa0ffea80cc42fa66ca73845094cfa4110dd5e",
+    "panoramas_historicos/pib_historico.csv": "ed4d1a0b9c234f739110251518743b2d53fe226b1bf79b0a0807729355c9b998",
+    "panoramas_historicos/tdi_2025.csv": "ec28ec46dfce821470ee8038a88cad2f17e9a4da7f525c47867fcee9c507a67e"
+  }
+}

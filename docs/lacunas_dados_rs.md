@@ -34,24 +34,11 @@
 | **Furto – outros** | SP = furto "outros" (exclui veículo, banco etc.). RS "Furtos" exclui veículo mas **inclui abigeato + banco/comércio** | (a) aproximado: "Furtos" direto; (b) estrito: microdado excluindo abigeato/banco/comércio | ocorrências | 🟩 aproximado **2002–2025**; estrito **2022–2025** | ✅/⚠️ ver nota |
 | **Estupro** | SP = todos os tipos, **ambos os sexos**, ocorrências, desde 2001. RS: VCM (subconjunto ~metade — recorte Maria da Penha, corr 0,99) **ou** microdado (total, ambos os sexos) | depende da decisão (§7) | ocorrências (microdado) ou subconjunto (VCM) | VCM **2012–2025** (~metade do total) **ou** microdado **2022–2025** (total comparável) | ⏳ **decisão pendente** |
 | **Armas de fogo apreendidas** | SP = Produtividade SSP, anual, municipal. RS = Indicadores de Atividade / Lei 15.610, **só estadual** | **2017+**: somar PC + BM (exclusivas, sem dupla contagem; validado 2023 ≈9,5 mil). **2007–2016**: usar só a linha "PC" (já contém a BM — não somar) | total **estadual** anual | 🟩 estadual **2007+ com quebra em 2016/2017** (soma PC+BM só de 2017); municipal: não há | 🟨 só estadual — **não entra no mapa** |
-| **Prisões efetuadas** | SP (Res. SSP-SP 160/2001, a confirmar) = **só Polícia Civil**: flagrantes lavrados (APF) + mandados cumpridos. RS análogo = "Flagrantes elaborados pela PC" (Lei 15.610 Inc. IX, **municipal**) + "Presos por mandados pela PC" (atividade, **estadual**) | replicar a fórmula de SP **só com PC** (BM não entra → dupla contagem é irrelevante). Flagrante: Inc. IX por município; mandados: só estadual | ocorrências (flagrante) + presos (mandados) | 🟩 flagrante municipal **2022+**; total estadual **2017+** | 🟨 mandados sem município; unidade (ver nota) |
+| **Prisões efetuadas** | SP: atos de flagrante e por mandado; RS: duas séries de fontes e unidades distintas | Comparar por modalidade só após alinhar universo e geografia | Atos, registros ou pessoas, conforme a fonte | RS 2022–2025 na candidata | Sem total equivalente |
 
 **Nota roubo/furto "outros":** a comparação 2002–2025 é viável e barata usando os agregados, **com a ressalva** de que o RS inclui banco/comércio (e, no furto, abigeato) que SP exclui de "outros". O impacto disso deve ser medido com o microdado em um ano-ponte (2022–2024) para decidir se a aproximação é aceitável ou se a versão estrita (pós-2022) é necessária.
 
-**Nota prisões efetuadas (correção):** a Lei 15.610 obriga a publicação das prisões da **BM (Inc. VIII — "Prisões efetuadas")** e da **PC (Inc. IX — "Prisões realizadas", tipo de ocorrência "com flagrante")**, ambas por tipo penal e **município** — então **há município nas duas** (cabem no mapa). 🟩 Pelo dicionário e pela lei, **cada inciso traz as prisões de uma corporação** (BM e PC, respectivamente). Verificado em 2023: PC = 30.436; BM = 111.574.
-
-🟩 **Sobreposição PC/BM CONFIRMADA por reconciliação (ver `poc_reconciliacao.md` §4c).** Cruzando a Lei 15.610 com o relatório de Indicadores de Atividade (2023): Inc. IX (PC) = 30.436 = "**flagrantes elaborados** pela PC" (30.426), e **não** as prisões exclusivas da PC (só 7.121). Inc. VIII (BM) = 111.574 = "prisões realizadas pela instituição BM" (111.634). Como a PC lavra ~30 mil autos de flagrante mas só ~7 mil vêm de ação própria, os outros **~23 mil vêm de capturas da BM** que também constam no Inc. VIII. Logo, **somar PC Inc. IX + BM Inc. VIII duplica ~23 mil eventos**. A leitura literal da lei (cada inciso = uma força) está correta, mas o dado publicado do Inc. IX é a lavratura, não as prisões exclusivas da PC.
-
-🟩 **Definição de SP (levantamento documental — Res. SSP-SP nº 160/2001; a confirmar com a equipe SP):** "Prisões efetuadas" é métrica **procedimental** (ocorrências), só da **Polícia Judiciária (Polícia Civil)**:
-$$\text{Prisões}_{SP} = \text{Flagrantes lavrados (APF, ocorrências)} + \text{Mandados cumpridos (ocorrências de captura)}$$
-Como SP usa **só a PC**, o problema de dupla contagem PC×BM **não se aplica** — a BM nunca entra nesse indicador.
-
-🟩 **Mapeamento RS (só PC):**
-- **Flagrantes lavrados** → "Flagrantes elaborados pela PC" = **Lei 15.610 Inc. IX** (municipalizado). 2023 = 30.426; 2024 = 28.895.
-- **Mandados cumpridos** → "Presos por mandados pela PC" (Indicadores de Atividade, **só estadual**). 2023 = 8.464; 2024 = 8.579.
-- **Total estadual RS ≈ 38,9 mil (2023)** / 37,5 mil (2024), comparável ao indicador de SP.
-
-🟨 **Limitações:** (1) **no mapa**, só o componente **flagrante** é municipalizado (Inc. IX); os mandados existem só em nível estadual. (2) **Unidade:** SP conta *ocorrências* (boletins de captura); o RS "presos por mandados" conta *indivíduos* — diferença pequena (~1 preso por BO), a registrar. (3) Adultos (ambos os indicadores RS são "adultos", como em SP).
+**Prisões e atos de prisão:** o Manual da SSP-SP distingue atos de pessoas. A lei paulista prevê as polícias Civil e Militar. No RS, a reconciliação mostra que Inc. IX mede registros de flagrante e não adultos em flagrante por ação exclusiva da PC. O VDE mede pessoas com mandado cumprido; oferece município quando informado e uma referência estadual. O [cruzamento com a LAI](auditoria_metodologica_sp_rs.md#dinâmica-criminal) confirma que as unidades diferem. A soma não reproduz a série paulista.
 
 🟦 **Indicadores que o RS tem e podem enriquecer o painel do RS** (não no comparativo, ou marcados como exclusivos): latrocínio, CVLI, roubo/furto de veículo, entorpecentes (posse/tráfico), delitos de armas, estelionato — todos 2002+ por ocorrências.
 
@@ -96,7 +83,7 @@ Todas nacionais → comparáveis para os dois estados, bastando filtrar a UF.
 - **Prisional (SISDEPEN, todos os blocos):** **2017–presente**.
 - **Saúde de contexto (DATASUS):** **2018+**. PIB: **2010+**.
 - **Armas apreendidas (estadual):** **2007+** no relatório de atividade, mas **soma PC+BM só vale de 2017** (até 2016 a linha "PC" já contém a BM — quebra de série); só estadual, sem mapa.
-- **Prisões efetuadas (definição SP = PC: flagrantes + mandados):** componente **flagrante** municipal **2022+** (Inc. IX); **total estadual** (flagrante + mandados) **2017+**. Só PC (sem BM). O componente de mandados não é municipalizado.
+- **Atividade policial:** flagrantes e mandados aparecem como séries separadas no RS, com cobertura municipal variável no Sinesp VDE.
 - **Roubo/furto "outros" no padrão estrito de SP:** **2022+** (antes disso, só a aproximação via agregado).
 - **Estupro:** **2012+** (VCM, não comparável) **ou** **2022+** (microdado, comparável) — ⏳ pendente.
 
@@ -111,7 +98,7 @@ Todas nacionais → comparáveis para os dois estados, bastando filtrar a UF.
 ## 6. Lacunas propriamente ditas (🟥)
 
 1. **Armas apreendidas por município:** o público só dá total estadual (PC+BM, Inc. VII) ou microdado PC sem município. Para mapa, solicitar à SSP-RS/PC/BM.
-2. **Prisões efetuadas — definição resolvida; lacuna remanescente é só municipal:** a métrica de SP (PC: flagrantes + mandados, §2) é reproduzível no RS em **total estadual** (Inc. IX + presos por mandados PC). O **componente de mandados não é municipalizado** no público — então, no mapa, só entra o flagrante (Inc. IX). Para mandados por município, solicitar à SSP-RS/PC. (Resta confirmar a definição de SP com a equipe paulista.)
+2. **Prisões efetuadas:** falta uma série municipal comparável de atos por mandado e de cobertura institucional equivalente à paulista. A série municipal de pessoas com mandado cumprido já está na candidata.
 3. **Estupro comparável a SP em série longa:** inexistente — VCM (2012+) tem unidade/recorte diferentes; microdado (2022+) é comparável mas curto. Ver §4.
 4. **Mensal municipal anterior a 2011** e **qualquer dado anterior a 2002:** não disponível no RS.
 5. 🟩 **Educação — resolvido:** SP publica **taxa de distorção idade-série** (INEP), não IDEB (o IDEB do script não é usado). Confirmado por M. Martins (equipe SP, 10/06/2026). O dado é nacional (redirecionável p/ RS), mas a extração de SP é **manual no Excel** — para o RS é preciso **construir um script** (não há código a reaproveitar).

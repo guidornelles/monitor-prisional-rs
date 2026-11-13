@@ -1,5 +1,7 @@
 # Inventário do repositório Monitor do Sistema Prisional (SP)
 
+> **Conferência de 13/11/2026:** [a auditoria metodológica](auditoria_metodologica_sp_rs.md) registra a revisão corrente das referências remotas e as diferenças entre nota, scripts e tabelas. Os inventários por ramo abaixo preservam os estados descritos em cada data.
+
 > **Inspeção complementar de 03/10/2026:** o export local da dinâmica criminal contém 2001, 2023 e 2025; a tabela `dados_ssp_2023.xlsx` confirma os totais de 2023. A branch `R`, em `validation/criminal_data_proccessing.R`, lê janeiro–junho e julho–novembro de 2025 e conta registros. A auditoria [Sinesp VDE](auditoria_sinesp_vde_2026-10-03.md) separa esse período parcial de anos integrais e identifica diferenças de composição/unidade. A inspeção não alterou o repositório SP e não prova a regeneração do painel online. O inventário histórico abaixo permanece datado.
 
 > Documento de inspeção. Descreve **fatos observados** no repositório local `MonitorPrisional2024` (fonte de inspeção, **não modificado**). Inferências sobre viabilidade de adaptação para o RS são tratadas em outros documentos (`docs/diagnostico_viabilidade_rs.md`).
@@ -42,7 +44,7 @@ Linguagem única: **R**. Não há `Makefile`, `targets`, nem orquestrador — a 
 **`depen.R`** (≈1.207 linhas) — Consolidação do 1º semestre.
 - `library(tidyverse)`.
 - Função `carrega_base_depen(caminho, ano)`: lê cada ciclo via `readxl::read_excel`, gera `id = Nome do Estabelecimento-UF-ano`, zera NAs numéricos e **filtra `UF == "SP"`**.
-- Lê 8 ciclos de **1º semestre** (2017–2024), de `data-raw/depen/sem_01/` (2º, 4º, 6º, 8º, 10º, 12º, 14º, 16º ciclos).
+- Na revisão `45c7144`, lê 9 ciclos de **1º semestre**, de 2017 a 2025.
 - Funções auxiliares de robustez: `garante_coluna`, `renomeia_coluna_segura`.
 - Funções de extração por seção do questionário SISDEPEN: `identifica`, `perfil`, `variaveis_1_2`, `variaveis_3_4`, `variaveis_5`, `variaveis_6`, `variaveis_7`, `nacionalidade` (cada uma faz `select` + `rbind` acumulando todos os anos).
 - Montagem final: `base_perfil <- cbind(base_identifica, base_perfil)`; `base_sisdepen <- cbind(base_identifica, base_variaveis_1_2, ...)`.
@@ -51,7 +53,7 @@ Linguagem única: **R**. Não há `Makefile`, `targets`, nem orquestrador — a 
 **`dados_sem2.R`** (≈154 linhas) — Incorpora o 2º semestre (mortalidade/saúde).
 - `library(tidyverse)`.
 - `carrega_base_depen_sem2(caminho, ano)`: mesma lógica de carga, filtro `UF == "SP"`.
-- Lê 8 ciclos de **2º semestre** (2017–2024) de `data-raw/depen/sem_02/` (3º, 5º, 7º, 9º, 11º, 13º, 15º, 17º ciclos).
+- Na revisão `45c7144`, lê 9 ciclos de **2º semestre**, de 2017 a 2025.
 - Função `obitossem2`: renomeia/seleciona variáveis da seção **6.8 Mortalidade no Sistema Prisional** (óbitos por saúde, criminais, suicídios, acidentais, causa desconhecida — M/F/Total), consultas médicas/odontológicas (6.6), cela para gestantes (2.1) e lactantes (5.9).
 - **Dependência em memória:** faz `left_join(base_sisdepen, base_obitossem2, by = "id")` — exige que `depen.R` tenha sido executado antes **na mesma sessão R** (a base intermediária não é persistida entre scripts).
 - **Saída:** sobrescreve `data-raw/Base_Sisdepen.xlsx` com a base anual consolidada (esta é a planilha que alimenta o monitor).
@@ -172,7 +174,7 @@ São observações de fato, relevantes ao diagnóstico de viabilidade:
   3. Estupro = **soma de todos os tipos, incluindo vulnerável** (sem recorte de sexo);
   4. **Armas apreendidas e prisões efetuadas vêm da seção "Dados de Produtividade"** da SSP-SP.
 - **Taxas relativas:** por 100 mil habitantes, plotadas em mapa (Looker Studio / Dados Cartográficos).
-- **Dados Prisionais (SISDEPEN, desde 2017):** confirma o uso de **1º semestre** para Transparência/Estabelecimentos/Morbidade e **2º semestre** para Mortalidade — exatamente a divisão entre `depen.R` e `dados_sem2.R`. Seções: Capacidade/Lotação, Estrutura, Celas, Pessoal, Saúde (consultórios e consultas médicas/odontológicas), Educação, Trabalho, População Prisional, Morbidade/Mortalidade, Controle e Fiscalização. 183 estabelecimentos em SP.
+- **Dados Prisionais (SISDEPEN):** a nota atribui mortalidade ao 2º semestre, mas o script soma os dois ciclos. Estoques e morbidade usam o 1º. Alguns atendimentos e campos de gestantes/lactantes usam o 2º. A referência a 183 estabelecimentos diz respeito ao mapa.
 
 ---
 *Fonte: inspeção (somente leitura) do repositório `MonitorPrisional2024` em 2026-06-09 (branch de código `R`@`efe1a1a`) e da Nota Metodológica do Monitor SP. Nenhum arquivo do repositório SP foi alterado.*

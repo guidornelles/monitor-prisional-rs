@@ -1,5 +1,7 @@
 # Diagnóstico de viabilidade — adaptação do Monitor do Sistema Prisional (SP → RS)
 
+> **Estado atual:** a [auditoria SP–RS de 13/11/2026](auditoria_metodologica_sp_rs.md) substitui as avaliações de comparabilidade direta deste diagnóstico histórico. A mesma fonte nacional, por si só, não garante o mesmo universo, ciclo ou cobertura.
+
 > **Versão candidata de 12/11/2026:** as [decisões atuais](decisoes_metodologicas.md) substituem o diagnóstico antigo no que se refere à revisão do microdado de 2022, às janelas de exibição e à disponibilidade municipal de mandados. O conteúdo datado abaixo permanece como evidência histórica.
 
 > **Diagnóstico complementar de 03/10/2026 — expansão nacional:** [auditoria Sinesp VDE](auditoria_sinesp_vde_2026-10-03.md), com downloads 2015–2026, comparação SP/RS, cobertura, desagregação e matriz por indicador. Parecer: viável com harmonização para uma camada nacional seletiva; a fonte não substitui integralmente a camada criminal municipal vigente. No RS, vários indicadores coincidem, mas existem resíduos históricos e de versões; em SP 2023, a soma experimental homicídio + feminicídio reconcilia o total e 639/645 municípios. A adoção depende de ratificação, sem alteração de indicadores nesta auditoria. As conclusões abaixo mantêm as datas do diagnóstico anterior.
@@ -36,11 +38,11 @@ As únicas questões genuinamente em aberto são **decisões da equipe** (não f
 | Educação = taxa de distorção idade-série (não IDEB) | 🟩 Confirmado | M. Martins; SP a faz manualmente — RS precisa construir o script |
 | Microdado criminal reproduz os agregados oficiais | 🟩 Verificado (2023 e 2024) | Reconciliação ±0,4% (§5) |
 | Homicídio, furtos, roubos, veículos: comparáveis | 🟩 Verificado | Reconciliação + dicionário |
-| Definição de "prisões efetuadas" de SP (só PC) | 🟩 Levantado (Res. 160/2001) | A **confirmar formalmente** com a equipe SP |
+| Prisões efetuadas em SP | Manual SSP-SP distingue atos de pessoas | A candidata RS mantém duas séries, com unidades diferentes |
 | Armas apreendidas: somar PC+BM só de 2017 | 🟩 Verificado | Cruzamento Lei 15.610 × atividade; quebra 2016/2017 |
 | **Estupro**: microdado (total) × VCM (~metade) | ⏳ **Decisão da equipe** | Definir a fonte; VCM = recorte Maria da Penha (a confirmar na fonte primária) |
 | Estupro: VCM mede ~metade do total | 🟦 Explicado (a confirmar) | Recorte da Lei Maria da Penha (Observatório SSP-RS); corr 0,99 com o microdado |
-| Prisões/armas **por município** em série longa | 🟥 Limitação | Armas só estadual; prisões-mandados só estadual |
+| Prisões e armas por município | Mandados municipais no VDE, com cobertura variável; armas estaduais | Não somar as séries de flagrantes e mandados |
 
 ---
 
@@ -102,7 +104,7 @@ As únicas questões genuinamente em aberto são **decisões da equipe** (não f
 | **Roubo / Furto "outros"** | "Roubos"/"Furtos" do RS já **excluem veículos** (não subtrair), mas **incluem banco/comércio** (e furto inclui abigeato) que SP exclui | aproximado **2002+**; estrito (via microdado) **2022+** | 🟨 consolidação |
 | **Estupro (total)** | **Microdado** (Estupro + Vulnerável, ambos os sexos); VCM mede ~metade | microdado **2022+**; VCM 2012+ | ⏳ decisão (§8) |
 | **Armas apreendidas** | PC + BM (só estadual); **somar só de 2017** (até 2016 a linha "PC" já inclui a BM) | estadual **2007+** (estrutura por força limpa de 2017) | 🟨 sem mapa |
-| **Prisões efetuadas** | SP = **só PC**: flagrantes lavrados + mandados cumpridos. RS = Inc. IX (flagrante, municipal) + presos por mandados PC (estadual) | flagrante municipal **2022+**; total estadual **2017+** | 🟨 mandados sem mapa |
+| **Atividade policial** | SP: atos de prisão; RS: registros de flagrante e pessoas com mandado cumprido | Janela candidata RS 2022–2025 | Comparação por modalidade exige alinhamento |
 | **Núcleo prisional (SISDEPEN)** | Mesma fonte nacional, mesma estrutura | **2017+** | 🟩 comparável |
 | Contexto: PIB / saúde / educação | Nacionais | PIB 2010+; saúde 2018+; educação anual | 🟩 comparável |
 
