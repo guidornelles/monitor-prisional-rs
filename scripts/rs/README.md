@@ -2,6 +2,8 @@
 
 O pipeline R gera as tabelas do RS para uma cópia de revisão no Data Studio. A PoC de junho e o Monitor SP servem de referência e não são atualizados por este processo. A PoC que compara os dois estados é uma entrega posterior.
 
+Este guia incorpora as regras aprovadas em 15/11/2026 para novas execuções. Os critérios e testes da candidata conectada em 13/11 estão registrados no [guia do Data Studio](../../docs/looker_studio_guia.md).
+
 | Camada | Janela da candidata | Unidade principal |
 | --- | --- | --- |
 | Dinâmica criminal | 2022–2025 (`cfg$anos_criminal`) | Município × ano. Armas, quando exibidas, permanecem em fonte separada por estado × ano. |
@@ -33,10 +35,10 @@ As etapas leem os insumos preservados em `data/raw/` e gravam os resultados em `
 | Etapa | O que produz ou valida |
 | --- | --- |
 | `02_criminal.R` | Reconstrói ocorrências consumadas do microdado e reconcilia com o agregado oficial. Vítimas de homicídio vêm do agregado; ocorrências de homicídio são mantidas para conferência. |
-| `02b_atividade.R` | Flagrantes da Polícia Civil pela SSP-RS. A série conta registros da fonte, não pessoas únicas. |
-| `03_prisional.R` e `03b_prisional_derivadas.R` | Base de cela física e variáveis derivadas, com semestre de referência, identificadores e cobertura temporal explícitos. |
+| `02b_atividade.R` | Registros de flagrantes da Polícia Civil pela SSP-RS. Soma arquivos disponíveis e audita semestres ausentes ou parciais. |
+| `03_prisional.R` e `03b_prisional_derivadas.R` | Base de cela física, estoque do primeiro semestre e fluxos derivados. Para óbitos 6.8, soma os dois semestres com zeros de contribuição e cobertura preservada. |
 | `04_contexto.R` e `04b_saude.R` | Municípios e regiões intermediárias do IBGE, população e demais variáveis de contexto; séries municipais de saúde. |
-| `02c_mandados_sinesp.R` | Mandados cumpridos, abrangência estadual do VDE, associados ao código IBGE. Mantém a série própria e audita cobertura, valores sem localização e reconciliação. |
+| `02c_mandados_sinesp.R` | Pessoas com mandado cumprido, abrangência estadual do VDE, associadas ao código IBGE. Soma os meses informados e audita cobertura, valores sem localização e reconciliação estadual. |
 | `05_planilha_final.R` | Consolida as tabelas de criminal, prisional, contexto e saúde, com chaves e taxas onde aplicáveis. |
 | `05b_export_formato_sp.R` | Gera `formato_sp/contexto_dados.csv`, `formato_sp/dinamica_criminal.csv`, `formato_sp/dados_saude.csv` e `formato_sp/mandados_estadual.csv` para apresentação. A tabela prisional entra diretamente. |
 | `06_auditoria.R` e `07_validacao_prisional.R` | Reúnem os controles das tabelas geradas, inclusive cobertura, chaves, reconciliação e óbitos anuais. |
@@ -48,8 +50,8 @@ Para uma alteração pontual, use outro `MONITOR_RS_RUN_DIR` e copie para `proce
 | Atualização | Etapas antes dos exportadores |
 | --- | --- |
 | Ocorrências e vítimas | `01a_download_ssp_rs.R` para as categorias `mensais,indicadores_criminais`, depois `02_criminal.R`. |
-| Flagrantes da Polícia Civil | `01a_download_ssp_rs.R` para `semestrais`, depois `02b_atividade.R`. Confira que existem dois arquivos por ano. |
-| Mandados do Sinesp VDE | Fixe o snapshot e a referência estadual, depois rode `02c_mandados_sinesp.R`. |
+| Flagrantes da Polícia Civil | `01a_download_ssp_rs.R` para `semestrais`, depois `02b_atividade.R`. Confira os arquivos disponíveis, a competência de cada extração e a cobertura registrada na auditoria. |
+| Mandados do Sinesp VDE | Fixe o snapshot e a referência estadual, depois rode `02c_mandados_sinesp.R`. Aceite meses sem valor nas duas fontes. Confira divergências de valor ou de cobertura entre elas. |
 | Estoques, perfil, condições ou fluxos prisionais | `01b_download_sisdepen.R` se o insumo faltar, depois `03_prisional.R`, `03b_prisional_derivadas.R` e `04_contexto.R` para recalcular presença de estabelecimentos. |
 | Panorama de Saúde | Arquive versões anteriores fora da pasta de ingestão. Mantenha uma edição ativa por indicador, município e ano. Atualize o insumo e o corte do indicador validado, depois rode `04b_saude.R`. |
 | Cadastro municipal ou denominador | `01_download.R` para adquirir os insumos faltantes, depois `04_contexto.R`. Rode também `02c_mandados_sinesp.R` se mudar a associação municipal. |
@@ -68,13 +70,16 @@ Para refazer as tabelas a partir dos mesmos insumos, reutilize a pasta com os do
 
 O Sinesp não substitui o microdado estadual. Mandados cumpridos e flagrantes aparecem separados; o indicador paulista **Prisões efetuadas** reúne flagrantes e prisões por mandado, mas conta prisões, não a soma de pessoas presas. O total RS só pode ser equiparado depois de validar unidade, geografia e cobertura institucional.
 
+Nas contagens numéricas do formulário prisional, converta o vazio em contribuição zero no painel, com cobertura aferida a partir dos campos de origem. Preserve as ausências em campos categóricos, identificadores, datas, denominadores e indicadores sem publicação. O zero calculado precisa ser interpretado à luz da cobertura do quesito ou do período.
+
 No Windows, a execução de revisão usou R 4.5.3, `LC_ALL=English_United States.utf8`, a biblioteca local do projeto em `.libPaths()` e `options(encoding = "UTF-8")`. Isso evita que a leitura dos nomes de município e das rubricas dependa da configuração de idioma da sessão. Em outra instalação, use a biblioteca correspondente ao R e à plataforma.
 
 ## Validação da candidata
 
 - **Criminal:** conferir as chaves e a grade esperada de 497 municípios × 4 anos, a cobertura mensal das entradas, os totais estaduais e as diferenças municipais entre versões. Distinguir zero observado, município sem correspondência e ausência de dado na fonte. Comparar o total reconstruído à coluna oficial equivalente; os recortes “outros” têm composição própria.
-- **Prisional:** verificar 2017–2025, os ciclos do primeiro e segundo semestre, os identificadores de estabelecimento e a população e capacidade por ano. Manter 2022–2025 como ponte com a PoC. Conferir óbitos por semestre e ano; semestre ausente não equivale a zero. Faixas de pena e grupos penais com problemas de fonte ou fórmula exigem nota de limitação e não entram no comparativo inicial.
-- **Mandados:** conferir meses numéricos, ausência versus zero, municípios sem localização, abrangência estadual e totais anuais contra os Indicadores de Atividade do RS. Exibir totais municipais apenas com 12 meses informados. A soma dos municípios exibidos pode ficar abaixo do total estadual, que tem apuração separada.
+- **Prisional:** conferir 2017–2025, os ciclos do primeiro e segundo semestre, os identificadores, a população e a capacidade. Para óbitos 6.8, confira a soma dos dois semestres por ID e ano no universo de junho, os vazios por campo e ciclo e as unidades exclusivas do segundo semestre registradas à parte. Para 2017–2022, acompanhe a soma observada de óbitos com a cobertura, em especial em 2018. Faixas de pena e grupos penais com problemas de fonte ou fórmula exigem nota de limitação e ficam fora do comparativo inicial.
+- **Flagrantes:** confira as competências e arquivos que compõem cada ano. Indique semestres parciais ou ausentes ao apresentar os totais, que incluem os registros disponíveis.
+- **Mandados:** confira os meses informados, zeros explícitos, município ignorado e concordância mensal com os Indicadores de Atividade do RS. Uma competência sem valor nas duas fontes fica fora da soma estadual. A soma municipal usa os meses informados e produz zero quando nenhum mês tem valor, com cobertura zero registrada. O valor estadual tem apuração própria e pode incluir registros sem município.
 - **Saúde:** conferir os cortes de cada indicador. Em 2025, a tuberculose soma 7.846 casos confirmados em 12 meses e cobre os 497 municípios. As quantidades das cinco outras séries em 2025 ficam vazias.
 - **Panoramas:** conferir a soma populacional por censo, a escala em mil reais correntes do PIB e a cobertura de 497 municípios no Inep de 2025. Identificar o ano e o método de agregação na descrição dos gráficos.
 - **Data Studio:** seguir o [guia da cópia de revisão](../../docs/looker_studio_guia.md). Confirmar que cada gráfico usa a fonte esperada e reproduz as tabelas validadas. Anotar o que ficou fora e por quê, sem tratar a versão candidata como publicação oficial.

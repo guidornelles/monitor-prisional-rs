@@ -5,9 +5,9 @@ Use as auditorias da mesma execução que produziu as tabelas. Em uma execução
 | Verificação | Arquivos | Como ler |
 | --- | --- | --- |
 | Criminal | `criminal_reconciliacao.csv`, `criminal_reconciliacao_municipal.csv` | Confronte microdados e indicadores oficiais de mesma unidade e rubrica. Confira 1.988 chaves município × ano. Separe diferenças de revisão, cobertura e composição. |
-| Flagrantes da PC | `prisoes_cobertura.csv`, `match_municipios.csv` | Compare os oito arquivos semestrais e a correspondência de municípios. Os flagrantes contam registros do fato na SSP-RS. |
-| Mandados cumpridos | `mandados_sinesp_proveniencia.csv`, `mandados_sinesp_cobertura_anual.csv`, `mandados_sinesp_reconciliacao_mensal.csv`, `mandados_sinesp_sem_localizacao.csv` | Confira o snapshot, os 48 totais mensais, a localização dos registros e os 12 meses por total municipal. O total estadual tem reconciliação própria. |
-| Prisional | `prisional_cobertura.csv`, `prisional_mortalidade_cobertura.csv`, `validacao_prisional.md` | Confira 927 estabelecimentos-ano, a janela de 2017–2025, o semestre dos estoques, as duas competências dos óbitos e os quesitos com lacunas. |
+| Flagrantes da PC | `prisoes_cobertura.csv`, `match_municipios.csv` | Confira quantos arquivos semestrais estão disponíveis em cada ano e a correspondência de municípios. Os flagrantes contam registros do fato na SSP-RS. |
+| Mandados cumpridos | `mandados_sinesp_proveniencia.csv`, `mandados_sinesp_cobertura_anual.csv`, `mandados_sinesp_reconciliacao_mensal.csv`, `mandados_sinesp_sem_localizacao.csv` | Confira o snapshot, os totais mensais e a localização. Os totais municipais somam os meses informados. O total estadual tem reconciliação própria. |
+| Prisional | `prisional_cobertura.csv`, `prisional_mortalidade_cobertura.csv`, `prisional_contagens_preenchimento.csv`, `validacao_prisional.md` | Confira a janela de 2017–2025, o semestre dos estoques, a cobertura dos óbitos e quantos campos numéricos vazios receberam zero por quesito e ano. |
 | Contexto e saúde | `contexto_cobertura.csv`, `saude_cobertura.csv` | Confira 497 municípios no cadastro de contexto e os cortes de saúde por indicador. A tuberculose soma 7.846 casos em 2025, com os outros indicadores em branco nesse ano. |
 | Junções e saídas | `planilha_final_cobertura.csv`, `qualidade_paineis.csv`, `RELATORIO_AUDITORIA.md` | Confira cardinalidade, duplicatas, valores faltantes e os alertas que requerem revisão. |
 
