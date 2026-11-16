@@ -82,7 +82,7 @@ rel <- c(
         "Δ% compara a reconstrução com o agregado oficial. A versão revista de 2022 substitui a antiga; consulte os resíduos em criminal_reconciliacao_municipal.csv."),
   secao("Prisões em flagrante (PC) — cobertura municipal", "prisoes_cobertura.csv"),
   secao("Mandados de prisão cumpridos (Sinesp VDE)", "mandados_sinesp_cobertura_anual.csv",
-        "Série própria. Total municipal anual exige 12 meses; total estadual usa a base original e inclui registros não localizados ou de municípios com cobertura parcial."),
+        "Série própria. Os totais municipais somam os meses informados. A cobertura distingue ausência de informação de zero informado. O total estadual inclui registros sem localização e tem reconciliação mensal própria."),
   secao("Prisional (SISDEPEN Base Única) — cobertura cela física", "prisional_cobertura.csv"),
   secao("Contexto — cobertura município/região/denominadores", "contexto_cobertura.csv"),
   secao("Saúde (DATASUS/TABNET) — cobertura por indicador e ano", "saude_cobertura.csv",
@@ -98,10 +98,11 @@ rel <- c(
   "", df_md(qualidade), "",
   "## Ressalvas conhecidas (ver docs/decisoes_metodologicas.md)",
   "",
-  "- **Criminal:** 2022–2025. Ocorrências de estupro e patrimônio; vítimas para homicídio doloso. A ausência de registro na junção não vira zero.",
+  "- **Criminal:** 2022–2025. Ocorrências de estupro e patrimônio; vítimas para homicídio doloso. Contagens ausentes contribuem zero na apresentação; a presença na fonte é registrada por indicador.",
+  "- **Prisional:** a [auditoria de preenchimento](prisional_contagens_preenchimento.csv) lista, por ano e quesito, quantos campos numéricos vazios receberam zero na apresentação.",
   "- **`prisoes` = flagrantes da PC.** Mandados do VDE são série separada, sem soma com flagrantes.",
   "- **Armas:** agregado estadual; a série municipal 2022–2025 ainda não está disponível.",
-  "- **Prisional:** 2017–2025 em cela física; estoque do 1º semestre e óbitos anuais quando informados. Ver a cobertura em validacao_prisional.md.",
+  "- **Prisional:** 2017–2025 em cela física. O estoque usa o 1º semestre e os óbitos informados são somados nos dois ciclos. Veja a cobertura em validacao_prisional.md.",
   "- **Saúde:** cobertura específica por indicador; confira a extração e os cortes da execução.",
   "- **Taxas por 100 mil:** população definitiva do Censo 2022 como denominador fixo; a taxa não incorpora mudanças populacionais ano a ano."
 )

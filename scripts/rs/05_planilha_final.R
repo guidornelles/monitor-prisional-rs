@@ -102,7 +102,7 @@ pris <- prisoes |>
   dplyr::group_by(chave, ano) |>
   dplyr::summarise(prisoes = sum(prisoes, na.rm = TRUE), .groups = "drop")
 
-# A grade facilita filtros, mas uma junção sem registro não demonstra zero.
+# A grade distingue ausência na fonte do zero usado na contagem publicada.
 grade <- tidyr::expand_grid(id_municipio = contexto$id_municipio, ano = cfg$anos_criminal) |>
   dplyr::left_join(dplyr::select(contexto, id_municipio, nom_mun = nome,
                                  nome_regiao_intermediaria, chave, populacao, pib,
@@ -114,6 +114,12 @@ painel_criminal <- grade |>
   dplyr::left_join(crim, by = c("chave","ano")) |>
   dplyr::left_join(pris, by = c("chave","ano")) |>
   dplyr::left_join(mandados, by = c("id_municipio", "ano"), relationship = "one-to-one") |>
+  dplyr::mutate(
+    dplyr::across(dplyr::all_of(setdiff(vars_cont, "mandados_cumpridos")),
+                  ~ !is.na(.x), .names = "{.col}_informada"),
+    mandados_cumpridos_informada = meses_informados > 0L,
+    dplyr::across(dplyr::all_of(vars_cont), ~ tidyr::replace_na(.x, 0))
+  ) |>
   # taxas por 100 mil habitantes (denominador: população Censo 2022)
   dplyr::mutate(dplyr::across(dplyr::all_of(vars_cont),
                               ~ ifelse(populacao > 0, .x / populacao * 1e5, NA_real_),
@@ -121,7 +127,7 @@ painel_criminal <- grade |>
   dplyr::select(id_municipio, nom_mun, nome_regiao_intermediaria, ano,
                 dplyr::all_of(vars_cont), populacao, pib, distorcao_idade_serie_fund,
                 mandados_observados, meses_informados,
-                dplyr::ends_with("_taxa_100k")) |>
+                dplyr::ends_with("_taxa_100k"), dplyr::ends_with("_informada")) |>
   dplyr::arrange(nom_mun, ano)
 stopifnot(nrow(painel_criminal) == cfg$n_municipios * length(cfg$anos_criminal),
           !anyDuplicated(painel_criminal[c("id_municipio", "ano")]))
@@ -149,6 +155,21 @@ if (file.exists(arq_der)) {
 }
 stopifnot(!anyDuplicated(painel_prisional$id),
           setequal(painel_prisional$ano, cfg$anos_prisional))
+# Preenche apenas quesitos numéricos do formulário e contagens derivadas
+# do 2º semestre. O extrato do 03 conserva o preenchimento original.
+quesitos <- grep("^[1-7]\\.[0-9]+ ", names(painel_prisional), value = TRUE)
+contagens_sem2 <- c("atendimento_estabelecimento", "atendimento_externo",
+                    "atendimento_psicologico", "atendimento_odonto", "quantidade_lactantes")
+contagens <- intersect(c(quesitos, contagens_sem2), names(painel_prisional))
+contagens <- contagens[vapply(painel_prisional[contagens], is.numeric, logical(1))]
+cobertura_contagens <- painel_prisional |>
+  dplyr::group_by(ano) |>
+  dplyr::summarise(dplyr::across(dplyr::all_of(contagens), ~ sum(is.na(.x))), .groups = "drop") |>
+  tidyr::pivot_longer(-ano, names_to = "quesito", values_to = "valores_preenchidos_com_zero") |>
+  dplyr::filter(valores_preenchidos_com_zero > 0L)
+readr::write_csv(cobertura_contagens, file.path(paths$out_aud, "prisional_contagens_preenchimento.csv"))
+painel_prisional <- painel_prisional |>
+  dplyr::mutate(dplyr::across(dplyr::all_of(contagens), ~ tidyr::replace_na(.x, 0)))
 readr::write_csv(painel_prisional, file.path(paths$out_tab, "painel_prisional_estabelecimento.csv"),
                  na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 

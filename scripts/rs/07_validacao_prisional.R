@@ -52,45 +52,112 @@ for (col in c("populacao_total", "capacidade_total")) {
 }
 
 add("\n## 2. Mortalidade registrada nos dois semestres")
-ob_tot_cols <- grep("^obitos_.*_total$", names(painel), value = TRUE)
-verifica("Cinco categorias de óbitos presentes", length(ob_tot_cols) == 5L)
-flags <- c("mortalidade_sem1_informada", "mortalidade_sem2_informada")
-verifica("Totais registrados e flags de cobertura disponíveis",
-         all(c("obitos_registrados", flags) %in% names(painel)))
+causas <- c(saude = "Óbitos naturais/ óbitos por motivos de saúde",
+            criminais = "Óbitos criminais", suicidio = "Óbitos suicídios",
+            acidentais = "Óbitos acidentais", desconhecida = "Óbitos com causa desconhecida")
+sexos <- c("Masculino", "Feminino", "Total")
+campos <- as.vector(outer(names(causas), tolower(sexos),
+                          function(causa, sexo) paste("obitos", causa, sexo, sep = "_")))
+campos_fonte <- as.vector(outer(unname(causas), sexos, function(causa, sexo) {
+  paste("6.8 Mortalidade no Sistema Prisional (total do período)", causa, sexo, sep = " | ")
+}))
+ob_tot_cols <- campos[endsWith(campos, "_total")]
+flags <- c("sem2_registro", "mortalidade_sem1_informada", "mortalidade_sem2_informada",
+           "mortalidade_sem1_campos_completos", "mortalidade_sem2_campos_completos")
+if (!all(c(campos, "obitos_registrados", flags) %in% names(painel))) {
+  stop("Painel sem os 15 campos de óbitos, registros ou indicadores de cobertura.")
+}
+
+# Recalcula a partir dos campos originais dos dois ciclos, sem ler as derivadas
+# do 03b. Mantém também as combinações só do 2º semestre para conferir a auditoria.
+arq_fonte <- arquivo_baseunica()
+cabecalho <- names(readxl::read_excel(arq_fonte, sheet = 1, n_max = 0L))
+chaves <- c("UF", "ID", "Referência", "Nome do Estabelecimento", "Tipo de Recolhimento")
+if (!all(c(chaves, campos_fonte) %in% cabecalho)) {
+  stop("Base Única sem todas as chaves e campos do quesito 6.8.")
+}
+tipos <- rep("skip", length(cabecalho))
+tipos[match(chaves, cabecalho)] <- "text"
+tipos[match(campos_fonte, cabecalho)] <- "numeric"
+referencias <- as.vector(outer(cfg$anos_prisional, 1:2, paste, sep = "/"))
+origem <- readxl::read_excel(arq_fonte, sheet = 1, col_types = tipos) |>
+  dplyr::filter(toupper(UF) == cfg$uf, .data[["Referência"]] %in% referencias)
+if (identical(cfg$escolhas$prisional_recorte, "cela_fisica")) {
+  norm <- function(x) stringi::stri_trans_general(stringr::str_squish(tolower(x)), "Latin-ASCII")
+  origem <- origem |>
+    dplyr::filter(norm(.data[["Tipo de Recolhimento"]]) == "cela fisica",
+                  !grepl("domiciliar|monitoramento eletronico|monitoracao eletronica",
+                         norm(.data[["Nome do Estabelecimento"]])))
+}
+chave_origem <- paste(origem$ID, origem[["Referência"]], sep = ":")
+verifica("Identidade dos registros semestrais da fonte sem repetição", !anyDuplicated(chave_origem))
+ix1 <- match(paste0(painel$ID, ":", painel$ano, "/1"), chave_origem)
+ix2 <- match(paste0(painel$ID, ":", painel$ano, "/2"), chave_origem)
+verifica("O painel cobre todas as chaves de estoque do primeiro semestre",
+         !anyNA(ix1) && setequal(ix1, which(endsWith(origem[["Referência"]], "/1"))))
+sem1 <- as.matrix(origem[ix1, campos_fonte])
+sem2 <- as.matrix(origem[ix2, campos_fonte])
+total_fonte <- match(ob_tot_cols, campos)
+esperados <- replace(sem1, is.na(sem1), 0) + replace(sem2, is.na(sem2), 0)
+for (j in seq_along(campos)) {
+  verifica(paste("Soma por ID e ano com ausências a zero:", campos[[j]]),
+           all(as.numeric(painel[[campos[[j]]]]) == esperados[, j]))
+}
+informados1 <- rowSums(!is.na(sem1[, total_fonte, drop = FALSE]))
+informados2 <- rowSums(!is.na(sem2[, total_fonte, drop = FALSE]))
+verifica("Cobertura do painel confere com os valores originais dos dois ciclos",
+         all(painel$sem2_registro == !is.na(ix2)) &&
+           all(painel$mortalidade_sem1_informada == (informados1 > 0L)) &&
+           all(painel$mortalidade_sem2_informada == (informados2 > 0L)) &&
+           all(painel$mortalidade_sem1_campos_completos == (informados1 == length(ob_tot_cols))) &&
+           all(painel$mortalidade_sem2_campos_completos == (informados2 == length(ob_tot_cols))))
+registrados <- ifelse(informados1 + informados2 > 0L,
+                      rowSums(esperados[, total_fonte, drop = FALSE]), NA_real_)
+verifica("Óbitos registrados por ID e ano preservam ausência dos dois blocos totais",
+         identical(as.numeric(painel$obitos_registrados), registrados))
+
 arq_cob <- file.path(paths$out_aud, "prisional_mortalidade_cobertura.csv")
 if (!file.exists(arq_cob)) stop("Auditoria de cobertura de mortalidade não encontrada: rode 03b.")
 mc <- readr::read_csv(arq_cob, show_col_types = FALSE)
 verifica("Auditoria de mortalidade cobre os anos configurados",
          !anyDuplicated(mc$periodo) && setequal(mc$periodo, cfg$anos_prisional))
-if (length(ob_tot_cols)) {
-  ptotal <- vapply(mc$periodo, function(a) {
-    x <- as.matrix(painel[painel$ano == a, ob_tot_cols])
-    if (all(is.na(x))) NA_real_ else sum(x, na.rm = TRUE)
-  }, numeric(1))
-  verifica("Totais da camada prisional conferem com o processamento",
-           isTRUE(all.equal(ptotal, mc$obitos_total)))
-  sem_cobertura <- !(painel[[flags[1]]] & painel[[flags[2]]])
-  verifica("Sem valor anual se um dos blocos semestrais não foi informado",
-           all(is.na(as.matrix(painel[sem_cobertura, ob_tot_cols]))))
+somar_fonte <- function(indices) {
+  sum(as.matrix(origem[indices, campos_fonte[total_fonte]]), na.rm = TRUE)
 }
-preg <- vapply(mc$periodo, function(a)
-  sum(painel$obitos_registrados[painel$ano == a], na.rm = TRUE), numeric(1))
-verifica("Óbitos registrados na camada conferem com o processamento",
-         all(preg == mc$obitos_registrados_no_painel))
-verifica("Reconciliação dos registros com ambos os ciclos, incluindo óbitos fora do estoque",
-         all(mc$obitos_registrados_no_painel + mc$obitos_registrados_fora_do_painel ==
-               mc$obitos_sem1_registrados + mc$obitos_sem2_registrados))
 for (i in seq_len(nrow(mc))) {
   r <- mc[i, ]
-  add("  ", r$periodo, ": ", r$obitos_total, " óbitos nas combinações com valor nos dois ciclos; ",
-      r$obitos_registrados_no_painel, " óbitos registrados no painel (inclui cobertura parcial); ",
+  no_painel <- painel$ano == r$periodo
+  origem1 <- which(origem[["Referência"]] == paste0(r$periodo, "/1"))
+  origem2 <- which(origem[["Referência"]] == paste0(r$periodo, "/2"))
+  fora <- setdiff(origem2, ix2[no_painel])
+  cobertura2 <- rowSums(!is.na(origem[origem2, campos_fonte[total_fonte]]))
+  completo1 <- informados1[no_painel] == length(ob_tot_cols)
+  completo2 <- informados2[no_painel] == length(ob_tot_cols)
+  verifica(paste("Cobertura da auditoria confere com a fonte:", r$periodo),
+           all(c(r$estab, r$estab_sem2, r$estab_so_sem1, r$estab_so_sem2,
+                 r$estab_sem1_mortalidade_informada, r$estab_sem2_mortalidade_informada,
+                 r$estab_sem1_mortalidade_campos_completos, r$estab_sem2_mortalidade_campos_completos,
+                 r$estab_mortalidade_anual_campos_completos) ==
+                 c(length(origem1), length(origem2), sum(is.na(ix2[no_painel])), length(fora),
+                   sum(informados1[no_painel] > 0L), sum(cobertura2 > 0L),
+                   sum(completo1), sum(cobertura2 == length(ob_tot_cols)), sum(completo1 & completo2))))
+  semestres <- c(somar_fonte(origem1), somar_fonte(origem2))
+  fora_total <- somar_fonte(fora)
+  anual <- sum(as.matrix(painel[no_painel, ob_tot_cols]))
+  verifica(paste("Reconciliação anual com os dois ciclos:", r$periodo),
+           all(c(r$obitos_sem1_registrados, r$obitos_sem2_registrados,
+                 r$obitos_registrados_fora_do_painel) == c(semestres, fora_total)) &&
+             all(c(r$obitos_total, r$obitos_registrados_no_painel,
+                   sum(painel$obitos_registrados[no_painel], na.rm = TRUE)) == anual) &&
+             anual + fora_total == sum(semestres))
+  add("  ", r$periodo, ": ", r$obitos_total, " óbitos registrados no painel; ",
       r$obitos_registrados_fora_do_painel, " em unidades só do 2º semestre. ",
       "Bloco com algum valor: ", r$estab_sem1_mortalidade_informada, "/", r$estab,
       " no 1º semestre e ", r$estab_sem2_mortalidade_informada, "/", r$estab_sem2,
       " no 2º. Todas as categorias nos dois semestres: ", r$estab_mortalidade_anual_campos_completos,
       "/", r$estab, ". Unidades só do 1º / só do 2º: ", r$estab_so_sem1, "/", r$estab_so_sem2, ".")
 }
-add("  > Vazio do formulário não equivale a zero. A cobertura parcial, sobretudo em 2018, limita a interpretação dos totais por ano.")
+add("  > O cálculo trata campos vazios como zero. A cobertura parcial, sobretudo em 2018, limita a interpretação das somas de registros.")
 
 add("\n## 3. Paridade de nomes com a base do Data Studio de SP")
 arq_ds <- file.path(paths$raw, "bases_data_studio", "base_sisdepen - Sheet1.csv")

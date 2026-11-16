@@ -1,14 +1,14 @@
 # =============================================================================
 # 02c_mandados_sinesp.R — Série própria de mandados de prisão cumpridos
 # Lê o snapshot VDE fixado em cfg$sinesp_dir (UF RS, abrangência Estadual,
-# evento "Mandado de prisão cumprido", coluna total). Não soma a flagrantes:
-# a unidade efetiva e a referência do município no RS ainda precisam ser
-# confirmadas antes de equiparar a soma às "Prisões efetuadas" da SSP-SP.
+# evento "Mandado de prisão cumprido", coluna total). O VDE conta pessoas
+# com mandado cumprido. A série permanece separada dos registros de flagrante.
+# O município de referência do VDE ainda requer confirmação.
 #
-# Ano municipal: só divulga o total se os 12 meses tiverem valor explícito.
-# Zeros observados permanecem zero; vazios e municípios ausentes permanecem NA.
-# O agregado estadual inclui os valores parciais e sem localização e só é
-# emitido após reconciliação mensal com a referência SSP arquivada na auditoria.
+# A soma municipal usa os meses informados. Com zero meses, apenas o campo de
+# exibição recebe zero. O campo observado fica vazio e a cobertura fica em zero.
+# O estado agrega os meses reconciliados, inclusive valores sem localização.
+# Uma competência fica vazia quando as duas fontes carecem de valor.
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
@@ -86,10 +86,10 @@ processar_mandados_sinesp <- function(cfg, paths) {
     vde <- vde |>
       dplyr::filter(uf == cfg$uf, abrangencia == "Estadual",
                     evento == "Mandado de prisão cumprido")
-    if (!nrow(vde) || anyNA(vde$data_referencia) ||
+    if (anyNA(vde$data_referencia) ||
         any(as.integer(format(vde$data_referencia, "%Y", tz = "UTC")) != ano) ||
         any(!is.na(vde$agente) | !is.na(vde$arma) | !is.na(vde$faixa_etaria))) {
-      stop("Mandados VDE: recorte vazio, competência ou dimensão inesperada em ", ano, ".", call. = FALSE)
+      stop("Mandados VDE: competência ou dimensão inesperada em ", ano, ".", call. = FALSE)
     }
     quant <- suppressWarnings(as.numeric(vde$total))
     if (any(!is.na(vde$total) & (is.na(quant) | !is.finite(quant) | quant < 0 | quant != floor(quant)))) {
@@ -114,7 +114,7 @@ processar_mandados_sinesp <- function(cfg, paths) {
   stopifnot(!anyDuplicated(localizado[c("id_municipio", "ano", "mes")]),
             !anyDuplicated(sem_localizacao[c("ano", "mes")]))
 
-  # Grade territorial completa, sem atribuir zero a células sem valor.
+  # A grade mensal conserva células sem valor para medir a cobertura.
   mensal <- tidyr::expand_grid(id_municipio = ibge$id_municipio, ano = anos, mes = 1:12) |>
     dplyr::left_join(dplyr::select(localizado, id_municipio, ano, mes, mandados_observados),
                      by = c("id_municipio", "ano", "mes"))
@@ -122,13 +122,12 @@ processar_mandados_sinesp <- function(cfg, paths) {
     dplyr::group_by(id_municipio, ano) |>
     dplyr::summarise(meses_informados = sum(!is.na(mandados_observados)),
                      mandados_observados = soma_observada(mandados_observados), .groups = "drop") |>
-    dplyr::mutate(mandados_cumpridos = dplyr::if_else(meses_informados == 12L,
-                                                      mandados_observados, NA_real_)) |>
+    dplyr::mutate(mandados_cumpridos = dplyr::coalesce(mandados_observados, 0)) |>
     dplyr::select(id_municipio, ano, mandados_cumpridos, mandados_observados, meses_informados) |>
     dplyr::arrange(ano, id_municipio)
 
-  # A referência SSP é o agregado estadual arquivado na auditoria anterior,
-  # não os XLSX municipais do VDE. Usar a competência, não apenas a soma anual.
+  # A referência SSP é o agregado estadual arquivado na auditoria anterior.
+  # Reconciliar cada competência, incluindo a presença do valor nas duas fontes.
   if (!file.exists(fonte_ref)) {
     stop("Mandados VDE: falta referência mensal SSP para reconciliar este snapshot: ",
          fonte_ref, call. = FALSE)
@@ -141,8 +140,8 @@ processar_mandados_sinesp <- function(cfg, paths) {
   ) |>
     dplyr::filter(uf == cfg$uf, evento == "Mandado de prisão cumprido", ano %in% anos) |>
     dplyr::transmute(ano, mes, mandados_estaduais_ssp_referencia = valor_estadual)
-  stopifnot(nrow(referencia) == 12L * length(anos), !anyDuplicated(referencia[c("ano", "mes")]),
-            !anyNA(referencia$mandados_estaduais_ssp_referencia))
+  stopifnot(!anyDuplicated(referencia[c("ano", "mes")]),
+            all(referencia$mes %in% 1:12))
   recon_mensal <- mensal |>
     dplyr::group_by(ano, mes) |>
     dplyr::summarise(municipios_com_valor = sum(!is.na(mandados_observados)),
@@ -156,8 +155,10 @@ processar_mandados_sinesp <- function(cfg, paths) {
                         na.rm = TRUE))) |>
     dplyr::left_join(referencia, by = c("ano", "mes")) |>
     dplyr::mutate(diferenca = mandados_estaduais_vde - mandados_estaduais_ssp_referencia)
-  if (anyNA(recon_mensal$diferenca) || any(recon_mensal$diferenca != 0)) {
-    erros <- dplyr::filter(recon_mensal, is.na(diferenca) | diferenca != 0)
+  erros <- recon_mensal |>
+    dplyr::filter(is.na(mandados_estaduais_vde) != is.na(mandados_estaduais_ssp_referencia) |
+                    (!is.na(diferenca) & diferenca != 0))
+  if (nrow(erros) > 0L) {
     print(erros, n = Inf)
     stop("Mandados VDE: falha na reconciliação mensal. Nenhuma saída do módulo foi gravada.",
          call. = FALSE)
@@ -165,33 +166,37 @@ processar_mandados_sinesp <- function(cfg, paths) {
 
   estadual_anual <- recon_mensal |>
     dplyr::group_by(ano) |>
-    dplyr::summarise(mandados_cumpridos = sum(mandados_estaduais_vde),
+    dplyr::summarise(mandados_cumpridos = soma_observada(mandados_estaduais_vde),
                      meses_informados = sum(!is.na(mandados_estaduais_vde)), .groups = "drop")
   cobertura <- municipal_anual |>
     dplyr::group_by(ano) |>
     dplyr::summarise(municipios_completos = sum(meses_informados == 12L),
                      municipios_parciais = sum(meses_informados > 0L & meses_informados < 12L),
                      municipios_sem_valor = sum(meses_informados == 0L),
-                     mandados_municipios_completos = soma_observada(mandados_cumpridos),
+                     mandados_municipios_completos = soma_observada(
+                       mandados_observados[meses_informados == 12L]),
                      mandados_municipios_parciais_observados = sum(
-                       mandados_observados[meses_informados > 0L & meses_informados < 12L]), .groups = "drop") |>
+                       mandados_observados[meses_informados > 0L & meses_informados < 12L]),
+                     mandados_municipios_publicados = sum(mandados_cumpridos), .groups = "drop") |>
     dplyr::left_join(
       recon_mensal |>
         dplyr::group_by(ano) |>
         dplyr::summarise(meses_sem_localizacao_informados = sum(!is.na(mandados_sem_localizacao_observados)),
                          mandados_sem_localizacao_observados = soma_observada(mandados_sem_localizacao_observados),
-                         mandados_estaduais_vde = sum(mandados_estaduais_vde),
-                         mandados_estaduais_ssp_referencia = sum(mandados_estaduais_ssp_referencia),
-                         diferenca = sum(diferenca), .groups = "drop"),
+                         meses_estaduais_informados = sum(!is.na(mandados_estaduais_vde)),
+                         mandados_estaduais_vde = soma_observada(mandados_estaduais_vde),
+                         mandados_estaduais_ssp_referencia = soma_observada(mandados_estaduais_ssp_referencia),
+                         diferenca = soma_observada(diferenca), .groups = "drop"),
       by = "ano"
     )
   stopifnot(nrow(municipal_anual) == nrow(ibge) * length(anos),
             !anyDuplicated(municipal_anual[c("id_municipio", "ano")]),
-            all(estadual_anual$meses_informados == 12L),
-            all(cobertura$mandados_estaduais_vde == rowSums(
-              dplyr::select(cobertura, mandados_municipios_completos,
-                            mandados_municipios_parciais_observados,
-                            mandados_sem_localizacao_observados), na.rm = TRUE)))
+            all(cobertura$mandados_municipios_publicados ==
+                  dplyr::coalesce(cobertura$mandados_municipios_completos, 0) +
+                  cobertura$mandados_municipios_parciais_observados),
+            all(dplyr::coalesce(cobertura$mandados_estaduais_vde, 0) ==
+                  cobertura$mandados_municipios_publicados +
+                  dplyr::coalesce(cobertura$mandados_sem_localizacao_observados, 0)))
 
   readr::write_csv(municipal_anual, file.path(paths$processed, "mandados_rs_municipio_ano.csv"), na = "")
   readr::write_csv(estadual_anual, file.path(paths$processed, "mandados_rs_estadual_ano.csv"), na = "")
@@ -199,7 +204,7 @@ processar_mandados_sinesp <- function(cfg, paths) {
   readr::write_csv(cobertura, file.path(paths$out_aud, "mandados_sinesp_cobertura_anual.csv"), na = "")
   readr::write_csv(sem_localizacao, file.path(paths$out_aud, "mandados_sinesp_sem_localizacao.csv"), na = "")
   readr::write_csv(proveniencia, file.path(paths$out_aud, "mandados_sinesp_proveniencia.csv"), na = "")
-  message("OK — mandados: ", nrow(recon_mensal), " totais mensais reconciliados; ",
+  message("OK — mandados: ", sum(estadual_anual$meses_informados), " totais mensais reconciliados; ",
           nrow(municipal_anual), " pares município-ano na grade.")
 }
 

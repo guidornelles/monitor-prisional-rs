@@ -18,7 +18,7 @@ suppressPackageStartupMessages({
 # ---- Parâmetros do projeto ---------------------------------------------------
 cfg <- list(
   uf            = "RS",
-  anos_criminal = 2022:2025,          # anos completos da camada municipal
+  anos_criminal = 2022:2025,          # janela da camada criminal municipal
   anos_prisional = 2017:2025,        # janela candidata da Base Única SISDEPEN
   sinesp_dir    = here("data/raw/sinesp_vde/2026-10-03"), # extração com reconciliação auditada
   saude_anos    = 2018:2025,          # janela do Panorama de Saúde (como SP, desde 2018)

@@ -17,9 +17,9 @@
 #     - Continentes (5.8): continente_{america,asia,africa,europa,oceania}
 #                          = rowSums das colunas 5.8 do continente × (M|F) (fiel a depen.R::nacionalidade).
 #   Dois semestres (fluxo):
-#     - Mortalidade (6.8): a soma anual por categoria só aparece quando os dois
-#       semestres têm valor, ligados por ID nativo + ano. A soma dos registros
-#       disponíveis fica separada; unidades só no 2º semestre ficam na auditoria.
+#     - Mortalidade (6.8): soma os valores registrados nos dois semestres por
+#       causa e sexo, usando zero na soma para cada valor ausente. A cobertura
+#       preserva as lacunas. Unidades só no 2º semestre ficam na auditoria.
 #   2º semestre:
 #     - Atendimento (6.6): atendimento_estabelecimento/externo/odonto (Consultas|Total).
 #     - cela_gestantes (2.1, texto Sim/Não) e quantidade_lactantes (5.9).
@@ -60,8 +60,11 @@ prep_sem <- function(s) {
       norm_txt(.data[["Tipo de Recolhimento"]]) == "cela fisica",
       !stringr::str_detect(nome_norm, "domiciliar|monitoramento eletronico|monitoracao eletronica"))
   }
-  if (length(setdiff(ref_alvo, d$ref))) {
-    stop("Ciclo sem registros no recorte: ", paste(setdiff(ref_alvo, d$ref), collapse = ", "))
+  ciclos_ausentes <- setdiff(ref_alvo, d$ref)
+  if (length(ciclos_ausentes)) {
+    lista <- paste(ciclos_ausentes, collapse = ", ")
+    if (s == 1L) stop("Ciclo de estoque sem registros no recorte: ", lista)
+    message("2º semestre sem registros no recorte: ", lista, ". A cobertura do ciclo será zero.")
   }
   if (any(is.na(d$ID) | trimws(as.character(d$ID)) == "") ||
       anyDuplicated(d[c("ID", "ref")])) {
@@ -232,10 +235,6 @@ obitos_frame <- function(d) {
   }
   out
 }
-soma_registrada <- function(a, b) {
-  ifelse(is.na(a) & is.na(b), NA_real_,
-         tidyr::replace_na(a, 0) + tidyr::replace_na(b, 0))
-}
 m1 <- obitos_frame(df1_bruto)
 m2 <- obitos_frame(df2)
 ob_cols <- setdiff(names(m1), "chave_ciclo")
@@ -246,15 +245,18 @@ m1$mortalidade_sem1_informada <- informado(m1)
 m1$mortalidade_sem1_campos_completos <- completo(m1)
 m2$mortalidade_sem2_informada <- informado(m2)
 m2$mortalidade_sem2_campos_completos <- completo(m2)
-m2$sem2_registro <- TRUE
+m2$sem2_registro <- rep(TRUE, nrow(m2))
 mort <- dplyr::left_join(m1, dplyr::rename_with(m2, ~paste0(.x, "_s2"), dplyr::all_of(ob_cols)),
                          by = "chave_ciclo", relationship = "one-to-one")
-reg <- lapply(ob_tot_cols, function(c)
-  soma_registrada(mort[[c]], mort[[paste0(c, "_s2")]]))
-reg <- do.call(cbind, reg)
-mort$obitos_registrados <- ifelse(rowSums(!is.na(reg)) > 0L, rowSums(reg, na.rm = TRUE), NA_real_)
-# A soma convencional propaga NA se faltar a categoria em um dos semestres.
-for (c in ob_cols) mort[[c]] <- mort[[c]] + mort[[paste0(c, "_s2")]]
+# Os totais anuais representam os registros disponíveis. A cobertura é medida
+# antes do cálculo, para que os zeros da soma não sejam confundidos com respostas.
+campos_totais <- c(ob_tot_cols, paste0(ob_tot_cols, "_s2"))
+tem_valor <- rowSums(!is.na(mort[campos_totais])) > 0L
+for (c in ob_cols) {
+  mort[[c]] <- tidyr::replace_na(mort[[c]], 0) +
+    tidyr::replace_na(mort[[paste0(c, "_s2")]], 0)
+}
+mort$obitos_registrados <- ifelse(tem_valor, rowSums(mort[ob_tot_cols]), NA_real_)
 mort <- mort |>
   dplyr::select(chave_ciclo, dplyr::all_of(ob_cols), obitos_registrados, sem2_registro,
                 dplyr::starts_with("mortalidade_sem")) |>
@@ -284,7 +286,7 @@ der <- der |>
 
 readr::write_csv(der, file.path(paths$processed, "prisional_derivadas_rs.csv"), na = "")
 message("OK — prisional_derivadas_rs.csv (", nrow(der), " linhas, ", ncol(der)-2, " derivadas; ",
-        "óbitos anuais quando observados ambos os ciclos; registros parciais separados).")
+        "óbitos registrados nos dois ciclos, com cobertura em separado).")
 # Cobertura por ciclo, incluindo unidades que não entram no estoque anual.
 aud <- dplyr::bind_rows(lapply(cfg$anos_prisional, function(a) {
   i1 <- df1$ano == a
@@ -303,10 +305,7 @@ aud <- dplyr::bind_rows(lapply(cfg$anos_prisional, function(a) {
     estab_sem2_mortalidade_campos_completos = sum(i2 & m2$mortalidade_sem2_campos_completos),
     estab_mortalidade_anual_campos_completos = sum(no_painel &
       der$mortalidade_sem1_campos_completos & der$mortalidade_sem2_campos_completos),
-    obitos_total = {
-      x <- as.matrix(der[no_painel, ob_tot_cols])
-      if (all(is.na(x))) NA_real_ else sum(x, na.rm = TRUE)
-    },
+    obitos_total = sum(as.matrix(der[no_painel, ob_tot_cols])),
     obitos_registrados_no_painel = sum(der$obitos_registrados[no_painel], na.rm = TRUE),
     obitos_sem1_registrados = sum(as.matrix(m1[i1, ob_tot_cols]), na.rm = TRUE),
     obitos_sem2_registrados = sum(as.matrix(m2[i2, ob_tot_cols]), na.rm = TRUE),

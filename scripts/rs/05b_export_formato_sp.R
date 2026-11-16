@@ -20,7 +20,7 @@
 #   - Tem_prisão (saúde) = Sim/Não.
 #   - Armas de fogo NÃO entra no criminal municipal (no RS é só estadual: armas_rs_estadual_ano.csv).
 #   - Homicídio usa vítimas; flagrantes da PC e mandados VDE têm rótulos próprios.
-#   - O total estadual VDE é exportado em arquivo próprio; não é a soma dos municípios completos.
+#   - O total estadual VDE é exportado em arquivo próprio e inclui registros sem localização.
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
@@ -81,7 +81,9 @@ if (file.exists(arq_cri)) {
       `quantidade`        = .data[[cc]],
       `população`         = populacao,
       `taxa`              = if (tx %in% names(cri)) .data[[tx]] else NA_real_,
-      `tem_EP`            = ano_ep)                       # ano de inauguração do presídio (vazio se não há)
+      `tem_EP`            = ano_ep,                      # ano de inauguração do presídio (vazio se não há)
+      `quantidade_informada` = .data[[paste0(cc, "_informada")]],
+      `meses_informados`  = if (cc == "mandados_cumpridos") meses_informados else NA_integer_)
   }) |>
     dplyr::arrange(`Município (IBGE)`, `Crime`, `Ano`)
   readr::write_csv(criminal_sp, file.path(dir_out, "dinamica_criminal.csv"), na = "")

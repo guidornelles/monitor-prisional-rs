@@ -10,6 +10,7 @@
 #   - `prisoes` preserva o nome interno legado e conta registros de flagrantes.
 #     Mandados do Sinesp entram como série própria no 02c; não somar as duas fontes.
 #   - Armas ficam no agregado estadual: os anexos municipais não dão série 2022–2025.
+#   - Soma os semestres disponíveis e registra a cobertura de cada ano.
 #
 # Entrada : data/raw/ssp_rs/semestrais/AAAA_Nsem/.../*Prisoes em Flagrante*Municipio*.csv
 # Saída   : data/processed/prisoes_rs_municipio_ano.csv  (municipio_key, nom_mun, ano, prisoes)
@@ -48,7 +49,7 @@ mapa <- tibble::tibble(
   dplyr::arrange(ano, sem)
 
 stopifnot(!anyDuplicated(mapa[c("ano", "sem")]),
-          nrow(mapa) == 2L * length(cfg$anos_criminal),
+          setequal(mapa$ano, cfg$anos_criminal),
           all(mapa$sem %in% 1:2))
 
 ler_flagrantes <- function(arq, ano) {
@@ -90,10 +91,14 @@ prisoes <- flagr |>
 readr::write_csv(prisoes, file.path(paths$processed, "prisoes_rs_municipio_ano.csv"))
 
 # ---- Auditoria ---------------------------------------------------------------
-auditoria <- prisoes |>
+auditoria <- mapa |>
   dplyr::group_by(ano) |>
-  dplyr::summarise(municipios = dplyr::n_distinct(municipio_key),
-                   total_prisoes = sum(prisoes), .groups = "drop")
+  dplyr::summarise(semestres_informados = dplyr::n(), .groups = "drop") |>
+  dplyr::left_join(prisoes |>
+    dplyr::group_by(ano) |>
+    dplyr::summarise(municipios = dplyr::n_distinct(municipio_key),
+                     total_prisoes = sum(prisoes), .groups = "drop"), by = "ano") |>
+  dplyr::mutate(dplyr::across(c(municipios, total_prisoes), ~ tidyr::replace_na(.x, 0)))
 readr::write_csv(auditoria, file.path(paths$out_aud, "prisoes_cobertura.csv"))
 
 message("OK — prisoes_rs_municipio_ano.csv (", nrow(prisoes), " linhas) e auditoria gravados.")
