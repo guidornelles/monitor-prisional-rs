@@ -28,6 +28,7 @@ etapa("05_planilha_final.R")       # tabelas analíticas com chaves e taxas
 etapa("05b_export_formato_sp.R")   # tabelas de conexão no subdiretório formato_sp
 etapa("06_auditoria.R")            # auditoria de cobertura, chaves e reconciliação
 etapa("07_validacao_prisional.R")  # testes de consistência da camada prisional
+etapa("08_validacao_contexto.R")   # fontes do contexto, unidades e numeradores/denominadores das taxas
 
 message("\nConcluído em ", round(difftime(Sys.time(), t0, units = "secs"), 1), " s.",
         "\nTabelas: ", paths$out_tab, "\nAuditoria: ", paths$out_aud)

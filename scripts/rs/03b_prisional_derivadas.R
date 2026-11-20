@@ -136,7 +136,9 @@ der$capacidade_total <- (if (cap_m %in% names(df1)) df1[[cap_m]] else 0) +
 # = clínicos gerais + ginecologistas + psiquiatras + outras especialidades. O padrão pega
 # as 4 colunas "| Total" (o traço varia "-"/"–", mas todas contêm "Médicos" e "| Total");
 # não há agregado "Médicos | Total" no SISDEPEN, então não há dupla contagem. (Obs.: o
-# depen.R de SP somava só 3, omitindo ginecologistas — aqui incluímos as 4.)
+# depen.R de SP, revisão 45c7144, exporta só clínicos, psiquiatras e outras
+# especialidades. A fórmula efetiva do gráfico paulista depende de confirmação.
+# Decisão RS mantida em 20/11/2026: incluir também ginecologistas, totalizando 4.)
 der$total_medicos <- s1(c("3.1", "Médicos", "| Total"), mínimo = 1L)
 # Agravos transmissíveis (6.7): usar as colunas RAW por sexo já no painel
 # ("6.7 … | HIV | Masculino/Feminino", idem Tuberculose/Hepatite/Sífilis). Sem derivadas de Total.

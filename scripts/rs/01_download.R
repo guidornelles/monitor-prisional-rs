@@ -16,6 +16,7 @@
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
+source(here::here("R/funcoes_contexto.R"))
 
 dir_nac <- here::here("data/raw/nacional"); dir.create(dir_nac, recursive = TRUE, showWarnings = FALSE)
 COD_UF_RS <- 43   # código IBGE da UF do Rio Grande do Sul
@@ -66,6 +67,7 @@ baixar_regioes <- function() {
 baixar_populacao <- function() {
   # SIDRA t.4709 = População residente (Censo 2022). /n6/in n3 43 = municípios do RS.
   pop <- sidrar::get_sidra(x = 4709, variable = 93,
+                           period = cfg$contexto$ano_populacao,
                            geo = "City", geo.filter = list("State" = COD_UF_RS))
   readr::write_csv(pop, file.path(dir_nac, "ibge_populacao_municipios_rs_2022.csv"))
   message("OK população (Censo 2022) RS -> ibge_populacao_municipios_rs_2022.csv")
@@ -74,8 +76,9 @@ baixar_populacao <- function() {
 
 # ---- 3) PIB municipal (IBGE/SIDRA) -------------------------------------------
 baixar_pib <- function() {
-  # SIDRA t.5938 = PIB dos municípios (último ano disponível). Filtra RS.
+  # SIDRA t.5938, variável 37 = PIB em mil reais correntes, no ano fixado.
   pib <- sidrar::get_sidra(x = 5938, variable = 37,
+                           period = cfg$contexto$ano_pib,
                            geo = "City", geo.filter = list("State" = COD_UF_RS))
   readr::write_csv(pib, file.path(dir_nac, "ibge_pib_municipios_rs.csv"))
   message("OK PIB municipal RS -> ibge_pib_municipios_rs.csv")
@@ -86,17 +89,10 @@ baixar_pib <- function() {
 # Taxa de distorção idade-série por MUNICÍPIO (Ensino Fundamental é o recorte de SP).
 # INEP publica em ZIP por ano, com padrão de URL estável:
 #   .../indicadores_educacionais/<ano>/TDI_<ano>_MUNICIPIOS.zip
-ANO_INEP <- 2024   # ano da divulgação (SP usou 2024); parametrizável
-url_inep_distorcao <- function(ano) sprintf(
-  "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/%d/TDI_%d_MUNICIPIOS.zip",
-  ano, ano)
 baixar_distorcao <- function() {
-  dest_zip <- file.path(dir_nac, sprintf("inep_tdi_%d_municipios.zip", ANO_INEP))
-  if (!file.exists(dest_zip) || file.info(dest_zip)$size == 0)
-    utils::download.file(url_inep_distorcao(ANO_INEP), dest_zip, mode = "wb", quiet = TRUE)
-  exdir <- file.path(dir_nac, "inep_distorcao"); dir.create(exdir, showWarnings = FALSE)
-  utils::unzip(dest_zip, exdir = exdir, overwrite = TRUE)
-  message("OK distorção idade-série (município, ", ANO_INEP, ") -> ", basename(dest_zip))
+  arquivo <- contexto_obter_tdi(dir_nac, cfg$contexto$ano_tdi,
+                               cfg$inep_tdi_zip_md5, cfg$inep_tdi_xlsx_md5)
+  message("OK distorção idade-série (município, ", cfg$contexto$ano_tdi, ") -> ", basename(arquivo))
 }
 
 # ---- Execução ----------------------------------------------------------------

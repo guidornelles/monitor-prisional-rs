@@ -30,6 +30,11 @@ cfg <- list(
   saude_tb_md5          = "c7607b8bccc58f9451e88bb9a9e3b841",  # UTF-8 e quebras LF
   saude_tb_total_rs     = 7846L,
   n_municipios  = 497,                # municípios do RS (para auditoria de cobertura)
+  # Referências fixadas para a tabela municipal de contexto. A disponibilidade
+  # de outro arquivo/ano na pasta não deve mudar silenciosamente a candidata.
+  contexto = list(ano_populacao = 2022L, ano_pib = 2023L, ano_tdi = 2025L),
+  inep_tdi_zip_md5 = "7c20771f6ab6d3dd3afaf0a6faea58c9", # TDI_2025_MUNICIPIOS.zip validado
+  inep_tdi_xlsx_md5 = "1845302b4368913b66103cc8abfd27ca", # MD5 publicado pelo Inep dentro do ZIP
 
   # --- Parâmetros efetivamente consumidos pelas rotinas -----------------------
   # Estupro total, patrimônio estrito e vítimas de homicídio são definidos no 02;

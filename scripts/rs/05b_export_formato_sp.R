@@ -3,7 +3,8 @@
 # -----------------------------------------------------------------------------
 # Camada de APRESENTAÇÃO: re-emite as bases internas (snake_case, fonte da verdade,
 # usadas nos joins/denominadores) com os NOMES "amigáveis" e o FORMATO que o Looker
-# de SP já usa, para a importação ser plug-and-play (sem renomear campo a campo).
+# de SP já usa. Unidades e definições próprias do RS permanecem explícitas;
+# uma mudança de cabeçalho exige atualizar o esquema da fonte no Data Studio.
 #
 # Princípio: NÃO recalcula indicadores — apenas RENOMEIA/PIVOTA a base interna. Assim
 # a interna continua sendo a única fonte da verdade e o export não diverge dela.
@@ -46,7 +47,7 @@ contexto_sp <- ctx |>
     `ID Município`          = id_municipio,
     `Nome Macrorregião`     = nome_regiao_intermediaria,  # rótulo de SP; conteúdo = região intermediária IBGE
     `Pop_2022`              = populacao,                  # só Censo 2022 (sem histórico, por decisão)
-    `PIB (em R$)`           = pib,                        # IBGE; ano único (sem série multi-ano)
+    `PIB (mil R$ correntes)` = pib,                       # IBGE; preserva a escala da fonte
     `Distorção idade-serie` = distorcao_idade_serie_fund,
     `munic_ep`              = sim_nao(munic_ep)
   ) |>
