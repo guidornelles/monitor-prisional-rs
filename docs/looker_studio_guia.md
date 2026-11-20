@@ -2,9 +2,19 @@
 
 Este guia descreve como preparar uma versão candidata do Monitor Prisional RS a partir da [PoC gaúcha](https://datastudio.google.com/u/0/reporting/eb3f288c-0d0a-4c5d-8825-0fe8b7198cba). A navegação pública do [Monitor SP incorporado pelo NEV-USP](https://nev.prp.usp.br/projetos/monitor-do-sistema-prisional/) orienta a organização das páginas.
 
-## Candidata de 12 de novembro de 2026 com revisão em 13 de novembro
+## Versão candidata de 20 de novembro de 2026
 
-A [cópia no Data Studio](https://datastudio.google.com/u/0/reporting/e2a2c22a-93ac-43c6-95f9-b824c81ef63f) usa a [planilha da execução candidata](https://docs.google.com/spreadsheets/d/1hvVCrj9yo3IVsQZiCdfHmQFwMLhts7ahGnPYfj6UlSs/edit) para as bases criminal, prisional, de mandados e do Panorama de Saúde. Os panoramas populacional, econômico e educacional usam a [planilha de panoramas históricos](https://docs.google.com/spreadsheets/d/1NigFj22WHgyS4Y9ER93su5YSQ7jJ8LXeWX0UWD60Uok/edit). A conexão de armas usa a fonte gaúcha já presente na PoC. A execução inicial e seu manifesto estão em `outputs/temp/candidata_2026-11-12`. As revisões de saúde e celas-seguro têm arquivos e conferências próprios, descritos abaixo.
+A [cópia no Data Studio](https://datastudio.google.com/u/0/reporting/e2a2c22a-93ac-43c6-95f9-b824c81ef63f) mantém o mesmo endereço e tem o título **Monitor do Sistema Prisional RS — versão candidata 2026-11-20**. Usa a [planilha da execução candidata](https://docs.google.com/spreadsheets/d/1hvVCrj9yo3IVsQZiCdfHmQFwMLhts7ahGnPYfj6UlSs/edit) para as bases criminal, prisional, de contexto, de mandados e do Panorama de Saúde. Os panoramas populacional, econômico e educacional usam a [planilha de panoramas históricos](https://docs.google.com/spreadsheets/d/1NigFj22WHgyS4Y9ER93su5YSQ7jJ8LXeWX0UWD60Uok/edit). A conexão de armas usa a fonte gaúcha já presente na PoC. A execução inicial e seu manifesto estão em `outputs/temp/candidata_2026-11-12`; a revisão integral validada está em `outputs/temp/revisao_pipeline_2026-11-20`. Os [controles de 20/11](../outputs/auditoria/revisao_2026-11-20/README.md) registram o resultado local e a conferência da candidata.
+
+### Atualização e conferência de 20/11
+
+- **Contexto.** Na mesma aba e planilha, `G2:G498` recebeu a distorção idade-série do Inep 2025, alterando 479 valores municipais. `F1` passou a `PIB (mil R$ correntes)`, sem mudar a escala dos valores. As 497 linhas e os oito campos conferiram com o CSV validado de 20/11. As demais colunas, os IDs e a estrutura das abas foram preservados. A largura visual da coluna F foi ajustada para 190 pixels para exibir o cabeçalho.
+- **Esquema no Data Studio.** Em **Recurso → Gerenciar fontes de dados adicionadas → contexto (`ds469`) → Atualizar campos**, a alteração foi aplicada, com entrada do novo nome do PIB e retirada do antigo. A fonte indicava zero gráficos diretos e não exigiu remapeamento. A ação **Atualizar dados** foi executada.
+- **Prisional.** A fonte conectada coincidiu com a execução validada nas 927 chaves de estabelecimento e ano e em oito contagens: população, capacidade, médicos e cinco causas de óbito. Conferiram 34.015 pessoas em 2017, 38.519 em 2025 e 116 médicos em 2025. Como os dados conferidos já eram iguais, não foram regravados; os campos manuais de UF e DRPP foram preservados.
+- **Criminal.** A fonte conectada tem 11.928 linhas, chaves únicas, numeradores, denominadores e taxas individuais iguais ao CSV validado. Os 24 totais de ano e indicador conferiram; em 2025, mandados somam 10.754 e flagrantes da Polícia Civil, 31.679. Esses dados também já eram iguais e não foram regravados.
+- **Panoramas.** O gráfico educacional já usava Inep 2025 nas oito regiões intermediárias e foi preservado, assim como os históricos populacional e de PIB. A atualização do contexto não substituiu essas fontes históricas.
+
+### Conferências iniciais e revisões anteriores
 
 - **Navegação e descrições.** A candidata mantém as mesmas 30 páginas, na mesma ordem do menu público da versão incorporada pelo NEV-USP. As descrições foram revistas a partir das correspondentes de SP, com adaptação de fontes, recortes, unidades e períodos ao RS.
 - **Criminal.** Os totais estaduais de 2022 conferiram para furtos, homicídios dolosos e flagrantes. Os filtros municipais conferiram em Porto Alegre e Aceguá, e o cartão de armas manteve o agregado estadual nos dois recortes.
@@ -19,7 +29,7 @@ A [cópia no Data Studio](https://datastudio.google.com/u/0/reporting/e2a2c22a-9
 
 ## Regras de processamento aprovadas em 15 de novembro
 
-Use as regras abaixo para a próxima atualização. Os testes acima descrevem a candidata conectada em 13/11. Confirme a importação e os gráficos antes de atribuir a regra revisada ao painel.
+As regras abaixo foram implementadas no pipeline e a conferência das fontes criminal e prisional em 20/11 confirmou concordância com a execução validada. Os registros de 13/11 acima preservam o histórico das verificações anteriores. Novas execuções continuam exigindo a conferência das fontes e dos gráficos.
 
 - Mandados municipais somam os valores informados. Um município e ano sem mês informado tem soma zero e cobertura zero. Para o estadual, confira a concordância mensal entre VDE e SSP-RS, inclusive quanto aos meses sem valor, e preserve o controle dos registros sem município. As duas séries somam os meses informados, mesmo com cobertura inferior a 12 meses.
 - Flagrantes somam os registros dos arquivos disponíveis. Informe semestres ausentes ou parciais junto da competência apresentada.
@@ -33,7 +43,7 @@ Use as saídas auditadas da mesma execução do [pipeline RS](../scripts/rs/READ
 | --- | --- | --- |
 | `criminal` | `formato_sp/dinamica_criminal.csv` | Município × ano × indicador, 2022–2025 |
 | `prisional` | `painel_prisional_estabelecimento.csv` | Estabelecimento de cela física × ano, 2017–2025 |
-| `contexto` | `formato_sp/contexto_dados.csv` | Município. Tabela de contexto que acompanha a candidata. |
+| `contexto` | `formato_sp/contexto_dados.csv` | Município. População 2022, PIB 2023 em mil R$ correntes e distorção idade-série 2025. |
 | `saude` | `formato_sp/dados_saude.csv` | Município × ano × indicador, com cortes próprios |
 | `armas` | `armas_rs_estadual_ano.csv` | Estado × ano. O painel atual usa a conexão estadual preservada da PoC. |
 | `mandados_estadual` | `formato_sp/mandados_estadual.csv` | Estado × ano. Referência reconciliada. |
@@ -70,7 +80,7 @@ Para saúde, preserve os cortes dos outros indicadores ao atualizar uma série. 
 | Dados prisionais | Filtrar por estabelecimento, município e ano. Conferir população, capacidade e ocupação. Para a soma dos óbitos observados, informar o universo de junho e a cobertura parcial de 2017–2022, especialmente 2018. |
 | Nota metodológica | Incluir a revisão da SSP-RS em 2022, as janelas distintas, unidades de contagem, fonte do Sinesp VDE e as ressalvas de comparabilidade. |
 
-Na página criminal, atribua os flagrantes à **SSP-RS** e os mandados ao **Sinesp VDE/MJSP**. Mostre as séries lado a lado com os controles de município e região. Na próxima revisão, carregue os totais municipais de mandados com os meses informados e indique o período efetivamente coberto. O cartão de armas mantém o total estadual. Na página oculta, o gráfico estadual de prisões também mantém os totais ao filtrar a tabela municipal.
+Na página criminal, atribua os flagrantes à **SSP-RS** e os mandados ao **Sinesp VDE/MJSP**. Mostre as séries lado a lado com os controles de município e região. A fonte conferida em 20/11 usa os totais municipais de mandados com os meses informados; indique o período efetivamente coberto. O cartão de armas mantém o total estadual. Na página oculta, o gráfico estadual de prisões também mantém os totais ao filtrar a tabela municipal.
 
 Agregue o prisional ao nível territorial e temporal da base criminal antes de cruzá-las e confira se a junção é única. Para taxas regionais ou estaduais, divida a soma dos eventos pela população do mesmo universo e use cada denominador uma vez. Exiba somas de cobertura parcial com o período e as lacunas identificados. Só interprete uma taxa como representativa do recorte completo quando o numerador cobrir esse recorte.
 

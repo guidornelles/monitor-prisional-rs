@@ -1,0 +1,31 @@
+{
+  "base_unica": {
+    "arquivo": "data/raw/sisdepen/sisdepen_baseunica_2025-2_25032026-163420.xlsx",
+    "sha256": "739c6c5ec1a1b428598dda01368d508b0606cd124c3d25ad0f271b1e3f88b266"
+  },
+  "export_sp": {
+    "arquivo": "data/raw/bases_data_studio/base_sisdepen - Sheet1.csv",
+    "sha256": "18420dad36173358dacf258a2f171e8f0c52bb821965e124b31df1271b15b790"
+  },
+  "sp_commit_codigo": "45c714419387a1b85f92df459de7399a7dedaec5",
+  "sp_commit_arquivos_historicos": "4db9d98a83f1c80fa7e73746578e14b42690ef8f",
+  "sp_scripts_sha256": {
+    "depen.R": "8382a36f664f4867b76dc29269795b90988130d74b855d3b01626601a482ac15",
+    "dados_sem2.R": "d8aa8f05d29c9081e3c70496f5a5ea71ad506079018468a7f58b54eadc16a22d"
+  },
+  "historicos_git_sha256": {
+    "4db9d98a83f1c80fa7e73746578e14b42690ef8f:9o-ciclo-base-de-dados-2020-2-semestre.xlsx": "0e2df9af7dfe0b7c62e5317cd286e02139b3cef97b73553cf504cc147595634f",
+    "4db9d98a83f1c80fa7e73746578e14b42690ef8f:11o-ciclo-base-de-dados-2021-2-semestre.xlsx": "3429f7176c7e5aa9af90ea7a98e26c1aa8f50a59ff2902d2e8f66643ac234731"
+  },
+  "registros_base_sp_2017_2025": 3277,
+  "registros_export_sp": 1616,
+  "id_nativo_repetido_no_ciclo": 0,
+  "id_apresentacao_export_repetido": 0,
+  "grupos_tres_nomes_modalidades_2021_2": 6,
+  "limites": [
+    "Contagens de cadastros não identificam pessoas únicas.",
+    "Nome-base e endereço são evidências de associação, sem deduplicação automática.",
+    "Rótulo nativo, nome e quesito 1.2 são preservados; suas diferenças não demonstram erro de classificação.",
+    "Exportação local não certifica a conexão de cada gráfico público atual."
+  ]
+}

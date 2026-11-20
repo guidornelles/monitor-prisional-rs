@@ -1,0 +1,6 @@
+referencia,fonte,modalidade_pelo_nome,possui_tipo_recolhimento,possui_id_nativo,registros,ids_distintos,populacao,capacidade,populacao_ausente,capacidade_ambos_sexos_ausente,endereco_ausente,consultas_internas,consultas_externas,consultas_odonto,lactantes,obitos_saude,obitos_criminais,obitos_suicidio,obitos_acidentais,obitos_desconhecida,obitos_total
+2020/2,4db9d98a83f1c80fa7e73746578e14b42690ef8f:9o-ciclo-base-de-dados-2020-2-semestre.xlsx,domiciliar_e_monitoramento_no_nome,False,False,9,0,37,37,0,0,9,0,0,0,0,0,0,0,0,0,0
+2020/2,4db9d98a83f1c80fa7e73746578e14b42690ef8f:9o-ciclo-base-de-dados-2020-2-semestre.xlsx,sem_marcador_no_nome,False,False,178,0,212672,149722,0,0,12,155271,23184,55550,46,177,3,13,1,17,211
+2021/2,4db9d98a83f1c80fa7e73746578e14b42690ef8f:11o-ciclo-base-de-dados-2021-2-semestre.xlsx,domiciliar_e_monitoramento_no_nome,False,False,33,0,62,327,0,0,33,0,0,0,0,0,0,0,0,0,0
+2021/2,4db9d98a83f1c80fa7e73746578e14b42690ef8f:11o-ciclo-base-de-dados-2021-2-semestre.xlsx,monitoramento_no_nome,False,False,20,0,597,1727,0,0,20,4,0,0,0,0,0,0,0,0,0
+2021/2,4db9d98a83f1c80fa7e73746578e14b42690ef8f:11o-ciclo-base-de-dados-2021-2-semestre.xlsx,sem_marcador_no_nome,False,False,179,0,202395,151868,0,0,12,144538,29174,66090,33,193,10,14,2,23,242

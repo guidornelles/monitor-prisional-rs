@@ -1,0 +1,9 @@
+teste,passou
+Regressão preservada fora da atualização TDI: painel_prisional_estabelecimento.csv,TRUE
+Regressão preservada fora da atualização TDI: painel_criminal_municipio_ano.csv,TRUE
+497 valores TDI iguais à extração independente do panorama Python,TRUE
+Totais de população e PIB preservados,TRUE
+Perturbação detectada: taxa,TRUE
+Perturbação detectada: escala_pib,TRUE
+Perturbação detectada: ano_tdi,TRUE
+Perturbação detectada: duplicata,TRUE

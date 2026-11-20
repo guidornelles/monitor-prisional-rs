@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-20",
+  "report": "https://datastudio.google.com/u/0/reporting/e2a2c22a-93ac-43c6-95f9-b824c81ef63f",
+  "spreadsheet": "1hvVCrj9yo3IVsQZiCdfHmQFwMLhts7ahGnPYfj6UlSs",
+  "context": {
+    "rows": 497,
+    "fields": 8,
+    "changedTDI": 479,
+    "year": 2025,
+    "pibHeader": "PIB (mil R$ correntes)",
+    "allValuesMatched": true
+  },
+  "criminal": {
+    "rows": 11928,
+    "uniqueKeys": true,
+    "allNumeratorsMatched": true,
+    "denominatorsAndRatesMatched": true,
+    "annualIndicatorTotalsMatched": 24
+  },
+  "prison": {
+    "rows": 927,
+    "metricsPerRowCompared": 8,
+    "allSelectedCountsMatched": true,
+    "year2025": {
+      "ano": 2025,
+      "estab": 103,
+      "populacao_total": 38519,
+      "capacidade_total": 25815,
+      "total_medicos": 116,
+      "obitos_saude_total": 81,
+      "obitos_criminais_total": 6,
+      "obitos_suicidio_total": 16,
+      "obitos_acidentais_total": 0,
+      "obitos_desconhecida_total": 37
+    }
+  }
+}
