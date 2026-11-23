@@ -5,6 +5,7 @@
 
 source(here::here("scripts/rs/00_config.R"))
 source(here::here("R/validacao_prisional_referencia.R"))
+source(here::here("R/funcoes_mapa_prisional.R"))
 catalogo <- catalogo_prisional()
 
 linhas <- character()
@@ -95,7 +96,7 @@ tipos[match(textos, cabecalho)] <- "text"
 tipos[match(numericos, cabecalho)] <- "numeric"
 referencias <- as.vector(outer(cfg$anos_prisional, 1:2, paste, sep = "/"))
 origem <- readxl::read_excel(arq_fonte, sheet = 1, col_types = tipos) |>
-  dplyr::filter(toupper(UF) == cfg$uf, .data[["Referência"]] %in% referencias)
+  dplyr::filter(toupper(UF) == cfg$uf)
 if (identical(cfg$escolhas$prisional_recorte, "cela_fisica")) {
   norm <- function(x) stringi::stri_trans_general(stringr::str_squish(tolower(x)), "Latin-ASCII")
   origem <- origem |>
@@ -103,6 +104,14 @@ if (identical(cfg$escolhas$prisional_recorte, "cela_fisica")) {
                   !grepl("domiciliar|monitoramento eletronico|monitoracao eletronica",
                          norm(.data[["Nome do Estabelecimento"]])))
 }
+# Inspeciona os ciclos disponíveis antes do corte da janela, sem mudar o mapa
+# ou a configuração. Reutiliza a leitura seletiva da fonte, sem nova leitura.
+alerta_mapa <- alerta_ano_mapa_prisional(origem[["Referência"]], cfg$anos_prisional)
+if (!is.null(alerta_mapa)) {
+  add("  > AVISO: ", alerta_mapa)
+  warning(alerta_mapa, call. = FALSE)
+}
+origem <- dplyr::filter(origem, .data[["Referência"]] %in% referencias)
 chave_origem <- paste(origem$ID, origem[["Referência"]], sep = ":")
 verifica("Identidade dos registros semestrais da fonte completa e sem repetição",
          !anyNA(origem$ID) && all(nzchar(trimws(origem$ID))) && !anyDuplicated(chave_origem))
@@ -129,6 +138,10 @@ if (identical(cfg$escolhas$prisional_recorte, "cela_fisica")) {
              !any(grepl("domiciliar|monitoramento eletronico|monitoracao eletronica",
                         norm(fonte1[["Nome do Estabelecimento"]]))))
 }
+mapa <- auditar_mapa_ultimo_ano_validado(painel, cfg$anos_prisional, origem)
+for (checagem in names(mapa$checagens)) verifica(checagem, mapa$checagens[[checagem]])
+add("  Mapa: ", mapa$estabelecimentos, " estabelecimentos em ", mapa$ano,
+    "/1, pelo maior ano da janela validada; histórico preservado na mesma tabela.")
 sem1 <- as.matrix(origem[ix1, campos_fonte])
 sem2 <- as.matrix(origem[ix2, campos_fonte])
 total_fonte <- match(ob_tot_cols, campos)

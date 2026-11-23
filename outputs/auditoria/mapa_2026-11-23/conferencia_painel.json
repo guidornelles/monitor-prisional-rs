@@ -1,0 +1,38 @@
+{
+  "data": "2026-11-23",
+  "relatorio": "e2a2c22a-93ac-43c6-95f9-b824c81ef63f",
+  "pagina": "p_4ubguzj4id",
+  "url": "https://datastudio.google.com/u/0/reporting/e2a2c22a-93ac-43c6-95f9-b824c81ef63f/page/p_4ubguzj4id",
+  "fonte_planilha": "1hvVCrj9yo3IVsQZiCdfHmQFwMLhts7ahGnPYfj6UlSs",
+  "aba": "prisional",
+  "schemas_atualizados": [
+    "ds68",
+    "ds467"
+  ],
+  "filtros": {
+    "mapa": "estabelecimentos_mapa: mapa_ultimo_ano_validado = TRUE",
+    "tabela": "mapa_tabela_ultimo_ano_validado: mapa_ultimo_ano_validado = TRUE",
+    "controle_inauguracao": "estabelecimentos_mapa"
+  },
+  "controle_inauguracao": {
+    "minimo_estilo": 1924,
+    "maximo_estilo": "vazio: limite superior automático",
+    "selecao_padrao": "vazia: sem restrição inicial",
+    "teste_restrito": {
+      "minimo": 2003,
+      "maximo": 2023,
+      "linhas_tabela": 19
+    },
+    "apos_redefinir": {
+      "minimo": 1924,
+      "maximo": 2023,
+      "linhas_tabela": 103
+    }
+  },
+  "legenda": {
+    "categorias": 12,
+    "vinculo_nao_confirmado_exibido": false
+  },
+  "texto": "O mapa mostra os estabelecimentos do Rio Grande do Sul registrados no primeiro semestre de 2025 no SISDEPEN, segundo o ano de inauguração. As cores indicam o vínculo administrativo consultado em 13/11/2026. Pontos com vínculos diferentes no mesmo endereço têm uma cor própria.",
+  "limite": "103 registros SISDEPEN não equivalem a 103 marcadores distintos, pois há endereços compartilhados."
+}

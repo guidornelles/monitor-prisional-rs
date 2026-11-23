@@ -1,0 +1,19 @@
+{
+  "data": "2026-11-23",
+  "spreadsheetId": "1hvVCrj9yo3IVsQZiCdfHmQFwMLhts7ahGnPYfj6UlSs",
+  "aba": "prisional",
+  "coluna_nova": "UF",
+  "posicao": 552,
+  "campo": "mapa_ultimo_ano_validado",
+  "linhas_dados": 927,
+  "verdadeiros": 103,
+  "falsos": 824,
+  "coluna_nativa_UF": "O",
+  "valores_nativos_conferidos": [
+    "UF",
+    "RS",
+    "RS",
+    "RS"
+  ],
+  "ids_ano_alinhados": true
+}

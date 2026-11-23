@@ -23,6 +23,7 @@
 # =============================================================================
 
 source(here::here("scripts/rs/00_config.R"))
+source(here::here("R/funcoes_mapa_prisional.R"))
 
 # Normalização para casar nomes de município entre fontes (SSP x IBGE):
 # maiúsculas, sem acento; apóstrofo é DELETADO ("Sant'Ana"->SANTANA) e demais sinais
@@ -170,6 +171,9 @@ cobertura_contagens <- painel_prisional |>
 readr::write_csv(cobertura_contagens, file.path(paths$out_aud, "prisional_contagens_preenchimento.csv"))
 painel_prisional <- painel_prisional |>
   dplyr::mutate(dplyr::across(dplyr::all_of(contagens), ~ tidyr::replace_na(.x, 0)))
+# O mapa usa a mesma fonte histórica. Só esta nova coluna lógica é acrescentada,
+# ao final; o ano muda quando a janela configurada e validada for ampliada.
+painel_prisional <- adicionar_mapa_ultimo_ano_validado(painel_prisional, cfg$anos_prisional)
 readr::write_csv(painel_prisional, file.path(paths$out_tab, "painel_prisional_estabelecimento.csv"),
                  na = "")  # vazio (não "NA" textual) -> Looker lê as colunas como numéricas
 

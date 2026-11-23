@@ -1,0 +1,552 @@
+campo,valores_e_classe_preservados
+ID,TRUE
+ciclo,TRUE
+Referência,TRUE
+ano,TRUE
+periodo,TRUE
+id,TRUE
+Situação de Preenchimento,TRUE
+Nome do Estabelecimento,TRUE
+Situação do Estabelecimento,TRUE
+Outras Denominações,TRUE
+Endereço,TRUE
+Bairro,TRUE
+CEP,TRUE
+Âmbito,TRUE
+UF,TRUE
+Município,TRUE
+Código IBGE,TRUE
+Telefone Principal,TRUE
+1.6 Data de inauguração do estabelecimento,TRUE
+1.1 Estabelecimento originalmente destinado a pessoa privadas de liberdade do sexo,TRUE
+1.2 Tipo de estabelecimento - originalmente destinado,TRUE
+1.3 Capacidade do estabelecimento | Presos provisórios | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Presos provisórios | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Presos provisórios | Total,TRUE
+1.3 Capacidade do estabelecimento | Regime fechado | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Regime fechado | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Regime fechado | Total,TRUE
+1.3 Capacidade do estabelecimento | Regime semiaberto | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Regime semiaberto | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Regime semiaberto | Total,TRUE
+1.3 Capacidade do estabelecimento | Regime aberto | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Regime aberto | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Regime aberto | Total,TRUE
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Regime Disciplinar Diferenciado (RDD) | Total,TRUE
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Medidas de segurança de internação | Total,TRUE
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)?,TRUE
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Masculino,TRUE
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Feminino,TRUE
+1.3 Capacidade do estabelecimento | Outro(s). Qual(is)? | Total,TRUE
+1.3 Capacidade do estabelecimento | Masculino | Total,TRUE
+1.3 Capacidade do estabelecimento | Feminino | Total,TRUE
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Celas não aptas,TRUE
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Masculino,TRUE
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Vagas desativadas - Feminino,TRUE
+1.3 Capacidade do estabelecimento | Celas interditadas/ desativadas e respectivas vagas | Total de vagas desativadas,TRUE
+1.7 O estabelecimento foi concebido como estabelecimento penal ou foi construído para outra utilização e foi adaptado?,TRUE
+2.1 Há cela adequada/ dormitório para gestantes? (apenas para estabelecimentos com vagas para mulheres),TRUE
+2.2 Possui berçário e/ou centro de referência materno-infantil? (apenas para estabelecimentos com vagas para mulheres),TRUE
+2.2 Possui berçário e/ou centro de referência materno-infantil? (apenas para estabelecimentos com vagas para mulheres) | Sim. Capacidade de bebês: | Quantidade,TRUE
+2.3 Possui creche? (apenas para estabelecimentos com vagas para mulheres),TRUE
+2.3 Possui creche? (apenas para estabelecimentos com vagas para mulheres) | Sim. Capacidade de crianças: | Quantidade,TRUE
+2.4 Módulo de saúde | Consultório médico,TRUE
+2.4 Módulo de saúde | Consultório médico | Quantidade,TRUE
+2.4 Módulo de saúde | Consultório médico | O espaço também é destinado a outras finalidades?,TRUE
+2.4 Módulo de saúde | Consultório odontológico,TRUE
+2.4 Módulo de saúde | Consultório odontológico | Quantidade,TRUE
+2.4 Módulo de saúde | Consultório odontológico | O espaço também é destinado a outras finalidades?,TRUE
+2.4 Módulo de saúde | Não possui módulo de saúde,TRUE
+2.5 Módulo de educação | Sala de aula,TRUE
+2.5 Módulo de educação | Sala de aula | Quantidade de salas,TRUE
+2.5 Módulo de educação | Sala de aula | Capacidade para quantas pessoas,TRUE
+2.5 Módulo de educação | Sala de informática,TRUE
+2.5 Módulo de educação | Sala de informática | Quantidade de salas,TRUE
+2.5 Módulo de educação | Sala de informática | Capacidade para quantas pessoas,TRUE
+2.5 Módulo de educação | Biblioteca,TRUE
+2.5 Módulo de educação | Biblioteca | Quantidade de salas,TRUE
+2.5 Módulo de educação | Biblioteca | Capacidade para quantas pessoas,TRUE
+2.6 Módulo de oficinas | Não possui,TRUE
+2.7 Há local específico para visitação?,TRUE
+2.8 Há local específico para visita íntima?,TRUE
+2.12 Possui sala de videoconferência?,TRUE
+"2.13 Há cela(s)-seguro""?""",TRUE
+"2.14 Há ala ou cela destinadas exclusivamente às pessoas privadas de liberdade que se declarem lésbicas, gays, bissexuais, travestis e transexuais (LGBT)?",TRUE
+2.15 Há ala ou cela destinada exclusivamente para idosos?,TRUE
+2.16 Há ala ou cela destinada exclusivamente para indígenas?,TRUE
+2.17 Há ala ou cela destinada exclusivamente para pessoas estrangeiras?,TRUE
+2.18 Há acessibilidade para pessoas com deficiência?,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Cargos administrativos | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Enfermeiros | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Psicólogos | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Dentistas | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Assistentes sociais | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos - clínicos gerais | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos – psiquiatras | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Médicos - outras especialidades | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Pedagogos | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Professores | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Policial Civil em atividade exclusiva no estabelecimento prisional | Total,TRUE
+3.1 Quantidade de Servidores que atuam no Sistema Prisional | Policial Militar em atividade exclusiva no estabelecimento prisional | Total,TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há médico pediatra",TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há médico ginecologista",TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há nutricionista",TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, há cuidadores/as",TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Sim, outro(s). Especificar:",TRUE
+"3.2 Há equipe própria para atendimento no berçário e/ou creche? (apenas para estabelecimentos com mulheres) | Não, os atendimentos são realizados externamente",TRUE
+3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Não,TRUE
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio da Defensoria Pública",TRUE
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por advogados conveniados/ dativos",TRUE
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, por meio de assistência jurídica privada prestada por ONG ou outra entidade sem fins lucrativos",TRUE
+"3.3 Há prestação sistemática de assistência jurídica gratuita às pessoas privadas de liberdade neste estabelecimento? | Sim, outro. Qual?",TRUE
+4.1 População prisional | Presos provisórios (sem condenação) | Total,TRUE
+4.1 População prisional | Presos sentenciados - regime fechado | Total,TRUE
+4.1 População prisional | Presos sentenciados - regime semiaberto | Total,TRUE
+4.1 População prisional | Presos sentenciados - regime aberto | Total,TRUE
+4.1 População prisional | Medida de segurança - internação | Total,TRUE
+4.1 População prisional | Medida de segurança - tratamento ambulatorial | Total,TRUE
+4.1 População prisional | Total,TRUE
+4.1 População prisional | Quantas pessoas privadas de liberdade estão em Regime Disciplinar Diferenciado?,TRUE
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência?,TRUE
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência? | Sim. Quantos | Masculino,TRUE
+4.3 O estabelecimento tem controle da informação sobre quantos presos sentenciados no regime fechado já foram beneficiados por decisão judicial com o regime semiaberto e aguardam vaga para transferência? | Sim. Quantos | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Entradas | Número de inclusões originárias | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Alvarás de soltura | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Abandonos | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Saídas | Total de óbitos | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Número de inclusões por transferências ou remoções | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Transferências/remoções | Transferências/ remoções - deste para outro estabelecimento. | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Permissão de saída | Total,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Masculino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Feminino,TRUE
+4.5 Movimentação no Sistema Prisional (total do período de referência) | Autorizações de saída | Saída temporária | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 18 a 24 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 25 a 29 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 30 a 34 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 35 a 45 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 46 a 60 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | 61 a 70 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Mais de 70 anos | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Masculino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Feminino,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Não informado | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Masculino | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Feminino | Total,TRUE
+5.1 Quantidade de pessoas privadas de liberdade por faixa etária | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Branca | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Preta | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Parda | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Amarela | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Indígena | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Masculino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Feminino,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Não informado | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Masculino | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Feminino | Total,TRUE
+5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Total,TRUE
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Povo indígena",TRUE
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Idioma",TRUE
+"5.2 Quantidade de pessoas privadas de liberdade por cor de pele/raça/etnia | Se houver indígenas, destacar povo indígena ao qual pertence e respectivo idioma (campos abertos) | Quantidade",TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios do Interior | Masculino,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios do Interior | Feminino,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios em Regiões Metropolitanas | Masculino,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Área Urbana - Municípios em Regiões Metropolitanas | Feminino,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Zona Rural | Masculino,TRUE
+5.3 Quantidade de pessoas privadas de liberdade por procedência | Zona Rural | Feminino,TRUE
+5.4 Estado civil | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.4 Estado civil | Solteiro/a | Masculino,TRUE
+5.4 Estado civil | Solteiro/a | Feminino,TRUE
+5.4 Estado civil | Solteiro/a | Total,TRUE
+5.4 Estado civil | União estável/amasiado | Masculino,TRUE
+5.4 Estado civil | União estável/amasiado | Feminino,TRUE
+5.4 Estado civil | União estável/amasiado | Total,TRUE
+5.4 Estado civil | Casado/a | Masculino,TRUE
+5.4 Estado civil | Casado/a | Feminino,TRUE
+5.4 Estado civil | Casado/a | Total,TRUE
+5.4 Estado civil | Separado/a judicialmente | Masculino,TRUE
+5.4 Estado civil | Separado/a judicialmente | Feminino,TRUE
+5.4 Estado civil | Separado/a judicialmente | Total,TRUE
+5.4 Estado civil | Divorciado/a | Masculino,TRUE
+5.4 Estado civil | Divorciado/a | Feminino,TRUE
+5.4 Estado civil | Divorciado/a | Total,TRUE
+5.4 Estado civil | Viúvo/a | Masculino,TRUE
+5.4 Estado civil | Viúvo/a | Feminino,TRUE
+5.4 Estado civil | Viúvo/a | Total,TRUE
+5.4 Estado civil | Não informado | Masculino,TRUE
+5.4 Estado civil | Não informado | Feminino,TRUE
+5.4 Estado civil | Não informado | Total,TRUE
+5.4 Estado civil | Masculino,TRUE
+5.4 Estado civil | Feminino,TRUE
+5.4 Estado civil | Total,TRUE
+5.5 Pessoas com deficiência | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Total,TRUE
+5.5 Pessoas com deficiência | Total,TRUE
+5.5 Pessoas com deficiência | Pessoas com deficiência intelectual | Total,TRUE
+5.5 Pessoas com deficiência | Pessoas com deficiência física | Total,TRUE
+5.5 Pessoas com deficiência | Pessoas com deficiência auditiva | Total,TRUE
+5.5 Pessoas com deficiência | Pessoas com deficiência visual | Total,TRUE
+5.5 Pessoas com deficiência | Pessoas com deficiências múltiplas | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Analfabeto | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Alfabetizado (sem cursos regulares) | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Incompleto | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Fundamental Completo | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Incompleto | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Médio Completo | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Incompleto | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino Superior Completo | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Ensino acima de Superior Completo | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Não Informado | Total,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Masculino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Feminino,TRUE
+5.6 Quantidade de pessoas privadas de liberdade por grau de instrução | Total,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | O estabelecimento possui a documentação física das pessoas privadas de liberdade?,TRUE
+"5.7 Número de pessoas privadas de liberdade com documentos pessoais | Caso o estabelecimento possua documentação física de pessoas privadas de liberdade, é possível identificar as informações abaixo por tipo de documento?",TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certidão de Nascimento | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certidão de Nascimento | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | R.G. | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | R.G. | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | C.P.F. | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | C.P.F. | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Título de eleitor | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Título de eleitor | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certificado de reservista | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Certificado de reservista | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | CTPS (Carteira de Trabalho) | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | CTPS (Carteira de Trabalho) | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Cartão SUS | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Cartão SUS | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | RNE (presos estrangeiros) | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | RNE (presos estrangeiros) | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Passaporte (presos estrangeiros) | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Passaporte (presos estrangeiros) | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas com algum dos documentos acima | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas com algum dos documentos acima | Feminino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas sem documentos | Masculino,TRUE
+5.7 Número de pessoas privadas de liberdade com documentos pessoais | Número de pessoas sem documentos | Feminino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro nato | Masculino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro nato | Feminino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro naturalizado | Masculino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Brasileiro naturalizado | Feminino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Estrangeiros - total | Masculino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Estrangeiros - total | Feminino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Sem informação sobre a nacionalidade | Masculino,TRUE
+5.8 Quantidade de pessoas privadas de liberdade por nacionalidade | Sem informação sobre a nacionalidade | Feminino,TRUE
+5.9 Faixa etária dos filhos que estão no estabelecimento (aplicável apenas para estabelecimentos com mulheres) | Quantidade de gestantes/parturientes,TRUE
+5.9 Faixa etária dos filhos que estão no estabelecimento (aplicável apenas para estabelecimentos com mulheres) | Quantidade de lactantes,TRUE
+5.10 Número de filhos/as | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.10 Número de filhos/as | Sem filhos | Masculino,TRUE
+5.10 Número de filhos/as | Sem filhos | Feminino,TRUE
+5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Masculino,TRUE
+5.11 Número de pessoas privadas de liberdade que possuem visitantes cadastrados | Pessoas com visitantes cadastrados | Feminino,TRUE
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Como é registrada essa informação?,TRUE
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Número de pessoas sem informação | Masculino,TRUE
+5.12 Quantidade de pessoas privadas de liberdade por tempo total de penas (presos/as condenados/as e ) | Número de pessoas sem informação | Feminino,TRUE
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Masculino,TRUE
+5.13 Quantidade de pessoas privadas de liberdade por tempo de pena remanescente (presos/as condenados/as e) | Número de pessoas sem informação | Feminino,TRUE
+5.14 Quantidade de incidências por tipo penal | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?,TRUE
+5.14 Quantidade de incidências por tipo penal | Como é registrada essa informação?,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Masculino,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Feminino,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade com informação sobre tipificação criminal | Total,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Masculino,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Feminino,TRUE
+5.14 Quantidade de incidências por tipo penal | Número de pessoas privadas de liberdade sem informação sobre tipificação criminal | Total,TRUE
+5.14 Quantidade de incidências por tipo penal | Masculino,TRUE
+5.14 Quantidade de incidências por tipo penal | Feminino,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Existem pessoas privadas de liberdade neste estabelecimento em atividades laborterápicas?,TRUE
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor primário - rural, agrícola e artesanato | Total",TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor secundário - industrial e contrução civil | Total,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas obtidas por meios próprios e/ou sem intervenção do sistema prisional | Setor terciário - serviços | Total,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento | Trabalho interno Masculino,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional como apoio ao próprio estabelecimento | Total,TRUE
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor primário - rural, agrícola e artesanato | Total",TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor secundário - industrial e contrução civil | Total,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com a iniciativa privada | Setor terciário - serviços | Total,TRUE
+"6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor primário - rural, agrícola e artesanato | Total",TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor secundário - industrial e contrução civil | Total,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Quantidade de pessoas em vagas disponibilizadas pela administração prisional em parceria com outros órgãos públicos | Setor terciário - serviços | Total,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho externo Masculino,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho externo Feminino,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho interno Masculino,TRUE
+6.1 Quantidade de pessoas privadas de liberdade em programas de laborterapia | Trabalho interno Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | O estabelecimento tem condições de obter estas informações em seus registros?,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Não recebe | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Não recebe | Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Menos do que 3/4 do salário mínimo mensal | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Menos do que 3/4 do salário mínimo mensal | Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 3/4 e 1 salário mínimo mensal | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 3/4 e 1 salário mínimo mensal | Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 1 e 2 salários mínimos mensais | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Entre 1 e 2 salários mínimos mensais | Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Mais que 2 salários mínimos mensais | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Mais que 2 salários mínimos mensais | Feminino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Sem informação | Masculino,TRUE
+6.2 Quantidade de pessoas privadas de liberdade por remuneração | Sem informação | Feminino,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Existem pessoas privadas de liberdade neste estabelecimento em atividades educacionais?,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Ensino à distância Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Ensino à distância Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Certificação/ conclusão no período Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Certificação/ conclusão no período Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Alfabetização | Total,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Ensino à distância Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Ensino à distância Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Certificação/ conclusão no período Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Certificação/ conclusão no período Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Fundamental | Total,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Ensino à distância Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Ensino à distância Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Certificação/ conclusão no período Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Certificação/ conclusão no período Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Médio | Total,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Ensino à distância Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Ensino à distância Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Certificação/ conclusão no período Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Certificação/ conclusão no período Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Ensino Superior | Total,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Ensino à distância Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Ensino à distância Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Certificação/ conclusão no período Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Certificação/ conclusão no período Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso Técnico (acima de 800 horas de aula) | Total,TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Presencial Masc.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Presencial Fem.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Ensino à distância Masc.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Ensino à distância Fem.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Certificação/ conclusão no período Masc.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Certificação/ conclusão no período Fem.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Curso de Formação Inicial e Continuada (Capacitação Profissional, acima de 160 horas de aula) | Total",TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através da leitura | Total,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Presencial Masc.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Presencial Fem.,TRUE
+6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas matriculadas em programa de remição pelo estudo através do esporte | Total,TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Presencial Masc.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Presencial Fem.",TRUE
+"6.3 Quantidade de pessoas privadas de liberdade em atividade educacional | Pessoas envolvidas em atividades educacionais complementares (videoteca, atividades de lazer, cultura) | Total",TRUE
+"6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente | Pessoas que trabalham e estudam | Masculino",TRUE
+"6.4 Quantidade de pessoas trabalhando e estudando, simultaneamente | Pessoas que trabalham e estudam | Feminino",TRUE
+6.5 Quantidade de famílias que recebem auxílio-reclusão | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?,TRUE
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Masculino,TRUE
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Feminino,TRUE
+6.5 Quantidade de famílias que recebem auxílio-reclusão | Número de pessoas privadas de liberdade cujas famílias recebem auxílio-reclusão | Total,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Masculino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Feminino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas externamente | Total,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Masculino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Feminino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas médicas realizadas no estabelecimento | Total,TRUE
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Masculino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Feminino,TRUE
+6.6 Informações da área de saúde - total do período | Consultas psicológicas | Total,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Masculino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Feminino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | HIV | Total,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Masculino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Feminino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Sífilis | Total,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Masculino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Feminino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Tuberculose | Total,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Masculino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Feminino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Hepatite | Total,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Masculino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Feminino,TRUE
+6.7 Quantidade de pessoas com agravos transmissíveis na data de fim do período de referência | Outros | Total,TRUE
+7.3 Quantidade de visitas registradas no período de referência | O estabelecimento detém alguma forma de registro que permite a obtenção desta informação?,TRUE
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de visitas registradas no período de referência,TRUE
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de presos que receberam visita no período de referência | Masculino,TRUE
+7.3 Quantidade de visitas registradas no período de referência | Quantidade de presos que receberam visita no período de referência | Feminino,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência?,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho Nacional de Política Criminal e Penitenciária - CNPCP,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho Estadual de Política Criminal e Penitenciária/ Conselho Penitenciário,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Conselho da Comunidade,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Ouvidoria do sistema prisional - estadual ou nacional,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Defensoria Pública,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Judiciário,TRUE
+7.5 Foi realizada visita(s) de inspeção no período de referência? | Ministério Público,TRUE
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Masculino,TRUE
+5.5 Pessoas com deficiência | Total de pessoas privadas de liberdade com deficiência | Feminino,TRUE
+5.5 Pessoas com deficiência | Masculino,TRUE
+5.5 Pessoas com deficiência | Feminino,TRUE
+ano_inauguracao,TRUE
+id_municipio,TRUE
+nome_regiao_intermediaria,TRUE
+provisorios_masculino,TRUE
+provisorios_feminino,TRUE
+sentenciado_fechado_masculino,TRUE
+sentenciado_fechado_feminino,TRUE
+sentenciado_semiaberto_masculino,TRUE
+sentenciado_semiaberto_feminino,TRUE
+sentenciado_aberto_masculino,TRUE
+sentenciado_aberto_feminino,TRUE
+internacao_masculino,TRUE
+internacao_feminino,TRUE
+tratamento_masculino,TRUE
+tratamento_feminino,TRUE
+populacao_total,TRUE
+capacidade_total,TRUE
+total_medicos,TRUE
+pena_masculino_0_2anos,TRUE
+pena_masculino_2_4anos,TRUE
+pena_masculino_4_8anos,TRUE
+pena_masculino_8_15anos,TRUE
+pena_masculino_15_20anos,TRUE
+pena_masculino_20_30anos,TRUE
+pena_masculino_30_maisanos,TRUE
+pena_masculino_sem_info,TRUE
+pena_remanescente_masculino_0_4anos,TRUE
+pena_remanescente_masculino_4_8anos,TRUE
+pena_remanescente_masculino_8_15anos,TRUE
+pena_remanescente_masculino_15_20anos,TRUE
+pena_remanescente_masculino_20_30anos,TRUE
+pena_remanescente_masculino_30_50anos,TRUE
+pena_remanescente_masculino_50maisanos,TRUE
+pena_feminino_0_2anos,TRUE
+pena_feminino_2_4anos,TRUE
+pena_feminino_4_8anos,TRUE
+pena_feminino_8_15anos,TRUE
+pena_feminino_15_20anos,TRUE
+pena_feminino_20_30anos,TRUE
+pena_feminino_30_maisanos,TRUE
+pena_feminino_sem_info,TRUE
+pena_remanescente_feminino_0_4anos,TRUE
+pena_remanescente_feminino_4_8anos,TRUE
+pena_remanescente_feminino_8_15anos,TRUE
+pena_remanescente_feminino_15_20anos,TRUE
+pena_remanescente_feminino_20_30anos,TRUE
+pena_remanescente_feminino_30_50anos,TRUE
+pena_remanescente_feminino_50maisanos,TRUE
+mulheres_presas_com_filhos_as,TRUE
+homens_presos_com_filhos_as,TRUE
+tipo_penal_contra_pessoa_masculino,TRUE
+tipo_penal_contra_pessoa_feminino,TRUE
+tipo_penal_contra_pessoa_total,TRUE
+tipo_penal_contra_patrimonio_masculino,TRUE
+tipo_penal_contra_patrimonio_feminino,TRUE
+tipo_penal_contra_patrimonio_total,TRUE
+tipo_penal_dignidade_sexual_masculino,TRUE
+tipo_penal_dignidade_sexual_feminino,TRUE
+tipo_penal_dignidade_sexual_total,TRUE
+tipo_penal_drogas_masculino,TRUE
+tipo_penal_drogas_feminino,TRUE
+tipo_penal_drogas_total,TRUE
+tipo_penal_desarmamento_masculino,TRUE
+tipo_penal_desarmamento_feminino,TRUE
+tipo_penal_desarmamento_total,TRUE
+tipo_penal_outros_masculino,TRUE
+tipo_penal_outros_feminino,TRUE
+tipo_penal_outros_total,TRUE
+continente_america,TRUE
+continente_asia,TRUE
+continente_africa,TRUE
+continente_europa,TRUE
+continente_oceania,TRUE
+brasileiro_nato,TRUE
+obitos_saude_masculino,TRUE
+obitos_saude_feminino,TRUE
+obitos_saude_total,TRUE
+obitos_criminais_masculino,TRUE
+obitos_criminais_feminino,TRUE
+obitos_criminais_total,TRUE
+obitos_suicidio_masculino,TRUE
+obitos_suicidio_feminino,TRUE
+obitos_suicidio_total,TRUE
+obitos_acidentais_masculino,TRUE
+obitos_acidentais_feminino,TRUE
+obitos_acidentais_total,TRUE
+obitos_desconhecida_masculino,TRUE
+obitos_desconhecida_feminino,TRUE
+obitos_desconhecida_total,TRUE
+obitos_registrados,TRUE
+sem2_registro,TRUE
+mortalidade_sem1_informada,TRUE
+mortalidade_sem1_campos_completos,TRUE
+mortalidade_sem2_informada,TRUE
+mortalidade_sem2_campos_completos,TRUE
+atendimento_estabelecimento,TRUE
+atendimento_externo,TRUE
+atendimento_psicologico,TRUE
+atendimento_odonto,TRUE
+cela_gestantes,TRUE
+quantidade_lactantes,TRUE
