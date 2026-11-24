@@ -1,0 +1,52 @@
+[
+  {
+    "name": "id_municipio",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "nome",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "regiao",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ano",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "indicador",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "quantidade",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "populacao",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "taxa",
+    "type": "FLOAT",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "quantidade_informada",
+    "type": "BOOLEAN",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "meses_informados",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

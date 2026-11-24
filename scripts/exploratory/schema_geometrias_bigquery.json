@@ -1,0 +1,32 @@
+[
+  {
+    "name": "id_municipio",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "nome",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "nome_malha_ibge",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "uf",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ano_malha",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "geometry_wkt",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]
